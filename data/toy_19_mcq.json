@@ -1,0 +1,506 @@
+[
+  {
+    "multiple_choice_question": "This question is about a boardgame called Pax Renaissance. In a game scenario where a player has the conditions for an Imperial Victory, can the King in a Royal Couple be beheaded using the Inquisition Pope's ability if a Catholic Bishop is placed on the Queen, given that the Inquisition Pope limits beheading to cards with either a Catholic or Reformed Bishop on them?",
+    "correct_answer": "No, with a Behead Operation, only the Queen would be discarded, not the King. The rules specify that if the Queen is beheaded, the King is unaffected. Therefore, the King cannot be individually beheaded in this scenario.",
+    "distractors": {
+      "from_scratch": [
+        "Yes, the King can be beheaded if the Queen is beheaded first, as they are part of a Royal Couple.",
+        "No, both the King and Queen would be discarded together due to the Inquisition Pope's ability.",
+        "Yes, the King can be beheaded directly if a Catholic Bishop is placed on the Queen's card.",
+        "No, the King is immune to beheading entirely, regardless of the presence of a Catholic or Reformed Bishop.",
+        "Yes, the Inquisition Pope's ability allows beheading of any Royal Couple member if a Bishop is present."
+      ],
+      "from_rulebook": [
+        "Only the King would be discarded, as the Queen is unaffected by the Behead Operation.",
+        "The Behead Operation would discard both the King and the Queen simultaneously.",
+        "The Inquisition Pope's ability can only target cards without any Bishops on them.",
+        "The King and Queen cannot be targeted by a Behead Operation if they are part of a Royal Couple.",
+        "The Behead Operation is not allowed on any cards containing Catholic or Reformed Bishops, regardless of placement."
+      ]
+    },
+    "url": "https://boardgamegeek.com/thread/3462371"
+  },
+  {
+    "multiple_choice_question": "This question is about a boardgame called Pax Renaissance. Can a trade shift be performed multiple times on either colored disk in the game?",
+    "correct_answer": "Yes, you can perform multiple trade shifts with the same disc. The rules do not explicitly prohibit it, and the wording of the individual trade shifts implies that it's allowed. For example, the Novgorod Trade Shift indicates that a previous Trade Shift must have occurred for certain conditions to be met.",
+    "distractors": {
+      "from_scratch": [
+        "No, a trade shift can only be performed once per turn regardless of the disk used.",
+        "No, the rules explicitly state that each disk can only be used for a single trade shift.",
+        "Yes, but only if the trade shift is performed on different colored disks in consecutive turns.",
+        "No, a trade shift can only be performed once per game for each disk.",
+        "Yes, but only if no other player performs a trade shift during the same turn."
+      ],
+      "from_rulebook": [
+        "Trade shifts can only be performed once per game for each colored disk.",
+        "Trade shifts require a specific combination of Prestige icons to be triggered.",
+        "Trade shifts can only be performed if the Emporium is unoccupied by any Tokens.",
+        "Trade shifts automatically trigger a Religious War in the affected Emporium.",
+        "Trade shifts can only be performed during a trade fair action."
+      ],
+      "from_forum": [
+        "Trade shifts are limited to one per game per color, as implied by the rules video and the living rules clarification.",
+        "Only one trade shift can be performed per trade fair action, regardless of the color of the disk.",
+        "A trade shift can only occur once per disk, after which the disk is locked in its new position.",
+        "Multiple trade shifts are allowed, but only if they are performed by different players during the same game.",
+        "Trade shifts can be reversed back to their starting positions in Byzantium if the right card is played."
+      ]
+    },
+    "url": "https://boardgamegeek.com/thread/3459937"
+  },
+  {
+    "multiple_choice_question": "This question is about a boardgame called Pax Renaissance. How does the card ability 'Your concessions cannot be killed by pirates' interact with pirate placement and movement? Specifically, does it mean: a) A pirate cannot be moved onto your concession, or b) Your concession and the pirate coexist, and if so, who gets paid first in a trade fair?",
+    "correct_answer": "Option 'b' is correct. A pirate placed on your concession coexists with it but cannot participate in trade fairs. However, you are still not allowed to place a new concession into a border containing a pirate.",
+    "distractors": {
+      "from_scratch": [
+        "A pirate cannot be moved onto your concession, but if one is already there, it is immediately removed.",
+        "Your concession is immune to all pirate interactions, including placement, movement, and coexistence.",
+        "A pirate on your concession still participates in trade fairs, but you get paid first.",
+        "Your concession is destroyed if a pirate is moved onto it, regardless of the card ability.",
+        "Pirates can move onto your concession, but they block all trade fairs in that border entirely."
+      ],
+      "from_rulebook": [
+        "A pirate cannot be moved onto your concession, but it can still block trade fairs.",
+        "Pirates on your concessions can participate in trade fairs, but you must pay their share of the profits.",
+        "Your concessions are immune to pirate attacks, but they cannot coexist in the same border.",
+        "Pirates on your concessions are removed immediately without affecting trade fairs.",
+        "You can place new concessions into borders containing pirates if your concessions are protected."
+      ],
+      "from_forum": [
+        "A pirate cannot be moved onto your concession, and if attempted, the pirate is removed from the game.",
+        "Pirates can coexist with your concession, but they always take precedence in trade fairs and get paid first.",
+        "Your concession is immune to pirates, but pirates can still block trade fairs in that border.",
+        "Pirates cannot coexist with your concession and must be moved to an adjacent border immediately.",
+        "If a pirate is placed on your concession, the concession is temporarily deactivated but not removed."
+      ]
+    },
+    "url": "https://boardgamegeek.com/thread/2762831"
+  },
+  {
+    "multiple_choice_question": "This question is about a boardgame called Pax Renaissance. How should I understand the phrase 'Choose upstream Borders in Trade Routes' for solo rules when the bot is placing concession/pirates? Since Eastern and Western Trade Routes go in opposing directions, placing a pawn upstream of one route means placing it downstream of the second at the same time.",
+    "correct_answer": "\"Upstream\" means from the end (Mamluk or SIR) to the emporium, so the concession should be placed as nearest to the target (Mamluk or SIR) as possible.",
+    "distractors": {
+      "from_scratch": [
+        "Upstream refers to placing the concession closest to the emporium, regardless of the trade route's direction.",
+        "Upstream means placing the pawn at the midpoint of the trade route to balance both directions.",
+        "Upstream indicates placing the concession as far away from the Mamluk or SIR as possible.",
+        "Upstream requires alternating between the Eastern and Western Trade Routes for placement.",
+        "Upstream refers to placing the concession at the starting point of the trade route, near the emporium."
+      ],
+      "from_rulebook": [
+        "\"Upstream\" means from the emporium to the end (Mamluk or SIR), so the concession should be placed as far from the target as possible.",
+        "\"Upstream\" refers to the direction of the trade route that has the most profits remaining, regardless of the specific emporium or endpoint.",
+        "\"Upstream\" means placing the concession in the middle of the trade route to balance access to both the emporium and the endpoint.",
+        "\"Upstream\" is determined by the location with the least number of existing concessions or pirates along the trade route.",
+        "\"Upstream\" indicates placing the concession or pirate closer to the nearest adjacent empire rather than the endpoint or emporium."
+      ],
+      "from_forum": [
+        "From the emporium to the end (Mamluk or SIR), so the concession should be placed as nearest to the emporium as possible.",
+        "Upstream means placing the concession in the middle of the trade route, equidistant from both the emporium and the target (Mamluk or SIR).",
+        "Choose any border along the trade route, as 'upstream' is not strictly defined and can be interpreted flexibly.",
+        "Upstream means from the emporium to the target (Mamluk or SIR), so the concession should be placed as far from the target as possible.",
+        "Place the concession randomly along the trade route, as the direction of 'upstream' depends on the trade shift and is not always clear."
+      ]
+    },
+    "url": "https://boardgamegeek.com/thread/3345385"
+  },
+  {
+    "multiple_choice_question": "This question is about a boardgame called Pax Renaissance. 1. Does Michelangelo's West location affect his ability, or is it only relevant for placement in your tableau? 2. In the Behead action example, the Ottoman can target East because it shares a location. Is it the same for the Inquisition? Can you move a bishop from the Ottoman to East or from East to the Ottoman? 3. If I win a campaign against a republic in an opponent's tableau, it becomes a vassal on the reign side of my tableau. What happens if I do a conspiracy or peasant revolt on a republic in an opponent's tableau? Does it become a reign on my tableau or remain a republic?",
+    "correct_answer": "1. Michelangelo's ability is not tied to the 'West' location. The location affects other aspects like bishop movement and vulnerability to beheading, but not his ability in isolation. 2. Yes, the Inquisition works similarly. You can move a bishop from the Ottoman to East or from East to the Ottoman. 3. Empire cards always enter your tableau on the king side. They can only become republics if they undergo a regime change while remaining in the same tableau.",
+    "distractors": {
+      "from_scratch": [
+        "1. Michelangelo's ability is only active when his card is placed in the 'West' location. 2. The Inquisition cannot move bishops between East and Ottoman locations. 3. Republic cards always remain republics in your tableau, regardless of the action taken.",
+        "1. Michelangelo's ability depends entirely on the 'West' location for activation. 2. Bishops cannot move between locations during an Inquisition action. 3. Conspiracies or peasant revolts do not transfer republics to your tableau.",
+        "1. Michelangelo's 'West' location determines both his placement and ability activation. 2. The Inquisition can only target bishops within the same location, not across locations. 3. If a republic is targeted by a conspiracy, it stays in the opponent's tableau as a republic.",
+        "1. Michelangelo's ability and placement are both restricted to the 'West' location. 2. Bishops involved in an Inquisition action must remain within their current location. 3. Conspiracies and peasant revolts always convert republics into vassals on the king side of your tableau.",
+        "1. Michelangelo's 'West' location has no impact on bishop movement but restricts his ability. 2. The Inquisition cannot move bishops to or from the Ottoman location. 3. Republics targeted by conspiracies or revolts are destroyed and do not enter your tableau."
+      ],
+      "from_rulebook": [
+        "Distractor 1: Michelangelo's ability is tied to the 'West' location and cannot be used if he is in the East Tableau.",
+        "Distractor 2: Bishops cannot move between the Ottoman and East locations due to restrictions on religious alignment.",
+        "Distractor 3: A Republic targeted by a conspiracy or peasant revolt remains in the opponent's Tableau but flips to its King side.",
+        "Distractor 4: When a Republic undergoes a regime change, it must always return to its Throne and cannot enter any Tableau.",
+        "Distractor 5: Campaigns can only target Empires in their Medieval state, not those in Theocracy or Republic states."
+      ],
+      "from_forum": [
+        "Michelangelo's ability is directly tied to the 'West' location, and it won't function if moved elsewhere.",
+        "Inquisition works only within the same location and cannot move bishops between different locations like Ottoman and East.",
+        "A republic card in an opponent's tableau remains a republic even after a successful conspiracy or peasant revolt.",
+        "Bishops can only move between adjacent locations, so moving from Ottoman to East is not allowed.",
+        "Empire cards can enter your tableau as republics if they were republics in the opponent's tableau."
+      ]
+    },
+    "url": "https://boardgamegeek.com/thread/3432013"
+  },
+  {
+    "multiple_choice_question": "This question is about a boardgame called Pax Renaissance. In the game, when placing agents after a one-shot event, do I have to pay a florin for repression if I don't have any florins?",
+    "correct_answer": "If agents must be placed on the map after implementing a one-shot event, the player is required to pay for any necessary repression. If the player cannot pay, they cannot implement the one-shot. However, if the one-shot involves a battle and there are more Victorious survivors than spaces available, repression is free.",
+    "distractors": {
+      "from_scratch": [
+        "If agents must be placed after a one-shot event, the player can ignore the repression cost if they have no florins.",
+        "Repression costs are optional when placing agents after a one-shot event, regardless of the player's florin count.",
+        "Players can implement a one-shot event even if they cannot pay for repression, as long as they place all agents.",
+        "One-shot events do not require paying for repression if the player has no florins available at the time.",
+        "Repression costs are only applied during battles, not when placing agents after a one-shot event."
+      ],
+      "from_rulebook": [
+        "If the player cannot pay for repression, they may still implement the one-shot event but lose the ability to place agents.",
+        "Repression costs can be deferred until the player's next turn if they have no florins available.",
+        "Players can place agents without paying repression costs if they declare bankruptcy during their turn.",
+        "Repression costs are waived if the one-shot event targets an empire with no repressed tokens.",
+        "Players may borrow florins from the China pool to cover repression costs if they are out of funds."
+      ],
+      "from_forum": [
+        "If agents must be placed on the map after implementing a one-shot event, the player is not required to pay for repression, even if they have florins.",
+        "If a one-shot event involves a battle, repression is always free, regardless of the number of Victorious survivors or available spaces.",
+        "Players can always implement a one-shot event, even if they cannot afford to pay for repression when placing agents.",
+        "Repression costs are waived for all one-shot events, including those that do not involve battles.",
+        "If a player cannot pay for repression after a one-shot event, they can still place agents without restrictions."
+      ]
+    },
+    "url": "https://boardgamegeek.com/thread/3117008"
+  },
+  {
+    "multiple_choice_question": "This question is about a boardgame called Pax Renaissance. Can vassals be targeted by a coronation in the game, as mentioned in the Vassals section of the glossary?",
+    "correct_answer": "In the second edition of the game, vassals can be targeted by a coronation, as you can marry queens to unmarried kings in their thrones or in your tableau, including your own vassals. This grants a new concession without going through the full regime change process.",
+    "distractors": {
+      "from_scratch": [
+        "Vassals cannot be targeted by a coronation, as they are not considered eligible for marriage in the game.",
+        "Only vassals belonging to other players can be targeted by a coronation, but not your own vassals.",
+        "Vassals can only be targeted by a coronation if they are in the tableau, not when they are in their thrones.",
+        "Vassals are automatically excluded from coronations, as they do not grant concessions under any circumstances.",
+        "Vassals must first undergo a regime change before they can be eligible for a coronation."
+      ],
+      "from_rulebook": [
+        "Vassals cannot be targeted by a coronation, as they are considered subordinate entities without the ability to marry queens.",
+        "Vassals can only be targeted by a coronation if they are in their Throne and not part of a player's Tableau.",
+        "Vassals may only be targeted by a coronation if the queen has an Ability explicitly allowing it.",
+        "Vassals can only be targeted by a coronation if they have no Repressed Tokens on their Empire Square.",
+        "Vassals are excluded from coronations unless they are part of a Suzerain-Vassal relationship with a Republic."
+      ],
+      "from_forum": [
+        "Vassals cannot be targeted by a coronation in any edition of the game, as they are not considered part of the tableau.",
+        "Coronations can only target kings in the main market row, not those in any player\u2019s tableau or throne.",
+        "In both editions of the game, coronations require a full regime change process and cannot target vassals directly.",
+        "Vassals can only be targeted by a coronation if they are part of another player\u2019s tableau, not your own.",
+        "Coronations can only be used to marry queens to kings in the market, not to any kings in thrones or vassal positions."
+      ]
+    },
+    "url": "https://boardgamegeek.com/thread/3421743"
+  },
+  {
+    "multiple_choice_question": "This question is about a boardgame called Pax Renaissance. In a religious battle (Jihad) involving 3 knights from the Ottoman Empire and 1 knight from Byzantium against 2 tokens in Hungary, how should the placement of knights be handled after the battle? Specifically, do the knights move to Hungary after the fight, or do they stay in their original country with a regime change and 0 tokens in Hungary?",
+    "correct_answer": "Knights and rooks never move from one empire to another as a result of a religious war or campaign. In this scenario, if the Jihad is in Hungary, you would eliminate 2 of the attackers (from any adjacent empire or agents on the card, your choice) and the 2 defenders in Hungary. If the card used for the Jihad has any agent icons on it, and they weren't eliminated as attackers, they would be placed in the empty spaces in Hungary. This is referenced in the 'Tip' under the 'Campaign Op Example' on page 25 of the printed rules, which states that tokens never move out of their empire as a result of a battle.",
+    "distractors": {
+      "from_scratch": [
+        "The knights from the Ottoman Empire and Byzantium move to Hungary after the battle, replacing the eliminated tokens and establishing control over Hungary.",
+        "All knights involved in the battle are removed from the board, and Hungary becomes a neutral territory with no regime change.",
+        "The knights from the Ottoman Empire and Byzantium combine to form a new regime in Hungary, with the remaining knights staying in their original countries.",
+        "The knights from both empires stay in their respective countries, but Hungary gains a new token representing the victorious faction.",
+        "The knights move to Hungary, and any remaining agents on the card are removed from the game entirely, leaving Hungary under the original regime."
+      ],
+      "from_rulebook": [
+        "Knights from both empires move to Hungary after the battle, representing their victory.",
+        "The Ottoman knights move to Hungary, while the Byzantium knight remains in its original empire.",
+        "All knights involved in the battle are removed from the board, regardless of the outcome.",
+        "Knights from the attacking empires replace the tokens in Hungary, but no regime change occurs.",
+        "The knights are redistributed evenly between Hungary and the adjacent empires after the battle."
+      ],
+      "from_forum": [
+        "Knights move from their original country to Hungary, and any excess agents are placed in adjacent empires.",
+        "After the battle, all surviving knights are relocated to Hungary, and the regime change occurs immediately.",
+        "Knights from the Ottoman Empire and Byzantium permanently occupy Hungary after the fight, replacing the eliminated tokens.",
+        "Defeated tokens are replaced by knights from the attacking empires, and any leftover knights are repressed in their original country.",
+        "Knights used in the attack remain in Hungary, while agents from the Jihad card are placed in the original attacking empires."
+      ]
+    },
+    "url": "https://boardgamegeek.com/thread/3410652"
+  },
+  {
+    "multiple_choice_question": "This question is about a boardgame called Pax Renaissance. In the game, when a concession is repressed and is adjacent to two kingdoms, which kingdom does it go to? Is it optional to choose which one?",
+    "correct_answer": "A repressed concession goes to the kingdom of the card that had the repress operation or the kingdom in which the regime change just happened. If there is a West or East card with the repress operation, then you can choose which kingdom it goes to.",
+    "distractors": {
+      "from_scratch": [
+        "A repressed concession always goes to the kingdom with the most adjacent cards.",
+        "A repressed concession is removed from the game entirely and does not go to any kingdom.",
+        "A repressed concession goes to the kingdom with the least influence markers present.",
+        "A repressed concession is placed in the discard pile and can be recovered later.",
+        "A repressed concession automatically goes to the kingdom with the most wealth tokens."
+      ],
+      "from_rulebook": [
+        "A repressed concession goes to the kingdom that has the most adjacent Concessions belonging to the player who triggered the repress operation.",
+        "A repressed concession is always sent to the kingdom with the fewest Repressed Tokens on its Empire Square.",
+        "A repressed concession goes to the kingdom that has the most Ruling Class Tokens of the same color as the concession being repressed.",
+        "A repressed concession is placed in the kingdom that is geographically closer to the initiating player's Player Board.",
+        "A repressed concession is sent to the kingdom that has the most empty Cities available for placement."
+      ],
+      "from_forum": [
+        "A repressed concession always goes to the kingdom where the concession was originally placed, regardless of the repress operation.",
+        "A repressed concession is removed from the game entirely and does not go to any kingdom.",
+        "A repressed concession goes to the kingdom with the fewest pawns at the time of the operation.",
+        "A repressed concession can only go to the kingdom with the most influence markers adjacent to it.",
+        "A repressed concession must be placed on the kingdom that controls the majority of trade routes in the game."
+      ]
+    },
+    "url": "https://boardgamegeek.com/thread/3399295"
+  },
+  {
+    "multiple_choice_question": "This question is about a boardgame called Pax Renaissance. In the context of the game's 2nd edition, what happens to repressed tokens after liberation? Are they discarded, or do they have the option of emancipation?",
+    "correct_answer": "Repressed tokens stay put and return with the Vassal to its throne. They are not discarded, and liberation is not considered a regime change. Some players prefer to keep repressed tokens on the throne slots for easier visibility and management.",
+    "distractors": {
+      "from_scratch": [
+        "Repressed tokens are immediately discarded from the game after liberation.",
+        "Repressed tokens are converted into coins and added to the bank.",
+        "Repressed tokens are redistributed among other players as part of the liberation process.",
+        "Repressed tokens are permanently removed from the board and cannot return to the throne.",
+        "Repressed tokens are sent to the neutral supply and can be claimed later by any player."
+      ],
+      "from_rulebook": [
+        "Repressed tokens are discarded after liberation and do not return to the throne, as they are considered removed from play.",
+        "Repressed tokens are immediately converted into Concessions and placed in adjacent Borders after liberation.",
+        "Repressed tokens are permanently removed from the game after liberation, representing their inability to influence the Empire further.",
+        "Repressed tokens are redistributed among the players who have the majority of Concessions in the Empire's Borders.",
+        "Repressed tokens are moved to the nearest adjacent Empire and placed as Ruling Class Tokens in empty Cities."
+      ],
+      "from_forum": [
+        "They are discarded immediately after liberation, as they are no longer needed.",
+        "They are placed back into the general supply and can be used again later.",
+        "They are moved to the owning player's tableau for potential future use.",
+        "They are converted into influence points for the liberating player.",
+        "They are transferred to the kingdom's treasury for additional resources."
+      ]
+    },
+    "url": "https://boardgamegeek.com/thread/3397980"
+  },
+  {
+    "multiple_choice_question": "This question is about a boardgame called Pax Renaissance. Is it possible to pay 1 Florin to repress a concession in the occupied border during an Emancipation, similar to a standard regime change?",
+    "correct_answer": "No, during an Emancipation, you may move any or all of the Repressed Tokens from the Empire Square onto its Map Location into empty Cities for Rooks or Knights, or into its empty Borders for Concessions, but you cannot pay 1 Florin to repress a concession.",
+    "distractors": {
+      "from_scratch": [
+        "Yes, during an Emancipation, you can pay 1 Florin to repress a concession in the occupied border, just like in a standard regime change.",
+        "No, during an Emancipation, you must pay 2 Florins instead of 1 to repress a concession in the occupied border.",
+        "Yes, but only if the concession is in a contested border and not an occupied one.",
+        "No, during an Emancipation, concessions are automatically repressed without the need to pay Florins.",
+        "Yes, during an Emancipation, you may pay 1 Florin to repress a concession, but only if the Empire Square is unoccupied."
+      ],
+      "from_rulebook": [
+        "During an Emancipation, you may pay 1 Florin to move Repressed Tokens directly into the active Trade Route.",
+        "Repressed Tokens during an Emancipation can only be moved into Cities and not Borders, regardless of type.",
+        "Emancipation allows you to place Repressed Tokens into any Border, even if it is already occupied.",
+        "Paying 1 Florin during an Emancipation allows you to flip an Empire Square from a Republic to a King.",
+        "Repressed Tokens can only be removed during a Regime Change, not during an Emancipation."
+      ],
+      "from_forum": [
+        "Yes, you can pay 1 Florin to repress a concession in the occupied border during an Emancipation, just like in a standard regime change.",
+        "Only if all Cities and Borders are full, you are allowed to pay 1 Florin to repress a concession during an Emancipation.",
+        "You may pay 1 Florin to move Repressed Tokens into Borders during an Emancipation, provided the Empire Square is not empty.",
+        "During an Emancipation, you can pay 1 Florin to move any Repressed Tokens directly into occupied Cities or Borders.",
+        "If the Empire Square has Repressed Tokens, you may pay 1 Florin to place them into any Map Location during an Emancipation."
+      ]
+    },
+    "url": "https://boardgamegeek.com/thread/3397912"
+  },
+  {
+    "multiple_choice_question": "This question is about a boardgame called Pax Renaissance. 1) If I sell a card from hand in Pax Ren, do I have to show which card? 2) If not, is the discard pile open or hidden?",
+    "correct_answer": "According to the living rules on page 38, when cards are discarded as a result of selling, they are removed facedown from the game. Therefore, you do not have to show which card you sell, and the discard pile is hidden.",
+    "distractors": {
+      "from_scratch": [
+        "When selling a card, you must reveal it to all players, and the discard pile is open for everyone to see.",
+        "Cards sold from hand are placed faceup in the discard pile, which remains visible to all players.",
+        "You must announce the name of the card you are selling, but the discard pile itself is hidden.",
+        "Sold cards are shuffled into the deck instead of being discarded, so there is no discard pile.",
+        "The discard pile is public, but you can choose whether or not to show the card you sell."
+      ],
+      "from_rulebook": [
+        "Cards discarded as a result of selling are placed faceup in the discard pile, which is public knowledge.",
+        "Players must reveal the card they are selling to all opponents before discarding it.",
+        "The discard pile is shuffled back into the draw deck at the end of each turn.",
+        "Discarded cards are placed in a separate pile and can be inspected by any player at any time.",
+        "When selling a card, it is placed in the Market instead of being removed from the game."
+      ],
+      "from_forum": [
+        "When selling a card, you must reveal it to all players, and the discard pile remains open.",
+        "Cards sold from hand are placed in a public discard pile, visible to all players.",
+        "You must announce which card you are discarding, but the discard pile is hidden.",
+        "Sold cards are placed in a shared discard area and can be reviewed at any time.",
+        "Players must reveal their entire hand before discarding a card, and the discard pile is public."
+      ]
+    },
+    "url": "https://boardgamegeek.com/thread/3396492"
+  },
+  {
+    "multiple_choice_question": "This question is about a boardgame called Pax Renaissance. Is a campaign victorious if all attacking knights die in Constantinople but the rook is still standing, with no pawns left in the other imperium?",
+    "correct_answer": "No, a campaign is not victorious if all attacking knights die. At least one of the attacking knights must survive for the campaign to be successful. Pawns do not play any part in determining the success of a campaign.",
+    "distractors": {
+      "from_scratch": [
+        "Yes, a campaign is victorious as long as the rook remains standing, regardless of the fate of the knights or pawns.",
+        "Yes, a campaign is successful if there are no pawns left in the other imperium, even if all knights die.",
+        "No, the campaign fails only if both the rook and all knights are eliminated, regardless of the pawns.",
+        "Yes, the campaign is victorious if the rook is still standing, as it overrides the loss of all attacking knights.",
+        "No, a campaign is only victorious if pawns remain in the other imperium, regardless of the knights or rook."
+      ],
+      "from_rulebook": [
+        "Yes, a campaign is victorious if the rook is still standing, regardless of whether any attacking knights survive.",
+        "No, a campaign is not victorious unless all attacking knights survive and at least one rook is present.",
+        "Yes, a campaign is victorious if there are no pawns left in the other imperium, regardless of the fate of the knights.",
+        "No, a campaign is not victorious unless all defending tokens, including pawns, are removed from the defending empire.",
+        "Yes, a campaign is victorious if at least one attacking knight survives and all defending rooks are removed, even if pawns remain."
+      ],
+      "from_forum": [
+        "Yes, a campaign is victorious as long as the rook is still standing, regardless of whether the knights survive.",
+        "No, a campaign is only victorious if all defending pieces, including pawns, are removed from the board.",
+        "Yes, a campaign is victorious if there are no pawns left in the defending imperium, even if all attacking knights die.",
+        "No, a campaign is only victorious if the attacking knights eliminate all defending knights and pawns.",
+        "Yes, a campaign is victorious as long as the attacking knights and defending rooks cancel each other out."
+      ]
+    },
+    "url": "https://boardgamegeek.com/thread/3395412"
+  },
+  {
+    "multiple_choice_question": "This question is about a boardgame called Pax Renaissance. The rules say \"Will spend all Florins necessary to purchase card. EXC: opponent never places Florins on any face up card that already has Florins.\" Does that mean, for instance, if there are Florins on the first three cards in the row, the fourth card is free for him? And if so, does that mean he could make the purchase while having no Florins, or does he need to have three in possession but then when paying he pays none?",
+    "correct_answer": "The opponent just skips placing Florins on face up cards with a Florin and gets the card cheaper, and always places 1 on the trade fair card which isn't face up.",
+    "distractors": {
+      "from_scratch": [
+        "The opponent pays the full cost of the card but ignores any Florins already present on face up cards.",
+        "The opponent must place Florins on all cards, regardless of whether they already have Florins or not.",
+        "The opponent can only purchase cards if they have exactly the same number of Florins as the total cost of the card, including those already present.",
+        "The opponent skips placing Florins on cards with Florins but still pays the full cost to the bank.",
+        "The opponent can only purchase cards that have no Florins on them, and skips any card with Florins entirely."
+      ],
+      "from_rulebook": [
+        "Distractor 1: The opponent skips placing Florins on face up cards with Florins but still pays the full price of the card.",
+        "Distractor 2: The opponent places Florins on all cards in the row, regardless of whether they already have Florins.",
+        "Distractor 3: The opponent can only purchase cards that have no Florins on them, skipping all others.",
+        "Distractor 4: The opponent must have enough Florins to cover the full price but does not spend any Florins during the purchase.",
+        "Distractor 5: The opponent places Florins on cards with Florins but retrieves them immediately after the purchase."
+      ]
+    },
+    "url": "https://boardgamegeek.com/thread/3394963"
+  },
+  {
+    "multiple_choice_question": "This question is about a boardgame called Pax Renaissance. Rows 3 and 4 of the solo table state \"A dominant religion has more believers in its theocracies than all other religions combined.\" The objective is to remove dominant religion agents or add non-dominant ones. However, the trigger doesn't indicate to do this only when the player has more prestige (only the Cometary Override does). Should this condition apply to the trigger as well? Otherwise, the opponent could be leading the holy victory and ruining it for themselves anytime there is a dominant religion.",
+    "correct_answer": "The condition of having more prestige should apply to the trigger as well, similar to the Cometary Override, to prevent the opponent from unintentionally ruining their own holy victory when there is a dominant religion.",
+    "distractors": {
+      "from_scratch": [
+        "The trigger should always apply regardless of prestige to ensure the opponent actively works against the player's strategy.",
+        "The condition of having more prestige should never apply to the trigger, as it would make the game overly complex and reduce strategic options.",
+        "The trigger should only apply when the player's prestige is equal to the opponent's, to maintain balance and fairness in the game.",
+        "The condition of having more prestige should only apply during specific phases of the game, such as after the Reformation event.",
+        "The trigger should be independent of prestige considerations, focusing solely on the balance of religious agents on the board."
+      ],
+      "from_rulebook": [
+        "The opponent should always remove dominant religion agents, regardless of their prestige level, to maintain game balance.",
+        "The trigger condition applies only when the player has fewer Concessions than the opponent, ensuring fairness in gameplay.",
+        "A dominant religion must have more Bishop Tokens than all other religions combined, but prestige is irrelevant to the trigger.",
+        "The Cometary Override condition applies only during a trade fair, not when addressing dominant religions.",
+        "The trigger condition is based on the number of Empires controlled, not the player's prestige level."
+      ]
+    },
+    "url": "https://boardgamegeek.com/thread/3394972"
+  },
+  {
+    "multiple_choice_question": "This question is about a boardgame called Pax Renaissance. Can I play conspiracy on my own vassal? What happens then?",
+    "correct_answer": "Yes, you can play conspiracy on your own vassal. If the conspiracy succeeds, the vassal becomes a republic and is no longer a vassal; it moves to the outermost position in the appropriate side of your tableau. This is explicitly stated in point d. under section J (Civil Wars) in the living rulebook.",
+    "distractors": {
+      "from_scratch": [
+        "The conspiracy fails automatically because you cannot target your own vassal.",
+        "The vassal remains a vassal but switches to the opposing side of the tableau.",
+        "The vassal is removed from the game entirely, as it cannot exist as both a vassal and a republic.",
+        "The conspiracy succeeds, but the vassal remains in its original position and gains an additional coin.",
+        "The vassal becomes a republic but is placed in the innermost position of your tableau instead of the outermost."
+      ],
+      "from_rulebook": [
+        "Playing conspiracy on your own vassal is not allowed under any circumstances.",
+        "If the conspiracy succeeds, the vassal remains a vassal but gains an additional Concession.",
+        "Conspiracy can only be played on opposing vassals, not on your own.",
+        "Playing conspiracy on your own vassal turns it into a Theocracy instead of a Republic.",
+        "If the conspiracy succeeds, the vassal is removed from the game entirely."
+      ],
+      "from_forum": [
+        "Playing conspiracy on your own vassal is not allowed under any circumstances.",
+        "If the conspiracy succeeds, the vassal remains a vassal but shifts to the opposite side of your tableau.",
+        "Playing conspiracy on your own vassal automatically fails and has no effect.",
+        "If the conspiracy succeeds, the vassal becomes a republic but stays in the same position in your tableau.",
+        "Conspiracy cannot be played on a vassal unless it belongs to another player."
+      ]
+    },
+    "url": "https://boardgamegeek.com/thread/3387723"
+  },
+  {
+    "multiple_choice_question": "This question is about a boardgame called Pax Renaissance. The 'Oratory of Divine Love' west card allows you to place 2 bishops. Are you allowed to split where the bishops go (e.g., one on Papal States throne, one on the card itself)? Is the placement of both pieces considered one event or is it considered two, one after the other? This matters in this example if I were to place on an opponent's Papal States card that already has a bishop. Then for Diet of Worms, if I place both bishops there as one action, do both bishops I place die with the already existing action? Or is each bishop placement its own separate event so I can place one bishop first on the opponent's Papal States, the existing bishop and new bishop die, then I place the second one and it can survive? On a more general note for the 1st question, other cards that allow placement of 2 or more pieces like a rook and a knight, can I split them and are they separate placements too?",
+    "correct_answer": "Each piece placement is separate, i.e., they happen one at a time. This is similar to other cards with 2 non-Bishop agents where you can place the first agent, then repress it with the second agent. In your case, you can place the first bishop, then place the second bishop after resolving the first placement.",
+    "distractors": {
+      "from_scratch": [
+        "The placement of both bishops is considered a single event, so they must be placed simultaneously without resolving individual effects in between.",
+        "You cannot split the placement of bishops; both must be placed on the same location, either the card or the Papal States throne.",
+        "The placement of bishops is resolved as one collective action, meaning all effects, such as Diet of Worms, apply to both bishops at the same time.",
+        "You can only place bishops on the Papal States throne, and the Oratory of Divine Love card does not allow splitting or separate placements.",
+        "Both bishops must be placed on the same card, and any effects triggered by the placement will apply to both bishops together as a single event."
+      ],
+      "from_rulebook": [
+        "Both bishops must be placed simultaneously and cannot be resolved one at a time.",
+        "You can only place bishops on the card itself, not on Thrones or other locations.",
+        "Placing bishops on an opponent's card is not allowed under any circumstances.",
+        "If a bishop dies during placement, the second bishop cannot be placed.",
+        "Cards that allow placement of two pieces require both pieces to be placed on the same location."
+      ],
+      "from_forum": [
+        "Both bishops must be placed simultaneously on the same location, as the card effect is a single event.",
+        "The placement of two bishops is considered a single action, so both must be placed before resolving any effects.",
+        "You can only place one bishop with the card, and the second bishop must be placed on a subsequent turn.",
+        "The two bishops must always be placed on different locations, regardless of the situation.",
+        "Both bishops are placed as a single event, and any effects triggered apply to both simultaneously."
+      ]
+    },
+    "url": "https://boardgamegeek.com/thread/3384950"
+  },
+  {
+    "multiple_choice_question": "This question is about a boardgame called Pax Renaissance. Can you perform a campaign with an empire card that was just added to your tableau after using a vote action or campaign to gain control of it from an enemy's tableau?",
+    "correct_answer": "Yes, you can perform a campaign with an empire card that was just added to your tableau. There is no restriction on which cards you can do operations with, other than using each card a maximum of once per round. This is supported by rule E4a, which states that you may perform operations on cards acquired as a result of operations, as long as it is in the proper (East or West) Tableau.",
+    "distractors": {
+      "from_scratch": [
+        "No, you cannot perform a campaign with an empire card that was just added to your tableau. Cards must remain unused for one round after being acquired.",
+        "No, you can only perform a campaign with empire cards that were already in your tableau at the start of the round.",
+        "Yes, but only if the empire card was acquired through a vote action, not a campaign.",
+        "No, newly acquired empire cards must first be placed in your tableau for a full turn before they can be used for operations.",
+        "Yes, but only if the empire card was acquired from the neutral supply, not from an enemy's tableau."
+      ],
+      "from_rulebook": [
+        "You cannot perform a campaign with an empire card that was just added to your tableau because new cards require a full turn before they can be used.",
+        "Empire cards acquired through a vote action or campaign cannot perform operations until the next round begins.",
+        "A campaign can only be performed with an empire card that has been in your tableau for at least one full turn.",
+        "You must wait until the empire card has been activated in a subsequent turn to perform a campaign.",
+        "Empire cards obtained from an opponent's tableau are restricted from performing operations in the same turn they are acquired."
+      ],
+      "from_forum": [
+        "No, you cannot perform a campaign with an empire card that was just added to your tableau until the next round.",
+        "Yes, but only if the empire card was added to your West Tableau, regardless of where it originated.",
+        "No, you must wait until the card has been in your tableau for at least one full turn before performing operations with it.",
+        "Yes, but only if the empire card was acquired through a vote action, not a campaign.",
+        "No, the rules explicitly state that newly acquired cards cannot be used for operations in the same round they are obtained."
+      ]
+    },
+    "url": "https://boardgamegeek.com/thread/3379453"
+  },
+  {
+    "multiple_choice_question": "This question is about a boardgame called Pax Renaissance. In a scenario where Byzantium has one defending knight in Caffa, and there is one repressed rook and one repressed knight on the empire square, with a concession on the border, if a conspiracy is played with two agent knights resulting in a 5 vs 1 battle, and the knight in Caffa dies along with one agent, what happens to the other repressed piece or the extra agents that can't be placed? Do the repressed pieces remain repressed, and do the agents that can't be placed die or become repressed?",
+    "correct_answer": "In this scenario, the battle is actually a 4 vs 1, as the adjacent concession does not participate in a Conspiracy one-shot. The attacker to be killed does not necessarily need to be one of the card agents; any of the 4 attackers are valid choices to be killed. Any surviving attackers that cannot be placed become repressed tokens on the empire card.",
+    "distractors": {
+      "from_scratch": [
+        "The battle is a 5 vs 1, with the concession contributing to the attack. Any surviving attackers that cannot be placed are returned to the supply.",
+        "The battle is a 4 vs 1, but any surviving attackers are immediately placed on the board, even if there are no valid spaces.",
+        "The battle is a 5 vs 1, and all repressed pieces on the empire card are automatically freed after the battle.",
+        "The battle is a 4 vs 1, and any surviving attackers that cannot be placed are removed from the game entirely.",
+        "The battle is a 5 vs 1, and the repressed pieces on the empire card are converted into defending knights if no attackers can be placed."
+      ],
+      "from_rulebook": [
+        "Any surviving attackers that cannot be placed are returned to the player's reserves instead of becoming repressed tokens.",
+        "The adjacent concession contributes to the battle strength, making it a 6 vs 1 battle instead of 4 vs 1.",
+        "Repressed pieces are automatically removed from the game if they cannot be placed after the battle.",
+        "Extra agents that cannot be placed are converted into new concessions on the border of the empire.",
+        "Repressed pieces and extra agents must be redistributed to other empires instead of remaining with the current empire."
+      ]
+    },
+    "url": "https://boardgamegeek.com/thread/3373885"
+  }
+]
