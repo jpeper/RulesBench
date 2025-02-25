@@ -1,0 +1,173 @@
+@use "sass:math";
+
+.pr_icon {
+  background-repeat: no-repeat;
+ }
+
+.pr_icon[data-icon=florin] {
+  background-position-x: 100%;
+  width: calc(var(--paxRenIconScale) * 55px);
+  height: calc(var(--paxRenIconScale) * 55px);
+  // background-position-y: 8%;
+  border-radius: 50%;
+  background-image: url("img/florins.png");
+  background-size: 200% 100%;
+}
+
+.pr_card_back_icon {
+  box-sizing: border-box;
+  border-radius: 2px;
+  border: 1px solid
+}
+
+.pr_icon[data-icon=west_back] {
+  background-image: url("img/west_cards3.jpg");
+  background-size: 1000% 200%;
+  background-position-x: math.div(((13 - 1) % 10 * 100%), 9);
+  background-position-y: math.div(math.floor(calc((13 - 1) / 10)) * 100%, 1);
+}
+
+.pr_icon[data-icon=east_back] {
+  background-image: url("img/east_cards2.jpg");
+  background-size: 1000% 400%;
+  background-position-x: math.div(((33 - 1) % 10 * 100%), 9);
+  background-position-y: math.div(math.floor(calc((33 - 1) / 10)) * 100%, 3);
+}
+
+.pr_prestige_icon {
+  background-image: url("img/prestige.png");
+  background-size: 600% 100%;
+  width: calc(var(--paxRenIconScale) * 33px);
+  height: calc(var(--paxRenIconScale) * 33px);
+}
+
+.pr_icon[data-icon=prestige_catholic] {
+  background-position-x: 0%; 
+}
+
+.pr_icon[data-icon=prestige_islamic] {
+  background-position-x: 40%; 
+}
+
+.pr_icon[data-icon=prestige_reformist] {
+  background-position-x: 100%; 
+}
+
+.pr_icon[data-icon=prestige_law] {
+  background-position-x: 60%; 
+}
+
+.pr_icon[data-icon=prestige_discovery] {
+  background-position-x: 20%; 
+}
+
+.pr_icon[data-icon=prestige_patron] {
+  background-position-x: 80%; 
+}
+
+.pr_icon[data-icon=concession] {
+  background-image: url("img/pawns.png");
+  background-size: 600% 300%;
+  min-width: calc(var(--paxRenTokenScale) * 23px);
+  min-height: calc(var(--paxRenTokenScale) * 36px);
+  max-width: calc(var(--paxRenTokenScale) * 23px);
+  max-height: calc(var(--paxRenTokenScale) * 36px);
+  margin-left: 2px;
+}
+
+.pr_icon[data-icon=concession][data-bank="fugger"] {
+  background-position-x: 0%;
+  background-position-x: math.div(((11 - 1) % 10 * 100%), 9);
+  // background-position-y: math.div(math.floor(calc((11 - 1) / 10)) * 100%, 3);
+}
+
+.pr_icon[data-icon=concession][data-bank="marchionni"] {
+  background-position-x: 20%;
+}
+
+.pr_icon[data-icon=concession][data-bank="coeur"] {
+  background-position-x: 40%;
+}
+
+.pr_icon[data-icon=concession][data-bank="medici"] {
+  background-position-x: 60%;
+}
+
+.pr_icon[data-icon=concession][data-bank="berenberg"] {
+  background-position-x: 80%;
+}
+
+.pr_icon[data-icon=concession][data-bank="mendes"] {
+  background-position-x: 100%;
+}
+
+.pr_square_card_icon {
+  background-image: url("img/square_cards.jpg");
+  background-size: 1000% 400%;
+  width: calc(var(--paxRenIconScale) * 30px);
+  height: calc(var(--paxRenIconScale) * 30px);
+  margin-left: 2px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.pr_square_card_icon[data-icon=king][data-bank="fugger"] {
+  background-position-x: math.div(((11 - 1) % 10 * 100%), 9);
+  background-position-y: math.div(math.floor(calc((11 - 1) / 10)) * 100%, 3);
+}
+
+.pr_square_card_icon[data-icon=king][data-bank="marchionni"] {
+  background-position-x: math.div(((9 - 1) % 10 * 100%), 9);
+  background-position-y: math.div(math.floor(calc((9 - 1) / 10)) * 100%, 3);
+}
+
+.pr_square_card_icon[data-icon=king][data-bank="coeur"] {
+  background-position-x: math.div(((19 - 1) % 10 * 100%), 9);
+  background-position-y: math.div(math.floor(calc((19 - 1) / 10)) * 100%, 3);
+}
+
+.pr_square_card_icon[data-icon=king][data-bank="medici"] {
+  background-position-x: math.div(((7 - 1) % 10 * 100%), 9);
+  background-position-y: math.div(math.floor(calc((7 - 1) / 10)) * 100%, 3);
+}
+
+.pr_square_card_icon[data-icon=king][data-bank="berenberg"] {
+  background-position-x: math.div(((3 - 1) % 10 * 100%), 9);
+  background-position-y: math.div(math.floor(calc((3 - 1) / 10)) * 100%, 3);
+}
+
+.pr_square_card_icon[data-icon=king][data-bank="mendes"] {
+  background-position-x: math.div(((33 - 1) % 10 * 100%), 9);
+  background-position-y: math.div(math.floor(calc((33 - 1) / 10)) * 100%, 3);
+}
+
+.pr_square_card_icon[data-icon=republic][data-bank="fugger"] {
+  background-position-x: math.div(((12 - 1) % 10 * 100%), 9);
+  background-position-y: math.div(math.floor(calc((12 - 1) / 10)) * 100%, 3);
+}
+
+.pr_square_card_icon[data-icon=republic][data-bank="marchionni"] {
+  background-position-x: math.div(((10 - 1) % 10 * 100%), 9);
+  background-position-y: math.div(math.floor(calc((10 - 1) / 10)) * 100%, 3);
+}
+
+.pr_square_card_icon[data-icon=republic][data-bank="coeur"] {
+  background-position-x: math.div(((20 - 1) % 10 * 100%), 9);
+  background-position-y: math.div(math.floor(calc((20 - 1) / 10)) * 100%, 3);
+}
+
+.pr_square_card_icon[data-icon=republic][data-bank="medici"] {
+  background-position-x: math.div(((8 - 1) % 10 * 100%), 9);
+  background-position-y: math.div(math.floor(calc((8 - 1) / 10)) * 100%, 3);
+}
+
+.pr_square_card_icon[data-icon=republic][data-bank="berenberg"] {
+  background-position-x: math.div(((4 - 1) % 10 * 100%), 9);
+  background-position-y: math.div(math.floor(calc((4 - 1) / 10)) * 100%, 3);
+}
+
+.pr_square_card_icon[data-icon=republic][data-bank="mendes"] {
+  background-position-x: math.div(((34 - 1) % 10 * 100%), 9);
+  background-position-y: math.div(math.floor(calc((34 - 1) / 10)) * 100%, 3);
+}

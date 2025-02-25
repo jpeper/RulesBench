@@ -1,0 +1,121 @@
+@use "sass:math";
+
+.pr_token {
+  background-repeat: no-repeat;
+  // opacity: 1 !important;
+}
+
+.pr_token.pr_selectable {
+  background-position-y: 50%;
+}
+
+.pr_token.pr_selected,
+.pr_token.pr_selectable:hover {
+  background-position-y: 100%;
+  cursor: pointer;
+}
+
+/* ------- PAWNS ------- */
+
+.pr_disk {
+  box-sizing: border-box;
+  width: calc(var(--paxRenTokenScale) * 31px);
+  height: calc(var(--paxRenTokenScale) * 31px);
+  border-radius: 50%;
+  border: 1px solid;
+  // box-shadow: 2px 2px 5px -1px #000;
+}
+
+.pr_disk[data-separator="black"] {
+  background-color: black;
+}
+
+.pr_disk[data-separator="white"] {
+  background-color: white;
+}
+
+/* ------- PAWNS ------- */
+
+.pr_pawn {
+  background-image: url("img/pawns.png");
+  background-size: 600% 300%;
+  // width: 143px;
+  // height: 234px;
+  // width: 30px;
+  // height: 49px;
+  min-width: calc(var(--paxRenTokenScale) * 33px);
+  min-height: calc(var(--paxRenTokenScale) * 51px);
+  max-width: calc(var(--paxRenTokenScale) * 33px);
+  max-height: calc(var(--paxRenTokenScale) * 51px);
+}
+
+.pr_pawn[data-separator="fugger"] {
+  background-position-x: 0%;
+}
+
+.pr_pawn[data-separator="marchionni"] {
+  background-position-x: 20%;
+}
+
+.pr_pawn[data-separator="coeur"] {
+  background-position-x: 40%;
+}
+
+.pr_pawn[data-separator="medici"] {
+  background-position-x: 60%;
+}
+
+.pr_pawn[data-separator="berenberg"] {
+  background-position-x: 80%;
+}
+
+.pr_pawn[data-separator="mendes"] {
+  background-position-x: 100%;
+}
+
+/* ------- RELIGION PIECES ------- */
+
+.pr_token[data-separator="catholic"] {
+  background-position-x: 0%;
+}
+
+.pr_token[data-separator="islamic"] {
+  background-position-x: 50%;
+}
+
+.pr_token[data-separator="reformist"] {
+  background-position-x: 100%;
+}
+
+.pr_bishop {
+  background-image: url("img/bishops.png");
+  background-size: 300% 300%;
+  width: calc(var(--paxRenTokenScale) * 36px);
+  height: calc(var(--paxRenTokenScale) * 62px);
+}
+
+.pr_knight {
+  background-image: url("img/knights.png");
+  background-size: 300% 300%;
+  max-width: calc(var(--paxRenTokenScale) * 44px);
+  min-width: calc(var(--paxRenTokenScale) * 44px);
+  height: calc(var(--paxRenTokenScale) * 54px);
+}
+
+.pr_pirate {
+  background-image: url("img/pirates.png");
+  background-size: 300% 300%;
+  min-width: calc(var(--paxRenTokenScale) * 53px);
+  min-height: calc(var(--paxRenTokenScale) * 54px);
+  max-width: calc(var(--paxRenTokenScale) * 53px);
+  max-height: calc(var(--paxRenTokenScale) * 54px);
+}
+
+.pr_rook {
+  background-image: url("img/rooks.png");
+  background-size: 300% 300%;
+  min-width: calc(var(--paxRenTokenScale) * 37px);
+  max-width: calc(var(--paxRenTokenScale) * 37px);
+  min-height: calc(var(--paxRenTokenScale) * 55px);
+  max-height: calc(var(--paxRenTokenScale) * 55px);
+}

@@ -1,0 +1,143 @@
+/**
+ *------
+ * BGA framework: © Gregory Isabelli <gisabelli@boardgamearena.com> & Emmanuel Colin <ecolin@boardgamearena.com>
+ * PaxRenaissance implementation : © Frans Bongers <fjmbongers@gmail.com>
+ *
+ * This code has been produced on the BGA studio platform for use on http://boardgamearena.com.
+ * See http://en.boardgamearena.com/#!doc/Studio for more information.
+ * -----
+ *
+ * paxrenaissance.css
+ *
+ * PaxRenaissance stylesheet
+ *
+ */
+
+@use "sass:math";
+@use "base";
+@use "game-map/gamemap";
+@use "hand/hand";
+@use "card-managers/cards";
+@use "icons/icons";
+@use "info-panel/infoPanel";
+@use "logs/logs";
+@use "market/market";
+@use "agentIcons";
+@use "empireIcon";
+@use "oneShots";
+@use "pieces";
+@use "tableauOps";
+@use "information-modal/informationModal";
+@use "open-hands-modal/openHandsModal";
+@use "player-manager/playerPanel";
+@use "player-manager/tableau/playerTableaux";
+@use "settings/settingsModal";
+@use "supply/supply";
+@use "tooltip-manager/tooltip";
+@use "icon-counter/icon-counter";
+@use "nouislider";
+@import "../node_modules/bga-cards/bga-cards";
+
+html {
+  background-image: url("img/background_goldsmith.jpg");
+  background-attachment: fixed; // no scroll
+  background-position: center; // where to fix picture from
+  background-size: cover; // will cover screen but parts of image might be outside screen
+}
+
+html[data-background-pref="none"] {
+  background: url("") rgb(192, 192, 192);
+}
+
+html[data-background-pref="balcony"] {
+  background-image: url("img/background_balcony.jpg");
+}
+
+html[data-background-pref="cathedral"] {
+  background-image: url("img/background_cathedral.jpg");
+}
+
+html[data-background-pref="lucrezia"] {
+  background-image: url("img/background_lucrezia.jpg");
+}
+
+html[data-background-pref="goldsmith"] {
+  background-image: url("img/background_goldsmith.jpg");
+}
+
+html[data-background-pref="poison"] {
+  background-image: url("img/background_poison.jpg");
+}
+
+html[data-background-pref="war"] {
+  background-image: url("img/background_war.jpg");
+}
+
+:root {
+  --paxRenIconScale: 1;
+  // --paxRenMapScale: 1;
+  --paxRenCardScale: 1;
+  --paxRenTokenScale: 1;
+}
+
+#pr_play_area_container {
+  padding: 4px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 8px;
+
+  // [data-two-columns="disabled"] & {
+  //   display: flex;
+  //   flex-flow: column;
+  //   align-items: center;
+  // }
+}
+
+#pr_discard {
+  position: absolute;
+  top: -400px;
+  left: 0px;
+  --paxRenCardScale: 1;
+  width: 150px;
+  height: 230px;
+}
+
+#page-title {
+  min-height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#pagemaintitle_wrap {
+  flex-grow: 1;
+}
+
+/* make space between buttons on touch devices */
+@media (hover: none) {
+  #page-title .action-button.bgabutton,
+  #page-title .bgabutton {
+    margin-bottom: 4px;
+    margin-top: 4px;
+  }
+}
+
+#pr_play_area_container[data-two-columns="disabled"] {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+/* Hide the "You may note something for next time..." popup that would appear. */
+#turnBasedNotesIncent {
+  display: none;
+}
+
+#globalaction_zoom_wrap {
+  display: none !important;
+}
+
+/* Hide player is now online, player is now offline messages */
+.notif_playerstatus {
+  display: none !important;
+}

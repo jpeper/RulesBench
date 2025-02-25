@@ -1,0 +1,264 @@
+Pax Renaissance – 2nd Edition
+Setup:
+1.
+
+2.
+3.
+
+4.
+5.
+
+6.
+
+Give each player a banker+10 pawns of the banker’s colour.
+Place a pawn of each colour on the banker’s coat of arms on the
+map along the trade routes.
+Give the first player 3 florins, the second 4 florins, the third 5
+florins and the fourth 6 florins.
+Prepare the East/West market: take 12 cards, shuffle the 2
+comet cards into them and add (4 X number of players) on top of
+them. The left-hand card is placed face down and the 5 cards to
+its right are placed face up.
+Block Timbuktu and Novgorod with the 2 black discs. Block Red
+Sea and Spice Islands with 2 white discs.
+Place in LONDON, PARIS, VIENNA, BUDA, TANA, TOLEDO,
+VALENCIA, VENICE, CONSTANTINOPOLE and CAIRO knights and
+rooks as shown on their city icons.
+Place the kingdom cards or their locations next to the map
+(“thrones”) with their yellow side face up. Place the 4 victory
+cards with their INACTIVE side face up.
+
+2 Actions per turn:
+Up to twice per turn:
+1.
+Purchase - take a card from the market to your hand and put 1 florin on each
+market card on its left. A card with a florin placed on the same turn cannot be
+purchased. If market card space is empty, place the florin on the opposite card of
+the column. You can never hold more than 2 cards in your hand.
+2.
+Play – place a card from your hand into the far side of the East/West tableau.
+You may: a. activate the “one-shot” operation (bottom of card) and place the
+knights/rooks/pawns (bottom of card) on the map, b. place the
+knights/rooks/pawns (bottom of card) on the map, or c. none of these actions.
+3.
+Sell – discard a card from your tableau or from your hand and receive 2 florins.
+Return king cards to the throne and receive 2 florins. Return married king+queen
+cards to the throne and receive 4 florins. Remove bishops/rooks/knights/pawns
+from a discarded card to the supply. Bishops/rooks/knights/pawns on a kingdom
+card (“repressed”) go with it to the throne. If a suzerain king is sold and returns
+to the throne, all his vassal king cards return to their own thrones. A vassal king
+card can be sold for 2 florins.
+Up to once per turn:
+1.
+2.
+3.
+
+Victory:
+Winning by completing the conditions on an ACTIVE victory card. If no
+victory card is won and the market cannot be refreshed by either deck,
+the player with the most Patronage Prestige icons in the tableau wins.
+Victory cards:
+1.
+2.
+
+3.
+
+4.
+
+Imperial victory – have 2 or more kingdom cards (3 or more in a 2
+player game) in your tableau than each opponent.
+Renaissance victory - have 1 or more republic cards than each
+opponent and at least 2 more Law Prestige icons than each
+opponent in your tableau.
+Globalization victory – have 2 more pawns on the board
+(“concessions”) than each opponent and more Discovery Prestige
+than each opponent in your tableau.
+Holy victory – have most of the Religion Prestige icons in your
+tableau for the religion that: a. has more bishops than all other
+religions combined and b. has more knights+rooks+pirates in
+theocracies on the map than other religions combined.
+
+4.
+5.
+
+East Tableau Operations – Activate up to one action per card in your East
+Tableau in any order.
+West Tableau Operations – Activate up to one action per card in your West
+Tableau in any order.
+East Trade Fair – add to the East market 1 florin if 1-2 players or 2 florins if 3-4
+players, then take 1 florin from the East market. Discard the left, face down card
+from the East market. Take the florins on the discarded card, follow the black
+route from its origin and give 1 florin to each player whose pawn is met en route,
+or to bank when a pirate ship is met, until no florins remain. If florins remain at
+the end of the route, add them to the space of the discarded market card. Add a
+knight/rook to an empty city in each kingdom that you pass until florins are
+finished (you choose the city, the knight/rook is according to the city’s icon). if a
+pawn and pirate are co-located in a border, the pawn owner receives the florin,
+and the pirate has no effect.
+West Trade fair - Same as East Trade Fair, except use West market and white
+route.
+Announce a victory if the victory card is active and its conditions are fulfilled.
+
+Bishop placement:
+1.
+2.
+3.
+4.
+
+Place the bishop on your card on any card in anyone’s tableau that matches your
+card’s kingdom.
+A bishop placed on a card inactivates all its Tableau Operations, except the
+Religious operations (in a blue ellipse), Prestige icons and card abilities.
+If a bishop is added to a card with a bishop, both are returned to the supply.
+If a bishop is added to a kingdom card with repressed knights/rooks/pawns (and
+no bishops), it can remove one of them to the supply.
+
+Tableau Operations
+1.
+
+Inquisitor – Move a bishop of the faith on the ellipse left or right without
+moving from East to West or vice versa, or move it to a card matching the
+kingdom at any tableau.
+2.
+Commerce – take 1 florin from the card’s matching market (East/West).
+3.
+Behead – Discard a card from any tableau that matches the kingdom. If a
+king card is targeted, place it in its throne, discard the queen if exists, place
+vassal cards if exist in their thrones and discard the “behead” card that you
+used.
+4.
+Tax – Allowed only if an empty city (or more) exists in the kingdom. Choose a
+pawn bordering a kingdom. The pawn’s owner must either pay 1 florin to the
+bank and then add a rook/knight to an empty city according to the city’s
+icon, or move the pawn to the kingdom card (repressed).
+5.
+Repress – move the unit shown on the ellipse that exists in the kingdom to
+the kingdom card (repressed). Receive 1 florin from the bank.
+6.
+Vote – To operate, you have to have the majority of pawns in the kingdom’s
+borders, the kingdom card must be in your tableau or in your opponent’s
+tableau and you have to pay 1 florin for every unit on the kingdom card
+(repressed). If the kingdom card is in your opponent’s tableau, place it in
+your tableau with the king side (yellow) face up. If the kingdom card is in
+your tableau, turn it from the king side (yellow) to the Republic side (gray).
+Optionally, you may change a theocracy status of the kingdom (if exists) into
+a neutral status.
+7.
+Corsair – Move one or two spaces a pirate of the faith on the ellipse and
+bordering the kingdom along a trade route to another border of the card's
+location, or to a sea border of any adjacent card sharing the same trade route. If
+there is a pawn or a pirate of a different color, remove it to the supply. A
+pirate cannot move to a space with another pirate of the same color.
+8.
+Siege – kill a rook, a knight or a pirate in the kingdom.
+9.
+Campaign – operate it against any adjacent kingdom (inc. diagonal) that you
+don’t have in your tableau. Pay 1 florin for each knight in your kingdom to
+operate. The attackers in the Campaign: the number of knights in the
+attacking kingdom. The defenders in the Campaign: the number of knights
+and rooks in the targeted kingdom. Remove an equal number of attackers
+and defenders of your choice from the board. If any attackers remain, then
+the Campaign is successful (Regime Change).
+If you win the campaign, take from the throne or from your opponent’s
+tableau the kingdom card. If the kingdom card is taken from the tableau,
+take with it the queen, bishop and the repressed units on it. If the
+kingdom card is taken from an opponent’s tableau, take with it repressed
+rooks/knights/pawns, discard the queen and the bishop on it, if exist. If
+the kingdom card taken from an opponent’s tableau is on the Republic
+side (gray), revert it to the king side (yellow). The attacking kingdom card
+becomes a suzerain and the acquired kingdom card becomes its vassal.
+Important: you can attack even if you don’t win a kingdom card to weaken the
+targeted kingdom.
+
+One-shot Operations:
+First, place the knights/rooks/pawns (bottom of card) on the kingdom’s name on the map.
+Then resolve the one-shot operation:
+1.
+
+2.
+
+3.
+
+4.
+
+Trade shift – move the disc from the city on the card to the city that begins the trade
+route. Move knights/rooks from the city to which the disc was moved are moved to
+the kingdom card (“repressed”) at no cost. Operating a trade shift with the Spice Island
+requires a Discovery Prestige icon in your tableau.
+Coronation – the queen marries one of its suitors on its throne or in your tableau. The
+king+queen pair are put on the East/West based on the king. In a regime change, the
+queen is discarded. If you cannot or choose not to marry a suitor, the Queen can be
+taken as an old maid. Tuck the queen card under your player board with the prestige
+icon showing. Old maids are not part of your tableau. You may not perform her ops or
+abilities. Old maids are ignored during Apostasy, can be sold, and their prestige icons
+count towards victory.
+Apostasy – if cards of both Religion Prestige icons appear anywhere on anyone’s
+tableau (including yours), all these cards are discarded. Even if the card triggering the
+apostasy is discarded, the knights/rooks/pawns on its bottom may be placed in the
+kingdom.
+Conspiracy – the attackers: knights/rooks/pawns placed on the kingdom’s name + the
+pirates bordering the kingdom + the repressed knights/rooks (all of any colour). The
+defenders: the number of rooks and knights inside the kingdom. Remove an equal
+number of attackers and defenders of your choice from the board. If any attackers
+remain, then the Conspiracy is successful (Regime Change).
+Then, you may move the knights/rooks from the kingdom’s name to empty cities,
+regardless of their city icons, and pawns to the border. Even if there are empty cities
+in the kingdom, you can replace existing knights/rooks in cities, move these units to
+the kingdom card (“repressed”) and pay 1 florin per repressed knight/rook.
+You may move any knights/rooks that were on the kingdom card into the kingdom’s
+remaining empty cities. Moving repressed pawns from the kingdom cards to its
+borders is optional.
+You may add a pawn to a free kingdom border, or replace an existing pawn on a
+border that will be moved to the kingdom card (“repressed”) and pay 1 florin to the
+bank.
+If the kingdom card is taken from the tableau, take with it the queen, bishop and the
+repressed units on it. If the kingdom card is taken from an opponent’s tableau, take
+with it repressed rooks/knights/pawns, discard the queen and the bishop on it, if
+exist. If the kingdom card taken from an opponent’s tableau is on the Republic side
+(gray), revert it to the king side (yellow). If the kingdom card is already on your
+tableau, turn it to its Republic side (gray) and discard the attached queen and the
+bishop on it, if exist. If the kingdom card is a suzerain, return all its vassal cards to
+their thrones.
+
+5.
+
+6.
+
+Peasant Revolt - the attackers: knights/rooks/pawns placed on the kingdom’s name + pirates (all of any colour) and your pawns
+bordering the kingdom + the repressed pawns (all of any colour). The defenders: the number of rooks and knights inside the
+kingdom. Remove an equal number of attackers and defenders of your choice from the board. If any attackers remain, then the
+Peasant Revolt is successful (Regime Change).
+Then, you may move the knights/rooks from the kingdom’s name to empty cities, regardless of their city icons, and pawns to
+the border. Even if there are empty cities in the kingdom, you can replace existing knights/rooks in cities, move these units to
+the kingdom card (“repressed”) and pay 1 florin per repressed knight/rook.
+You may move repressed pawns from the kingdom cards to its borders. Moving any knights/rooks that were on the kingdom
+card into the kingdom’s remaining empty cities is optional.
+You may add a pawn to a free kingdom border, or replace an existing pawn on a border that will be moved to the kingdom
+card (“repressed”) and pay 1 florin to the bank.
+If the kingdom card is taken from the tableau, take with it the queen, bishop and the repressed units on it. If the kingdom
+card is taken from an opponent’s tableau, take with it repressed rooks/knights/pawns, discard the queen and the bishop on
+it, if exist. If the kingdom card taken from an opponent’s tableau is on the Republic side (gray), revert it to the king side
+(yellow). If the kingdom card is already on your tableau, turn it to its Republic side (gray) and discard the attached queen and
+the bishop on it, if exist. If the kingdom card is a suzerain, return all its vassal cards to their thrones.
+Crusade/Jihad/Reformation (one religion against the two others) - the attackers: knights/rooks/pawns placed on the kingdom’s
+name + knights/rooks of the attacking religion in the kingdom + pirates of the attacking religion + knights of the attacking
+religion in adjacent kingdoms (inc. diagonal). The defenders: the number of rooks and knights of the non-attacking religions
+inside the kingdom. Remove an equal number of attackers and defenders of your choice from the board. If any attackers
+remain, then the Crusade/Jihad/Reformation is successful (Regime Change).
+Then, you may move the knights/rooks from the kingdom’s name to empty cities, regardless of their city icons, and pawns to
+the border. Even if there are empty cities in the kingdom, you can replace existing knights/rooks in cities, move these units to
+the kingdom card (“repressed”) and pay 1 florin per repressed knight/rook.
+Moving any knights/rooks/pawns that were on the kingdom card into the kingdom’s remaining empty cities and borders is
+optional.
+You may add a pawn to a free kingdom border, or replace an existing pawn on a border that will be moved to the kingdom
+card (“repressed”) and pay 1 florin to the bank.
+If the kingdom card is taken from the tableau, take with it the queen, bishop and the repressed units on it. If the kingdom
+card is taken from an opponent’s tableau, take with it repressed rooks/knights/pawns, discard the queen and the bishop on
+it, if exist. If the kingdom card taken from an opponent’s tableau is on the Republic side (gray), revert it to the king side
+(yellow). If the kingdom card is already on your tableau, turn it to its Republic side (gray) and discard the attached queen and
+the bishop on it, if exist. If the kingdom card is a suzerain, return all its vassal cards to their thrones.
+Change the theocracy of the kingdom using a theocracy card.
+
+Important: you can attack even if you don’t win a kingdom card to weaken the targeted kingdom.
+
+

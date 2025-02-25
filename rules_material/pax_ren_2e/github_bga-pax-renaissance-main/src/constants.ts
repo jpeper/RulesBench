@@ -1,0 +1,383 @@
+const MIN_PLAY_AREA_WIDTH = 1516;
+
+/**
+ * Client states
+ */
+const CLIENT_CONFIRM_TABLEAU_OPS = "clientConfirmTableauOpsState";
+const CLIENT_DECLARE_VICTORY_STATE = "clientDeclareVictoryState";
+const CLIENT_SELL_CARD_STATE = "clientSellCardState";
+const CLIENT_START_TRADE_FAIR_STATE = "clientStartTradeFairState";
+const CLIENT_USE_ABILITY_ACTION_STATE = "clientUseAbilityActionState";
+
+const ENABLED = 'enabled';
+// hello
+// const DISABLED = "disabled"; // Defined in class names
+
+/**
+ * Setting ids
+ */
+const SINGLE_COLUMN_MAP_SIZE = 'singleColumnMapSize';
+const REPRESS_TOKENS_TO_THRONES = 'repressTokensToThrones';
+const CARDS_IN_TABLEAU_OVERLAP = 'cardsInTableauOverlap';
+const CARD_SIZE_IN_TABLEAU = 'cardSizeInTableau';
+const CARD_SIZE_IN_LOG = 'cardSizeInLog';
+const CARD_INFO_IN_TOOLTIP = 'cardInfoInTooltip';
+const OVERLAP_EMPIRE_SQUARES = 'overlapEmpireSquares';
+const CONFIRM_END_OF_TURN_AND_PLAYER_SWITCH_ONLY = 'confirmEndOfTurnPlayerSwitchOnly';
+const PREF_SHOW_ANIMATIONS = 'showAnimations';
+const PREF_ANIMATION_SPEED = 'animationSpeed';
+const SHOW_FLORIN_CARD_COUNTERS = 'florinCardCountersTableau';
+const PREF_SHOW_ACTION_BUTTONS = 'showActionButtons';
+
+/**
+ * Map location types
+ */
+const CITY = 'city';
+const BORDER = 'border';
+const CARD = 'card';
+
+/**
+ * Player colors
+ */
+
+const BLUE = "blue";
+const GREEN = "green";
+const PURPLE = "purple";
+const YELLOW = "yellow";
+const BLACK = "black";
+const WHITE = "white";
+
+const COLOR_MAP = {
+  "1084c7": BLUE,
+  bddcc6: GREEN,
+  "732473": PURPLE,
+  ffce00: YELLOW,
+  "191716": BLACK,
+  bfc0c3: WHITE
+};
+
+const COLORS_WITH_SHADOW = [GREEN, YELLOW];
+
+/**
+ * Class names
+ */
+
+const DISABLED = "disabled";
+const PR_NONE = "pr_none";
+const PR_SELECTABLE = "pr_selectable";
+const PR_SELECTED = "pr_selected";
+
+/**
+ * Card locations
+ */
+const DISCARD = "discard";
+
+/**
+ * Banks
+ */
+const FUGGER = "fugger";
+const MEDICI = "medici";
+const COEUR = "coeur";
+const MARCHIONNI = "marchionni";
+const BERENBERG = 'berenberg';
+const MENDES = 'mendes';
+
+/**
+ * Regions
+ */
+const WEST = "west";
+const EAST = "east";
+const EAST_AND_WEST = 'eastAndWest';
+
+const REGIONS: ("east" | "west")[] = [WEST, EAST];
+
+// Card types
+const EMPIRE_CARD = "empireCard";
+const TABLEAU_CARD = "tableauCard";
+const VICTORY_CARD = "victoryCard";
+const EMPIRE_CARD_CONTAINER = "empireCardContainer";
+
+// Sides for empire cards
+const KING = "king";
+const REPUBLIC = "republic";
+const VASSAL = 'vassal';
+
+// State victory card
+const ACTIVE = "active";
+const INACTIVE = "inactive";
+
+/**
+ * Chess pieces
+ */
+const BISHOP = "bishop";
+const DISK = "disk"; // for busted disks
+const KNIGHT = "knight";
+const PAWN = "pawn";
+const PIRATE = "pirate";
+const ROOK = "rook";
+
+/**
+ * Religions
+ */
+const MEDIEVAL = "medieval";
+const CATHOLIC = "catholic";
+const ISLAMIC = "islamic";
+const REFORMIST = "reformist";
+
+const RELIGIONS: Religion[] = [CATHOLIC, ISLAMIC, REFORMIST];
+
+/**
+ * PRESTIGE
+ */
+const DISCOVERY = "discovery";
+const LAW = "law";
+const PATRON = "patron";
+
+/**
+ * Empires
+ */
+const ENGLAND = "england";
+const FRANCE = "france";
+const HOLY_ROMAN_EMIRE = "holyRomanEmpire";
+const HUNGARY = "hungary";
+const BYZANTIUM = "byzantium";
+const PORTUGAL = "portugal";
+const ARAGON = "aragon";
+const PAPAL_STATES = "papalStates";
+const OTTOMAN = "ottoman";
+const MAMLUK = "mamluk";
+
+const EMPIRES = [
+  ARAGON,
+  BYZANTIUM,
+  ENGLAND,
+  FRANCE,
+  HOLY_ROMAN_EMIRE,
+  HUNGARY,
+  MAMLUK,
+  OTTOMAN,
+  PAPAL_STATES,
+  PORTUGAL,
+];
+
+/**
+ * Origin and destination types used in regime changes
+ */
+const EMPIRE_SQUARE_DESTINATION_KING = 'king';
+const EMPIRE_SQUARE_DESTINATION_VASSAL = 'vassal';
+const EMPIRE_SQUARE_ORIGIN_TABLEAU = 'tableau';
+const EMPIRE_SQUARE_ORIGIN_THRONE = 'throne';
+
+/**
+ * Borders
+ */
+const BORDER_ARAGON_FRANCE = "border_aragon_france";
+const BORDER_ARAGON_PAPAL_STATES = "border_aragon_papalStates";
+const BORDER_ARAGON_PORTUGAL = "border_aragon_portugal";
+const BORDER_BYZANTIUM_HUNGARY = "border_byzantium_hungary";
+const BORDER_BYZANTIUM_MAMLUK = "border_byzantium_mamluk";
+const BORDER_ENGLAND_FRANCE = "border_england_france";
+const BORDER_ENGLAND_PORTUGAL = "border_england_portugal";
+const BORDER_FRANCE_HOLY_ROMAN_EMPIRE = "border_france_holyRomanEmpire";
+const BORDER_HOLY_ROMAN_EMPIRE_HUNGARY = "border_holyRomanEmpire_hungary";
+const BORDER_HOLY_ROMAN_EMPIRE_PAPAL_STATES =
+  "border_holyRomanEmpire_papalStates";
+const BORDER_HUNGARY_OTTOMAN = "border_hungary_ottoman";
+const BORDER_MAMLUK_OTTOMAN = "border_mamluk_ottoman";
+const BORDER_OTTOMAN_PAPAL_STATES = "border_ottoman_papalStates";
+
+const BORDERS = [
+  BORDER_ARAGON_FRANCE,
+  BORDER_ARAGON_PAPAL_STATES,
+  BORDER_ARAGON_PORTUGAL,
+  BORDER_BYZANTIUM_HUNGARY,
+  BORDER_BYZANTIUM_MAMLUK,
+  BORDER_ENGLAND_PORTUGAL,
+  BORDER_ENGLAND_FRANCE,
+  BORDER_FRANCE_HOLY_ROMAN_EMPIRE,
+  BORDER_HOLY_ROMAN_EMPIRE_HUNGARY,
+  BORDER_HOLY_ROMAN_EMPIRE_PAPAL_STATES,
+  BORDER_HUNGARY_OTTOMAN,
+  BORDER_MAMLUK_OTTOMAN,
+  BORDER_OTTOMAN_PAPAL_STATES,
+];
+
+/**
+ * Victory cards
+ */
+const VICTORY_RENAISSANCE = "victory_renaissance";
+const VICTORY_GLOBALIZATION = "victory_globalization";
+const VICTORY_AGE_OF_BYZANTINE = 'victory_ageOfByzantine'
+const VICTORY_IMPERIAL = "victory_imperial";
+const VICTORY_HOLY = "victory_holy";
+
+const VICTORY_SQUARES = [
+  VICTORY_RENAISSANCE,
+  VICTORY_GLOBALIZATION,
+  VICTORY_IMPERIAL,
+  VICTORY_HOLY,
+];
+
+/**
+ * cities
+ */
+
+const LONDON = "london";
+const BORDEAUX = "bordeaux";
+const BRUGES = "bruges";
+const PARIS = "paris";
+const KVIV = "kviv";
+const LYON = "lyon";
+const LUBECK = "lubeck";
+const NURNBERG = "nurnberg";
+const NOVGOROD = "novgorod";
+const VIENNA = "vienna";
+const BUDA = "buda";
+const VARNA = "varna";
+const TANA = "tana";
+const CAFFA = "caffa";
+const TREBIZOND = "trebizond";
+const TOLEDO = "toledo";
+const GRANADA = "granada";
+const SPICE_ISLANDS = "spiceIslands";
+const VALENCIA = "valencia";
+const ALGIERS = "algiers";
+const TIMBUKTU = "timbuktu";
+const VENICE = "venice";
+const VENICE_2 = "venice2";
+const CONSTANTINOPLE_1 = "constantinople1";
+const CONSTANTINOPLE_2 = "constantinople2";
+const CONSTANTINOPLE_3 = "constantinople3";
+const MODON = "modon";
+const RHODES = "rhodes";
+const CYPRUS = "cyprus";
+const CAIRO = "cairo";
+const RED_SEA = "redSea";
+
+const CITIES = [
+  LONDON,
+  BORDEAUX,
+  BRUGES,
+  PARIS,
+  KVIV,
+  LYON,
+  LUBECK,
+  NURNBERG,
+  NOVGOROD,
+  VIENNA,
+  BUDA,
+  VARNA,
+  TANA,
+  CAFFA,
+  TREBIZOND,
+  TOLEDO,
+  GRANADA,
+  SPICE_ISLANDS,
+  VALENCIA,
+  ALGIERS,
+  TIMBUKTU,
+  VENICE,
+  VENICE_2,
+  CONSTANTINOPLE_1,
+  CONSTANTINOPLE_2,
+  CONSTANTINOPLE_3,
+  MODON,
+  RHODES,
+  CYPRUS,
+  CAIRO,
+  RED_SEA,
+];
+
+/**
+ * Tableau ops
+ */
+// Types
+const RELIGIOUS = "religious";
+const ECONOMIC = "economic";
+const POLITICAL = "political";
+const MILITARY = "military";
+
+// Ids
+const BEHEAD_OP = "BEHEAD_OP";
+const CAMPAIGN_OP = "CAMPAIGN_OP";
+const COMMERCE_OP_EAST = "COMMERCE_OP_EAST";
+const COMMERCE_OP_WEST = "COMMERCE_OP_WEST";
+const CORSAIR_OP_CATHOLIC = "CORSAIR_OP_CATHOLIC";
+const CORSAIR_OP_ISLAMIC = "CORSAIR_OP_ISLAMIC";
+const CORSAIR_OP_REFORMIST = "CORSAIR_OP_REFORMIST";
+const INQUISITOR_OP_CATHOLIC = "INQUISITOR_OP_CATHOLIC";
+const INQUISITOR_OP_ISLAMIC = "INQUISITOR_OP_ISLAMIC";
+const INQUISITOR_OP_REFORMIST = "INQUISITOR_OP_REFORMIST";
+const REPRESS_OP_KNIGHT = "REPRESS_OP_KNIGHT";
+const REPRESS_OP_PAWN = "REPRESS_OP_PAWN";
+const REPRESS_OP_PAWN_KNIGHT = "REPRESS_OP_PAWN_KNIGHT";
+const REPRESS_OP_PAWN_ROOK = "REPRESS_OP_PAWN_ROOK";
+const REPRESS_OP_PAWN_ROOK_KNIGHT = "REPRESS_OP_PAWN_ROOK_KNIGHT";
+const REPRESS_OP_ROOK = "REPRESS_OP_ROOK";
+const REPRESS_OP_ROOK_KNIGHT = "REPRESS_OP_ROOK_KNIGHT";
+const SIEGE_OP = "SIEGE_OP";
+const TAX_OP = "TAX_OP";
+const VOTE_OP_EAST = "VOTE_OP_EAST";
+const VOTE_OP_WEST = "VOTE_OP_WEST";
+
+
+/**
+ * One shots
+ */
+const APOSTASY_ISLAMIC_CATHOLIC_ONE_SHOT = 'APOSTASY_ISLAMIC_CATHOLIC_ONE_SHOT';
+const APOSTASY_REFORMIST_CATHOLIC_ONE_SHOT = 'APOSTASY_REFORMIST_CATHOLIC_ONE_SHOT';
+const APOSTASY_REFORMIST_ISLAMIC_ONE_SHOT = 'APOSTASY_REFORMIST_ISLAMIC_ONE_SHOT';
+const CONSPIRACY_ONE_SHOT = 'CONSPIRACY_ONE_SHOT';
+const CORONATION_ONE_SHOT = 'CORONATION_ONE_SHOT';
+const CRUSADE_ONE_SHOT = 'CRUSADE_ONE_SHOT';
+const JIHAD_ONE_SHOT = 'JIHAD_ONE_SHOT';
+const PEASANT_REVOLT_ONE_SHOT = 'PEASANT_REVOLT_ONE_SHOT';
+const REFORMATION_ONE_SHOT = 'REFORMATION_ONE_SHOT';
+const TRADE_SHIFT_NOVGOROD_ONE_SHOT = 'TRADE_SHIFT_NOVGOROD_ONE_SHOT';
+const TRADE_SHIFT_RED_SEA_ONE_SHOT = 'TRADE_SHIFT_RED_SEA_ONE_SHOT';
+const TRADE_SHIFT_SPICE_ISLAND_ONE_SHOT = 'TRADE_SHIFT_SPICE_ISLAND_ONE_SHOT';
+const TRADE_SHIFT_TIMBUKTU_ONE_SHOT = 'TRADE_SHIFT_TIMBUKTU_ONE_SHOT';
+
+/**
+ * Special Abilities
+ */
+
+const SA_BEHEAD_EAST_CARD_WITH_BISHOP_ONLY = 'SA_BEHEAD_EAST_CARD_WITH_BISHOP_ONLY';
+const SA_BEHEAD_EAST_CARD_WITH_ISLAMIC_REFORMIST_BISHOP_ONLY = 'SA_BEHEAD_EAST_CARD_WITH_ISLAMIC_REFORMIST_BISHOP_ONLY';
+const SA_BEHEAD_WEST_CARD_WITH_CATHOLIC_REFORMIST_BISHOP_ONLY = 'SA_BEHEAD_WEST_CARD_WITH_CATHOLIC_REFORMIST_BISHOP_ONLY';
+const SA_CARD_COUNTS_AS_REPUBLIC_FOR_RENAISSANCE_VICTORY_1 = 'SA_CARD_COUNTS_AS_REPUBLIC_FOR_RENAISSANCE_VICTORY_1';
+const SA_CARD_COUNTS_AS_REPUBLIC_FOR_RENAISSANCE_VICTORY_2 = 'SA_CARD_COUNTS_AS_REPUBLIC_FOR_RENAISSANCE_VICTORY_2';
+const SA_CONCESSIONS_2X_SPICE_ISLANDS_TRADE_FAIRS_1 = 'SA_CONCESSIONS_2X_SPICE_ISLANDS_TRADE_FAIRS_1';
+const SA_CONCESSIONS_2X_SPICE_ISLANDS_TRADE_FAIRS_2 = 'SA_CONCESSIONS_2X_SPICE_ISLANDS_TRADE_FAIRS_2';
+const SA_CONCESSIONS_2X_TRADE_FAIRS_VOTES = 'SA_CONCESSIONS_2X_TRADE_FAIRS_VOTES';
+const SA_CONCESSIONS_CANNOT_BE_KILLED_BY_PIRATES = 'SA_CONCESSIONS_CANNOT_BE_KILLED_BY_PIRATES';
+const SA_CORONATION_CAN_CLAIM_MARRIED_KINGS = 'SA_CORONATION_CAN_CLAIM_MARRIED_KINGS';
+const SA_DECLARE_GLOBALIZATION_COSTS_TWO_ACTIONS = 'SA_DECLARE_GLOBALIZATION_COSTS_TWO_ACTIONS';
+const SA_DECLARE_HOLY_COSTS_TWO_ACTIONS = 'SA_DECLARE_HOLY_COSTS_TWO_ACTIONS';
+const SA_DECLARE_IMPERIAL_COSTS_TWO_ACTIONS = 'SA_DECLARE_IMPERIAL_COSTS_TWO_ACTIONS';
+const SA_DISCARD_TO_LAUNCH_PEASANT_REVOLT = 'SA_DISCARD_TO_LAUNCH_PEASANT_REVOLT';
+const SA_EAST_AND_WEST_OPS_IN_ONE_ACTION = 'SA_EAST_AND_WEST_OPS_IN_ONE_ACTION';
+const SA_EMPORIUM_SUBSIDY_2_FLORINS = 'SA_EMPORIUM_SUBSIDY_2_FLORINS';
+const SA_FREE_EASTERN_OPS = 'SA_FREE_EASTERN_OPS';
+const SA_FREE_WESTERN_OPS = 'SA_FREE_WESTERN_OPS';
+const SA_FREE_TRADE_FAIR = 'SA_FREE_TRADE_FAIR';
+const SA_GREEN_PIRATES_COUNT_AS_RED_BISHOPS_AND_UNITS = 'SA_GREEN_PIRATES_COUNT_AS_RED_BISHOPS_AND_UNITS';
+const SA_IMMUNE_TO_APOSTASY = 'SA_IMMUNE_TO_APOSTASY';
+const SA_IMMUNE_TO_SILENCING = 'SA_IMMUNE_TO_SILENCING';
+const SA_IN_CRUSADE_COUNT_ROOKS_AS_KNIGHTS = 'SA_IN_CRUSADE_COUNT_ROOKS_AS_KNIGHTS';
+const SA_PERFORM_APOSTASY_AS_AN_ACTION = 'SA_PERFORM_APOSTASY_AS_AN_ACTION';
+const SA_PATRON_COUNTS_AS_CONCESSION_IN_GLOBALIZATION_VICTORY_1 = 'SA_PATRON_COUNTS_AS_CONCESSION_IN_GLOBALIZATION_VICTORY_1';
+const SA_PATRON_COUNTS_AS_CONCESSION_IN_GLOBALIZATION_VICTORY_2 = 'SA_PATRON_COUNTS_AS_CONCESSION_IN_GLOBALIZATION_VICTORY_2';
+const SA_PATRON_COUNTS_AS_GREEN_BISHOP_YOUR_HOLY_VICTORY = 'SA_PATRON_COUNTS_AS_GREEN_BISHOP_YOUR_HOLY_VICTORY';
+const SA_PATRON_COUNTS_AS_LAW_IN_RENAISSANCE_VICTORY_1 = 'SA_PATRON_COUNTS_AS_LAW_IN_RENAISSANCE_VICTORY_1';
+const SA_PATRON_COUNTS_AS_LAW_IN_RENAISSANCE_VICTORY_2 = 'SA_PATRON_COUNTS_AS_LAW_IN_RENAISSANCE_VICTORY_2';
+const SA_PATRON_COUNTS_AS_LAW_IN_RENAISSANCE_VICTORY_3 = 'SA_PATRON_COUNTS_AS_LAW_IN_RENAISSANCE_VICTORY_3';
+const SA_PATRON_REDUCES_VOTE_OPS_COST = 'SA_PATRON_REDUCES_VOTE_OPS_COST';
+const SA_PORTUGAL_FRANCE_NOT_ADJACENT = 'SA_PORTUGAL_FRANCE_NOT_ADJACENT';
+const SA_REPRESSED_TOKENS_COUNTS_AS_KNIGHT_IN_EAST_CAMPAIGN = 'SA_REPRESSED_TOKENS_COUNTS_AS_KNIGHT_IN_EAST_CAMPAIGN';
+const SA_SELL_AND_EMANCIPATE_ALL_REPRESSED_TOKENS_IN_THE_WEST = 'SA_SELL_AND_EMANCIPATE_ALL_REPRESSED_TOKENS_IN_THE_WEST';
+const SA_SELL_AND_PERFORM_ONE_SHOT = 'SA_SELL_AND_PERFORM_ONE_SHOT';
+const SA_SELL_AND_PERFORM_PURPLE_OP_FROM_OPPONENT = 'SA_SELL_AND_PERFORM_PURPLE_OP_FROM_OPPONENT';
+const SA_SELL_FOR_4 = 'SA_SELL_FOR_4';
+const SA_UNLIMITED_HAND_SIZE = 'SA_UNLIMITED_HAND_SIZE';
+const SA_VENICE_CAN_HOLD_TWO_GOLD_TOKENS = 'SA_VENICE_CAN_HOLD_TWO_GOLD_TOKENS';

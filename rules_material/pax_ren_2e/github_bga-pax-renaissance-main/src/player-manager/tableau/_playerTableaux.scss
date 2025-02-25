@@ -1,0 +1,192 @@
+@use "sass:math";
+@use "../../base";
+
+#pr_player_tableaux {
+  display: flex;
+  flex-direction: column;
+  --paxRenCardInTableauScale: 1;
+  --paxRenTableauScale: var(--paxRenRightColumnScale);
+  --paxRenCardScale: var(--paxRenRightColumnScale) *
+    var(--paxRenCardInTableauScale);
+  --paxRenTokenScale: var(--paxRenRightColumnScale) *
+    var(--paxRenCardInTableauScale);
+  // min-height: calc(var(--paxRenTableauScale) * 400px);
+  min-width: calc(var(--paxRenTableauScale) * 1500px);
+  // width: 100%;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.pr_player_tableau {
+  position: relative;
+  // min-height: 200px;
+  display: flex;
+  // flex-direction: row;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 8px;
+  padding: 8px;
+}
+
+.pr_player_tableau:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  // background-color: ivory;
+  background-color: #f8f8f8;
+  z-index: -1;
+}
+
+.pr_player_tableau_title {
+  font-weight: bold;
+  font-size: large;
+  word-wrap: break-word;
+  width: 100%;
+  margin: 10px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  .pr_tableau_title_icon_container {
+    width: 160px;
+    // background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 8px;
+  }
+
+  .pr_title {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+  // display: flex;
+  // flex:
+  // margin-right: 126px;
+  // flex-grow: 1;
+}
+
+.pr_player_tableau_title[data-show-counters="disabled"] {
+  .pr_tableau_title_icon_container {
+    display: none;
+  }
+}
+
+.pr_player_tableau_cards_container {
+  // background-color: yellow;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.pr_player_tableau_cards_container[data-overlap="enabled"] {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 16px;
+  padding-top: 8px;
+}
+
+.pr_player_board_tableau_cards {
+  // min-height: 229px;
+  // background-color: blue;
+  flex-grow: 1;
+  align-items: center;
+  gap: calc(var(--paxRenTableauScale) * 12px);
+}
+
+.pr_player_board_tableau_cards[data-region="west"] {
+  // justify-content: flex-end;
+  flex-direction: row-reverse !important;
+}
+
+.pr_player_board_tableau_cards[data-overlap="enabled"] {
+  flex-wrap: nowrap !important;
+}
+
+.pr_player_board_tableau_cards[data-region="east"][data-overlap="enabled"]
+  > .card:nth-child(n + 2) {
+  margin-left: calc(var(--paxRenCardScale) * -110px);
+}
+
+.pr_player_board_tableau_cards[data-region="east"][data-overlap="enabled"][data-overlap-empire-squares="disabled"]
+  > .pr_empire_square_container:not(:last-child) {
+  // .pr_empire_square:not(:last-child) {
+  margin-right: calc(var(--paxRenCardScale) * 110px);
+  // }
+}
+
+.pr_player_board_tableau_cards[data-region="west"][data-overlap="enabled"][data-overlap-empire-squares="disabled"]
+  > .pr_empire_square_container:not(:last-child) {
+  // .pr_empire_square:not(:last-child) {
+  margin-left: calc(var(--paxRenCardScale) * 110px);
+  // }
+}
+
+.pr_player_board_tableau_cards[data-region="west"][data-overlap="enabled"]
+  > .card:nth-child(n + 2) {
+  margin-right: calc(var(--paxRenCardScale) * -110px);
+}
+
+/**
+* PLAYER BOARDS
+*/
+
+.pr_old_maids_container {
+  margin-bottom: calc(var(--paxRenCardScale) * -230px);
+  height: calc(var(--paxRenCardScale) * 230px);
+}
+
+.pr_old_maids_container[data-has-old-maids="true"] {
+  margin-bottom: calc(var(--paxRenCardScale) * -190px);
+}
+
+.pr_player_board_container {
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.pr_player_board {
+  position: relative;
+  background-size: 200% 100%;
+  height: calc(var(--paxRenCardScale) * 400px);
+  min-width: calc(var(--paxRenCardScale) * 295px);
+}
+
+.pr_player_board[data-color="blue"] {
+  background-image: url("img/player_boards1.png");
+  background-position-x: 0%;
+}
+
+.pr_player_board[data-color="green"] {
+  background-image: url("img/player_boards1.png");
+  background-position-x: 100%;
+}
+
+.pr_player_board[data-color="purple"] {
+  background-image: url("img/player_boards2.png");
+  background-position-x: 0%;
+}
+
+.pr_player_board[data-color="yellow"] {
+  background-image: url("img/player_boards2.png");
+  background-position-x: 100%;
+}
+
+.pr_player_board[data-color="black"] {
+  background-image: url("img/player_boards3.png");
+  background-position-x: 0%;
+}
+
+.pr_player_board[data-color="white"] {
+  background-image: url("img/player_boards3.png");
+  background-position-x: 100%;
+}

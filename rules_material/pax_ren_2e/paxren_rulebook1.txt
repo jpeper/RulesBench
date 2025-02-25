@@ -1,0 +1,3131 @@
+BOOK 1
+
+RULES
+Updated Dec 1, 2020
+
+Updated Mar 11, 2021
+Updated Dec 1, 2020
+
+A. SUMMARY
+A1 - INTRODUCTION
+
+s a Renaissance banker1, you will finance kings and republics, sponsor voyages of discovery, join secret
+cabals, and unleash jihads and inquisitions. Your choices determine if Europe is elevated into the bright
+modern era or remains festering in dark feudalism. Four victories determine the future course of Western
+Society: will it be towards imperialism, trade globalization, religious totalitarianism, or enlightened art
+and science?2
+a.	Terms. Capitalized terms (e.g., Prestige) or terms in all-caps (e.g. See PRESTIGE) are defined in the
+glossary. Bold indicates the term is being defined. Italics indicate the term is defined elsewhere,
+usually in the referenced section.
+b. Time Scale. Each turn represents two years in the time period from 1460 to 1530.
+c.	Rules Layout. The rules are divided into two parts: sequential processes and alphabetical terms.
+The sequential rules describe processes arranged in the order you meet them in a typical game:
+setup (C), sequence of play (D), actions (E), operations (F), trade fairs (G), One-shots (H - K), and
+victory (L). Although useful for learning to play, the processes are not comprehensive without
+the game terms. These terms and other details are listed alphabetically in the glossary, where
+they serve as an easily-found reference during a game and do not bog the sequential rules with
+unnecessary minutiae.
+d.	Golden Rule. If the text on a card contradicts these rules, the card has precedence. If text on a
+play aid contradicts these rules, the rules have precedence.
+
+A2 - FLOW OF PLAY OVERVIEW
+
+Each player takes a turn in a clockwise fashion. On your turn, choose two actions (E1 - E6) and then
+perform a market refresh (D2).
+a.	Actions. You may purchase a faceup Market Card to add to your Hand, play a card from your
+Hand into the row of faceup cards in front of you (your TABLEAU), sell a card for cash, enable the
+operations (Ops) of your cards in either the East or West side of your Tableau, Discard a facedown
+Market Card to stimulate the economy with a trade fair, or declare victory. You must take at least
+one of your two actions.
+b.	Play Card. Upon card play, you may place the Agents depicted according to the Location listed. If
+you place an Agent on a City or Border, this must replace any Token already present there (E2.2).
+c.	One-Shots. If playing a card with the bomb icon, you may perform its One-shot, which places
+an Agent and can realign trade, or weaken and seize an Empire. For details, see coronations (I),
+conspiracies (J1), peasant revolts (J2), Religious Wars (K1), apostasy (K3), or trade shift (H1).
+d.	Trade Fair. Convening a trade fair will Discard the facedown card in either the East or West Market.
+This starts a trade fair voyage (G2) which distributes profits (G3) and raises Levies (G4) as it follows
+the East or West Trade Route. If there is not much profit, the voyage will be short (G5).3
+
+1
+
+RENAISSANCE BANKERS, what do you know about them? That they were rapacious, greedy, and fabulously rich? That they purchased Kaisers
+and Kings? What you don’t know is that they were the first capitalists, the first to overcome the tyranny of warlords. As they vanquished
+medieval feudalism, they steered the Western World out of the Dark Ages and into the world of 747s, skyscrapers, and Coca-Cola. This is the
+thesis of the game.
+
+2
+
+RELEVANCE OF HISTORY. Today’s intellectuals and professors routinely label the Renaissance as an irrelevant and eurocentric illusion of
+progress. Indeed, they smear all of history as “written by the winners”, denigrate all knowledge as “culturally biased”, and dismiss all truth
+as “subjective”. Plato would have been proud. Small wonder that students find history irrelevant - why waste time studying a set of dates and
+power struggles if meaning and knowledge are impossible? But history is relevant to one’s own time. One can understand other times and
+cultures, and use this in our own time. Westernization replacing serfdom is a good thing. A recommended book is Stephen Greenblatt’s “The
+Swerve, How The World Became Modern”.
+
+3
+
+RENAISSANCE. “It took more than a revival of antiquity to make the Renaissance...it took money - small bourgeois money: the profits of skillful
+managers and underpaid labor, of hazardous voyages to the East and laborious crossing of the Alps, to buy goods cheap and sell them dear, of
+careful calculations, investments, loans, of interest and dividends accumulated until enough surplus could be spared from the pleasures of the flesh,
+from the purchase of senates, signories, and mistresses, to pay a Michelangelo or a Titian to transmute wealth into beauty, and perfume a fortune with
+the breath of art. Money is the root of all civilization...Doubting the dogmas of the Church, no longer frightened by the fear of hell, and seeing the clergy
+as epicurean as the laity, the educated Italian shook himself loose from intellectual and ethical restraints, his liberated senses took unabashed delight in
+all embodiments of beauty in woman, man, and art, ...” —Will Durant, The Complete Story of Civilization, 1954.
+
+2 | PAX RENAISSANCE | BOOK I - RULES
+
+A3. OBJECTIVE OF THE GAME
+
+There will be two Comet cards, functionally identical, placed towards the end of each of the two draw
+decks. If you purchase one from the Market, you immediately choose one of the four Victory Squares
+(holy, imperial, globalization, or Renaissance) to become active.
+a.	Activation. Once a Victory Square is active, any player may spend an action on his turn to declare
+victory if he has met the listed conditions of that particular Victory Square. See Part L.
+
+A4. CHANGES FROM 1ST EDITION
+1. New Components include wooden tokens for Pirate ships, Pawns for Concessions and Serfs,
+placards for Player Boards, and squares for Victory & Empires.
+2. Extra Map Cards. These allow the mounted gameboard to be left behind for small game portability.
+3. Player’s Guide (Book II). This adds the solitaire game, “Push-Start” playthrough, Strategy and
+Frequently-Asked Questions.
+4. Expanded rules include Dalmatians, Cryptography, Condottieri, apostasy, and the solitaire game.
+5. New Emporium & Trade Route. This adds a white Trade Route to the Red Sea.
+6. Thrones. These allow storage of Queens, Bishops, and Repressed Tokens even if the King is not in any
+Tableau.
+7. 4 States have been added to each Empire, making possible a Medieval Papal States, Catholic
+England, Orthodox Greece, or other possibilities not possible in the 1st edition.
+
+BOOK I - RULES | PAX RENAISSANCE | 3
+
+B. COMPONENTS
+B1. GAME CONTENTS
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Rulebook (You are reading it).
+Player’s Guide.
+188 Cards; 168 Tableau & 20 Map.
+14 Tiles; 10 Empire Squares & 4 Victory Squares.
+1 Mapboard.
+4 Player Boards (on punchout board).
+13 Pirate Ships (6 gold galleys, 4 green galleys, 3 red round ships).
+40 Pawns; 10 in each of four player colors (yellow, purple, green, blue).
+15 Bishops; Chess Bishops (5 gold, 5 green, and 5 red) representing inquisitors.
+24 Rooks; Chess Castles (10 gold, 7 green, and 7 red) representing nobles.
+24 Knights; Chess Knights (10 gold, 7 green, and 7 red) representing heavy cavalry.
+37 Florin Disks; 33 yellow disks worth 1 Florin each, and 4 red disks worth 5 Florins each.4
+4 Busted Disks; 2 white and 2 black disks, representing busted Emporia.
+
+B2. GAMEBOARD ANATOMY
+a. Empires (10). These slots store a Map Card (B6) if a Theocracy is formed.
+b.	Medieval vs. Theocracy. The Papal States and Mamluk start Theocratic, shown by the Catholic
+crucifix and the Islamic crescent. The remaining Empires, with no religious icons, start Medieval.5
+c.	Borders (13) are the 10mm of space between each Empire. They are used to place Concessions
+(including a player’s start Concession indicated by his heraldic escutcheon) or Pirates.
+d.	Thrones (10). An Empire Square stored in a gameboard slot is not in the Tableau of any player.
+e. Draw Deck Slots & Market Slots. Two rows, one East and one West.
+f. Victory Slots (4). The four Victory Squares are stored here.
+g. China. Florins not controlled by players are stored here. See CHINA.
+h. Emporia (6). All but two of the six are always busted. See EMPORIUM.
+
+B3. PLAYER BOARDS
+
+You start with one of the four Player Boards (C2) in your Tableau.
+
+B4. EMPIRE SQUARES
+
+The ten two-sided Empire Squares start in the Throne (B2d) next to their Location. While here, they
+remain uninfluenced by any player. Whenever you acquire an Empire Square, whether through a Oneshot (E2), vote (F6) or campaign (F9), place it into your Tableau (East or West) with its King side (gold
+frame) faceup. If it becomes a Republic,6 turn its pillar-frame side faceup. While in your Tableau, treat
+both Kings and Republics as tableau cards.
+a. Op and Prestige Icons. If present, these are as described in Part F and B5c,d.
+
+4
+
+THE FLORENTINE REPUBLIC was already over a century old when it first privately minted the florin in 1252. This coin reintroduced the gold
+standard to Europe, and the reputation of the Florentine banks quickly made the florin the dominant trade coin of Europe. Thus a Republic
+became the birthplace of banks, capital, and the Renaissance. Unlike other currencies, the florin was never debased (diluting gold with base
+metals, or manipulating the gold-silver ratio), a common form of disguised taxation by royals. The only comparable European region with such
+conservatism in mint policies was England, whose strong Parliament blocked royal greed.
+
+5
+
+MEDIEVAL FEUDALISM had dominated for a thousand years at the start of the game, and could have easily lasted another thousand.
+The warlord in his castle was a micro-government, overseeing toiling serfs in his fields. The serfs, indistinguishable from slaves by most
+definitions, were legally tied to the land and owned by their lord. They had no hope that their sons might do better, or even a concept of
+betterment. Those who claim that money is the root of all evil should note that there was little to no coinage or money in medievalism,
+which is sustained by the unpaid enforced labor of the serfs. Endless warfare ensued as neighboring fiefs battled each other for land, the only
+commodity. Liberation from feudalism and serfdom came from an unlikely source with no swords and no power: the merchants and bankers.
+
+6
+
+THE RENAISSANCE REPUBLICS that sprung up in the mercantile zones along the coasts of the North, Tyrrhenian, and Adriatic Seas were
+ruled by the vote of committees of guild elders. Although England and the Holy Roman Empire were not republics, they also had electoral
+colleges whose vote became important for freedoms and reform. In a Republic, rulers are subject to the laws just like anyone else, and have
+been stripped of the power to arbitrarily change them. Stability is maintained by separation of power rather than the divine right to rule.
+
+4 | PAX RENAISSANCE | BOOK I - RULES
+
+Components
+
+Empire
+Squares (10)
+
+Rulebook
+
+Victory
+Squares (4)
+
+Pirate ships (13)
+
+Player´s Guide
+
+Florin disks (37)
+Mapboard
+Busted disks (4)
+
+Player Boards (4)
+
+Tableau cards (168)
+
+Map cards (20)
+
+Pawns (40)
+
+Rooks (24)
+
+Player Board
+
+Knights (24)
+
+Bishops (15)
+
+Empire Square
+Republic Side Shown
+Ionic Pillar
+(= Republic)
+
+Location
+
+Starting
+Concession
+
+Bank
+escutcheon
+
+Prestige
+
+Concession
+(placed when
+Regime Change)
+West Tableau
+(to the left)
+
+Op (political)
+
+East Tableau
+(to the right)
+
+Player Yellow (Medici)
+
+Ops column
+(white banner
+= West)
+
+Op (economic)
+
+Empire (English Republic)
+
+Easily Missed: The color of the Ops banner (black = East, white = West) indicates which trade deck it belongs
+in and which side of your Player Board to play the Tableau card or Empire Square. This does not confer special
+location rules to the card. A few cards (e.g. Brotherhood of St. Mark) are Westerners who operated in the East
+(and vice versa). Such “crossover” cards are useful to allow Bishops to shift between the West and the East. [B5]
+
+BOOK I - RULES | PAX RENAISSANCE | 5
+
+B5. TABLEAU CARDS
+
+The East and West tableau cards represent personalities who inhabited Europe from 1460 to 1530.
+The following card features are listed:
+a. Ops Column. A banner containing the icons, Ops, and Abilities available while the card is in your
+Tableau. A black banner indicates an Eastern philosophy,7 while a white banner indicates the West.8
+b.	Location. Agents are placed in the Location indicated, either set on one of its Cities (Knights or
+Rooks), one of its Borders (Pawns or Pirates), or on a Tableau Card with the listed Location (Bishops).
+See E2.2 for placement. See LOCATION.
+c. Prestige. Some cards have a Prestige Icon, with a gold diamond backdrop, relevant for victory.
+d. Ops. Operations (F) that can be done if activated by an action E4.
+e.	One-Shot. A bomb icon indicates that the play of this card can trigger a One-shot, either
+trade shift, coronation, Civil War, or Religious War as indicated. Bomb icons for trade
+shifts are black or white, and Religious Wars are in religious colors (jihad is shown).
+f.	Abilities. Some cards have an Ability listed in a scroll frame. Abilities are active if in
+your Tableau, and, unlike Ops, are activated even if the East or West Ops are not run.
+g.	Agents. This depicts a number of Agent Tokens, and their religious color (gold = Catholic, green =
+Islamic, red = Reformist). You decide if an Agent is placed when you play the card into your Tableau
+(E2). If the Agent icon is a gray Pawn, this indicates that you deploy a Pawn in your player color.9
+
+B6. MAP CARDS
+
+There are 20 Map Cards, two per Empire, which are used to modify the map of Europe and the
+Mediterranean.10 Each is double-sided, with each side showing a possible THEOCRACY or medieval state
+of the Empire. They start the game in a stack and are placed in an Empire if a Theocracy is formed (K2a).
+a.	Cities. A CITY is a Knight or Rook icon enclosed by a circle on the map. Each is of a color indicating
+its Religion. If its name is in all capital letters, it is the capital.
+b.	Trade Routes. The white and black lines are Trade Routes, running from a start Emporium
+(marked by a nine-pointed star) to its end (marked by an arrowhead).
+c.	Concessions. These are Pawns placed in BORDERS, the gap between two Empires. Each player
+starts with a Concession placed in the Border marked with their bank escutcheon (in Lisbon,
+Florence, Augsburg, and Alexandria).
+d.	Emporia. A City surrounded by a nine-pointed star is called an EMPORIUM. They are
+Trebizond, Spice Islands, and Red Sea (white), and Tana, Novgorod, and Timbuktu (black).
+
+7
+
+THE EAST-WEST DICHOTOMY is most apparent in the inward-looking religions and medical practices usually associated with the East,
+as contrasted with their outward-looking Western counterparts. Eastern thought is possessed by the idea that consciousness controls
+existence, and true knowledge comes from introspection, bypassing the external world. Western philosophy holds the opposite, that
+consciousness is a subset of existence, and that knowledge of existence comes only from objective extrospection. An Eastern doctor uses
+meditation, acupuncture, and the occult to find a patient’s “inner power” of self-healing, in sharp contrast to the microscopes, X-rays, and
+surgery of Western Medicine. “Mind over matter” versus “Nature bats last”. This division is clear in today’s world of anti-West suicide bombers,
+but in the Middle Ages it was the Islamic world that was “Western” in its philosophy while Europe was steeped in mysticism. The Renaissance
+represents a fundamental role reversal in thought.
+
+8
+
+THE WEST refers not to a geographic location but to a philosophic and cultural disposition. Western people and nations are those that
+substantially (if imperfectly) embrace and uphold certain Enlightenment values, including: the principle that reason (i.e., observation
+and logic) is man’s means of knowledge; the principle that individuals have moral rights to life, liberty, and the pursuit of happiness; and the
+principle that political freedom—including freedom of conscience and expression—is essential to civilized society. —Craig Biddle, 2016.
+
+9
+
+FORCE VS. PERSUASION. As in other Pax games, the cards and Tokens are divided into two social classes: agents of persuasion and agents of
+force. The agents of persuasion (serfs, merchants, slaves) are pawns. These commoners have no power but earn their sustenance through
+voluntary transactions with others, offering goods and services. The agents of force (royals, ruling class nobility, pirates) are the remaining chess
+pieces. They have the swords and armies to enforce involuntary transactions. Defining a government as the agency with a monopoly of force,
+these include government bureaucrats, viziers, inquisitors, tax collectors, and warriors.
+
+10
+
+MODERN STATES & ECONOMIES developed in Europe, and not in the much older and more populous cultures in China and India.
+Late Manchu China with a population of 400 million supported fewer than 2% of the population as non-producers such as nobility
+and warlords. This compares with almost 15% of the 40 million in France, Germany, and Britain who had risen above serfdom. Europeans
+commanded more working capital per head than the Asians, mainly in the form of livestock. As a corollary they ate more meat and livestock
+products, so far as archaeological or literary evidence can tell us. Europeans disposed of more energy in the form of water power. The
+distribution of income in Europe was unusually equal, that is to say not equal at all but with a flatter Lorenz curve than obtained in Asia. This was
+reflected in the sense of dismay with which many early European travelers to Asia reported on the depths of poverty among the masses and
+the heights of prodigality among the rich.... —Eric Jones, The European Miracle, 2008.
+
+6 | PAX RENAISSANCE | BOOK I - RULES
+
+Tableau Card
+
+Ops column
+(black banner = East)
+Location
+Prestige (Islamic)
+Op (political)
+Op (military)
+Op (religious)
+
+Agent
+(green Bishop)
+Bomb icon (green)
+
+One-shot (Religious War)
+
+East Tableau Card (reverse)
+
+Map Card
+City (Levy is
+a gold Rook)
+
+Land Border
+(No Pirates allowed)
+
+Sea Border
+
+Theocracy Icon
+(Muslim)
+
+Arrowheads
+(end of both
+black Trade Routes)
+
+Ring (indicates the
+Emporium starts busted)
+
+Bank Escutcheon
+(Cœur’s starting Pawn)
+
+White Emporium
+(start of the white
+Trade Route if not Busted)
+
+Mamluk Capital
+(starts with a green Rook)
+Muslim Theocracy Map Card
+
+Location (Mamluk)
+(◊ indicates this is a
+starting Map Card)
+
+Trade Route
+
+Emporium
+(start)
+
+Busted Disk
+
+Arrowhead
+(end)
+FAQ Busted Disks: For the 3 white Emporia, one is always uncovered, and the other two are
+covered by a white busted disk. The same is true for the 3 black Emporia. Any Emporium covered
+by a disk cannot start a trade fair and cannot have Agents or Levies played in it. Any Tokens on an
+Emporium that becomes covered by a disk (due to a trade shift) are immediately Repressed. [B6d]
+
+BOOK I - RULES | PAX RENAISSANCE | 7
+
+B7. COMET CARDS & VICTORY SQUARES
+a. Comets. These 4 cards are mixed into the last 12 cards of both draw decks during setup (C5).
+b.	Victory Squares. These 4 tiles start inactive (facedown) in the four slots provided on the
+gameboard. One is flipped to its active side each time someone buys a Comet. Thereafter, if any
+player spends a victory action (E6) and has met the conditions listed on an active Victory Square,
+the game ends with that player as the winner.11
+
+C. SETUP
+C1. POPULATING THE 1460 MAP
+
+he Map and Throne slots indicate ten EMPIRES: England, France, Holy Roman Empire (HRE), Hungary, and
+Byzantium to the north, and Portugal, Aragon, Papal States, Ottoman, and Mamluk to the south.
+a.	Busted Emporia. Place a black disk over both Timbuktu and Novgorod, and a white disk over both
+the Spice Islands and the Red Sea. An Emporium (B6d) is not in play and can hold no Tokens until
+and unless the disk covering it is moved to another Emporium through a trade shift One-shot (H1).
+b.	No Map. If (for space reasons) you do not use the gameboard, for the starting Map arrange the
+10 starting Map Cards (the ones that depict a small “◊” after the Empire name) into a 2 x 5 matrix.
+Arrange the other components next to this Map.
+c.	1550 Map Variant. This variant occurs after Reformation has started to sweep Europe. Use the
+regular setup, except place a Reformist England Map Card on England, and a Reformist Holy
+Roman Empire Map Card on the HRE.
+
+C2. PLAYERS & STARTING CONCESSIONS
+
+Each player randomly receives a Player Board, which indicates their player color and escutcheon
+(heraldic shield). Up to four players can play. Each player places a Pawn of his color in the Border
+specified (indicated on the map with the bank’s escutcheon):
+a.	Fugger Bank Start Concession. Place a blue Pawn in Augsburg (Border between France/
+Holy Roman Empire).
+b.	Medici Bank Start Concession. Place a yellow Pawn in Florence (Aragon/Papal States Border).12
+c. Cœur Bank Start Concession. Place a purple Pawn in Alexandria (Ottoman/Mamluk Border).13
+d. Marchionni Bank Start Concession. Place a green Pawn in Lisbon (England/Portugal Border).14
+
+11
+
+BANKING promotes the economy by facilitating lending, payments, and trade in risk. While lending often steals the limelight, the role
+of the banks in facilitating payments and trade in risk is no less essential. The Italian bankers cashed checks, issued letters of credit, and
+exchanged merchandise as well as credit. Florentine bankers invented double-entry bookkeeping (since at least 1382), the written order of
+payment, and insurance for voyages. The Florentine rates of exchange (about 10%) fixed the rates for all the currencies of Europe.
+—Meir Kohn, 1999.
+
+12
+
+COSIMO DE’ MEDICI, while rich and influential, never entered politics or enjoyed the force of arms. A humanist, he spent vast
+sums sponsoring Florentine artists and scholars. By the time of his death in 1464, Cosimo had made his bank the richest
+in Europe, with branches in Venice, Pisa, Milan, Bruges, Avignon, Lyons, Geneva, and London. Forced war loans to Sforza of Milan,
+Edward IV of York, and Charles the Bold closed three of these branches. His son, Lorenzo the Magnificent, carried his tradition after
+barely surviving a 1478 assassination attempt by a rival banking firm. The Florentine bank was burned by a mob incited by the Pope
+and Savonarola in 1494, exiling the Medici for 18 years.
+
+13
+
+JACQUES COEUR, looking and dressing like Lawrence of Arabia instead of a French merchant, pioneered the spice trade
+with the Levant. He owned a fleet of galleys, a great warehouse in Montpellier, and banks in Barcelona, Avignon, Lyons, Paris,
+Rouen, Bruges, and the Levant. For financing Charles VII’s invasion of Normandy in the Hundred Years War, Cœur was summoned
+to Paris, knighted and made master of the mint. But in 1451 Charles had him arrested on trumped-up charges and confiscated
+everything he owned. Cœur escaped two years later, and narrowly eluded his pursuers to start his career over in Rome.
+
+14
+
+THE MARCHIONNI FAMILY imported slaves, mainly females, from Caffa in the Crimea to work as domestic servants. After Caffa
+was shut down by the Turks in 1475, the family sent their scion Bartholomeu to Lisbon, to work in the nascent West African
+slave trade. Starting as an office boy in the Florentine Cambini Bank, he became Portugal’s wealthiest banker and trader in African
+slaves from Guinea. Even after the Cambini Bank went bankrupt in 1482, Bartholomeu Marchionni maintained a lease on the Niger
+Delta, and financed Vespucci and Vasco da Gama in their voyages. In 1518, one of his sons went to the Indies.
+
+8 | PAX RENAISSANCE | BOOK I - RULES
+
+Comet Card
+
+Victory Square
+
+Victory
+Activation
+Globalization Victory
+(active side shown)
+
+Setup
+
+Blue
+Pawn
+Bu
+Disksted
+
+Green
+Pawn
+Yellow
+Pawn
+
+B
+Disusted
+k
+
+Bu
+Disksted
+
+ple
+Purw
+Pa n
+Bu
+Disksted
+
+BOOK I - RULES | PAX RENAISSANCE | 9
+
+C3. PLAYER TABLEAUX
+
+To start his Tableau, each player places his Player Board in front of him. He will play East Tableau cards to
+the right of his Player Board, and West Tableau cards to the left.
+a.	Pawns. Each player places the 9 remaining Pawns of his color into his Reserves near his Player
+Board.
+
+C4. STARTING RULING CLASS
+
+Place one Token of the shape and color indicated in the capital of each Empire. The capital has the
+name of the City all in capital letters (e.g. PARIS). Other Cities start empty.
+a. Constantinople starts with three Tokens (two green Knights and a green Rook).
+
+C5. PREPARING THE EAST & WEST DRAW DECKS
+Separate the tableau cards into two piles, one East and the other West.
+
+a.	East Draw Deck. Take 12 random facedown East cards and shuffle the two East Comet cards into
+them. To the top of this 14-card deck add 4 additional random East cards for each player in the
+game (e.g. for a three-player game add 12 cards, so 26 in total).
+b.	West Draw Deck. Do the same for a draw deck containing the West cards plus the two West
+Comet cards, placed just above the East draw deck.
+c.	Astrology Variant (optional). As part of Setup and Market Refresh, turn the top card of each
+Draw Deck faceup, visible but not available for purchase. This option allows players to “see into the
+future”.
+
+C6. THE MARKET, THRONES, & VICTORY SQUARES
+a.	Market. Deal 6 cards from the East draw deck to form a row of six faceup cards where indicated
+on the gameboard, and then flip facedown the leftmost one (furthest from the draw deck). Do the
+same for the West draw deck. These two facedown cards represent the East and West trade fairs
+(Part G).
+b.	Fill Thrones. The ten Empire Squares are placed King side up in the slots next to their respective
+Empires.
+c.	Victory Squares. The four Victory Squares are placed on the gameboard where indicated, with
+the inactive side faceup.
+
+C7. STARTING FLORINS
+
+Randomly determine a first player. If the Fugger Bank (blue) is in the game, this player is always the first
+player.15 The first player receives 3 Florins (3 yellow disks), the second player (clockwise) = 4 Florins, the
+third player (if any) = 5 Florins, and the fourth player (if any) = 6 Florins.
+a.	China. Place the remaining Florin disks onto the gameboard in the region called China.
+b. The First Player now takes his turn.
+
+15
+
+BANKING, like the Renaissance itself, was Italian by birth. Italian banks dominated until about 1480, when the Fugger and other German
+banks arose in the free cities of Augsburg and Nürnberg. Although the German banks were free of the papal usury prohibitions the
+Italian banks suffered under, they lagged far behind the Italians in accounting methods, such as double-entry bookkeeping.
+
+10 | PAX RENAISSANCE | BOOK I - RULES
+
+Setup
+
+Put
+remaining
+Florins here.
+
+Ruling Class
+(on Capitals,
+12 places)
+
+Victory Squares
+(inactive side up)
+
+Empires on
+Thrones
+(King side up)
+
+West Market
+& Draw Deck
+
+East Market
+& Draw Deck
+
+BOOK I - RULES | PAX RENAISSANCE | 11
+
+D. SEQUENCE OF PLAY
+D1. ACTION PHASE
+
+n your turn, you must perform either 1 or 2 actions (Part E), chosen from the list below. They can be
+performed in any order. You cannot choose an action unless it changes the game state in some way
+(e.g., if you choose to run Ops, there must be at least one Op with a valid target). The first three can be
+performed twice in one player turn, and the others once:
+(Max twice per turn)
+1. Purchase Market Card (E1). By paying Florins to the Market, take a faceup card into your Hand.
+2.	Play Hand Card (E2). This plays a card from your Hand into your Tableau, and optionally
+introduces Agent Tokens (Bishops, Knights, Rooks, Pawns, or Pirates) onto the Map or Tableau.
+• Bomb Icon. If the card has the One-shot (bomb) icon and you decide to trigger it, Agent
+placement is mandatory; see Parts H, I, J, K. If Victorious, this moves the Empire Square into your
+Tableau, adds a Concession of yours, and optionally emancipates the repressed.16
+See REGIME CHANGE.
+3. Sell Card (E3). Discard one card from your Hand or Tableau to receive 2 Florins from China.
+(Max once per turn)
+4.	Activate Eastern Ops (E4). Each card in your Eastern Tableau can perform one of its depicted
+Ops on each player turn. This action can be performed only once per player turn.
+5. Activate Western Ops (E4). As above but in your Western Tableau.
+6.	Convene an Eastern Trade Fair (E5). By Discarding the facedown card in the East Market, you
+embark on a voyage following the black Trade Route. Along the way, the owners of Concessions
+get paid, and Empires raise Levies. This action can be performed only once per player turn.
+See Part G.
+7.	Convene a Western Trade Fair (E5). Same as Eastern, except the voyage follows the white Trade
+Route.
+8. Victory Action (E6). This action wins the game if you meet the requirements per Part L.
+
+D2. REFRESH MARKET PHASE
+
+If there are gaps in the Market after you perform your actions, starting with the leftmost card, move each
+card in the Market (along with any Florins on it) to the leftmost empty position in its market row. Then
+draw new cards to fill any remaining empty market positions so there are again 6 cards in each row. To
+do this, draw cards from the respective East or West draw deck and fill the rows from the leftmost empty
+slot. If either of the cards in the leftmost column are faceup, flip them to their facedown (trade fair) side.
+a.	Facedown Cards may no longer be purchased (their historical protagonists are deemed to have
+withered into obscurity without financial backing).
+b.	Deck Exhaustion. If one deck (East or West) runs out, start drawing from the other instead.
+This will put West cards into the East market or vice versa.
+See Patron victory (L2a) if both decks run out.
+c. Round Robin. Continue play clockwise with the next player and his action phase.
+
+16
+
+ITALIAN EMANCIPATION. Slavery and serfdom declined in the Italian Renaissance, with a slave population of a fraction of a percent in
+most city-states and having died out entirely in Siena and Bologna. The latter republic seems to be the first in history to have banned
+slavery outright, with the 1256 Liber Paradisus. Fractions were higher (3-5%) in Venice and Genoa, purchased from the Black Sea slave markets
+of Caffa and Tana. Slave populations were much higher in the Italian colonies such as Chios, Cyprus, or Crete. The price of slaves was high,
+averaging 45 florins. Most (82%) were young women, as domestic servants and presumably for sexual services. Almost all of them originated
+from Eastern Europe and Central Asia, with a sprinkling from sub-Saharan Africa. The justification for slavery was religious rather than racial, as
+the Pope prohibited the enslavement of both Christians and citizens from lands whose rulers acknowledged the papal authority. Remarkably,
+there are records of a few successful petitions by slave women for their manumission based upon their Hungarian or Bosnian heritage. The
+impact of slavery on the Italian economy was insignificant, compared to neighboring Aragon and Portugal, and especially compared to the
+Ottoman Empire, the biggest slave trafficker in history.—Sally McKee, Domestic Slavery in Renaissance Italy, 2008.
+
+12 | PAX RENAISSANCE | BOOK I - RULES
+
+Easily Missed: If you run out of Tokens, you can take them from any Repressed Tokens, or (if this
+is not possible) from any position. [D1]
+
+Important: Certain card Abilities allow you to perform East Ops or West Ops without expending
+one of your 2 actions. Nevertheless, East Ops and West Ops can still only be performed once each per
+turn per D1. [D1.4, D1.5]
+
+1. West Icon
+
+2. East Icon
+
+Refresh Market Example
+
+Refresh Market Example: At the end of your turn, the East Market has no gaps, and the West Market
+has the 2 gaps shown. The cards and Florin slide to the left as shown, to fill the gaps, and 2 new cards are
+drawn from the draw deck. [D2]
+
+Easily Missed: If the West deck runs out of cards, draw cards into the West row from the East deck, and vice-versa.
+The game ends per L2a if a market refresh is attempted and there are no more cards to draw. [D2b]
+
+BOOK I - RULES | PAX RENAISSANCE | 13
+
+E. ACTIONS
+E1. PURCHASE MARKET CARD
+
+urchase a faceup card from the Market into your Hand.17
+a.	Hand Size. You are limited to two cards in your Hand. If you wish to purchase a third card you must
+first play (E2) or sell (E3) one already in your Hand.
+b Cost. The purchase price of a card depends on its current column in the Market. The first faceup
+Market card costs 1 Florin, the next 2 Florins, then 3 Florins, etc. Pay this cost by placing 1 Florin on
+each card in the same row to the left of the card you are purchasing. To purchase the facedown
+(leftmost) card, thus commencing a trade fair, see action E5.
+c.	Market Gap. If a market spot is vacant, pay the card in this spot in the other market row. (This
+might occur if you purchase two cards in one turn, or if you convene a trade fair in your first action.)
+d.	Speculation Profits. Take any Florins on the card you purchase (but you can’t use them toward
+that purchase).
+e.	Usury Laws. If you place a Florin on a Market Card for any reason, you may not purchase that card
+this turn (but you can commence a trade fair per E5).
+f. Comet. If you purchase a Comet, it is played immediately per L1, without Hand size limits.
+
+E2. PLAY HAND CARD & PLACE AGENTS
+
+Place an East card from your Hand to the furthest right side of your Tableau (next to existing cards),
+or a West card to the furthest left side. If the played card has a bomb icon18, you must first
+decide and announce if the listed One-shot (1) occurs, or (2) doesn’t occur/there is none.
+1. If One-Shot Occurs. You must deploy the card’s Agent(s):
+a.	Battle. If the One-shot is a Civil or Religious War, the Agent is a Rook, Knight, Pawn, or Pirate
+that can function as an attacker(s) in a Battle per Part J (conspiracies and peasant revolts) or Part K
+(crusades, reformations, and jihads). If some survive, they are Victorious and cause a REGIME CHANGE.
+Bishop Agents do not participate in the Battle but must be placed after the Battle per E2.2a below.
+b.	No Battle. If the One-shot is a trade shift or coronation, there is no Battle and its Agent(s) must be
+deployed. See E2.2 below for placement details.
+2. If No One-Shot. The placement of Agent Tokens is optional. You may place all, some, or none of
+them. If so, place the number and color indicated on the Map or Tableau per the following bullets.
+a.	Place Bishop Agent. Place it directly on the Tableau card played. Alternatively, you may
+place it on any Tableau card (even in an opponent’s Tableau) or Throne that has the same
+Location as the Tableau card being played. (See LOCATION.) If you place it on a card with a
+Token, apply the Diet of Worms rule (F1a) or the pacification rule (F1b).
+b.	Place Rook & Knight Agents. Place these into your choice of Cities on the
+Empire specified. If you choose a City occupied by a Token, you must Repress
+it, and pay 1 Florin to China for each Token repressed. A placed Agent can even
+Repress a Token of the same type and color in this manner.
+c.	Place Pirate Agents. Take a pirate ship of the specified color and place it as a Pirate
+into one of the Sea Borders surrounding the Empire specified. A Sea Border is one that is
+crossed by an active or inactive Trade Route. If there is already a Token there (Concession or
+Pirate), it is Killed for no cost.
+d.	Place Pawn Agents. Place one Pawn of your color into a Border of your choice of the
+Empire specified. If there is already a Concession there, you must pay 1 Florin (to China)
+to REPRESS it. You cannot place a Pawn into a Border occupied by a Pirate.
+You can place a Pawn into a non-Sea Border.
+
+17
+18
+
+NORTHERN ITALY was more urban and industrial than any other European region except Flanders. It had never suffered full feudalism,
+but its nobles declined in influence compared to its cities and merchant class. For a century, the capitalist city-state of Florence was the
+cultural capital of the world. —Will Durant, 1953.
+BOMB ICON is actually a Renaissance grenade. The first cast iron models appeared in Europe in 1467.
+
+14 | PAX RENAISSANCE | BOOK I - RULES
+
+Purchase Market Card Example
+West facedown
+card
+
++
+
+cost =
+1 Florin
+
++
+
+cost =
+2 Florins
+
++
+
+cost =
+3 Florins
+
+cost =
+4 Florins
+
+cost =
+5 Florins
+
+West draw
+deck
+
+CARD
+CARDTO
+TOBE
+BE
+PURCHASED
+PURCHASED
+
+1. Place these 3 Florins to purchase the 4th card.
+
+Purchase Market Card Example: You purchase the fourth card from the left in the Market by
+spending 3 Florins. Place the first Florin on the far left card, the second Florin on the next card to the
+right, and the last Florin on the next card to the right. Although there are 2 Florins on the fourth card
+you are purchasing, you cannot use them towards this card’s purchase. You now take the fourth card
+into your Hand and take the 2 Florins on that card. [E1a-f]
+
+Important: If you take a facedown card (to start a trade fair per E5) or purchase a comet card, Discard it
+rather than put it into your Hand. [E1]
+
+One-Shot Example
+
+1. Play card into your Tableau.
+2. D
+ ecide to activate its Oneshot (peasant revolt), which
+places a Pawn Agent.
+
+3. T
+ he card’s Pawn Agent is
+always your color.
+4. W
+ ith one attacker (the
+Pawn) & no defenders,
+the revolt is Victorious.
+
+ urviving attacker moved to
+5. R
+ egime Change. Take the 6. S
+French Empire Square into the east Border.
+your Western Tableau.
+7. R
+ egime Change allows
+placing an additional Pawn
+on the west Border.
+
+Peasant Revolt One-Shot Example: You play the Flanders Guilds card, a Pawn Card located in
+France, and trigger its peasant revolt. The card’s Pawn Agent is the only attacker, see J2. There are
+no Ruling Class to defend, so the revolt is Victorious. The French Empire Square is in an opponent’s
+Tableau, and you claim it into your Western Tableau. This Regime Change allows you to place an
+additional Pawn, for a total of two Concessions, placed in two separate Borders next to France. [E2.1]
+
+Important: The City icon (Rook or Knight) and color are irrelevant when placing a Token due to card play! [E2.2b]
+
+BOOK I - RULES | PAX RENAISSANCE | 15
+
+e. If You’re out of Tokens, see TOKEN MANAGEMENT.
+f.	Strawman is your play of a One-shot or an Op against your own cards or Tokens.
+This play is sometimes useful to gain enough Repressed Tokens to perform a Victorious Civil War, or
+to overthrow your own King to create a Republic. However, you cannot use campaign for Strawman.
+
+E3. SELL CARD 19
+
+Discard a card or Empire Square to receive 2 Florins from China. The sold item must come from your Hand,
+Tableau, or an Old Maid (I2a). Except for Empire Squares, Discard all Tokens on the sold card. See DISCARD.
+a.	Royal Couple. A coronated pair (I1) must be sold as a set for 4 Florins total. This is one action.
+b.	Sold Empires. If you sell an Empire Square, including Vassals, return it (along with all of its Vassals)
+to its Throne along with its Queen (if any) and all Tokens (Repressed Tokens & Bishops).
+c.	Sales Abilities. A card with an Ability affecting its sale may only use this Ability if sold from Tableau.
+
+E4. ACTIVATE OPS (EAST & WEST ARE SEPARATE ACTIONS)
+
+If you choose to activate the East Ops as an action, you may perform one Op in each of the cards in your
+East Tableau. You must perform at least one Op in total if you take this action, and the Op must have a
+valid target. This is the same in the West. Each card can be used once, for only one of its Op icons (even if
+the card has more than one icon). See Part F for a list of the Ops.
+a.	Order. You may perform your Ops in any order. You may perform Ops on cards acquired as a result
+of Ops (e.g. campaigns), as long as it is in the proper (East or West) Tableau.
+b.	Target of the Op. You may use an Op only against the targets depicted in the Op icon. The target
+may be a Florin in the Market (commerce op), a Tableau card (behead or vote ops), a Token on a
+Tableau Card (inquisitor op), or a Token on the Map (repress, tax, or any of the three military ops).
+c.	“The East” or “The West” Locations. See LOCATION.
+d.	Target Location. For the Repress, tax, corsair, and siege ops, the target must be Token(s) on the
+Empire matching the acting card’s Location. (Remember: the Location of a Concession or Pirate is
+both Empires that it borders.) For the campaign op, the target must be Adjacent to the acting card’s
+Location. For the behead op, the target must be a card with a Location matching the acting card’s
+Location. For the inquisitor, commerce, and vote ops, the acting card’s Location does not matter.
+e.	Strawman Target. You may target your own Tableau cards or Tokens (e.g. Repress one’s own Pawn
+to gain a Florin, avoid taxes, and/or fuel a future Civil War). If Victorious, a Strawman vote (F6) against
+your own King creates a Republic (and vice versa). You may use an Op listed on the new Republic
+(as long as the card hasn’t already been used for an Op).
+
+E5. PERFORM TRADE FAIR (EAST & WEST ARE SEPARATE ACTIONS) 20
+
+Use this action to Discard the facedown card in the East or West Market, which convenes the
+corresponding trade fair per Part G. Remember that you do not claim the Florins on the card, which
+instead go towards general profits (G1a).
+
+E6. VICTORY ACTION
+
+Use this action to declare victory per L2.
+
+19
+
+SELL represents the profits from the internal money-lending market. The earliest bankers such as Giovanni di Bicci de’ Medici made
+their fortunes from small investors. They offered a reward to the shyest investor and brought credit within reach of the petty trader and
+craftsman. Mere entries in books of account became a flexible substitute for disbursements of cash. Farmers and peasants wiped out by a crop
+failure could recover with a bank loan. For instance, when scab had reduced the sheep production to zero in England, the shepherds could not
+have recovered, and English wool exports could not have reached such high levels, without the injection of Italian capital. For the banker, the
+loans were safe and profitable, because the customers are locked to the land and not going to disappear.
+
+20
+
+BANKS, defined as institutions dealing in money as a specialized pursuit, did not exist in the Islamic world. Indeed medieval Arabic has
+no word for banks or banking, nor for the abstract notion of money. The Islamic world, like Italy, absolutely prohibited interest of any
+kind. Also prohibited is the notion of deposit, where the depository keeps funds and uses them for commercial purposes. Buying and selling on
+credit was an accepted and widespread commercial practice, providing funds for enabling trade, an outlet for surplus capital to be profitably
+used, and lubricating business when coins were unavailable. Merchants provided their own money changing and books for merchant banking,
+based upon their hierarchic social status and reputation. Suftajas were issued by and drawn on well-known bankers. Unlike the Bill of Exchange,
+so central to European banking, a Suftaja is more akin to a check without an exchange of currencies. Status and social hierarchy formed the
+basis for credit and merchant banking activity. Clever Islamic money-lenders could bypass usury prohibitions through the use of non-profit
+donations, establishing the elaborate waqf system still used today.
+
+16 | PAX RENAISSANCE | BOOK I - RULES
+
+No One-Shot Example
+Pawn Placement Options.
+(France has 3 Borders).
+Enemy Concession.
+(If you choose to place
+your Concession here,
+you must pay a Florin to
+Repress this Pawn).
+
+Your new Concession.
+
+Pirate.
+(You are not allowed to
+place in this Border).
+
+1. P
+ lay card and choose to
+place its Agent without
+triggering the One-shot.
+
+2. P
+ lace the Pawn Agent in a
+Border as a Concession.
+
+Install Pawn Agent Example: You play the Flanders Guilds card as in the previous example, but do
+not trigger the One-shot. Instead you place one of your Pawns in a Border as a Concession. The east
+Border is occupied by an enemy Concession, and you don’t want to spend a Florin to Repress it. The
+west Border is occupied by a Pirate, so you can’t place there. The south Border is open, but it is not on
+a Trade Route and is not likely to be profitable. Nevertheless, you place in the south to block Player
+Yellow from targeting France with a vote op. [E2.2a-f]
+
+Activate Ops
+
++
+2. As 2nd Op, you use
+1. Y
+ ou decide to take
+inquisitor to move a red
+commerce as your first
+Bishop to an Adjacent card.
+Op, gaining a Florin.
+
++
+3. A
+ s 3rd Op, commerce is
+possible now that the
+Bishop is gone.
+
+Player Board
+
+Activate Ops Example: You have two adjacent tableau cards with the commerce op in your West
+Tableau, but one is silenced (F1f) by a red Bishop. You also have a card allowing you the inquisitor
+op (F1) for red Bishops. For an action, you activate Ops in your West Tableau. First, you perform the
+unsilenced commerce op, then the inquisitor op to move the Bishop to the adjacent Tableau card, and
+then perform a second commerce Op from the now unsilenced card. [E4a-e]
+
+Easily Missed: Once played, cards and their Agents are independent of
+each other. If you target a card already in a Tableau, the Agent Tokens
+placed when the card was put in the Tableau are unaffected. If you target
+Agent Tokens, the card that originally generated the Agents is unaffected.
+You do not keep track of which cards deployed which Tokens. [E4a-e]
+
+Easily Missed: You can perform an
+action on a newly obtained card (e.g.
+campaign or vote). But you cannot activate
+the same card more than once per turn.
+[E4]
+
+BOOK I - RULES | PAX RENAISSANCE | 17
+
+F. TABLEAU OPS
+ps (short for “Operations”) are activated by action E4. There are 4 colors of Ops:
+a.	Religious Op. This Op icon (inquisitor) is light blue and moves a Bishop of the
+indicated Religion. This is the only Op not silenced by the presence of a Bishop (F1f).
+b.	Economic Op.21 This Op icon (commerce) is light orange and targets Florins in the
+Market, either lying in the East ( ) or the West ( ) as indicated (F2).
+c.	Political Ops. These Op icons are purple and behead (F3), tax (F4), repress (F5), or
+elect (F6) their targets.
+d.	Military Ops. These Op icons are dark red and target Ruling Class or Pirate Tokens.
+They can be used to Kill Tokens, see corsair (F7), siege (F8), and campaign (F9).
+
+Religious
+
+Economic
+Political
+
+Military
+
+F1. INQUISITOR (RELIGIOUS OP)
+
+Use this Op to move a Bishop Token of the indicated religious color from one tableau card
+to an Adjacent card in the same Tableau, or to another card (in any Tableau or Throne) that
+has the same Location as the one it currently sits on.
+
+Inquisitor
+
+a.	Diet Of Worms Rule. If the destination card contains a Bishop (of any color), both Bishops are
+Killed in an exchange.
+b.	Pacification Rule. If the destination card has no Bishops but has Repressed Tokens, you may
+choose one Token (of any type and color) to Kill at no cost.22
+c.	Move Restrictions. You cannot move a Bishop onto a Player Board. This often means that it cannot
+cross between East and West in a Tableau (because the East and West are separated by a Player
+Board in each Tableau). You may not move a Bishop on a Throne directly to another Throne.
+d.	Moves within a Suzerainty. A Bishop on a Suzerain may move to any of its Vassals. A Bishop on
+a Vassal may move to its Suzerain or one of the Suzerain’s other Vassals (if any). Lateral moves to a
+Suzerainty can go either to the Suzerain or any of its Vassals.
+e.	The East/West. If a Bishop starts on a card with a Location listed as “The East”, it may move to any
+card with a printed Location in Hungary, Ottoman, Byzantium, Mamluk, “The East”, or vice versa.
+Correspondingly for “The West”.
+f.	Silenced Ops. The presence of any Bishop on a card or royal couple prevents some of its Ops from
+being used. Only its light blue (religious) Ops can be used.
+g.	Silenced Abilities. A Bishop also silences any listed Ability, e.g. ransom or Stadtwechsel.23
+However, Prestige and Abilities granting immunity to silencing are never silenced.
+
+21
+
+LABOR THEORY OF VALUE. It’s a common fallacy, both in the Renaissance and in today’s era of political correctness, to see all productive
+activity as manual labor. This was true in feudalism, a non-division-of-labor society where production means nothing more than the
+toiler in the field or at the loom. But in a capitalist society, beginning with the first ones in Florence Italy, the vast majority of productive activity
+is accomplished by unsung middlemen: bankers, traders, retailers, advertisers, and entrepreneurs. All these activities are viewed with suspicion
+by anti-capitalists, although they fuel the economy and enrich the lives of all who employ their services. It could hardly be otherwise, since use
+of their services is voluntary, and only proceeds if a value is gained on both sides. The Renaissance and the ending of serfdom represented a
+quantum leap in the lives and destinies of humanity and civilization.
+
+22
+23
+
+PACIFICATION should be thought of bishops pacifying the oppressed with a fatalistic philosophy and dreams of the afterlife, rather than
+actually killing them.
+
+STADTWECHSEL. German municipal exchange banks, both public and private, were especially busy during the autumn trade fair.
+Since circulation of foreign coins was subject to heavy punishments, all merchants were required to exchange foreign coins at the
+Stadtwechsel, who sent them to the city mint. The rights of coinage and exchange were bound throughout Germany, and often controlled
+by guilds (Hausgenossenschaften). The Stadtwechsel dealt in letters of credit, interest-bearing deposits guaranteed to be safe from creditors
+(popular among all classes of society), and various types of loans, with interest rates supposedly regulated to appease the Church. Unsecured
+loans needed the permission of the borrower’s wife. The Augsburg ledgers show that the Stadtwechsel were lenient in overdrafts to reliable
+clients such as the Welsers and Fuggers. —W. Roberds & F. Velde, Early Public Banks I, 2016.
+
+18 | PAX RENAISSANCE | BOOK I - RULES
+
+Perform Trade Fair Example
+FAQ: The facedown card to the far
+left of each Market is only for trade
+fairs, and can never be purchased
+into your Hand.
+
+Double Trade Fair Example: For your two
+actions, you perform first an East trade fair,
+then a West trade fair. [E5]
+
+Inquisitor Ops Example
+2.
+The Bishop
+starts on
+the English
+King on his
+Throne.
+
+“The West” can be moved to/from
+another Western card. See LOCATION.
+
+X
+4. B
+ ishop pacifies one 3. T
+ he Bishop’s 3rd move is
+Repressed Token.
+onto the King of Portugal.
+
+1. S
+ ince your Tableau has 3 protestant
+inquisitor icons, you can move the
+red Bishop 3 times.
+
+Inquisitor Example: During your activate Western Ops action,
+you use 3 West Tableau cards, each with a reformist inquisitor
+op, to move a red Bishop 3 times. (You could also move 3 Bishops
+once.) Each move either moves it right or left by one card or jumps
+it to another card sharing its current card’s Location.
+The final move is onto the King of Portugal, and you decide to
+Kill its Repressed Token. Until the Bishop moves on, the King’s
+campaign op is silenced. [F1b, F1f]
+
+FAQ Bishop Movement: You can
+move between East and West if cards
+share the same Location. [F1]
+FAQ Pacification: You must move the
+Bishop to a new Location in order to
+pacify. [F1b]
+
+Silence Example
+Silencing
+Bishop
+
+Silenced Ability Example: Gutenberg
+allows your hand size to be unlimited. But
+if a Bishop silences Gutenberg, you must
+Discard down to 2 cards immediately. [F1g]
+
+Ability
+
+BOOK I - RULES | PAX RENAISSANCE | 19
+
+F2. COMMERCE (ECONOMIC OP)
+
+Use this Op to take one Florin from any card (including trade fair cards) in either the
+East ( ) or the West ( ) Market card row as specified in the commerce icon.24
+
+Commerce
+
+F3. BEHEAD (POLITICAL OP)
+
+Use this Op to Discard one card in any Tableau. The Location of the beheaded card must
+share that of the acting card. However, a card cannot behead itself.
+a. Assassin. If used to Discard an Empire Square, the card used to behead is also Killed.25
+
+Behead
+
+F4. TAX (POLITICAL OP)
+
+Use this Op to target one Concession bordering the Location of the card used to tax.26
+The target’s owner must choose to either (1) pay a Florin to China or (2) Repress his
+Concession. In either case, the Concession owner must place a Levy within the taxing
+Empire (represents that the tax monies were used to start an army).
+
+Tax
+
+a.	Tax Prerequisites. The tax location must not be Saturated (i.e. must have at least one empty City)
+and must have a Concession in its Borders as the target of taxation.27
+b.	The East/The West. These cards are considered to be in all of the Empires of the East or West, so
+that the taxing player specifies which Location/Empire is being levied.
+3 Easily Missed Tax Rules:
+1. The owner of the Concession chooses the Levy to place when targeted by
+tax - not the taxing player.
+2. A Levy must be the color and shape indicated on an unoccupied City.
+3. You may tax your own Concession. [F4a]
+
+F5. REPRESS (POLITICAL OP)
+
+Repress
+
+Use this Op to remove one Map Token (Knight, Rook, and/or Pawn, of any color, as
+depicted on the repress op icon) in the acting card’s Location and place it as a Repressed Token on its
+corresponding Empire Square.28
+a.	Persistent Repression. An Empire Square accepts repressed Tokens regardless if it is still in its
+Throne (B2d), or if it is in a player’s Tableau (including Suzerains and Vassals). If the Empire Square
+ever moves, its repressed Tokens travel with it.
+b. Gains. Using this Op to remove a Token from the Map gains you 1 Florin from China.
+
+24
+
+WEALTH is created by labor and voluntary transactions, especially trade, rather than by “resources”. A feudal society lacks most divisions of
+labor other than lord and serf, and so the transactions are largely involuntary with little generation of wealth. The Renaissance featured
+the most diverse divisions of labor in the world, with a mercantile class organized into guilds. Today’s Western lawyers and doctors are still
+largely organized along guild lines.
+
+25
+26
+
+ASSASSIN comes from the name of the Nizari Isamili sect in the Middle East during the time of the crusades. The word has its roots in
+hashish, perhaps because its agents used drugs in their murderous pursuits. By the time of the Italian Renaissance, the name of the sect
+was generalized to apply to any sort of political murderer.
+TAXING represents not just coerced duties but also royal loans made under threat of seizure, closure, or imprisonment. All the banks in
+the game obtained their enormous wealth from small short period loans. A typical customer is a farmer suffering a crop failure, who
+needs capital to restart next year. This loan is safe for the banker, as the farmer is tied to his land and is not going anywhere. From these humble
+examples millions of Florins were made. However, because bankers are powerless commoners, they can only try to stave off forced loans by
+whatever means of persuasion they possess. The Fuggers of the Deer, for example, were bankrupted when their reserves were emptied by the
+ruling Habsburgs (Lukas Fugger was mockingly appointed as “King of Atlantis” in “compensation”). The King of France seized the vast assets
+of the rich banker Jacques Cœur, baselessly accusing him of poisoning his mistress. Jacques eventually escaped from prison and restarted
+his career from the ground up in Rome. The Medici bank, headquartered in a Republic (Florence) rather than a Monarchy, fared better, but
+nevertheless faced exile with confiscation of property in 1433, 1494, and 1527. Despite the injunction of Cosimo Medici to the Medici branches
+to “never lend to princes, courts, or the upper aristocracy”, forced loans closed the Medici banks in Milan, Bruges, Lyons, and London.
+
+27
+28
+
+TAX. Europe’s dispersed portfolio of resources conduced to long-distance, multilateral trade in bulk loads of utilitarian goods.
+Taxing these was more rewarding than appropriating them. —Eric Jones, The European Miracle, 2008.
+REPRESSING. As commoners, bankers held no power to repress or tax, but could whisper to the royals and nobles who held such power.
+
+20 | PAX RENAISSANCE | BOOK I - RULES
+
+Commerce Op Example
+
+Commerce Example: You
+execute your Western Ops, and
+the Bundschuh Revolt is in your
+Tableau. The West Market has
+one Florin, and you take it. [F2]
+
+W = “West”
+
++
+
+Florin comes from
+any card in the West
+Market.
+
+Behead Op Example
+
+X
+
+1. B
+ ehead Op
+in Ottoman
+(part of “The
+East”).
+
+Your Tableau
+
+Behead Example: Your opponent
+can use his Qizilbash card to siege all
+the Eastern Empires to the point that
+he can campaign all of them.
+To stop him, you use your “Grim” card
+to behead the Qizilbash. The “Grim”
+is located in the Ottomans and the
+Qizilbash is located in “The East”.
+Therefore, the “Grim” is allowed to
+target the “Qizilbash”. See LOCATION.
+[F3]
+
+2. Q
+ izilbash Discarded.
+
+Tax Op Example
+Tax Example: You have the
+Holy Land Crusade in your
+Tableau, allowing taxation of
+Mamluk Egypt. You use the tax op
+and target the Cœur Concession,
+located between Mamluk and
+Ottoman. He chooses not to
+repress his Pawn and thus must
+pay 1 Florin. He also must install
+a Levy in an empty City, and he
+chooses Cairo. Its icon is a gold
+Rook so the Levy here must be a
+gold Rook. [F4a]
+
+3. Levy is placed.
+2. Concession is taxed
+and pays a Florin.
+
+New Levy
+
+1. Tax Op in Mamluk.
+
+FAQ: A Concession in-between East and
+West is taxable in both regions. [F4]
+
+Repress Op Example
+
+1. Repress Op in Aragon.
+
+Repress Example: You activate your
+West Tableau, including Queen Isabella
+married to the King of Aragon. You use her
+“Alhambra Decree” repress op to remove
+a Concession in Aragon to become a Serf
+on the Aragonese King. You earn 1 Florin.
+Because her icon shows both a Pawn and
+a Rook, you could have repressed the Rook
+instead. [F5]
+
+X
+3. Earn 1 Florin.
+
++
+
+Tip: Repressing
+makes Civil Wars
+more likely, and
+makes voting more
+expensive. [F5]
+
+2.
+Pawn
+becomes
+Repressed
+in Aragon.
+
+BOOK I - RULES | PAX RENAISSANCE | 21
+
+F6. VOTE (POLITICAL OP)
+
+Use this Op to cause a REGIME CHANGE in an Empire. Its Empire Square can be in any
+Tableau, but must be in an East ( ) or West ( ) Tableau as specified on the icon.
+It cannot be a Vassal or in its Throne.
+
+Vote
+
+a.	Cost. Pay to China a number of Florins equal to the Empire’s Repressed Tokens (Serfs, Knights,
+Rooks).29 Repressed Tokens can then be Emancipated as a result of the Regime Change.
+b.	Majority Rule. To perform this Op, you must have more Concessions than any other player on the
+Empire’s Borders.
+c.	Democratic Effects. See REGIME CHANGE. You will gain a Concession. If the Empire Square is in an
+opponent’s Tableau, you gain it as a King. If it is in your Tableau, flip it to its other side (King or
+Republic).
+d.	Golden Liberty. If the Empire is a Theocracy, you can add, subtract, or flip its Map Card to create a
+Medieval (non-theocratic) state (B2b).30
+
+F7. CORSAIR (MILITARY OP)
+
+Use this Op to move a Pirate in a Sea Border of the card’s Location to another Sea Border
+either in the card’s Location or an Adjacent Location sharing a Sea Border. This Pirate
+must be of the color specified by the icon’s religious symbol and cannot move to a
+Border occupied by a Pirate of the same color.
+Corsair
+
+Corsair
+
+a.	Naval Attack. Moving automatically Kills any Concession or Pirate in the Border moved to.
+There is no Battle, and there is no cost.
+
+F8. SIEGE (MILITARY OP)
+
+Use this Op to Kill one Rook, Knight, or Pirate of any color in the acting card’s Location.
+There is no Battle, and there is no cost.
+
+Siege
+
+F9. CAMPAIGN (MILITARY OP)
+This Op is found only on Empire Squares on their King side. Use it to create a Battle in a
+Campaign
+defending Empire Adjacent to the King’s Location (adjacency includes diagonals).
+a.	No Strawman. All campaigns are against an Empire in its Throne or an enemy
+Tableau. You are not allowed to campaign against an Empire in your own Tableau.
+b.	Attackers. All Knights (of every color) in the King’s Location are the attackers.
+c.	Cost. Pay to China 1 Florin for each attacker. To make a campaign, all Knights must attack and all
+must be paid for.31
+d.	Defenders. All Ruling Class Tokens in the defending Empire are the defenders.
+e.	Repressed. Repressed Tokens in either Empire do not participate in the Battle.
+f.	Resolution. A BATTLE is fought (see battle table on player aid). If Victorious, the defending Empire
+suffers a REGIME CHANGE and is claimed as a VASSAL (next bullet) of the attacking Empire.
+
+29
+
+EMIGRATION is a form of voting for the best place to live, open to the new class of relatively wealthy commoners and skilled laborers
+who were not tied to a particular real estate. The possibility of a flight of talent to neighboring states with less oppression or taxation
+curbed the worst excesses of the kings and popes. The device of paper claims to wealth (bills of exchange) greatly increased the chances that
+a banker or merchant could escape economic or religious persecution without losing what he earned. Trade raised a class with international
+connections, rising political influence, and an interest in avoiding war.
+
+30
+
+GOLDEN LIBERTY of Poland and the Polish-Lithuanian Commonwealth was a unique democracy with the principle that every nobleman,
+regardless of rank or wealth, had equal legal status and veto power in the Parliament. The King was elected and subordinate to this
+principle. The Golden Liberty also featured almost unprecedented degrees of religious tolerance. But these freedoms only extended to the
+nobles, perhaps 10% of the populace. “Heaven for nobles, purgatory for townspeople, hell for peasants.” —Paradiscus Judaeorum, 16th century.
+
+31
+
+FINANCING CONQUEST. The use of loans to launch campaigns revolutionized military history, with a far greater impact than the
+introduction of the firearm. Armies had a greater proportion of paid men, including mercenaries, and could stay in the field longer. The
+Italian bankers operating in England, France, Italy, and Germany were casually repaid from the proceeds of customs duties. In this way, revenues
+can be anticipated, and the cost of an expensive campaign spread over several years, avoiding intolerable short term tax hikes. The bankers
+requested that the monasteries serve as loan guarantors, and also as safe houses for the storage of gold, jewels, and plate. The King of England
+considered loan guarantees to be an outrage, and demanded the Italian bankers to be “menaced as they deserved”. When he decided to seize
+all private deposits, it was the monasteries that were searched, not the Italian residences. —Prestwich, 1979.
+
+22 | PAX RENAISSANCE | BOOK I - RULES
+
+Vote Op Example
+New
+Concession
+3.
+You pay
+to Repress
+Concession
+in favor of
+your own.
+
+X
+
+1.You have majority
+of Concessions (2).
+
+X
+
+2.
+Your vote
+flips Papal
+States to
+Republic.
+
+4.
+Pawn
+becomes
+Repressed
+in Papal
+States.
+
+Vote & Papal Overthrow Example:
+You have the Papal States containing three
+Serfs. You have two Concessions on the Italian
+Borders, while your opponent has one. You
+have the Sindicat Remenca card, allowing a
+Western vote. As part of a Western tableau
+action, you use this card to vote, paying 3
+Florins to flip the Pope to its republic side.
+Because all three Papal Borders are occupied,
+you can’t Emancipate the three Serfs, and,
+in order to place your Papal Concession, you
+decide to Repress your opponent’s Concession
+to place your Pawn. This costs a Florin and
+adds a fourth Serf to the Papal States.
+
+Tip: A successful
+vote against your
+own King flips it
+into a Republic.
+Conversely, a
+successful vote
+against your own
+Republic turns it
+into a King (useful
+for placing new
+Concessions). [F6]
+
+You decide to install a golden liberty,
+changing the Papal States Map Card
+into a Medieval one. [F6]
+
+5. G
+ olden Liberty replaces Catholic
+Papal States with Medieval Papal States.
+
+Corsair Op Example
+1.
+Pirate
+moved
+to Papal
+States.
+
+Corsair Example: You use an Ottoman corsair op
+to move a Pirate from the Hungary-Ottoman Sea
+Border to the Aragon-Papal States Sea Border. This
+is legal since the destination Border is in an Empire
+Adjacent along a trade route to Ottoman. The
+Pirate does not Kill all Tokens along its path - only
+those found at its final destination. [F7a]
+Easily Missed: Pirates can only enter Sea Borders.
+
+X
+
+2.
+Concession
+Killed.
+FAQ Corsair: The corsair op moves a Pirate on the Map in a similar way that the inquisitor op moves a Bishop in a Tableau.
+In both cases, only one Token is allowed at the destination. But there is a difference. The corsair op can only be used in the Location
+printed on its card, while the inquisitor op can be used to move a Bishop regardless of where it is positioned in a Tableau. [F7]
+
+Siege Op Example
+2. A
+ ragon Pirate Killed.
+
+Siege Example: You have the
+Duke of Milan (an Aragon card
+with the siege op). In the Aragon
+Empire there is one gold Knight
+and one green Rook, and an
+Islamic Pirate in its Border. If you
+undertake the Aragon siege, you
+may Kill any one of these Tokens.
+[F8]
+
+X
+1. Aragon siege op.
+
+FAQ Siege: Sieges
+against Tokens in an
+Empire you already
+control can be useful!
+Preemptively removing
+Heretics prevents
+Religious Wars. Killing
+off Ruling Class weakens
+the Empire so that a
+Strawman Attack can
+form a Republic. [F8]
+
+BOOK I - RULES | PAX RENAISSANCE | 23
+
+g.	Claiming Vassals. Place the defeated Empire Square on its King side below the Victorious Empire
+Square in your Tableau, to show his vassalage to your King (now called a Suzerain). All Repressed
+Tokens remain repressed on the Vassal, unless you choose to Emancipate them in the REGIME CHANGE.
+h.	Queens & Bishops. If the defending Empire is in its Throne, any Queens or Bishops come with it if
+it becomes a Vassal. But if it comes from an opponent’s Tableau, Discard any Queens or Bishops.
+i.	Movement. This Op moves no Tokens between Empires. Thus a newly conquered Vassal Empire
+contains only Emancipated Tokens (if any) and its Pirates and Concessions (if any).
+j.	Campaigns by Vassals. If a Vassal wins a campaign, the conquered Empire ends up as a Vassal
+under the same Suzerain. Per F9a, however, Vassals and Suzerains cannot campaign each other.
+
+G. TRADE FAIR
+f as an action (E5) you Discard the facedown card at the left end of the East or West Market, you
+convene an East (black) or West (white) trade fair, respectively.32 This creates profits and Discards a card
+(G1), traces a voyage (G2) along the black (East) or white (West) Trade Route, disperses profits (G3) to
+yourself (the initiator) plus to all those owning Concessions along the route (until profits run out), and
+finally raises Levies (G4) along the route.
+
+G1. PROFITS & DISCARD
+a.	Profits. Take 1 Florin (if 1- or 2-player game) or 2 Florins (if 3- or 4-player game) from China, and add
+them to the market Florins lying on either the East or West facedown card, as appropriate.
+Together, these Florins are called profits.33
+b. Discard the facedown card out of the game, leaving the profits on the empty gap.
+
+G2. SUBSIDY
+
+To determine how profits and Levies are dispersed, trace a voyage starting from either the black
+Emporium and following the black route (if East) or from the white Emporium following the white route
+(if West).
+a.	Embarkation. The starting Emporium must be the one that is not busted (C1a).
+b.	Emporium Subsidy. The player who convened the trade fair receives 1 Florin out of profits.
+If this takes the only profit, the voyage ends before it begins and G3/G4 do not occur.
+
+G3. VOYAGE PROFIT DISPERSAL
+
+The voyage proceeds from one Empire to the next, following the Trade Route. If while crossing a Border
+a Concession or Pirate takes the last profit (G1a), the voyage ends at that Border (see G5).
+a.	Concession. If any player has a Concession in the Sea Border between two Empires, he receives
+1 Florin out of profits as the voyage passes.
+b.	Piracy. If a Pirate (of any color) sits in the Sea Border between two Empires, China receives 1 Florin
+out of profits as the voyage passes.
+
+32
+
+THE BLACK TRADE ROUTE simulates the slave and gold trade. The white Trade Route represents the silk and spice trade from the Orient,
+originally over the Great Silk Road from China. In 1488, Bartolomeu Dias discovered a maritime route around the southern tip of Africa.
+He called it the “Cape of Storms”, but the King of Portugal quickly renamed it “The Cape of Good Hope”. This made for better PR, much the same
+way as Greenland was named. Whatever its name, the discovery of this route made Oriental imports far cheaper, within the reach of the mildly
+affluent, thus increasing the demand 10X. Thus the rise of Atlantic ports such as Lisbon and Antwerp.
+
+33
+
+PROFITS. In capitalist theory this represents demand, which increases when cheap foreign goods become available (such as when a bank
+convenes a trade fair). This causes an initial outflow of gold, reducing prices and wages in the nation (and increasing them in the Orient).
+These changes make the country’s producers more competitive, both domestically and abroad. Some part of the domestic market initially
+lost to imports are regained and an expansion of exports takes place. The country ends up both importing and exporting more. Fewer citizens
+become involved in the domestic market, and more in import and export (and banking). The net gain of the citizens is that the additional
+imports they obtained represents more and better goods than they could produce with the same labor devoted to producing for the domestic
+market. The trade benefits citizens of the Orient in the same way.
+
+24 | PAX RENAISSANCE | BOOK I - RULES
+
+Campaign Op Example
+Bloodless Campaign Example: You invade
+France using the Holy Roman Empire campaign
+op. The HRE has two Knights (red and gold, but
+their color does not matter in a campaign), so you
+must pay two Florins. Note that you are disallowed
+to invade with just one of the Knights to save
+money. Since France has no Ruling Class, there are
+no defenders. The HRE wins, and you gain a French
+Concession. You also claim the Empire Square of
+France, which was in your opponent’s Tableau.
+Because the HRE is a Vassal of the Ottomans,
+France also becomes a Vassal of the Ottomans.
+France had 2 Repressed Tokens: a Rook and a Serf
+of your color. You decide to Emancipate both of
+them, placing the Rook into Lyon and the Pawn as
+a 2nd Concession into the east Border. Otherwise,
+France would have remained depopulated,
+because the attackers return to their posts. [F9a-i]
+
+Repressed
+Rook
+
+New
+4. T
+ wo
+Concession
+Emancipations
+
+Repressed
+Pawn
+
+3. Regime Change with
+Concession.
+Easily Missed:
+In all Battles, all
+eligible attackers
+must be sent in
+the attack. This
+means you must
+pay for all eligible
+Knights in a
+campaign. [F9c]
+1.
+HRE
+Campaign
+into France.
+2. Pay 2 Florins for 2 Knights, who invade without casualties.
+
+Tip: Tokens never move out of their Empire as a result of a Battle (even Adjacent Knights used in campaigns or Religious Wars
+return home after the fight). Tokens can’t move, except for Bishops using the inquisitor op and Pirates using the corsair op.
+
+Perform Trade Fair
+To perform a West
+trade fair along the
+white Trade Route:
+1.
+Add Florin(s) from
+China (G1a).
+
+Facedown cards
+
+Until the profits run out of Florins, do the following:
+3. Trace a voyage from white Emporium to arrowhead (G2).
+4. Disperse a Florin to yourself, the initiator (G2b).
+5. Disperse a Florin to each Concession & Pirate in the voyage (G3).
+6. Place a Levy in each unsaturated Empire in the voyage (G4).
+
++
+
+2.
+Discard the facedown card (G1b).
+
+Termination.
+
+*
+
++
++
+
+No profits
+remaining for this
+Concession.
+
+Your Reserves.
+
+Arrowhead
+(end of Trade Route)
+
+New
+Levy
+
+This Concession & Pirate
+each take 1 Florin.
+Pirate’s Florin goes to
+China.
+
+uncovered
+white
+Emporium
+
+Perform Trade Fair Example: Shown above is an example White Trade Route. There are 2 Florins starting in the
+West Row. It’s a 2-player game, so 1 more Florin is added, to make 3 profits altogether. The West facedown card is
+Discarded, and you take 1 Florin just for running the fair. The 2 remaining profits are taken, first by a Concession, and the
+second by a Pirate. Then the profits run out, so the voyage terminates. Levies are added to the unsaturated Empires up to
+the termination point. [G4c]
+
+FAQ Trade Fair: What if you initiate a trade fair but there is no money in the pot? It ends before it begins.
+The initiating player takes their 1 Florin from the bank, but no Levies are raised (only possible in a 1- or 2-player game). [G1]
+FAQ Trade Fair: What if you initiate a trade fair but there are no concessions along the route?
+You take 1 Florin for initiating the trade fair, then raise Levies along the entire route. [G3]
+
+BOOK I - RULES | PAX RENAISSANCE | 25
+
+G4. LEVIES
+Each Empire the voyage enters, starting with the one containing the Emporium, receives one Token,
+called a Levy.34 A Levy is placed upon one of the unoccupied Cities on the Empire and must be the
+color and shape indicated. The player who convened the trade fair chooses which City gets the Levy.
+a.	Constantinople. The City of Constantinople is considered unoccupied if it holds fewer than three
+Tokens.
+b.	Saturation. If all its Cities are occupied, that Empire is Saturated and can accept no more Levies.
+c.	Venetian Condottieri. Certain card Abilities (e.g. Duchy of Ferrara, Wolf of Rimini, Gonfalonier)
+allow the City of Venice to hold two gold Tokens instead of one. As soon as one or more of
+these cards is set into play and the knight icon in Venice is gold (Catholic), Venice is considered
+unoccupied if it holds fewer than two Tokens. If this Ability is sold, beheaded, or silenced, or the
+Papal States becomes a non-Catholic Theocracy, Discard down to a single Knight or Rook in
+Venice.35
+
+G5. VOYAGE END
+
+The voyage ends when it reaches its arrowhead, either in the Holy Roman Empire if white or Mamluk if
+black. However, if the profits run out before this, the last Concession or Pirate to take a profit marks the
+end of the voyage, and no Levies are raised beyond this point.36
+a.	Leftover Profits. If Florins are leftover, they remain in the empty space left by the trade fair card
+and will be placed on the new trade fair card during the refresh market phase (D2).37
+
+G6. BANKRUPTCY VARIANT (OPTIONAL)
+
+If you convene a trade fair, you do not receive 1 Florin out of profits, contrary to G2. As a consequence,
+it is possible for you to run out of Florins, cards, and Concessions during a game. If so, you are eliminated
+from the game, simulating that banks can and did fail.38
+
+34
+35
+
+CUSTOMS. In the Renaissance, kingdoms rose and fell depending on how the trade routes were aligned, and how many troops the kings
+could raise from customs fees.
+
+RENAISSANCE VENICE is depicted in the cover image by Josefn Strand. The setting is a piano nobile (the main floor of a Venetian palazzo),
+and St Mark’s campanile and a trade fair Venetian galley bound for the East are visible outside. The architectural style comes from Andrea
+Palladio, the chief architect of Renaissance Venice. Here at Ion Game Design, there was debate on what the banker should be holding in the
+cover: scales, ledgers, a coin? A queen was chosen both because the game uses chess pieces, and because a new untraditional chess variant, in
+which the queen was the most powerful piece on the board, was becoming popular. The cover tells a story of the bankers behind the scenes of
+the momentous events of the Renaissance. Perhaps the banker is arranging a marriage that forges a new alliance, or even a new nation such as
+in the cases of France, Spain, or the Polish-Lithuanian Commonwealth. The model for the banker was Pal, head of game development at Ion.
+
+36
+
+COSIMO DE’ MEDICI is the “midwife” of the Renaissance according to Durant. He is usually described as the “de facto” ruler of Florence
+1415-64. But in this half century he never held public office, remaining nothing more than a rich and respected bank manager (albeit
+one who accepted responsibility for fortifications and defense). His opinion was respected in the Signoria (Florentine ruling council of guilds),
+but the council retained final say in constitutional interpretation of the Florentine Republic. When the rival Albizzi bank convinced the Signoria
+to have Cosimo executed, he bribed the gonfalonier to commute the sentence to exile and meekly resumed banking in Venice. There was no
+bloodshed, as Cosimo commanded no arms. When the Signoria bowed to popular pressure and re-invited Cosimo and his bank to return a year
+later, there was again no blood (although it was the Albizzis turn to be banished). Cosimo was a banker, not a brawler. “To be elected to office is
+often prejudicial to the body and hurtful to the soul.” —Cosimo de’ Medici.
+
+37
+
+BANKERS are routinely accused of having politicians in their pockets. Indeed, trying to protect their earnings from arbitrary seizure,
+bankers such as the Fuggers and Medici used their wealth to influence votes and elections. But just who is in whose pocket here? A
+king can behead a banker, but not the other way around. A banker commanded no armies, no police, and no tax collectors. He could not force
+a single transaction. If his customers came to mistrust him, they simply went to a rival bank. At any time a ruler could seize all his gold for any
+reason, or no reason. Or perhaps worse, seize his ships for use in war or crusade. The power of bribes is no match for the power of torture. The
+published instructions of Cosimo Medici to his bank managers strictly forbade lending to kings or royalty, but this was easier said than done.
+Kings can smell a steady source of income, and competition among them to squeeze a banker with forced “loans” was fierce.
+
+38
+
+PERSONALITY OF A BANKER. What sort of man was Cosimo de’ Medici? He rose early, went nearly every day to his office, like an American
+millionaire. He dressed simply, ate and drank temperately, and (after begetting an illegitimate son by a slave girl) lived a quiet and orderly
+family life. He was normally humane, mild, forgiving, reticent, and yet known for his dry wit. He was generous to the poor, paid the taxes of
+impoverished friends, and hid his charity, like his power, in a gracious anonymity. He donated 400,000 Florins ($10,000,000?) to public works and
+private charities, twice as much as he left to his heirs. Along with his descendants Lorenzo the Magnificent, Leo X, and Clement VII, the Medici
+patronized learning and art to a degree unequaled by any other family in the history of mankind. —Will Durant, 1953.
+
+26 | PAX RENAISSANCE | BOOK I - RULES
+
+Condottieri Example
+Condottieri Ability Example: You
+play the Gonfalonier, a condottieri (Italian
+mercenary). This card has two gold Knights
+as its Agents, and since the Papal States
+is currently a Catholic Theocracy, the
+condottieri ability allows you to place both
+into Venice. Venice already holds a Rook,
+which you pay a Florin to repress. [E2.2b]
+Then, in a campaign against a neighbor,
+one of the 2 Knights is Killed. But because
+the Gonfalonier is still active in your
+Tableau, the next trade fair that goes by Italy
+1. Double Agent card played.
+resurrects him as a Levy. Unfortunately, a
+Catholic inquisitor silences the Gonfalonier,
+and one of the 2 Knights is instantly Killed.
+Condottieri
+Ability
+[G4c]
+
+X
+
+2.
+Both Agents
+played into
+Venice.
+
+3.
+Rook
+becomes
+Repressed
+into Papal
+States.
+
+Trade Route Example
+Trade Route Example: As Player
+Blue, you convene an eastern trade
+fair, which starts at Tana. You have a
+Concession between Byzantium and
+Hungary, and Player Purple has one
+between Ottoman and Mamluk. If
+the trade fair has only 2 profits, then
+both go to you (one as the initiator,
+the other for your Concession). The
+voyage stops at your Concession, so
+Player Purple gets no profits, and only
+Byzantium raises a Levy. Both Tana
+and Caffa in Byzantium are empty.
+You choose the former, which places a
+green Knight in Tana. [G4, G5]
+
+Longer Trade Route Example: In the
+example above, suppose there were three
+profits instead of two. This allows your
+voyage to go to the Ottomans, stopping
+at the Border where the purple Concession
+takes the last profit. This voyage potentially
+raises Levies in Hungary and the Ottomans
+as well as Byzantium. However, Hungary
+is Saturated with two Tokens. In the
+Ottomans, all the Cities are filled except
+Constantinople with one of its three spaces
+free. You have no choice except to place its
+third Token (a green Rook). [G4, G5]
+
+1. East trade fair convened.
+2. I nitiator gains a Florin.
+
+5.
+Blue
+gains a
+Florin.
+
+4. Levy added.
+
++
+
++
+
+3.
+Start of
+Trade
+Route.
+
+*
+
+6.
+Profits
+dry up.
+
+BOOK I - RULES | PAX RENAISSANCE | 27
+
+H. TRADE SHIFT
+H1. TRADE SHIFT ONE-SHOT EFFECTS
+
+f you trigger a trade shift One-shot, move the busted disk (C1a) (if any) covering the specified
+Emporium to cover (and deactivate) the uncovered Emporium of the same color. This deactivation
+Represses any Token that may be there, placed into the Empire Square where the Token was located.
+This reroutes the Trade Route for any future trade fair actions taken of that color.
+a.	Spice Islands Route (white). If the Spice Islands is covered by a white “busted” disk, this trade shift
+moves it from the Spice Islands to cover the uncovered white Emporium (either Trebizond or the
+Red Sea).39
+• Spice Islands Requirement: You must have at least one Discovery Prestige in your
+Tableau (not counting the card being played) in order to activate the Spice Islands trade
+shift! This simulates the challenges faced in learning how to circumnavigate Africa.
+b.	Red Sea Emporium (white). If the Red Sea is covered by a white “busted” disk, this trade
+shift moves it from the Red Sea to cover the uncovered white Emporium (either Trebizond or the
+Spice Islands).40
+c.	Novgorod Emporium (black). If Novgorod is covered by a black “busted” disk, this trade shift
+moves it from Novgorod to cover the uncovered black Emporium (either Timbuktu or Tana).
+d.	Timbuktu Emporium (black). If Timbuktu is covered by a black “busted” disk, this trade shift
+moves it from Timbuktu to cover the uncovered black Emporium (either Novgorod or Tana).41
+See example at right.
+
+39
+
+TRADE ROUTE SHIFTS. Unlike the other trade route shifts in the game, the Portuguese discovery of a maritime route around Africa to
+the Orient quite suddenly turned the Mediterranean from the hub of the world to a quiet backwater. Especially for the Ottomans and
+Venetians who saw their customs revenues dwindle to almost nothing. The caravel, the only ship capable of such a voyage, was invented
+around 1451 under the sponsorship of Prince Henry the Navigator of Portugal. A modification of a Basque fishing boat design, the lateen sails
+of the caravel gave it speed and the capacity for sailing windward, and its construction allowed it to cross open waters.
+
+40
+
+RED SEA TRADE. After the tiny and insignificant kingdom of Portugal became the richest and most powerful nation in Europe merely
+by discovering a trade route around Africa and sinking the Mamluk fleet using repurposed Basque fishing boats, the former warring
+superpowers saw their incomes vanish overnight. They were so desperate to break the Portuguese stranglehold and regain a naval route to the
+Spice Islands through the Red Sea that the empires of Venice, France, and the Ottomans took the unprecedented step to work together. The
+spectacle of Muslim and Christian ships conducting joint operations shocked the European world. But attempts to bolster the Mamluk Red Sea
+fleet failed; the Mamluks were landlubbers who favored horses over ships.
+
+41
+
+AFRICAN GOLD. As the game begins, Western Europe returned to gold coinage for the first time in half a millennium, which was helpful
+in keeping control of the money supply out of royal hands. Genoese and Catalonian bankers obtained gold dust from the Wangara
+Saharan caravans from Timbuktu with a terminus in Safi, a port in Morocco. Since most Western banks and mints were privately owned, the
+rulers had to resort to extorting or demanding funds from the bankers. Some rulers nationalized the banks and outlawed private competition.
+Such monopolies were favored by the King of Aragon, and public banks were established in Barcelona, Valencia, Majorca, and Gerona. All such
+state banks quickly failed and forfeited the depositor’s money. Meanwhile, in the Byzantine and Islamic worlds, the emperor or sultan regulated
+the mints and controlled the money supply.
+
+28 | PAX RENAISSANCE | BOOK I - RULES
+
+Trade Shift Example
+
+X
+Old black trade route.
+
+3. Emporium’s Rook
+becomes Repressed
+into Byzantium.
+
+1. Trade Shift One-shot played.
+
+2. Busted disk moved to Tana.
+
+4. Double line = new black trade route.
+
+White busted disk.
+
+Trade Shift Example: The Soniinke Wangara card is played. This moves the black busted disk on
+Timbuktu to cover Tana (red arrow). The Rook on Tana becomes a Repressed Token in the Byzantium
+Throne (as the formerly wealthy Crimean nobility suddenly see their funds dry up). The black trade
+route now stretches from the Timbuktu Emporium to Mamluk as shown (double line). The former
+black Trade Route is shown by a black dotted line. [H1d]
+
+FAQ Trade Routes: Trade Routes always end in the same Empire: Mamluk for black and HRE for white.
+Only the starting point of a Trade Route is changed by a trade shift. [H1]
+
+Trade Shift One-Shot Icon
+Bomb Icon
+(white = West)
+
+Emporium Uncovered
+(move busted disk)
+
+TRADEAgent
+SHIFT:
+(green
+Bishop)
+
+SPICE ISLAND
+One-shot (Religious War)
+
+REQUIRED:
+
+Required Prestige
+(in order to activate One-shot)
+
+BOOK I - RULES | PAX RENAISSANCE | 29
+
+I. CORONATIONS
+ll Queens have the coronation One-shot, which if triggered marries her to a King. The King must be an
+Empire contained in the Queen’s list of suitors, and must be unmarried, either in his Throne (C6b) or in
+your Tableau.42 Alternatively, the Queen can be played as an Old Maid.
+a.	Concession Reward. A coronation is a REGIME CHANGE, so you can claim a Concession in that
+Empire.
+
+I1. ROYAL COUPLE
+
+If you decide to perform a coronation One-shot, form a royal couple by placing the King side of the
+chosen Empire Square on top of the Queen card in your Tableau so that her Ops and Prestige (if any) are
+visible.
+a.	Location. The royal couple go into your East or West Tableau according to the Imperial Location.
+A coronated Queen always has a Location in the Empire she is married to.
+b.	Tableau Ops. A coronated King and Queen each run their own Ops during an Ops action (E4).
+c.	Sexism.43 If the King is returned to his Throne (e.g. sales (E3a) or apostasy (K3)), the Queen
+goes with him in all instances except for beheading (F3) or REGIME CHANGE. These two exceptions
+represent the violent overthrow of the monarchs. The Queen is Killed if either the King or Queen is
+beheaded.
+d.	Regime Change. If you acquire a royal couple from the Throne during a REGIME CHANGE, the
+marriage is preserved. But if you lose a royal couple during a Regime Change, the Queen is Killed.
+e. Silencing. If a Bishop lands on either the King or Queen, both are silenced.44
+
+I2. OLD MAIDS
+
+If you play a Queen unmarried (i.e. do not trigger her coronation), store her card under your Player
+Board. She is not part of your Tableau, so you may not perform her Ops or Abilities and ignore her during
+apostasy.
+a.	Sales. An Old Maid can be sold per E3.
+b.	Endgame Prestige. If she has Prestige, this counts when victory is calculated (L2, L3, L5, L6).
+
+42
+43
+
+CORONATION. Normally only an unmarried prince could get married to a queen, but King Henry VIII, who beheaded 2 of his 6 wives,
+would disagree. His Ability reads “Your coronation One-shot can claim Kings who are married or in an opponent’s Tableau.”
+
+SEXISM means to classify people according to their gender instead of their individual merits and to treat them differently, either legally
+or commercially. In this time period, the whole political/religious world was sexist and had been for a long time. The Renaissance
+was perhaps the first glimmers of freedom for womenfolk, as women had more autonomy (as queens and merchants) than any time before
+(or immediately after). Because the Renaissance led to the Western Enlightenment, with such thinkers as Olympe de Gouges, this was the
+beginning of the degree of freedoms that women in the West enjoy today.
+
+44
+
+SILENCING reflects the general religious condemnation (and torture!) of bankers and financiers in Europe, using intimidation tactics
+similar to today’s “cancel culture”. The charging of interest is condemned in Deuteronomy 23:20: “Unto a foreigner thou may lend
+usury; but unto thy brother thou shalt not lend usury.” The Catholics and Muslims interpreted “brother” to refer to any human being, whereas
+the Jewish interpretation (stemming from the High Middle Ages) identifies a “brother” as a fellow Jew. These interpretations allowed Jews to
+dominate money-lending throughout Europe and the Ottoman Empire, from neighborhood pawn shops to international financing. But they
+also sparked anti-Semitic pogroms during the Spanish Inquisition and Luther’s reformation, as well as in England, France, and Austria. What
+fueled such hatred? Those clans who specialize as intermediaries between producers and consumers, the so-called “middleman minorities”,
+have always been persecuted throughout the world. Examples are the Armenians in the Ottoman Empire, the Ibo in Nigeria, Chinese in
+Southeast Asia, the Tamils in Sri Lanka, the Lebanese in Sierra Leone, the Koreans in the USA, the Gujaratis in South Africa, and the Jews in Nazi
+Germany. The widespread hostility against middlemen minorities is not due to religion, race, or creed, since they differ from one another in
+all these regards. What they have in common is their much resented economic role - regardless who performs that role. Although bankers
+perform invaluable services, they are falsely accused of being exploitative, greedy, miserly, rapacious, and redundant. They are blamed for high
+rates, despite the fact that they would be shut out by the free market if they raised prices arbitrarily and the real cause is taxes, inflation, or
+crime. If forced to pay off public officials to keep their business, they are accused of corruption, a clear case of blaming the victim. From the
+expulsion of the Medici to the Holocaust of WWII, irrational prejudice against bankers and middlemen continues today. The term “middleman
+minority” was developed by sociologists Hubert Blalock and Edna Bonacich to explain and stop the origins of racial hate and genocide.
+—Thomas Sowell, Is Anti-Semitism Generic?, 2005. —Edna Bonacich, A Theory of Middleman Minorities,1973.
+
+30 | PAX RENAISSANCE | BOOK I - RULES
+
+Queen
+
+Coronation Example
+
+King
+
+Location
+
+Coronation Example: For your first
+action, you buy Queen Palaiologina in
+the Market. Among her list of suitors is
+the King of Hungary, Mátás Corvinus,
+who is still unwed in his Throne. For
+your second action, you play the
+queen and trigger the coronation
+One-shot with this king to form the
+royal couple. This is a Regime Change,
+and you gain a Concession in the
+Borders of Hungary.
+You place the royal couple into
+your Tableau on the East side, since
+Hungary is in the East. [I1]
+
+1. Player Board.
+
+2. Royal Couple added to East.
+
+Easily Missed: A coronation always produces a King. It cannot produce a Republic,
+which is only formed from a Strawman (E2.2f) on a King already in your own Tableau. [I1]
+
+Coronation One-Shot Icon
+Bomb Icon
+(gray = neutral)
+
+CORONATION
+
+List of possible
+Kings for the
+royal couple.
+
+Suitors
+•Portugal
+•Aragon
+•France
+•Holy
+Roman
+Empire
+
+Old Maid Example
+Old Maid Example: As in the
+previous example, you buy Queen
+Palaiologina in the Market. She goes
+into your Hand, and you intend to
+arrange her coronation on your next
+turn. But alas, by that time all 4 of
+her suitors are either married or in
+an opponent’s Tableau. This makes it
+impossible to activate her coronation
+One-shot. Instead you play her under
+your Player Board as shown. [I2]
+
+Old Maid Prestige
+counts towards
+victory.
+
+BOOK I - RULES | PAX RENAISSANCE | 31
+
+J. CIVIL WARS
+here are two types of Civil War: conspiracies and peasant revolts. If you play a card with a “Conspiracy”
+or “Peasant Revolt” One-shot, you first specify if there is a Civil War or not.
+a. No Civil War. If no, there is no BATTLE. You may place the card’s Agent Tokens per E2.2.
+b. Civil War. If yes, there is a BATTLE.
+c.	Succession. If the attackers have at least one survivor, the Civil War is Victorious, causing a REGIME
+CHANGE. See J1 or J2.
+
+J1. CONSPIRACY ONE-SHOT
+
+If you launch a conspiracy, this creates a BATTLE:
+a.	Attackers. The card’s Agents (except Bishops), Bordering Pirates (any color), and repressed ruling
+class (repressed Knights & Rooks on that Empire Square, of any color) must join the Battle as
+attackers. Note that repressed Pawns do not participate.
+b.	Defenders. All Ruling Class Tokens (i.e. Tokens in Cities).
+
+J2. PEASANT REVOLT ONE-SHOT
+
+If you launch a peasant revolt,45 this creates a BATTLE:
+a.	Attackers. The card’s Agents (except Bishops), Bordering Concessions (of your color), Bordering
+Pirates (any color), and Serfs (repressed Pawns on that Empire Square, of any color) must join the
+Battle as attackers. Note that repressed Knights and Rooks do not participate.
+b. Defenders. All Ruling Class Tokens (i.e. Tokens in Cities).
+
+Easily Missed: Populate your choice of Cities with Battle survivors. Repress any Tokens if there are not
+enough Cities. [E2.2]
+
+Easily Missed: Serfs of your own color can be used by anyone in a peasant revolt, even one against your
+own Empire! (Serfs don’t care which leader has which banker in their pocket.) [J2]
+
+45
+
+PEASANT REVOLTS may seem to have been uniformly crushed during the Renaissance, yet they are a sign of a continent struggling
+toward modernity. In England, for example, when the legal privileges afforded to tin miners in Stannary courts were suspended in 1496,
+the Cornish miners rose in rebellion the following year. The rebels were defeated and its leaders hung, yet they saw a measure of success as the
+semi-automous Stannaries were reinstated 11 years later. The city-states and guilds of Flanders often rose in revolt, with some successes, as craft
+guilds sought alliances with nobles and urban elites against the dukes or the Emperor.
+
+32 | PAX RENAISSANCE | BOOK I - RULES
+
+Conspiracy Example
+Conspiracy One-shot Example: You
+play the House of Borgia and declare that
+its conspiracy One-shot occurs. This card
+is located in “The West”, and you declare
+the target to be Aragon. The Agent for the
+Borgia card is a Bishop, but he does not fight.
+Instead, the attackers consist of a repressed
+red Knight on the Aragon Empire Square,
+and one Barbary Pirate Adjacent to Aragon.
+Aragon defends with one Ruling Class Rook.
+Two against one, so the conspiracy succeeds
+with one survivor. You choose the Knight to
+be the survivor, and set him in Valencia. The
+Pirate dies. You claim the Aragon Empire
+Square from your opponent’s Tableau.
+France, a Vassal of Aragon, gets returned to
+its Throne. You place a Concession Adjacent
+to Aragon for the Regime Change. Finally,
+you place the Borgia Bishop on any Tableau
+card in the West. [J1]
+
+4. New Concession.
+3.
+Repressed Knight
+becomes Ruling
+Class in Valencia.
+
+X
+
+X
+
+1. Play conspiracy in “The West”.
+2. Two Tokens killed in exchange.
+
+FAQ Battle: In a Civil War or campaign, the color of the
+attackers and defenders is irrelevant! [Jb]
+
+Peasant Revolt Example
+3. Card’s Agent
+becomes a new
+Concession.
+
+1. P
+ lay peasant revolt
+in France.
+
+4. New Concession
+from Regime
+Change.
+
+X
+X
+X
+X
+
+2. R
+ uling Class in Bruges &
+Lyon Killed in exchange with
+a Concession & a Pirate.
+
+Easily Missed: If you trigger a
+peasant revolt, your Adjacent
+Concessions must rise up and
+fight too, even if they won’t
+survive. [J2a]
+
+X
+
+France
+
+Louis XI
+Campaign
+the Spider House of Valois
+Louis XI, a master of Machiavellian intrigue. To stop Centralized
+state
+the marriage of his arch-rival Charles the Bold, he
+waylayed the ship bearing theYorkish princess. He
+machinated both the Warwick defection installing
+a Lancastrian to the British throne and the last
+minute cancellation of Charles’ coronation.
+
+5. The French Vassal is
+dethroned in favor
+of a Republic.
+
+Republic Creation Example: You play the Flanders guilds to launch a peasant revolt against the French
+Vassal in your own Tableau. The attackers are the Pawn shown on the card, plus (in the French Borders) a
+Pirate and a Concession of yours. There are two Ruling Class defenders, so you win with one survivor. You
+choose a Pawn to survive, placed as a Concession. You get another Concession for the Regime Change.
+Flip the French Empire Square to its Republic side, and move it to become your leftmost tableau card. [J2]
+
+BOOK I - RULES | PAX RENAISSANCE | 33
+
+K. RELIGIOUS WARS & APOSTASY
+K1. CRUSADE, REFORMATION, OR JIHAD ONE-SHOT
+
+here are 3 kinds of Religious Wars: crusade (Catholic), reformation (Protestant), and jihad (Muslim).
+If you play a card depicting a Religious War One-shot, you can trigger a Religious War in that Location.
+This creates a Battle between Believers (Tokens of the religious color shown on the card) and Heretics
+(Tokens of the other two religions).
+a.	Attackers. The card’s Agents (except Bishops or Pawns), Bordering Pirates (Believers only), Ruling
+Class (Knights & Rooks in that Location, Believers only), and Knights in Adjacent Locations (Believers
+only) must join the Battle as attackers. Note that Adjacency includes diagonals, see ADJACENT.
+b.	Defenders. All non-repressed Heretics in the Location (Ruling Class and bordering Heretic Pirates).
+c.	The Bloody Rule. The Religious War cannot be triggered if there are no Heretics to Kill in the target
+Location (neither Heretic Ruling Class nor bordering Heretic Pirates).
+d.	Repressed Tokens. Repressed Tokens do not fight in a Religious War (and thus can’t be used for the
+“bloody rule”).
+
+K2. CRUSADE, REFORMATION, OR JIHAD EFFECTS
+a.	Map Card Change. A Victorious crusade/jihad/reformation46 in an Empire changes it into a
+Catholic/Islamic/Reformist Theocracy, respectively. Add, remove, flip, or replace its Map Card to
+indicate this Theocracy, assuming its Map Card must be updated. All Ruling Class remain in the
+same Cities (attacker’s choice in the case of Constantinople).
+b. Regime Change. A Victorious Religious War causes a REGIME CHANGE.
+
+K3. APOSTASY ONE-SHOT
+
+If triggered, this One-shot affects the Tableaux of all players, who are put on trial for dealing with Heretics.
+Each player who has cards with Prestige icons of both indicated Religions in his Tableau must Discard all
+these cards! There is no Battle.47
+a.	Royal Couple. If either the King or Queen is Discarded as a result of apostasy, both are returned to
+their Throne (with their marital status intact).
+b.	Martyr’s Disciples. If the card launching the apostasy is itself Discarded by its own One-shot
+(e.g. Oratory of Divine Love), it may deploy its Agents (e.g. Bishops) before dying.
+c. Old Maids (I2) do not count towards apostasy.
+
+Easily Missed: Ruling Class, Bishop Tokens, and Pirate Ships do not “belong” to any player. Any player may use
+them for a Religious War, holy victory, etc. regardless of who moves them or caused them to be placed.
+
+46
+
+APOSTASY is the compromise of your beliefs to the point of renunciation. For example, reformers such as Martin Luther were led to
+apostasy concerning Papal Authority. Bankers who deal with customers of two opposed religions often must soften or compromise
+adherence to their own religious doctrines, and this pragmatism may well result in condemnation and charges of apostasy by hard liners of
+both sides. This abandonment is what is being simulated by the game’s apostasy rules.
+
+47
+
+LUTHERANISM. As part of his effort to make the Catholic Church less worldly, the evangelist of protest Martin Luther attacked Aristotle
+and objected to the intrusion of logic into theology. “Whoever wants to be a Christian should tear the eyes out of his reason,” he said,
+reversing some of the successes which the spread of Aristotle’s philosophy of reason had brought to Renaissance culture.
+—Burgess Laughlin, 1995.
+
+34 | PAX RENAISSANCE | BOOK I - RULES
+
+Crusade Example
+
+X
+1. Crusade One-shot played.
+
+2. Crusading Knight.
+
+X
+
+FAQ Bloody Rule:
+Do Heretic Pirates in
+a Border count for the
+bloody rule? Yes. For
+example, a Reformist
+Pirate bordering
+England can enable a
+crusade there. [K1c]
+
+3. Rooks killed in exchange.
+
+Crusade One-shot Example: You play the Jesuits and start a crusade into Aragon. The attackers are a gold Rook in Aragon,
+a gold Knight in neighboring Portugal, and a gold Pirate on Aragon’s eastern Sea Border. In the Battle the sole defender, a green
+Algerian Rook, dies, and you choose the Rook in Aragon as your casualty (the Knight or Pirate are also possible choices for the
+casualty). The victorious crusade adds the Aragon Map Card on its Catholic side. Because Aragon is already a kingdom in your
+Tableau, this victory flips it to its republic side, and you can place a Concession. [K1,K2]
+
+Apostasy Example
+1. Apostasy played.
+
+X
+2a. P
+ rotestant
+Discarded.
+
+X X X
+2b. T
+ hree Muslims Discarded by apostasy.
+
+Apostasy One-shot Example: You play the twelver ghulat, and trigger its apostasy One-shot. This makes cards with
+Reformation Prestige incompatible with those with Islamic Prestige. In your Tableau there is one reformation card (Luther), and
+two Islamic cards (The Grim and The Handsome). Luther is in your West, and the other two are in your East, but East and West
+do not matter for apostasy. Discard all three cards. Even though its One-shot triggered the apostasy, the twelver ghulat is also
+Discarded, after deploying its Agent, since it too has an Islamic Prestige. Thematically, you have been excluded because of your
+pragmatism.
+Your opponent has three reformation cards and one Islamic one, and all four are Discarded. The Islamic card is the Empire
+Square Sultan Mehmed with a Vassal, and both Vassal and Suzerain are Discarded into their Thrones.
+Another opponent, with only a reformation card, does not have to Discard any cards. [K3a-c]
+
+BOOK I - RULES | PAX RENAISSANCE | 35
+
+L. ENDGAME & VICTORY
+L1. PURCHASE & DISCARD THE COMET CARD
+
+f you buy one of the four Comet cards, you must Discard it immediately and activate (flip over) one of
+the inactive Victory Squares of your choice to its active side.
+a.	Cometa Aster. If a Comet reaches the leftmost (cheapest) slot of the Market, like any other card it is
+flipped and no longer available for purchase. It is Discarded out of the game without effect if used
+to convene a trade fair (G1b).
+
+L2. ENDGAME
+
+The game ends if a player uses an action (E6) to declare victory in a particular activated Victory Square.
+He must fill the victory conditions listed in L3-L6 for that Victory Square.
+a.	Patron Victory. The game also ends if the market cannot be refreshed from either the East or West
+draw decks during market refresh (D2). If so, the player with the most Patron Prestige wins.48
+b.	Tiebreaker. As a final tiebreaker, the one with the most Florins wins. Players still tied share their victory.
+
+L3. HOLY VICTORY (TORQUEMADA)
+
+To win, you must have more Prestige in the Supreme Religion than your opponent with the most
+Prestige in the Supreme Religion. A Religion achieves supremacy if it has both:
+(1) More Bishop Tokens of its color in Tableaux or Thrones than both other religions combined, and
+(2) M
+ ore Tokens (Knights, Rooks, and Pirates) of its color in play in its Theocracies than both other
+religions combined. Count only unrepressed Tokens whose color match the Theocracy they live in.
+
+L4. IMPERIAL VICTORY (CHARLES V)
+
+To win, you must have at least two more Empire Squares on their King side (whether Suzerains
+or Vassals) than each opponent. In a 2-player game, it must be three more.49
+
+L5. GLOBALIZATION VICTORY (COLUMBUS)
+To win, you must have:
+
+(1) at least two more Concessions than each opponent.
+(2) more Discovery Prestige than each opponent.
+
+L6. RENAISSANCE VICTORY (LEONARDO)
+To win, you must have:
+
+(1) More Republics than each opponent.50
+(2) At least two more Law Prestige than each opponent.51
+
+48
+
+RENAISSANCE PATRONS were overwhelmingly private. In other words, the paintings, sculptures, and architecture of the artistic
+Renaissances in lands such as Italy, Germany, Netherlands, and England were paid for by wealthy commoners who made their fortunes
+in banking and commerce. Sometimes the courts of Hungary and Egypt are falsely described as part of the Renaissance, due to the lavish
+patronage of rulers such as Mátyás Corvinus and Qa’it Bay. But public works paid for from forced transactions, mainly appropriations and
+taxations by royals and nobles, are fundamentally different from private works paid for ultimately from voluntary transactions. For one thing,
+there is nothing new or lasting about monuments built by slaves intended to glorify the king of kings. Like the works of Ozymandias, they
+crumble into dust. The art of the Renaissance glorified humanity and humanism rather than a particular king. This was a harbinger of something
+utterly novel, and ushered in the modern eras of globalization, banking, capitalism, abolition of slavery, increased wealth in every social class,
+industrialization, science, mass literacy, and the Enlightenment.
+
+49
+50
+
+IMPERIALISM. The dominions of Charles V in Europe and the Americas were the first collection of realms to be referred to as the “empire
+on which the sun never sets”.
+
+RENAISSANCE OF FINANCE. What underpinned all the great artistic, literary and architectural achievements that we now see as
+quintessentially ’Renaissance’ was an equally momentous revolution in trade and finance. Ever since the Crusades of the 12th century,
+a politically fragmented and economically undeveloped Europe looked to the cultures of the east for luxury, wealth and new ways of doing
+business. —Dr. Jeremy Brotton, 2011.
+
+51
+
+LAW was increasingly resorted to for settling disputes among nobles, and this pacification benefited merchants and bankers which
+in turn benefited the kings who were taxing them. This was to transform European feudal units into the first modern states, in which
+objective and clear standards trumped arbitrary decrees.
+
+36 | PAX RENAISSANCE | BOOK I - RULES
+
+Purchase Comet Example
+
+Imperial Victory
+is active!
+
++
+
++
+
+CARD TO BE
+PURCHASED
+
+Game Winning Example: You spend one action to purchase the comet, activating the imperial Victory
+Square. You use your second action to declare victory in imperial. [L1]
+
+Supreme Religion Example
+Catholic
+Theocracy
+
+Two Islamic
+Theocracies
+
+3. I slamic Pirate added
+between 2 Islamic
+Theocracies.
+
+2. Pirate Agent is played.
+
+ omewhere an
+1. S
+Islamic Bishop is
+in play.
+
+4. Islam, with 1 Bishop & 2 Tokens in
+Theocracies, becomes supreme.
+
+Islam Supreme Example: The only Bishop in play is a green token in an opponent’s Tableau. There are only
+3 Theocracies, the Papal States (Catholic), Ottoman (Islam), and Mamluk (Islam). There is one gold Knight in
+Venice, but no Tokens in the other 2 Theocracies. Thus, no religion is supreme.
+The Ottoman Navy is played, placing a Pirate in the Mamluk Border. Because it borders 2 Islamic Theocracies,
+it is counted twice. Therefore, Islam becomes the Supreme Religion. [L3]
+
+BOOK I - RULES | PAX RENAISSANCE | 37
+
+GLOSSARY (Capitalized Terms)
+ABILITY (B5f) - A special rule listed on a card’s scroll
+(lower corner), active for you as long as the card is
+unsilenced and in your Tableau. Its effects are cumulative
+(e.g. Concession payout in spice island trade fairs).
+a. Red Text. These Abilities apply to all players, and
+their effects are not cumulative.
+b. Free Ops. An Ability that lets you run an Op for free
+still limits you to one “activate Ops” per East or West.
+ADJACENT - Two Empires are adjacent if they share
+a Border, or if they are diagonal to each other on the
+Map. Two tableau cards are adjacent if they are next to
+each other in a Tableau. Vassal cards are adjacent to the
+tableau cards immediately to their right and left, their
+Suzerain, and other Vassals under that Suzerain.
+AGENTS (E2.2) - Chess pieces (Bishops, Knights,
+Rooks, or Pawns) or Pirates as depicted in the
+lower corner of a card. These tokens are placed
+on a single card or Border depending upon
+the base symbol of the icon: circular (on a City),
+between 2 cards (Border), or diamond (card).
+BATTLE - To resolve a campaign (F9), Civil War
+(J1, J2), or Religious War (K), each attacking Token Kills
+one defending Token, but is itself Killed in exchange.
+The attacking player chooses all casualties. The
+attacking Tokens are Victorious if they have at least one
+survivor.
+a. Optional. Enacting a One-shot is always optional
+(whether or not it causes a Battle).
+b. Order Of Battle. (1) Determine attackers and
+defenders. All eligible Tokens must fight.
+(2) Eliminate attackers & defenders in the exchange.
+The Battle is Victorious if any attackers survive.
+(3) Place surviving Agents into the empty Cities,
+repressing for free once the Empire is Saturated.
+(4) If REGIME CHANGE, optional Emancipation if any
+empty spaces, plus optional Concession for free
+either at an empty Border or (for a cost of 1 Florin)
+repressing a previous Concession.
+c. Agents. These are attackers, except for Bishops
+which never fight in a Battle.
+d. Ruling Class. An Empire is defended by the Tokens
+in its Cities. In a Religious War, however, attackers and
+defenders are determined by the Token’s color (K1a,b).
+e. Pirates. Ship Tokens are attackers in conspiracies
+(J1a) and peasant revolts (J2a), and fight according
+to their color in Religious Wars (K1a,b).
+f. Pawns (Concessions & Serfs). These Tokens fight
+(as attackers) only in peasant revolts (J2a), except
+that Concessions of other players fight only if they
+have been repressed.
+g. Adjacent Knights. These Tokens fight (as attackers)
+only in campaigns (the cost is 1 Florin per Knight
+per F9c) and Religious Wars (K1a,b).
+
+38 | PAX RENAISSANCE | BOOK I - RULES
+
+h. Repressed Knights & Rooks. These Tokens fight (as
+attackers) only in conspiracies (J1a).
+i. Placement. Any surviving Agents or Repressed
+Tokens used as attackers in a Battle must be placed
+in the conquered Empire Square (until it is Saturated).
+Any remaining Repressed Tokens on the defending
+Empire may be Emancipated (see REGIME CHANGE).
+Knights and Rooks go into empty Cities (ignoring
+the city icon), Pirate ships go into empty Sea Borders,
+and Pawns (including Serfs) go into empty Borders. If
+there is not enough room in Cities or Borders because
+of Saturation, the excess are placed on the Empire
+Square as Repressed Tokens.
+BELIEVER (K1) - A Token with a religious color
+matching that of a card’s Agents. If the card has Agents
+of multiple colors, it has no believers. See HERETIC.
+BISHOP (F1) - This chess piece, in one of the 3
+religious colors, represents a religious inquisitor
+or missionary. Bishops are always located on
+(and travel among) Tableau cards or Thrones per F1.
+a. Placement. A Bishop of the specified religion is
+placed as an Agent on any Tableau card or Throne
+that shares its Location (E2.2a), and if its One-shot
+triggers a Battle, its placement is not restricted to the
+same Location where the One-shot was triggered.
+b. Silencing. A Bishop entering a card (by placement
+or movement) Kills any other Bishop there in
+exchange. It can also Kill one Repressed Token there
+(pacification, see F1b). The presence of a Bishop
+silences (i.e. inactivates) all the card’s Abilities and its
+Ops except for religious ops (light blue, see Fa).
+c. In Play. A Bishop is never found on the Map or fights
+in Battles, and never becomes Repressed. If a card is
+moved or removed, its Bishop follows.
+d. Movement. A Bishop of the specified color is moved
+using the inquisitor op (F1).
+BORDER (B2c) - The gap between two Empires. For
+instance, England has two Borders, one to the east
+and one to the south. A Sea Border is a special border
+that is crossed by an active or inactive Trade Route.
+For instance, all three of the Ottoman borders are Sea
+Borders. Each Border can hold either one Concession
+(Pawn) or (Sea Borders only) one Pirate. A Concession
+on a Sea Border can receive trade fair profits (G3).
+CATHOLIC - Religion that recognizes the pope as
+the centralized authority. Color = gold. See PRESTIGE.
+CHINA (B2g) - A pool where Florins that are out of
+circulation are stored. Florins enter the game during
+a trade fair, through repression ops (F5), or by selling
+(E3), and leave the game if paying for repressions by
+Agents, campaigns, votes, and taxation. Except when
+purchasing a card from the Market, all costs go to China,
+which represents the foreign market.
+
+CITY (B6a) - Circular map icon containing a
+Levy icon (Knight or Rook). Each City can contain
+one Knight or Rook, regardless of the City icon.
+(Constantinople is considered 3 Cities.) Thus the
+number of Cities in an Empire limits the number
+of Ruling Class Tokens it can contain. The color
+and shape of a Levy during Levy placement must
+match the icon shown in the City icon. But for other
+placements (Agents, Victorious attackers, or
+Emancipated Tokens), any shape or color of
+Token can occupy a city.
+CIVIL WAR - Battles caused by conspiracies
+(J1) and peasant revolts (J2). Repressed Tokens
+sometimes fight in civil wars.
+COMET (B7a) - One of 4 cards that forces you
+to activate a Victory Square if you purchase it.
+It reflects both the science and superstition of
+this age. The four, identical except in name, are
+Copernicus, Nostradamus, Regiomontanus, and
+Excommunication of Halley’s Comet.52
+CONCESSION (B2c) - A Pawn in one of the player
+colors located in the Border between two Empires,
+with a maximum of one concession per Border.
+It represents both merchants and the
+permission to sell at a local port.
+a. Placement. The gray Pawn icon means that a
+Pawn of your color is placed as an Agent (E2d).
+b. In Play. A Concession participates in voting,
+can join peasant revolts as attackers, and helps
+in a globalization victory. It can be attacked by
+taxation, Repression, and piracy.
+c. Trade Fair. Concessions in the Sea Borders along
+an activated white or black Trade Route line are
+paid from the profits.
+CRYPTOGRAPHY - The MEDICI CIPHERS BROKEN
+Ability allows you to perform during each “perform
+West Ops”, one additional Op using a card from
+an opponent’s West Tableau, exactly as if that
+card was in your Tableau.53 The Op must be a
+
+52
+
+HALLEY’S COMET of 1456 was considered an ill omen
+throughout the world. The 1456 papal bull of Pope
+Callixtus III called for public prayer for the success of the crusade
+against the Ottomans besieging Belgrade. According to a 1475
+posthumous biography, this measure was taken so that the
+“anger of God”, as manifested by the “maned and fiery comet”,
+“might be entirely diverted against the Turks, the foes of the
+Christian name”. Perhaps this was a just-so story to explain why
+the siege was lifted a few weeks after the comet vanished. In
+any case, the papal “excommunication” was an embellishment
+by Laplace, the mathematician who was rumored to have told
+Napoleon “I have no need of that hypothesis” (speaking about
+God). Carl Sagan also perpetrated the excommunication myth.
+
+53
+
+ALBERTI CIPHER DISK was invented by the father of
+modern cryptography: Leon Battista Alberti. As described
+in his treatise De Cifris of 1467, this device embodies the first
+example of polyalphabetic substitution with mixed alphabets
+and variable period, and is made up of two concentric disks,
+attached by a common pin, which can rotate one with respect
+to the other.
+
+political (purple) Op, so you gain a behead, tax, repress, or
+vote Op. The puppeted card retains all its limitations (e.g.
+cannot behead itself, Killed if beheads an Empire Square,
+can be silenced, etc.). The card retains its Location, so the Op
+occurs in the Location of the card stolen from.
+Example: Your opponent has a coronated pair in Portugal including
+Isabella of Castile, who has a Behead Op. You use Cryptography on
+Isabella to murder her husband and send the Empire Square back to its
+Throne. The widow Isabella is Discarded.
+
+DISCARD - Cards (and any Bishops on them) are discarded
+as a result of selling cards (E3), beheading (F3), apostasy
+(K3), trade fairs (G1b), or Comet purchase (L1). Remove
+discarded cards from the game, and return discarded Tokens
+to the general pool or player Reserves.
+a. Empires. Return discarded Empires to their Throne, along
+with any Vassals. Retain any Repressed Tokens and Bishops
+but Discard the Queen (if any) if beheaded or REGIME CHANGE.
+DISCOVERY - The doctrine of maritime exploration
+and imperialism. See PRESTIGE.
+EAST - Refers to the 4 eastern Empires in the game,
+and the cards, Trade Routes, and Market Rows
+exhibiting the philosophic and cultural dispositions
+associated with these Empires.
+EMANCIPATION - See REGIME CHANGE.
+EMPIRE (C1) - Either a Map Card or a slot on the Map
+labeled England, France, Holy Roman Empire (HRE),
+Hungary, Byzantium, Portugal, Aragon, Papal States,
+Ottoman Empire, or Mamluk.
+EMPIRE SQUARE (B4) - The 10 public tiles with a King
+(gold frame) on one side and a Republic (pillar frame) on
+the other. Each corresponds to an Empire on the Map. Each
+Empire Square starts in its Throne (C6b), but can be added
+to your Tableau by a REGIME CHANGE. If so, place it either in
+your furthest East or West position, or (during campaigns) as
+a Vassal.
+EMPORIUM (B6d) - A City marked by a ninepointed star. It can be either white (for commoner
+luxuries such as spices and silks) or black (for
+nobility luxuries such as gold and slaves). The black
+Trade Route starts at a black emporium, and the white Trade
+Route starts at a white emporium. At any given time only
+one white and one black emporium are not busted (C1).
+A busted disk on an Emporium means it is not in play, and
+so it cannot raise Levies or accept Agents. Novgorod, the
+Spice Islands, Timbuktu, and the Red Sea start busted.
+FLORINS (C7) - Florins, as represented by yellow disks (1
+Florin each) or red disks (5 Florins each), will circulate among
+players during the game. Florins are depicted on cards as
+gold Florin icons. Florins are added to the game during
+trade fairs and by selling cards, representing the foreign
+and domestic markets respectively. They also enter by the
+repress op, representing the slave trade.
+a. Spares. The Florins provided in the game are not a hard
+limit. Use spare disks if required.
+b. Public. Your number of Florins is public knowledge.
+
+BOOK I - RULES | PAX RENAISSANCE | 39
+
+HAND - If you purchase a card from the Market other
+than a Comet, place it in your Hand, kept hidden from
+other players. Your Hand size is limited to 2 cards. You
+cannot purchase a card if you are at this hand size.
+a. Larger Hand Size Ability. If such an Ability is
+silenced or lost, immediately Discard down to two
+cards of your choice.
+b. Abilities on cards in your Hand are inactive.
+HERETIC (K1) - Any Token of a religious color different
+from the Agent color of the Card used for the Op or
+Agent placement. See BELIEVER.
+ISLAM - Religion that uses the koran as its
+authority. Color = green. See PRESTIGE.
+KILL - For cards: same as Discard (but implies violence).
+For Tokens: put the Token back into Reserves/pool.
+KING - The side of an Empire Square with a gold frame.
+Each Empire Square has a King on one side, and a
+Republic on the other.54
+KNIGHT - This chess piece, in one of the three
+religious colors, represents armored cavalry.
+Knights are important in campaigns and Religious
+Wars.
+LAW - A constitution that recognizes rules of
+nature rather than humans as its authority.
+See PRESTIGE.
+LEVY - A Levy is a Ruling Class Token placed in a City as
+a result of a tax op (F4) or trade fair (G4). A Levy cannot
+be placed in a fully occupied City, and must match the
+Token type and color indicated on the Map.
+LOCATION - The top right (for Western) or top left (for
+Eastern) of each Tableau Card indicates the Empire or
+Map Card its Agents are placed into and where its Ops
+take effect. If the Agent is a Concession or Pirate, the
+Location is in a Border of the indicated Empire or Map
+Card. Player Boards and Queen cards have no Location.
+a. Religious Ops. The Location of a card used for the
+inquisitor op (F1) does not matter.
+b. “The East” Religious, Political & Military Ops.
+During your phase, you can consider a card (in any
+Tableau) with a Location listed as ‘The East’ to be
+in any one of the four Eastern Locations (Hungary,
+Ottoman, Byzantium, Mamluk). Thus each time a ‘The
+East’ card is used, e.g. for One-shots (E2.1), Agent
+placements (E2.2), or targets of political and military
+ops (these are purple and dark red in color, see
+Part F), the phasing player chooses one of the four
+Eastern Locations for it.
+
+Example: A behead op in Mamluk can be used against a
+card with either the printed Location “Mamluk” or the printed
+Location “The East”.
+
+c. “The West”. Same as ‘The East’, except it operates in
+the six Western Locations (England, Portugal, France,
+Aragon, Holy Roman Empire, and Papal States) for
+Agents, politics, and military operations, and the
+Western markets for commerce.
+d. Concession & Pirate Tokens. These Tokens
+lie in the Border between two Empires and are
+considered to be located in both. Pirates are
+confined to Sea Borders.
+e. Bishops. The Location listed on a Bishop card
+indicates which tableau cards or Throne that a
+Bishop can start in.
+MAP (B2a) - The portion of the gameboard that shows
+10 slots for the 10 Empires. These slots may contain
+Map Cards which modify the Map.
+MAP CARD (B6) - There are 20 of these, two for
+each of the ten Empires: England, France, Holy
+Roman Empire (HRE), Hungary, and Byzantium to the
+north, and Portugal, Aragon, Papal States, Ottoman,
+and Mamluk to the south. Because Map Cards are
+double-sided, each Empire has 4 religious states: 3
+Theocracies and 1 Medieval (i.e. non-theocratic) state.
+Map Cards are laid on the Map (e.g. after a Religious
+War or golden liberty (F6d) to indicate which state it
+becomes.55
+MARKET (C6a) - The Market has two rows: East and
+West. Each row has 6 Market Cards. The first card in
+each row is facedown, and all the rest are faceup.
+Obtain faceup cards by the purchase action (E1). The
+East or West trade fair action (E5) Discards the leftmost
+(facedown) Market Card.
+MEDIEVAL (B2b) - A Map Card without a central
+religious icon, indicating a non-theocratic feudal state.
+OLD MAID (I2) - A Queen who you play without a
+coronation, instead storing her under your Player Board
+for the rest of the game. Any Prestige on Old Maids
+counts toward victory.
+ONE-SHOT - This special one-time action optionally
+occurs as a result of the play of a card (E2.1) with
+the bomb icon. The one-shot must deploy the card’s
+Agents, which can function as attackers in a Battle per
+Part J (Civil Wars) or Part K (Religious Wars).
+However, the trade shift (H) and
+coronation (I) one-shots do not
+initiate Battles.
+
+54
+
+EUROPEAN KINGS. How did Europeans escape crippling
+exploitation of their own rulers? How was risk reduced and
+the depressants on investments lifted? Compared to Eastern sultans
+and emperors, the kings of the relatively small European states were
+never as absolute as they wished. The rising power of the market
+was a check upon them, and, for the sake of regular taxation, they
+themselves fostered market conditions. This abridged the worst
+arbitrariness of kings, and it was in their interest to check it among
+their nobles. —Eric Jones, The European Miracle, 2008.
+
+40 | PAX RENAISSANCE | BOOK I - RULES
+
+55
+
+THE NATION-STATE is nowadays the unit of affairs. It is a purely
+European form which has been exported to parts of the world
+that heretofore had only known tribalism or medievalism.
+—Eric Jones, The European Miracle, 2008.
+
+OP (F1 - F9) - Most Tableau cards offer Ops which are
+shown as a column of icons. As an action (E4), you can
+activate one Op from every card in your East or West
+Tableau. Each card in your Tableau can only be used for
+one Op per turn.
+a. Location of Ops are tied to the acting card’s
+Location, except for: vote (Location is always East or
+West), commerce (targets the East or West markets),
+and inquisitor (move any Bishop of the indicated
+religion, regardless of its Location).
+b. Victims. Ops normally depict the tokens (chess
+pieces) they can be used against. The target can be
+of any color, except for the corsair and inquisitor ops
+which can be used against only the religious color
+depicted.
+
+QUEEN - A card with a coronation (I) One-shot and a list of
+suitors. Playing a Queen does not place Agents, but does
+create either a royal couple (I1) with one of her unwed
+suitors, or an Old Maid (I2). If the Queen is beheaded
+the King is unaffected. The Queen is Killed if the King is
+beheaded or a REGIME CHANGE occurs. The King-Queen pair
+is preserved if you claim them from the Throne (I1d) in a
+Regime Change, or return them to the Throne during sales
+(E3) or apostasy (K3).
+
+c. Movement. Move a Pirate by the corsair op (F7) of
+the corresponding religion.
+
+becomes a Suzerain and the loser becomes its VASSAL.
+See previous bullet for the handling of Tokens or Queens
+on the Vassal.
+f. Suzerain that suffers a Regime Change loses its Vassals.
+RELIGION - All Tokens except Pawns are in one of three
+colors indicating their religion: gold = Catholic, green =
+Islamic, red = Reformist (or Eastern Orthodox).56 Light blue
+Ops with a religious symbol are religious ops. (F1).
+
+REFORMIST - Religion that uses the bible/tanakh rather
+than the pope as its authority. Color = red. See PRESTIGE.
+
+REGIME CHANGE - This occurs in an Empire during a
+coronation (I1d) or if you wage a Victorious vote (F6),
+campaign (F9g), Civil War, or Religious War against that
+Empire. Move the Empire Square to your Tableau on its King
+PATRON - A financial sponsor of the artistic
+side, in the furthest East or West position as appropriate.
+Renaissance. See Patron victory (L2a) and
+a. Concession. If you cause a Regime Change, you always
+PRESTIGE.
+have the option to add one Pawn as a CONCESSION.
+Place this Concession in one of the Borders of the
+PAWN - This chess piece, in one of the four player
+Empire (without Pirates). If the Border chosen is already
+colors, represents a Concession when in a Border
+occupied by a Pawn, you must pay 1 Florin to Repress it.
+and Serfs if on an Empire Square. A Pawn Agent is
+depicted as a gray Pawn, but is placed in a player color. b. Emancipation. If you cause a Regime Change in an
+Empire that has Repressed Tokens, even if they did
+PLAYER BOARD (B3) - Start with one Player Board in
+not fight in a Battle, you may move any or all of the
+your Tableau, representing your merchant-banker. It has
+Repressed Tokens from the Empire Square onto its Map
+no Location and Bishops cannot move onto it.
+Location (into either empty Cities for Rooks or Knights,
+PIRATE (F7) - A wooden ship Token in a religious color
+or into its empty Borders for Concessions).
+that can only inhabit Sea Borders, see BORDER.
+c. Golden Liberty. If your vote is successful in a Theocracy,
+a. Placement. A Pirate of the specified religion
+you can add, subtract, or flip its Map Card to create a
+is placed as an Agent (E2.2c). It must be
+Medieval (non-theocratic) state (B2b).
+placed in a Sea Border of its card’s Location.
+d. T
+ okens & Queens. If the Empire Square comes from its
+This placement Kills any Concession or Pirate
+THRONE, it comes with its Bishop (if any) and Queen (if any).
+already occupying the Sea Border.
+If the Empire Square comes from an enemy Tableau, or if
+it is flipped in your own Tableau (see STRAWMAN), Bishops
+b. In Play. Each Pirate takes 1 Florin from Trade Route
+and Queens are Discarded and any Vassals returned to
+profits (G3) and participates in Civil & Religious Wars
+their Thrones. In all cases, Repressed Tokens that survived
+(J1, J2, K1). They can never be Repressed, and are
+the Battle are retained or optionally Emancipated.
+Killed either by the siege op (F8) or by Pirates entering
+their Sea Border, either during placement or by the
+e. Vassalage. If the Regime Change is caused by a
+corsair op.
+Victorious campaign (F9g), the winning Empire
+
+d. Arsenal/Dalmatians. If your Concessions cannot
+be Killed by Pirates due to an Ability, a Pirate placed
+on your Concession coexists with it, but cannot
+participate in trade fairs. However, you are still not
+allowed to place a new Concession into a Border
+containing a Pirate.
+PRESTIGE - There are six kinds of Prestige: Reformist,
+Catholic, Islamic, Law, Discovery, and Patron. These are
+depicted with a gold diamond in the banner of certain
+Tableau Cards, and are important for certain victories
+(L2a, L3, L5, L6).
+
+56
+
+ONLY 3 RELIGIONS? Although the early game prototypes had
+4 religions, unfortunately all Christians having issues with Papal
+Supremacy have been shoehorned into “Reformist”, interpreting
+“Reformation” as any rejection of centralized religious authority. This can
+be extended to Islam as well. From 1480 to 1514 the Turcomen tribes in
+Anatolia rebelled against central Ottoman control and taxation, which led
+them to embrace a militant form of Shi’ism which could be interpreted
+as an “Islamic Reformation”. —R. Hakan Kirkoglu, Uprisings, Dissents, and
+Messianic Prophecies during the Reign of Suleyman I, 2012.
+
+BOOK I - RULES | PAX RENAISSANCE | 41
+
+RELIGIOUS WAR - Collective term for a crusade,
+reformation, or jihad (K1). These are identical except
+crusades are Catholic, reformations are Reformist, and
+jihads are Islamic.
+REPRESS - This removes a Ruling Class or Concession
+Token from the Map, which becomes a Repressed
+Token that is set on the Empire Square, whether in a
+Throne or a Tableau.
+a. Cost. If you repress as a result of Agent placement
+(E2.2) or a Regime Change, the cost is 1 Florin paid
+to China.
+b. Gain. If you repress as the result of the repress op
+(F5), you gain 1 Florin from China.
+c. Free. If you repress as a result of the tax op (F4) or
+trade shift (H1), there is no cost or gain. If there are
+more Victorious survivors after a Battle than Cities or
+Borders to house them, repress them for no cost.
+d. Serfs. The Location of a card used to repress a
+Concession determines which Empire it enters as a Serf.
+REPRESSED TOKEN - A Pawn, Rook, or Knight stored
+on an Empire Square, including Vassals and Republics,
+that represents serfs, slaves, and disenfranchised
+nobility and guildsmen. Each one increases the
+cost of a vote (F6a) in an Empire by 1 Florin, and are
+Emancipated by the vote. Each can fight in certain
+Battles and may be Emancipated. If an Empire Square
+with Repressed Tokens moves, the Repressed Tokens
+remain on the tile.
+REPUBLIC - The side of an Empire Square with a pillar
+frame. It is created by flipping a King in your own
+Tableau by a Strawman Regime Change (either vote
+(not on a Vassal), Civil War, or Religious War), and is
+important for a Renaissance Victory (L6).57
+Easily Missed: A Republic can only be gained through a
+successful, self-inflicted attack (vote, Civil War, Religious War) on a
+King that is already in your Tableau. A Republic cannot be formed
+by coronations or campaigns.58
+
+RESERVES - A player’s Florins and unused Pawns.
+ROOK - This chess piece represents a noble in his
+castle, in one of 3 religious colors.
+
+57
+
+REPUBLIC VS. KINGDOM. In the court of the Hungarian king
+Matthias Corvinus, humanist Lippo Brandolini compared a
+Republic to a Kingdom. In a Republic, rule is by constitutional Law
+rather than the judgment of a person or persons, whether tyrants
+or electorate. The basis of the Law is the nature of man rather than
+the divine right of kings. The judicial, police, defense, and electoral
+functions were in the hands of the guilds (i.e. the business class). The
+arts, sciences, education, and the economy flourish under the rule of
+Law. The Renaissance, including its banks and autonomous bankers,
+began in the Republic of Florence, and spread to other Republics.
+
+58
+
+THE RENAISSANCE REPUBLICS were not democracies, although
+the two are frequently confused. A democracy is an unlimited
+majority rule, a social system in which one’s work, property, and
+life are at the mercy of any gang that may muster the vote of the
+majority at any moment for any purpose. In a republic, the majority
+has no say over the basic principles of governance, which are instead
+based upon discoveries of the nature of man as documented in a
+constitution. Democracies are Platonic, and republics Aristotelian.
+—Ayn Rand, 1976.
+
+42 | PAX RENAISSANCE | BOOK I - RULES
+
+RULING CLASS - Any Knight or Rook Token on a City,
+regardless of color. Such Tokens can be placed as a
+result of a Levy, Agent, or Victorious Battle.
+SATURATION - If all Cities in an Empire are occupied
+by Ruling Class Tokens, then the Empire is saturated.
+Similarly, if a Border of an Empire is occupied by either
+a Concession or a Pirate, then that Border is saturated.
+a. Levies cannot be added to a saturated Empire (F4,
+G4b).
+b. Constantinople is considered unoccupied if it
+holds fewer than three Tokens.
+SEA BORDER - See BORDER.
+SERF - Any Pawn, regardless of color, stored as a
+Repressed Token on an Empire Square. Serfs must join
+as attackers in peasant revolts (J2).
+STRAWMAN REGIME CHANGE - involves attacking
+an Empire you already control. This is the only way to
+create a Republic. Strawman attacks (when a player
+attacks their own cards or investments to gain its
+“victim award” advantage), are a common theme in the
+Pax series. Other Strawman examples: taxing your own
+Concession (F4) or voting your own Empire (F6).
+SUPREMACY (L3) - A Religion achieves supremacy if
+it has both (1) More Bishop Tokens of its color in play
+than both other religions combined, and (2) More
+Tokens (Knights, Rooks, and Pirates) of its color in play
+in its Theocracies than both other religions combined.
+Count only unrepressed Tokens whose color match
+their Theocracies.
+SUZERAIN - The overlord of a Vassal, see VASSAL.
+TABLEAU (C3) - A row of faceup cards under your
+control. Your East Tableau is to the right and your West
+Tableau to the left, separated by your Player Board.
+THEOCRACY - Rule by priests or mullahs under a state
+religion, as indicated by a religious icon in the center
+of its Map slot or Map Card (B2b). A Theocracy can be
+either a King or a Republic. The absence of a religious
+icon indicates it is a non-theocracy in its Medieval state.
+a. Disestablishment. A Theocracy is changed by
+adding, subtracting, or flipping a Map Card as
+a result of a REGIME CHANGE during a Victorious
+Religious War. An Empire can lose its Theocracy
+under golden liberty (F6d).
+b. H
+ oly Victory (L3). Ruling Class in a Theocracy
+and Pirates Adjacent to a Theocracy count towards
+religious Supremacy if they are the correct color.59 If
+a Pirate is Adjacent to two Theocracies of its color, it
+is counted twice.
+
+59
+
+THE SEPARATION OF CHURCH AND STATE is an indispensable
+prerequisite for freedom. One of the artists for this game is a
+friend who faces death in her nation of birth (Iran) because she has
+become an atheist. Nevertheless, a theocracy has an advantage over
+democracies or autocracies where the rule of law is inconsistent or
+arbitrary, which is even more debilitating for individuals and their
+transactions than a complete (but predictable) tyranny.
+
+THRONE (B2d, C6b) - An Empire Square stored as a King
+in one of the 10 square slots on the gameboard. Thrones
+can also retain Repressed Tokens, Bishops, and/or Queens.
+TOKENS - Wooden chess and ship pieces on the Map and
+Tableau. Bishops = inquisitors, Knights = heavy cavalry,
+Rooks = nobles, and Pawns = merchants (or serfs/slaves if
+repressed).60
+TOKEN MANAGEMENT - Each player has 10 Pawns, and
+each religion has 5 Bishops. There are 10 gold, 7 green, and
+7 red Rooks. There are 10 gold, 7 green, and 7 red Knights.
+There are 6 gold, 4 green, and 3 red Pirates. Collectively
+these are called Tokens. If during card play or adding a
+Levy you wish to place a Token but none remains, you may
+remove the necessary Tokens from any Repressed Tokens,
+or (if this is not possible) from any position.
+TRADE ROUTE (G2) - Two trade routes are active at any
+one time: the West (the white line) and the East (black line).
+Each one starts at a 9-pointed star called an Emporium,
+and ends at the arrowhead. Although there are three white
+Emporia (Trebizond, Spice Islands, and Red Sea), one is
+always covered by a busted disk (C1) so there will always
+be just one West trade route. Similarly, although there are
+three black Emporia (Tana, Novgorod, and Timbuktu), two
+of them are always busted at a given time leaving one
+unbusted.
+
+VICTORIOUS - If the attackers have at least one
+survivor remaining after a Battle. See player aid.
+VICTORY SQUARES (B7b) - One of 4 public tiles that
+start inactive (facedown) in the four slots provided on
+the gameboard. If you buy a Comet, you choose one
+inactive victory square to activate by flipping it faceup.
+This flipping represents an old era being replaced by a
+modern one:
+a. The Medieval Age61 replaced by Renaissance.
+b. The Galley Age62 replaced by globalization.
+c. East-West Schism63 replaced by holy victory.
+d. Age of Feudalism64 replaced by imperialism.
+WEST - Refers to the 6 western Empires in the game,
+and their cards, Trade Routes, and Market Rows.
+They generally reflect Western philosophy and
+cultural values.
+
+VASSAL - If a King conquers another Empire in a
+campaign (F9g), the losing Empire is called a Vassal. The
+Vassal Empire Square is placed adjacent and below that of
+its conqueror to indicate vassalage. A Vassal’s Prestige and
+Ops remain active. Vassals are always on their King side.
+a. Vassal-Suzerain Combination. The overlord of a
+Vassal is called a Suzerain. A Vassal and its Suzerain are
+treated as two separate cards during an Eastern/Western
+Ops action (E4) and Bishop movement/silencing (F1d,f).
+b. Tokens. If an Empire Square becomes a Vassal, it
+retains all Repressed Tokens. Any Queens or Bishops are
+retained if the Empire Square comes from its Throne, but
+are Discarded if it comes from an enemy Tableau.
+c. Targeting Vassals. Vassals can be targeted by Ops or
+One-shots, except you cannot initiate a vote (F6) against
+a Vassal.
+
+61
+
+POST-ROMAN DARK AGES. When the Roman Republic
+was overthrown by Roman Caesars, Europe fell into
+deurbanization, depopulation, and deep economic retrogression.
+Markets and coinage all but disappeared as pottery, bricks, and
+glassware ceased to be mass produced. Literacy and books also
+plummeted. Market farming was replaced by subsistence farming as
+roads fell into disrepair.
+
+d. Liberation. Return a Vassal to its Throne (retaining
+its Queen & Tokens if any) if sold (E3) or if its Suzerain
+suffers a REGIME CHANGE.
+
+62
+
+60
+
+63
+
+CHESS. In the 1470’s, a new style of chess swept Europe, in which
+the queen became the most powerful piece on the board. This
+game’s chess piece motif reflects medieval units that were made obsolete
+by the Renaissance. Kings and queens became figureheads in proper
+republics. Pawns (serfs) became merchants in a new business class, which
+today includes all employers, employees, and freelancers. Bishops are still
+with us, but have lost their political clout in the separation of church and
+state. Knights lost their “mafioso” role of demanding protection money
+from the cities, and became mercenaries and police. The castles of the
+landowning aristocracy (rooks) were helpless before Renaissance artillery.
+Since then, land has become less and less valuable compared to the value
+of ideas, and landowners produce less wealth than entrepreneurs.
+
+THE GALLEYS of the Mediterranean were coastal boats unable
+to safely leave sight of land. An unsung Basque fisherman
+modified his Atlantic boat with lateen sails for windward sailing, and
+other modifications suitable for the open ocean. The carrack was one
+of the greatest inventions of all time, enabling global trade empires
+and cheap Oriental imports.
+EAST-WEST SCHISM. By age 21, Mehmed the Conqueror
+had breached the walls of Constantinople, the seat of the
+Byzantine Church. Instead of installing a Muslim Theocracy, the
+sultan accommodated the Orthodox Church. Exploiting the festering
+schism between the Greek and Roman Christians, he appointed
+anti-Roman Patriarchs and persecuted anyone promoting a Christian
+reunification. Thus he prevented an unified Christian backlash.
+
+64
+
+AGE OF FEUDALISM. Both the European feudal system and
+the Ottoman timar system granted a warrior noble class
+usage of their fiefs and serfs, in exchange for military service. The
+Renaissance would replace these petty warlords with the first nationstates.
+
+BOOK I - RULES | PAX RENAISSANCE | 43
+
+CONTENTS
+A. BOOK I - Summary						 2
+B. COMPONENTS						 4
+C. SETUP								 8
+D. SEQUENCE OF PLAY
+
+				
+
+12
+
+E. ACTIONS							14
+F. TABLEAU OPS 							18
+H. TRADE SHIFT							28
+I. CORONATIONS						30
+J. CIVIL WARS (Conspiracies & Peasant Revolts)		 32
+K. RELIGIOUS WARS & APOSTASY				34
+L. ENDGAME & VICTORY 					36
+
+PA X R E N AI S S A N C E 2 N D E D I T I O N
+Art Nr. SMG37-2, EAN: 653341042361, www.https://ionsmg.com/
+Design: Phil and Matt Eklund
+Development: Alex Serban
+Cover Art: Josefin Strand
+Artists: Josefin Strand & My Olausson
+Production: Besime Uyanik & Pål Keller Carlquist
+Rules: Kyrill Melai, Nikolaj Brucker, Ken Sinn, Josh Rea, Roel van der Hoorn, Van Willis.
+Playtesters: Chris Peters, Andy Denison, Raimund Ruppel, Jenny Bradbury, Mikko
+Heikela, Jon Manker, Ingeborg Asplund, Phirax, Alex Serban, Kevin Thatcher.
+Genoa Playtesters: Stefano Tiné, Mauro Cella, Fabio Santamaria, Diego D’Arrigo.
+Tabletop Simulator: Alex Serban, Dom Rougier, Sam Williams.
+Vassal Module: Stefano Tiné.
+Special Thanks: Liz’bet Campbell, who introduced the Renaissance to me.
+
+44 | PAX RENAISSANCE | BOOK I - RULES
+
+

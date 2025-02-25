@@ -1,0 +1,588 @@
+@use "sass:math";
+@use "sass:map";
+@use "../base";
+
+.pr_ability_action_select.pr_selectable,
+.pr_tableau_op_select.pr_selectable,
+.pr_card.pr_selectable {
+  /* border: 2px blue solid; */
+  cursor: pointer !important;
+  box-shadow: 0px 0px 0px calc(var(--paxRenCardScale) * 4px) base.$selectable-color !important;
+}
+
+.card.pr_selectable,
+.pr_card.pr_selectable,
+.pr_square_card.pr_selectable {
+  /* border: 2px blue solid; */
+  cursor: pointer !important;
+  // box-shadow: 0px 0px 0px calc(var(--paxRenCardScale) * 4px) base.$selectable-color !important;
+}
+
+.pr_border.pr_selectable,
+.pr_city.pr_selectable,
+.pr_map_card.pr_selectable,
+.pr_market.pr_selectable {
+  /* border: 2px blue solid; */
+  cursor: pointer !important;
+  box-shadow: 0px 0px 0px calc(var(--paxRenMapScale) * 4px) base.$selectable-color !important;
+}
+
+.card.pr_selectable.pr_empire_square {
+  box-shadow: none !important;
+}
+
+.pr_ability_action_select.pr_selected,
+.pr_ability_action_select.pr_selectable:hover,
+.pr_tableau_op_select.pr_selected,
+.pr_tableau_op_select.pr_selectable:hover,
+.pr_card.pr_selected,
+.pr_card.pr_selectable:hover {
+  cursor: pointer !important;
+  box-shadow: 0px 0px 0px calc(var(--paxRenCardScale) * 4px) base.$selected-color !important;
+  z-index: 1;
+}
+
+.card.pr_selected,
+.card.pr_selectable:hover,
+.pr_square_card.pr_selected,
+.pr_square_card.pr_selectable:hover {
+  cursor: pointer !important;
+  z-index: 1;
+  // box-shadow: 0px 0px 0px calc(var(--paxRenCardScale) * 4px) base.$selected-color !important;
+}
+
+.pr_border.pr_selected,
+.pr_border.pr_selectable:hover,
+.pr_city.pr_selected,
+.pr_city.pr_selectable:hover,
+.pr_map_card.pr_selected,
+.pr_map_card.pr_selectable:hover,
+.pr_market.pr_selected,
+.pr_market.pr_selectable:hover {
+  cursor: pointer !important;
+  box-shadow: 0px 0px 0px calc(var(--paxRenMapScale) * 4px) base.$selected-color !important;
+}
+
+.card.pr_selected.pr_empire_square,
+.card.pr_selectable:hover.pr_empire_square {
+  z-index: 1;
+  box-shadow: none !important;
+}
+
+.card {
+  //   box-shadow: 2px 2px 5px -1px #000;
+  border-radius: calc(var(--paxRenCardScale) * 5px);
+}
+
+.card.pr_selectable > .card-sides > .card-side {
+  // .card-sides {
+  //   .card-side {
+      box-shadow: 0px 0px 0px calc(var(--paxRenCardScale) * 4px) base.$selectable-color !important;
+      // box-shadow: none !important;
+  //   }
+  // }
+}
+
+.card.pr_selectable > .card-sides > .pr_square_card {
+  // .card-sides {
+  //   .pr_square_card {
+      box-shadow: 0px 0px 0px calc(var(--paxRenCardScale) * 4px) base.$selectable-color !important;
+  //   }
+  // }
+}
+
+.card.pr_selectable:hover > .card-sides > .card-side,
+.card.pr_selected > .card-sides > .card-side {
+  // .card-sides {
+    // .card-side {
+      box-shadow: 0px 0px 0px calc(var(--paxRenCardScale) * 4px) base.$selected-color !important;
+      // box-shadow: none !important;
+    // }
+  // }
+}
+
+.card.pr_selectable:hover > .card-sides > .pr_square_card,
+.card.pr_selected > .card-sides > .pr_square_card {
+  // .card-sides {
+    // .pr_square_card {
+      box-shadow: 0px 0px 0px calc(var(--paxRenCardScale) * 4px) base.$selected-color !important;
+    // }
+  // }
+}
+
+// TODO: check if this is necessary?
+.pr_ability_action_select.pr_selectable,
+.pr_ability_action_select.pr_selected,
+.pr_ability_action_select.pr_selectable:hover,
+.pr_tableau_op_select.pr_selectable,
+.pr_tableau_op_select.pr_selected,
+.pr_tableau_op_select.pr_selectable:hover {
+  z-index: 1;
+}
+
+.pr_card {
+  box-sizing: border-box;
+  width: calc(var(--paxRenCardScale) * 151px);
+  height: calc(var(--paxRenCardScale) * 230px);
+  background-repeat: no-repeat;
+  border: calc(var(--paxRenCardScale) * 1px) black solid;
+  border-radius: calc(var(--paxRenCardScale) * 5px);
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: high-quality;
+}
+
+.pr_ability_action_select {
+  position: absolute;
+  border-radius: 5%;
+}
+
+.pr_tableau_op_select {
+  width: calc(var(--paxRenCardScale) * 37px);
+  height: calc(var(--paxRenCardScale) * 27px);
+  position: absolute;
+  border-radius: 50%;
+}
+
+.card-sides {
+  position: relative !important;
+}
+
+.pr_card[data-card-id="null"] {
+  opacity: 0;
+  // background-color: yellow;
+}
+
+.pr_empire_square_container {
+  min-width: calc(var(--paxRenCardScale) * 151px);
+  min-height: calc(var(--paxRenCardScale) * 151px);
+  // background-color: yellow;
+}
+
+.pr_square_card {
+  box-sizing: border-box;
+  width: calc(var(--paxRenCardScale) * 151px);
+  height: calc(var(--paxRenCardScale) * 151px);
+  // background-size: 100% 100%;
+  // position: absolute;
+  background-repeat: no-repeat;
+  border: calc(var(--paxRenCardScale) * 1px) black solid;
+  box-shadow: calc(var(--paxRenCardScale) * 2px) calc(var(--paxRenCardScale) * 2px) calc(var(--paxRenCardScale) * 5px) calc(var(--paxRenCardScale) * -1px) #000;
+  border-radius: calc(var(--paxRenCardScale) * 5px);
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: high-quality;
+}
+
+.pr_square_card[data-card-id="null"] {
+  opacity: 0;
+  // background-color: yellow;
+}
+
+.pr_card_tokens_container {
+  width: calc(var(--paxRenCardScale) * 81px);
+  height: calc(var(--paxRenCardScale) * 81px);
+  // background-color: orange;
+  position: relative;
+  top: calc(var(--paxRenCardScale) * 45px);
+  left: calc(var(--paxRenCardScale) * 35px);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+
+.pr_player_board_tableau_cards[data-region="west"] {
+  .pr_card_tokens_container {
+    left: calc(var(--paxRenCardScale) * 66px);
+    top: calc(var(--paxRenCardScale) * 140px);
+    justify-content: flex-end;
+    align-items: end;
+  }
+
+  .pr_empire_square {
+    .pr_card_tokens_container {
+      left: calc(var(--paxRenCardScale) * 66px);
+      top: calc(var(--paxRenCardScale) * 63px);
+      justify-content: flex-end;
+      align-items: end;
+    }
+  }
+
+  .pr_queens_container {
+    .pr_card_tokens_container {
+      left: calc(var(--paxRenCardScale) * 66px);
+      top: calc(var(--paxRenCardScale) * 20px);
+      justify-content: flex-end;
+      align-items: end;
+    }
+  }
+}
+
+.pr_player_board_tableau_cards[data-region="east"] {
+  .pr_card_tokens_container {
+    top: calc(var(--paxRenCardScale) * 140px);
+    left: calc(var(--paxRenCardScale) * 4px);
+    justify-content: flex-start;
+    align-items: end;
+  }
+
+
+  .pr_empire_square {
+    .pr_card_tokens_container {
+      top: calc(var(--paxRenCardScale) * 63px);
+      left: calc(var(--paxRenCardScale) * 4px);
+      justify-content: flex-start;
+      align-items: end;
+    }
+  }
+
+  .pr_queens_container {
+    .pr_card_tokens_container {
+      top: calc(var(--paxRenCardScale) * 20px);
+      left: calc(var(--paxRenCardScale) * 4px);
+      justify-content: flex-start;
+      align-items: end;
+    }
+  }
+}
+
+.pr_vassals_container {
+  width: calc(var(--paxRenCardScale) * 151px);
+  gap: calc(var(--paxRenCardScale) * 12px);
+}
+
+.pr_vassals_container:not(:empty) {
+  padding-top: calc(var(--paxRenCardScale) * 12px);
+}
+
+.pr_queens_container {
+  width: calc(var(--paxRenCardScale) * 151px);
+}
+
+/* ------- EAST CARDS ------- */
+
+$east-cards1: (
+  1: "PREN058",
+  2: "PREN059",
+  3: "PREN060",
+  4: "PREN061",
+  5: "PREN062",
+  6: "PREN063",
+  7: "PREN064",
+  8: "PREN065",
+  9: "PREN066",
+  10: "PREN067",
+  11: "PREN068",
+  12: "PREN069",
+  13: "PREN070",
+  14: "PREN071",
+  15: "PREN072",
+  16: "PREN073",
+  17: "PREN074",
+  18: "PREN075",
+  19: "PREN076",
+  20: "PREN077",
+  21: "PREN078",
+  22: "PREN079",
+  23: "PREN080",
+  24: "PREN081",
+  25: "PREN082",
+  26: "PREN083",
+  27: "PREN084",
+  28: "PREN085",
+  29: "PREN086",
+  30: "PREN087",
+  31: "PREN088",
+  32: "PREN089",
+  33: "PREN090",
+  34: "PREN093X",
+  35: "PREN094X",
+  36: "PREN095X",
+  37: "PREN098X",
+  38: "PREN099X",
+  39: "PREN100X",
+  40: "PREN101X",
+);
+
+@for $i from 1 through 40 {
+  .pr_card[data-card-id="#{map.get($east-cards1,$i)}"] {
+    background-image: url("img/east_cards1.jpg");
+    background-size: 1000% 400%;
+    background-position-x: math.div((($i - 1) % 10 * 100%), 9);
+    background-position-y: math.div(math.floor(calc(($i - 1) / 10)) * 100%, 3);
+  }
+}
+
+$east-cards2: (
+  1: "PREN102X",
+  2: "PREN103X",
+  3: "PREN104X",
+  4: "PREN105X",
+  5: "PREN106X",
+  6: "PREN107X",
+  7: "PREN108X",
+  8: "PREN109X",
+  9: "PREN110X",
+  10: "PREN111X",
+  11: "PREN112X",
+  12: "PREN113X",
+  13: "PREN114X",
+  14: "PREN115X",
+  15: "PREN116X",
+  16: "PREN117X",
+  17: "PREN118X",
+  18: "PREN119X",
+  19: "PREN120X",
+  20: "PREN121X",
+  21: "PREN122X",
+  22: "PREN123X",
+  23: "PREN124X",
+  24: "PREN125X",
+  25: "PREN126X",
+  26: "PREN127X",
+  27: "PREN163X",
+  28: "PREN164X",
+  29: "PREN165X",
+  30: "PREN166X",
+  31: "PREN167X",
+  32: "PREN168X",
+  33: "EAST_BACK",
+  34: "COMET1",
+  35: "COMET2",
+  36: "PREN208P",
+  37: "PREN209P",
+  38: "PREN210P",
+  39: "PREN211P",
+);
+
+@for $i from 1 through 39 {
+  .pr_card[data-card-id="#{map.get($east-cards2,$i)}"] {
+    background-image: url("img/east_cards2.jpg");
+    background-size: 1000% 400%;
+    background-position-x: math.div((($i - 1) % 10 * 100%), 9);
+    background-position-y: math.div(math.floor(calc(($i - 1) / 10)) * 100%, 3);
+  }
+}
+
+/* ------- WEST CARDS ------- */
+
+$west-cards1: (
+  1: "PREN001",
+  2: "PREN002",
+  3: "PREN003",
+  4: "PREN004",
+  5: "PREN005",
+  6: "PREN006",
+  7: "PREN007",
+  8: "PREN008",
+  9: "PREN009",
+  10: "PREN010",
+  11: "PREN011",
+  12: "PREN012",
+  13: "PREN013",
+  14: "PREN014",
+  15: "PREN015",
+  16: "PREN016",
+  17: "PREN017",
+  18: "PREN018",
+  19: "PREN019",
+  20: "PREN020",
+  21: "PREN021",
+  22: "PREN022",
+  23: "PREN023",
+  24: "PREN024",
+  25: "PREN025",
+  26: "PREN026",
+  27: "PREN027",
+  28: "PREN028",
+  29: "PREN029",
+  30: "PREN030",
+  31: "PREN031",
+  32: "PREN032",
+  33: "PREN033",
+  34: "PREN034",
+  35: "PREN035",
+  36: "PREN036",
+  37: "PREN037",
+  38: "PREN038",
+  39: "PREN039",
+  40: "PREN040",
+);
+
+@for $i from 1 through 40 {
+  .pr_card[data-card-id="#{map.get($west-cards1,$i)}"] {
+    background-image: url("img/west_cards1.jpg");
+    background-size: 1000% 400%;
+    background-position-x: math.div((($i - 1) % 10 * 100%), 9);
+    background-position-y: math.div(math.floor(calc(($i - 1) / 10)) * 100%, 3);
+  }
+}
+
+$west-cards2: (
+  1: "PREN041",
+  2: "PREN042",
+  3: "PREN043",
+  4: "PREN044",
+  5: "PREN045",
+  6: "PREN046",
+  7: "PREN047",
+  8: "PREN048",
+  9: "PREN049",
+  10: "PREN050",
+  11: "PREN051",
+  12: "PREN052",
+  13: "PREN053",
+  14: "PREN054",
+  15: "PREN055",
+  16: "PREN096X",
+  17: "PREN097X",
+  18: "PREN128X",
+  19: "PREN129X",
+  20: "PREN130X",
+  21: "PREN131X",
+  22: "PREN132X",
+  23: "PREN133X",
+  24: "PREN134X",
+  25: "PREN135X",
+  26: "PREN136X",
+  27: "PREN137X",
+  28: "PREN138X",
+  29: "PREN139X",
+  30: "PREN140X",
+  31: "PREN141X",
+  32: "PREN142X",
+  33: "PREN143X",
+  34: "PREN144X",
+  35: "PREN145X",
+  36: "PREN146X",
+  37: "PREN147X",
+  38: "PREN148X",
+  39: "PREN149X",
+  40: "PREN150X",
+);
+
+@for $i from 1 through 40 {
+  .pr_card[data-card-id="#{map.get($west-cards2,$i)}"] {
+    background-image: url("img/west_cards2.jpg");
+    background-size: 1000% 400%;
+    background-position-x: math.div((($i - 1) % 10 * 100%), 9);
+    background-position-y: math.div(math.floor(calc(($i - 1) / 10)) * 100%, 3);
+  }
+}
+
+$west-cards3: (
+  1: "PREN151X",
+  2: "PREN152X",
+  3: "PREN153X",
+  4: "PREN154X",
+  5: "PREN155X",
+  6: "PREN156X",
+  7: "PREN157X",
+  8: "PREN158X",
+  9: "PREN159X",
+  10: "PREN160X",
+  11: "PREN161X",
+  12: "PREN162X",
+  13: "WEST_BACK",
+  14: "COMET3",
+  15: "COMET4",
+  16: "PREN212P",
+  17: "PREN213P",
+  18: "PREN214P",
+  19: "PREN215P",
+  20: "PREN216P",
+);
+
+@for $i from 1 through 20 {
+  .pr_card[data-card-id="#{map.get($west-cards3,$i)}"] {
+    background-image: url("img/west_cards3.jpg");
+    background-size: 1000% 200%;
+    background-position-x: math.div((($i - 1) % 10 * 100%), 9);
+    background-position-y: math.div(math.floor(calc(($i - 1) / 10)) * 100%, 1);
+  }
+}
+
+/* ------- SQUARE CARDS ------- */
+
+$square-cards: (
+  1: "EmpireSquare_England_king",
+  2: "EmpireSquare_England_republic",
+  3: "EmpireSquare_France_king",
+  4: "EmpireSquare_France_republic",
+  5: "EmpireSquare_Aragon_king",
+  6: "EmpireSquare_Aragon_republic",
+  7: "EmpireSquare_PapalStates_king",
+  8: "EmpireSquare_PapalStates_republic",
+  9: "EmpireSquare_Portugal_king",
+  10: "EmpireSquare_Portugal_republic",
+  11: "EmpireSquare_HolyRomanEmpire_king",
+  12: "EmpireSquare_HolyRomanEmpire_republic",
+  13: "EmpireSquare_Hungary_king",
+  14: "EmpireSquare_Hungary_republic",
+  15: "EmpireSquare_Ottoman_king",
+  16: "EmpireSquare_Ottoman_republic",
+  17: "EmpireSquare_Byzantium_king",
+  18: "EmpireSquare_Byzantium_republic",
+  19: "EmpireSquare_Mamluk_king",
+  20: "EmpireSquare_Mamluk_republic",
+  21: "victory_renaissance_active",
+  22: "victory_globalization_active",
+  23: "victory_holy_active",
+  24: "victory_imperial_active",
+  25: "victory_ageOfByzantine_active",
+  26: "victory_renaissance_inactive",
+  27: "victory_globalization_inactive",
+  28: "victory_holy_inactive",
+  29: "victory_imperial_inactive",
+  30: "victory_ageOfByzantine_inactive",
+);
+
+@for $i from 1 through 30 {
+  .pr_square_card[data-card-id="#{map.get($square-cards,$i)}"] {
+    background-image: url("img/square_cards.jpg");
+    background-size: 1000% 400%;
+    background-position-x: math.div((($i - 1) % 10 * 100%), 9);
+    background-position-y: math.div(math.floor(calc(($i - 1) / 10)) * 100%, 3);
+  }
+}
+
+.pr_square_card[data-card-id=EmpireSquare_Hungary_king][data-map-type="ageOfReformation"] {
+  background-image: url("img/square_cards.jpg");
+  background-size: 1000% 400%;
+  background-position-x: math.div(((31 - 1) % 10 * 100%), 9);
+  background-position-y: math.div(math.floor(calc((31 - 1) / 10)) * 100%, 3);
+}
+
+.pr_square_card[data-card-id=EmpireSquare_Hungary_republic][data-map-type="ageOfReformation"] {
+  background-image: url("img/square_cards.jpg");
+  background-size: 1000% 400%;
+  background-position-x: math.div(((32 - 1) % 10 * 100%), 9);
+  background-position-y: math.div(math.floor(calc((32 - 1) / 10)) * 100%, 3);
+}
+
+.pr_square_card[data-card-id=EmpireSquare_Ottoman_king][data-map-type="ageOfReformation"] {
+  background-image: url("img/square_cards.jpg");
+  background-size: 1000% 400%;
+  background-position-x: math.div(((33 - 1) % 10 * 100%), 9);
+  background-position-y: math.div(math.floor(calc((33 - 1) / 10)) * 100%, 3);
+}
+
+.pr_square_card[data-card-id=EmpireSquare_Ottoman_republic][data-map-type="ageOfReformation"] {
+  background-image: url("img/square_cards.jpg");
+  background-size: 1000% 400%;
+  background-position-x: math.div(((34 - 1) % 10 * 100%), 9);
+  background-position-y: math.div(math.floor(calc((34 - 1) / 10)) * 100%, 3);
+}
+
+.pr_square_card[data-card-id=EmpireSquare_PapalStates_king][data-map-type="ageOfReformation"][data-religion="reformist"] {
+  background-image: url("img/square_cards.jpg");
+  background-size: 1000% 400%;
+  background-position-x: math.div(((35 - 1) % 10 * 100%), 9);
+  background-position-y: math.div(math.floor(calc((35 - 1) / 10)) * 100%, 3);
+}
+
+.pr_square_card[data-card-id=EmpireSquare_PapalStates_king][data-map-type="ageOfReformation"][data-religion="islamic"] {
+  background-image: url("img/square_cards.jpg");
+  background-size: 1000% 400%;
+  background-position-x: math.div(((36 - 1) % 10 * 100%), 9);
+  background-position-y: math.div(math.floor(calc((36 - 1) / 10)) * 100%, 3);
+}

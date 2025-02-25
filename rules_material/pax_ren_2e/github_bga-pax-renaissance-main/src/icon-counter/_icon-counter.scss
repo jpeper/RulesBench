@@ -1,0 +1,33 @@
+@use "sass:math";
+
+.pr_icon_counter_container {
+  // width: 50px;
+  // height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  // justify-content: center;
+  position: relative;
+  gap: 4px;
+
+  .pr_icon[data-icon=florin] {
+    width: 33px;
+    height: 33px;
+  }
+
+  .pr_card_back_icon {
+    width: 22px;
+    height: 33px;
+    margin-left: 5px;
+  }
+
+  .pr_counter {
+    cursor: default;
+    font-weight: bold;
+    font-size: 20px;
+  }
+}
+
+.pr_icon_counter_container.pr_none {
+  opacity: 0.3;
+}

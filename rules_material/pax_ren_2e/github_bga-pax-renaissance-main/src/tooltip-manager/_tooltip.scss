@@ -1,0 +1,166 @@
+@use "sass:math";
+
+.dijitTooltipContainer {
+  padding: 8px !important;
+  // background-color: yellow !important;
+}
+
+.pr_card_tooltip {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  width: 500px;
+  min-height: 400px;
+  // background-color: purple;
+
+  .pr_card {
+    // margin-right: -100px;
+    margin-left: 8px;
+    align-self: center;
+    --paxRenCardScale: 1.47;
+    // --paxRenCardScale: 1;
+    // min-width: 223px;
+    // max-width: 223px;
+    // min-height: 340px;
+    // max-height: 340px;
+  }
+
+  .pr_square_card_tooltip_card_container {
+    // margin-right: -100px;
+    margin-left: 8px;
+    align-self: center;
+    --paxRenCardScale: 1.47;
+  }
+
+  .pr_card_tooltip_inner_container {
+    flex-grow: 1;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 274px;
+
+    // .pr_title_row {
+    //   display: flex;
+    //   flex-direction: row;
+
+    //   .pr_card_tooltip_empire_icon {
+    //     display: flex;
+    //     flex-direction: column;
+    //     max-width: 40px;
+    //     justify-content: center;
+    //   }
+
+    // }
+
+    .pr_title {
+      font-size: large;
+      font-weight: bold;
+      text-align: left;
+      margin-bottom: 4px;
+    }
+
+    .pr_section_title {
+      font-size: medium;
+      font-weight: bold;
+      text-align: left;
+      margin-bottom: 4px;
+      margin-top: 4px;
+    }
+
+    .pr_section_text {
+      .pr_prestige_icon {
+        display: inline-block;
+        margin-bottom: -8px;
+      }
+    }
+
+    .pr_card_tooltip_row {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 8px;
+
+      .pr_card_tooltip_row_icon {
+        min-width: 50px;
+        margin-right: 8px;
+        display: flex;
+        justify-content: center;
+
+        .pr_agent_icon {
+          --paxRenIconScale: 1.25;
+        }
+
+        .pr_empire_icon {
+          --paxRenIconScale: 0.3;
+        }
+
+        .pr_one_shot {
+          --paxRenIconScale: 0.5;
+        }
+
+        .pr_tableau_op {
+          --paxRenIconScale: 0.5;
+        }
+      }
+
+      .pr_tooltip_row_text {
+        display: flex;
+        flex-direction: column;
+
+        .pr_flavor_text {
+          margin-bottom: 0px;
+        }
+      }
+    }
+
+    .pr_tooltip_text {
+      text-align: left;
+      font-size: small;
+    }
+
+    .pr_flavor_text {
+      text-align: left;
+      font-size: small;
+      font-style: italic;
+      // margin-top: auto;
+      // padding-top: 4px;
+      margin-bottom: 4px;
+    }
+  }
+}
+
+.pr_icon_tooltip {
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+
+  .pr_icon {
+    margin: 0px;
+  }
+
+  .pr_tooltip_title {
+    font-size: medium;
+    font-style: italic;
+  }
+
+  .pr_icon_tooltip_icon {
+    padding-top: 4px;
+
+    .pr_supreme_religion_tokens_theocracies_icon_container {
+      --paxRenTokenScale: 0.75;
+      display: flex;
+      flex-direction: row;
+    }
+  }
+
+  .pr_icon_tooltip_content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+  }
+
+  .pr_tooltip_text {
+    text-align: left;
+    font-size: small;
+  }
+}
