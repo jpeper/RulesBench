@@ -1,0 +1,58 @@
+{
+  "no_context": {
+    "from_scratch": {
+      "num_examples": 106,
+      "accuracy": 0.5283018867924528
+    },
+    "from_rulebook": {
+      "num_examples": 106,
+      "accuracy": 0.6037735849056604
+    },
+    "from_forum": {
+      "num_examples": 106,
+      "accuracy": 0.5660377358490566
+    }
+  },
+  "official_rules_txt": {
+    "from_scratch": {
+      "num_examples": 106,
+      "accuracy": 0.6415094339622641
+    },
+    "from_rulebook": {
+      "num_examples": 106,
+      "accuracy": 0.6509433962264151
+    },
+    "from_forum": {
+      "num_examples": 106,
+      "accuracy": 0.6226415094339622
+    }
+  },
+  "unofficial_summary_txt": {
+    "from_scratch": {
+      "num_examples": 106,
+      "accuracy": 0.4716981132075472
+    },
+    "from_rulebook": {
+      "num_examples": 106,
+      "accuracy": 0.6226415094339622
+    },
+    "from_forum": {
+      "num_examples": 106,
+      "accuracy": 0.5471698113207547
+    }
+  },
+  "bgg_corpus": {
+    "from_scratch": {
+      "num_examples": 106,
+      "accuracy": 0.8773584905660378
+    },
+    "from_rulebook": {
+      "num_examples": 106,
+      "accuracy": 0.8962264150943396
+    },
+    "from_forum": {
+      "num_examples": 106,
+      "accuracy": 0.8207547169811321
+    }
+  }
+}
