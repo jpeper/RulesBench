@@ -100,7 +100,7 @@ def get_threads(forum_id):
     page = 1
 
     while True:
-        response = api_request(f"https://boardgamegeek.com/xmlapi2/forum?id={forum_id}&page={page}")
+        response = api_request(f"https://boardgamegeek.com/xmlapi2/forum?id={forum_id}&page={page}&sort=hot")
         if not response:
             break
 
@@ -184,6 +184,6 @@ def scrape_bgg_forum(game_id):
     with open("bgg_rules_posts.json", "w", encoding="utf-8") as f:
         json.dump(grouped_data, f, indent=4, ensure_ascii=False)
 
-    print("Scraping complete. Data saved to bgg_rules_posts.json")
+    print("Scraping complete. Data saved to bgg_rules_posts_sorted.json")
 
 scrape_bgg_forum(308119)
