@@ -1,0 +1,15 @@
+{
+  "ID": 7,
+  "Game": "",
+  "Test Scenario": "Trade fair\n\nTest emporium",
+  "Optimization Objective": "",
+  "Game State Changes": "busted disk moved",
+  "Solution / Actions": "West Trade Fair\nblue +3, yellow +1\n\nEast Trade Fair\nblue +2, yellow +0\n\n\nMax florins earned: 5",
+  "game_state_json": {
+    "map": {},
+    "pieces": [],
+    "player_status": {},
+    "notes": "Placeholder for structured game state"
+  },
+  "game_state_url": "https://example.com/game_state_images/test_007.png"
+}

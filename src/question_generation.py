@@ -1,11 +1,12 @@
 import os
 import json
 import re
+import asyncio
+from concurrent.futures import ThreadPoolExecutor
 from tqdm import tqdm
 
-from LLM import complete_text_openai
-
-MODEL = "gpt-4o"
+# Import your llm_infer
+from src.llm_infer import llm_infer
 
 def strip_html_tags(text: str) -> str:
     """
@@ -15,10 +16,17 @@ def strip_html_tags(text: str) -> str:
     return re.sub(clean, '', text)
 
 def count_lines(filename):
-    with open(filename, "r") as f:
+    with open(filename, "r", encoding="utf-8") as f:
         return sum(1 for _ in f)
 
 def extract_json(response):
+    """
+    Attempts to extract JSON content from a fenced code block like:
+    ```json
+    { ... }
+    ```
+    If not found, returns the full response string.
+    """
     match = re.search(r'```json(.*?)```', response, re.DOTALL)
     if match:
         code_content = match.group(1).strip()
@@ -27,6 +35,10 @@ def extract_json(response):
         return response
 
 def safe_load_json(response):
+    """
+    Extracts JSON text from the response (if present) and parses it.
+    Falls back gracefully if parsing fails.
+    """
     output = extract_json(response)
     if not output:
         return []
@@ -34,158 +46,213 @@ def safe_load_json(response):
         distractors = json.loads(output)
     except Exception as e:
         print(e)
-        print("Error parsing distractors from scratch:", output)
+        print("Error parsing distractors:", output)
         distractors = []
     return distractors
 
-
-def generate_distractors_from_scratch(formatted_question: str, formatted_answer: str):
-    """
-    Generate five plausible distractors (incorrect answer options) for a multiple-choice question,
-    without any additional context. The distractors should imitate the length and style of the correct answer.
-    """
+async def generate_distractors_from_scratch_async(question: str, answer: str, semaphore: asyncio.Semaphore):
     prompt = (
         "You are provided with a boardgame rules question and its correct answer.\n\n"
-        f"Question:\n{formatted_question}\n\n"
-        f"Answer:\n{formatted_answer}\n\n"
-        "Task: Generate five plausible distractors (incorrect answer options) for a multiple-choice question. "
-        "The distractors should imitate "
-        "the length and style of the correct answer.\n\n"
-        "Output the distractors as a JSON list, for example:\n"
-        '["Distractor 1", "Distractor 2", "Distractor 3", "Distractor 4", "Distractor 5"]\n'
-	"No additional text outside of the JSON."
+        f"Question:\n{question}\n\n"
+        f"Correct Answer:\n{answer}\n\n"
+        "Task: Generate a multiple-choice question including the correct answer and up to five plausible distractors (incorrect answer options)"
+        "The distractors should mimic the length and style of the correct answer. Each distractor should have the same number of clauses as the original answer to mitigate spurious length biases.\n\n"
+        "Output the multiple-choice question as a JSON list, with the correct answer as the first element. e.g. {'mcq_candidates': <list>}\n"
     )
-    
-    output = complete_text_openai(prompt, model=MODEL)
-    distractors = safe_load_json(output) 
-    return distractors
 
-def generate_distractors_from_rulebook(formatted_question: str, formatted_answer: str, rulebook_text: str):
-    """
-    Generate five plausible distractors (incorrect answer options) for a multiple-choice question that are
-    grounded in the provided rulebook text. The distractors should imitate the length and style of the correct answer.
-    """
+    async with semaphore:
+        loop = asyncio.get_running_loop()
+        output_list = await loop.run_in_executor(
+            None,  # Use default ThreadPoolExecutor
+            lambda: llm_infer([prompt], use_json=True)
+        )
+    output = json.loads(output_list[0])['mcq_candidates'][1:] if output_list else ""
+    return output
+
+async def generate_distractors_from_rulebook_async(question: str, answer: str, rulebook_text: str, semaphore: asyncio.Semaphore):
     prompt = (
         "You are provided with a boardgame rules question, its correct answer, and the rulebook text.\n\n"
-        f"Question:\n{formatted_question}\n\n"
-        f"Answer:\n{formatted_answer}\n\n"
+        f"Question:\n{question}\n\n"
+        f"Correct Answer:\n{answer}\n\n"
         f"Rulebook Text:\n{rulebook_text}\n\n"
-        "Task: Generate five plausible distractors (incorrect answer options) for a multiple-choice question that are "
-        "grounded in the rulebook text. The distractors should imitate the length and style of the correct answer.\n\n"
-        "Output the distractors as a JSON list, for example:\n"
-        '["Distractor 1", "Distractor 2", "Distractor 3", "Distractor 4", "Distractor 5"]\n'
-	"No additional text outside of the JSON."
+        "Task: Generate a multiple-choice question including the correct answer and up to five plausible distractors (incorrect answer options)"
+        "The distractors should mimic the length and style of the correct answer. Each distractor should have the same number of clauses as the original answer to mitigate spurious length biases.\n\n"
+        "Output the multiple-choice question as a JSON list, with the correct answer as the first element. e.g. {'mcq_candidates': <list>}\n"
     )
-    
-    output = complete_text_openai(prompt, model=MODEL)
-    distractors = safe_load_json(output)    
-    return distractors
 
-def generate_distractors_from_forum(formatted_question: str, formatted_answer: str, full_content: list):
-    """
-    Generate five plausible distractors (incorrect answer options) for a multiple-choice question that are
-    grounded in the online forum discussion. The discussion is provided in the full_content field, where each
-    item is a post. HTML tags in the post content will be removed before generating distractors.
-    This function is only called if there are at least three posts in the discussion.
-    The distractors should imitate the length and style of the correct answer.
-    """
-    # Concatenate cleaned forum posts into one discussion text.
+    async with semaphore:
+        loop = asyncio.get_running_loop()
+        output_list = await loop.run_in_executor(
+            None,
+            lambda: llm_infer([prompt], use_json=True)
+        )
+    output = json.loads(output_list[0])['mcq_candidates'][1:] if output_list else ""
+    return output
+
+async def generate_distractors_from_forum_async(question: str, answer: str, full_content: list, semaphore: asyncio.Semaphore):
     forum_posts = []
     for post in full_content:
         content = post.get("content", "")
         cleaned_content = strip_html_tags(content)
         forum_posts.append(cleaned_content)
     forum_text = "\n".join(forum_posts)
-    
-    prompt = (
-        "You are provided with a boardgame rules question, its correct answer, and an online forum discussion "
-        "related to the question."
-        f"Question:\n{formatted_question}\n\n"
-        f"Answer:\n{formatted_answer}\n\n"
-        f"Forum Discussion:\n{forum_text}\n\n"
-        "Task: Generate five plausible distractors (incorrect answer options) for a multiple-choice question based on the "
-        "discussion content. The distractors should imitate the length and style of the correct answer.\n\n"
-        "Output the distractors as a JSON list, for example:\n"
-        '["Distractor 1", "Distractor 2", "Distractor 3", "Distractor 4", "Distractor 5"]\n'
-	"No additional text outside of the JSON."
-    )
-    
-    output = complete_text_openai(prompt, model=MODEL)
-    distractors = safe_load_json(output)    
-    return distractors
 
-def process_examples(examples_path: str, rulebook_text: str, output_path: str):
+    prompt = (
+        "You are provided with a boardgame rules question, its correct answer, and an online forum discussion.\n\n"
+        f"Question:\n{question}\n\n"
+        f"Answer:\n{answer}\n\n"
+        f"Forum Discussion:\n{forum_text}\n\n"
+        "Task: Generate a multiple-choice question including the correct answer and up to five plausible distractors (incorrect answer options)"
+        "The distractors should mimic the length and style of the correct answer. You can use the provided discussion to potentially source distractors. If they exist, try to source them fairly extractively when possible, and augment these with generated ones if there are not enough. Each distractor should have the same number of clauses as the original answer to mitigate spurious length biases.\n\n"
+        "Output the multiple-choice question as a JSON list, with the correct answer as the first element. e.g. {'mcq_candidates': <list>}\n"
+    )
+
+    async with semaphore:
+        loop = asyncio.get_running_loop()
+        output_list = await loop.run_in_executor(
+            None,
+            lambda: llm_infer([prompt], use_json=True)
+        )
+    output = json.loads(output_list[0])['mcq_candidates'][1:] if output_list else ""
+    return output
+
+async def generate_distractors_from_forum_and_rulebook_async(
+    question: str,
+    answer: str,
+    full_content: list,
+    rulebook_text: str,
+    semaphore: asyncio.Semaphore
+):
     """
-    Process each QA pair from the examples file and generate:
-      1. The multiple-choice question (using the original formatted question).
-      2. The correct answer (using the original formatted answer).
-      3. Five distractors generated from scratch.
-      4. Five distractors grounded in the rulebook text.
-      5. Optionally, five distractors grounded in online forum discussion if there are at least three posts.
-    The final combined result is printed in JSON format.
+    Generate five plausible distractors that leverage *both* the forum discussion
+    (cleaned of HTML) and the rulebook text as context.
     """
+    # Gather forum text
+    forum_posts = []
+    for post in full_content:
+        content = post.get("content", "")
+        cleaned_content = strip_html_tags(content)
+        forum_posts.append(cleaned_content)
+    forum_text = "\n".join(forum_posts)
+
+    prompt = (
+        "You are provided with a boardgame rules question, its correct answer, an online forum discussion, "
+        "and the official rulebook text. Use both of these sources as context.\n\n"
+        f"Question:\n{question}\n\n"
+        f"Answer:\n{answer}\n\n"
+        "Forum Discussion:\n"
+        f"{forum_text}\n\n"
+        "Rulebook Text:\n"
+        f"{rulebook_text}\n\n"
+        "Task: Generate a multiple-choice question including the correct answer and up to five plausible distractors (incorrect answer options)"
+        "The distractors should mimic the length and style of the correct answer. You can use the provided forum discussion to potentially source distractors. If they exist, try to source them fairly extractively when possible, and augment these with generated distractors (inspired by the rulebook knowledge) if there are not enough. Each distractor should have the same number of clauses as the original answer to mitigate spurious length biases.\n\n"
+        "Output the multiple-choice question as a JSON list, with the correct answer as the first element. e.g. {'mcq_candidates': <list>}\n"
+    )
+
+    async with semaphore:
+        loop = asyncio.get_running_loop()
+        output_list = await loop.run_in_executor(
+            None,
+            lambda: llm_infer([prompt], use_json=True)
+        )
+    output = json.loads(output_list[0])['mcq_candidates'][1:] if output_list else ""
+    return output
+
+async def process_single_example(example, rulebook_text, semaphore):
+    formatted_question = example["formatted_question"]
+    formatted_answer = example["formatted_answer"]
+
+    mcq_question = f"This question is about a boardgame called Pax Renaissance Second Edition. {formatted_question}"
+    correct_answer = formatted_answer
+
+    # Start tasks in parallel (all at once), then await them:
+    task_scratch = generate_distractors_from_scratch_async(mcq_question, correct_answer, semaphore)
+    task_rulebook = generate_distractors_from_rulebook_async(mcq_question, correct_answer, rulebook_text, semaphore)
+
+    # We'll check if forum content is large enough for forum-based distractors
+    full_content = example.get("full_content", [])
+    task_forum = None
+    task_forum_rulebook = None
+
+    if len(full_content) >= 3:
+        task_forum = generate_distractors_from_forum_async(mcq_question, correct_answer, full_content, semaphore)
+        task_forum_rulebook = generate_distractors_from_forum_and_rulebook_async(
+            mcq_question,
+            correct_answer,
+            full_content,
+            rulebook_text,
+            semaphore
+        )
+
+    # Gather the results
+    distractors_scratch, distractors_rulebook = await asyncio.gather(task_scratch, task_rulebook)
+    distractors_forum = []
+    distractors_forum_and_rulebook = []
+
+    if task_forum and task_forum_rulebook:
+        distractors_forum, distractors_forum_and_rulebook = await asyncio.gather(task_forum, task_forum_rulebook)
+
+    final_output = {
+        "multiple_choice_question": mcq_question,
+        "correct_answer": correct_answer,
+        "distractors": {
+            "from_scratch": distractors_scratch,
+            "from_rulebook": distractors_rulebook
+        },
+        "url": example["url"],
+    }
+
+    # Only include forum-based distractors if they were generated.
+    if distractors_forum:
+        final_output["distractors"]["from_forum"] = distractors_forum
+
+    # And likewise for the new type combining both forum + rulebook
+    if distractors_forum_and_rulebook:
+        final_output["distractors"]["from_forum_and_rulebook"] = distractors_forum_and_rulebook
+
+    return final_output
+
+async def process_examples_async(examples_path: str, rulebook_text: str, output_path: str, max_concurrency=25):
+    semaphore = asyncio.Semaphore(max_concurrency)
     processed_examples = []
     total_lines = count_lines(examples_path)
+
+    tasks = []
     with open(examples_path, "r", encoding="utf-8") as f:
-        for line in tqdm(f, desc="Processing questions", total=total_lines):
+        for line in tqdm(f, desc="Reading examples", total=total_lines):
             example = json.loads(line)
-            formatted_question = example["formatted_question"]
-            formatted_answer = example["formatted_answer"]
+            task = process_single_example(example, rulebook_text, semaphore)
+            tasks.append(task)
 
-            # Use the original formatted question and answer.
-            mcq_question = f"This question is about a boardgame called Pax Renaissance. {formatted_question}"
-            correct_answer = formatted_answer
+    print(f"Generating distractors with concurrency={max_concurrency}...")
+    results = await asyncio.gather(*tasks)
+    processed_examples.extend(results)
 
-            # Generate distractors from scratch.
-            distractors_scratch = generate_distractors_from_scratch(mcq_question, correct_answer)
+    # Write out the results
+    with open(output_path, 'w', encoding='utf-8') as writer:
+        for ex in processed_examples:
+            writer.write(json.dumps(ex, ensure_ascii=False) + '\n')
 
-            # Generate distractors grounded in the rulebook.
-            distractors_rulebook = generate_distractors_from_rulebook(mcq_question, correct_answer, rulebook_text)
+    # Also save as a .json if desired
+    with open(output_path.replace("jsonl", "json"), 'w', encoding='utf-8') as writer:
+        json.dump(processed_examples, writer, indent=2, ensure_ascii=False)
 
-            # Generate distractors based on forum discussion, if applicable.
-            distractors_forum = []
-            full_content = example.get("full_content", [])
-            if len(full_content) >= 3:
-                distractors_forum = generate_distractors_from_forum(mcq_question, correct_answer, full_content)
-
-            # Combine the data into one JSON structure.
-            final_output = {
-                "multiple_choice_question": mcq_question,
-                "correct_answer": correct_answer,
-                "distractors": {
-                    "from_scratch": distractors_scratch,
-                    "from_rulebook": distractors_rulebook
-                },
-                "url": example["url"],
-            }
-            # Only include forum-based distractors if they were generated.
-            if distractors_forum:
-                final_output["distractors"]["from_forum"] = distractors_forum
-            processed_examples.append(final_output)
-
-    with open(output_path, 'w') as writer:
-        for example in processed_examples:
-            writer.write(json.dumps(example)+'\n')
-    with open(output_path.replace("jsonl", "json"), 'w') as writer:
-        json.dump(processed_examples, writer, indent=2)
-    print(f"saved to {output_path}")
-
+    print(f"Saved to {output_path}")
 
 def load_rulebook(rulebook_path: str) -> str:
-    """
-    Load and return the rulebook text from the specified file.
-    """
     with open(rulebook_path, "r", encoding="utf-8") as f:
         return f.read()
 
 def main():
-    rulebook_path = "rulebook.txt"
-    examples_path = "examples.jsonl"
-    output_path = "mcq.jsonl"
+    # Adjust these paths as needed
+    rulebook_path = "rules_material/pax_ren_2e/paxren_rulebook1.txt"
+    examples_path = "data/paxren_100_hot.jsonl"
+    output_path = "data/mcq_100.jsonl"
 
     rulebook_text = load_rulebook(rulebook_path)
-    process_examples(examples_path, rulebook_text, output_path)
+
+    # Run the async event loop
+    asyncio.run(process_examples_async(examples_path, rulebook_text, output_path, max_concurrency=25))
 
 if __name__ == "__main__":
     main()
-

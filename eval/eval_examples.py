@@ -10,9 +10,8 @@ from src.llm_infer import llm_infer
 random.seed(12345)
 
 # Create a semaphore allowing up to 20 concurrent calls
-MAX_CONCURRENT = 20
+MAX_CONCURRENT = 40
 semaphore = asyncio.Semaphore(MAX_CONCURRENT)
-
 
 async def evaluate_single(question, choices, correct_idx, distractor_type, url, context_data):
     """
@@ -47,17 +46,16 @@ async def evaluate_single(question, choices, correct_idx, distractor_type, url, 
 
     if len(context_data.get("sources_data", [])) > 0:
         context_str.append(
-        "INSTRUCTIONS: provide a json response that contains a 'predicted_index' field "
-        "for the NUMERIC index of the multiple-choice question that you deem correct. "
-        "The json should also contain an 'explanation' field that justifies the answer. You must provide quotes/citations to the reference material provided.\n"
-    )
+            "INSTRUCTIONS: provide a json response that contains a 'predicted_index' field "
+            "for the NUMERIC index of the multiple-choice question that you deem correct. "
+            "The json should also contain an 'explanation' field that justifies the answer. You must provide quotes/citations to the reference material provided.\n"
+        )
     else:
         context_str.append(
-        "INSTRUCTIONS: provide a json response that contains a 'predicted_index' field "
-        "for the NUMERIC index of the multiple-choice question that you deem correct. "
-        "The json should also contain an 'explanation' field that justifies the answer.\n"
-    )
-    
+            "INSTRUCTIONS: provide a json response that contains a 'predicted_index' field "
+            "for the NUMERIC index of the multiple-choice question that you deem correct. "
+            "The json should also contain an 'explanation' field that justifies the answer.\n"
+        )
 
     prompt = "\n".join(context_str)
 
@@ -108,12 +106,15 @@ async def main_async():
         context_configs = json.load(cf)
 
     # 2. Load the question data
-    questions_file_path = "data/toy_19_mcq.json"
+    questions_file_path = "data/mcq_100.json"
     with open(questions_file_path, "r", encoding="utf-8") as qf:
         questions_data = json.load(qf)
 
     # We'll store tasks here
     tasks = []
+
+    # Specify the required distractor types
+    required_distractor_types = ["from_scratch", "from_rulebook", "from_forum"]
 
     # 3. Create tasks for each (context, question, distractor_type)
     for context_obj in context_configs:
@@ -141,12 +142,20 @@ async def main_async():
 
         # For each question + distractor type
         for example in questions_data:
+            distractors_dict = example.get("distractors", {})
+            
+            # Skip this question if it doesn't have ALL required distractor types
+            if not all(dt in distractors_dict for dt in required_distractor_types):
+                continue
+
             question = example["multiple_choice_question"]
             correct_answer = example["correct_answer"]
             url = example["url"]
 
-            distractors_dict = example.get("distractors", {})
-            for distractor_type, distractor_list in distractors_dict.items():
+            # Now iterate through each required distractor type
+            for distractor_type in required_distractor_types:
+                distractor_list = distractors_dict[distractor_type]
+                
                 all_choices = [correct_answer] + distractor_list
                 random.shuffle(all_choices)
                 correct_idx = all_choices.index(correct_answer)
@@ -185,7 +194,7 @@ async def main_async():
         results_by_context[ctx][dt].append(metadata)
 
     # 6. Save the results
-    detailed_results_file = "evaluation_results.json"
+    detailed_results_file = "100_evaluation_results.json"
     with open(detailed_results_file, "w", encoding="utf-8") as outfile:
         json.dump(results_by_context, outfile, indent=2, ensure_ascii=False)
 
@@ -209,7 +218,7 @@ async def main_async():
                     "accuracy": accuracy
                 }
 
-    accuracy_file = "accuracy_report.json"
+    accuracy_file = "100_accuracy_report.json"
     with open(accuracy_file, "w", encoding="utf-8") as rep:
         json.dump(accuracy_report, rep, indent=2, ensure_ascii=False)
 

@@ -14,5 +14,11 @@
         "sources": [
             {"bgg rules summary": "rules_material/pax_ren_2e/paxren_bgg_rule_summary.txt"}
         ]
+    },
+    {
+        "name": "bgg_corpus",
+        "sources": [
+            {"bgg discussions corpus": "flattened_posts.txt"}
+        ]
     }
 ]

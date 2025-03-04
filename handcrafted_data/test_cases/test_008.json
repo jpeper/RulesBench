@@ -1,0 +1,15 @@
+{
+  "ID": 8,
+  "Game": "",
+  "Test Scenario": "Trade fair\n\nTest concession",
+  "Optimization Objective": "",
+  "Game State Changes": "Remove concession",
+  "Solution / Actions": "West Trade Fair\nblue +2, yellow +2\n\nEastern Ops\nCommerce, blue+1\n\n(order can be flipped)\n\nMax florins earned: 3",
+  "game_state_json": {
+    "map": {},
+    "pieces": [],
+    "player_status": {},
+    "notes": "Placeholder for structured game state"
+  },
+  "game_state_url": "https://example.com/game_state_images/test_008.png"
+}
