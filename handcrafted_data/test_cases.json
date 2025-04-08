@@ -1,0 +1,83 @@
+[
+    {
+      "ID": 1,
+      "Game": "Pax Ren 2e",
+      "Test Scenario": "Adding a King",
+      "Optimization Objective": "Given the provided game state, what is the most efficient way for the blue player to gain a kingdom card to their tableau on their turn?",
+      "Game State Changes": "Base example",
+      "Solution / Actions": "Eastern Ops\nSiege to remove 1 knight in Byzantium\n\nCampaign w/ Ottoman king against Byznatium\n\nRegime Change"
+    },
+    {
+      "ID": 2,
+      "Game": "Pax Ren 2e",
+      "Test Scenario": "Adding a King. \n\nTest diagonal adjacency.",
+      "Optimization Objective": "",
+      "Game State Changes": "Swap pieces in Byzantium and Hungary.",
+      "Solution / Actions": "Eastern Ops\nSiege to remove 1 knight in Hungary\n\nCampaign w/ Ottoman king against Hungary"
+    },
+    {
+      "ID": 3,
+      "Game": "Pax Ren 2e",
+      "Test Scenario": "Adding a King\n\nTest army sizes.",
+      "Optimization Objective": "",
+      "Game State Changes": "Add 1 piece each to Ottoman and Byzantium (now it is 3 knights v 2 knights instead of 2 knights v 1 knight)",
+      "Solution / Actions": "Eastern Ops\nSiege to remove 1 knight in Byzantium\n\nCampaign w/ Ottoman king against Byznatium\n\nRegime Change"
+    },
+    {
+      "ID": 4,
+      "Game": "Pax Ren 2e",
+      "Test Scenario": "Adding a King\n\nTest coronation method.",
+      "Optimization Objective": "",
+      "Game State Changes": "Add 1 extra defender to Byzantium (now there are too many defenders to win the battle).\nSwap locations of E4 and E3 card. Now, Queen can be purchased for $3 instead of $4 – player only had $3.",
+      "Solution / Actions": "Purchase\nCarlotta Card\n\nCost: $3\n\nRemaining money: $0\n\nPlay\nCaroltta Card\n\nResults in Regime Change via Coronation op"
+    },
+    {
+      "ID": 5,
+      "Game": "Pax Ren 2e",
+      "Test Scenario": "Trade fair",
+      "Optimization Objective": "Given the provided game state, how can the blue player to earn most florins without selling your cards on their turn? And what is the maximum amount of florins? If there are multiple ways to earn the maximum amount of florins, give the solution that minimizes the florins earned by the opponents.",
+      "Game State Changes": "Base example",
+      "Solution / Actions": "West Trade Fair\nblue +3, yellow +1\n\nEastern Ops\nCommerce, blue+1\n\n(order can be flipped)\n\nMax florins earned: 4"
+    },
+    {
+      "ID": 6,
+      "Game": "",
+      "Test Scenario": "Trade fair\n\nTest pirates",
+      "Optimization Objective": "?",
+      "Game State Changes": "Add pirates\n\nMove one concession to avoid congestion on the border",
+      "Solution / Actions": "West Trade Fair\nblue +2, yellow +1\n\nEastern Ops\nCommerce, blue+1\n\n(order can be flipped)\n\nMax florins earned: 3"
+    },
+    {
+      "ID": 7,
+      "Game": "",
+      "Test Scenario": "Trade fair\n\nTest emporium",
+      "Optimization Objective": "",
+      "Game State Changes": "busted disk moved",
+      "Solution / Actions": "West Trade Fair\nblue +3, yellow +1\n\nEast Trade Fair\nblue +2, yellow +0\n\n\nMax florins earned: 5"
+    },
+    {
+      "ID": 8,
+      "Game": "",
+      "Test Scenario": "Trade fair\n\nTest concession",
+      "Optimization Objective": "",
+      "Game State Changes": "Remove concession",
+      "Solution / Actions": "West Trade Fair\nblue +2, yellow +2\n\nEastern Ops\nCommerce, blue+1\n\n(order can be flipped)\n\nMax florins earned: 3"
+    },
+    {
+      "ID": 9,
+      "Game": "",
+      "Test Scenario": "Trader fair\n\nTest commerce",
+      "Optimization Objective": "",
+      "Game State Changes": "Add more commerce card\nAdd 1 more florin to eastern market",
+      "Solution / Actions": "West Trade Fair\nblue +3, yellow +1\n\nCommerce\nblue +2\n\n\nMax florins earned: 5"
+    },
+    {
+      "ID": "?",
+      "Game": "Pax Ren 2e",
+      "Test Scenario": "Adding a King",
+      "Optimization Objective": "Given the provided game state, what is the most efficient way for the blue player to gain a kingdom card to their tableau on their turn?",
+      "Game State Changes": "Base example",
+      "Solution / Actions": "Play\nVlad the Impaler Tableau Card\n\nLaunch Conspiracy One-Shot\n\nTwo knights in Hungary died\n\nPlay\nJanissaries\n\nLaunch Conspiracy One-Shot\n\nPlaced two knights in Hungary\n\nRegime change"
+    }
+  ]
+  

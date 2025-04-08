@@ -5,11 +5,6 @@
   "Optimization Objective": "",
   "Game State Changes": "Add more commerce card\nAdd 1 more florin to eastern market",
   "Solution / Actions": "West Trade Fair\nblue +3, yellow +1\n\nCommerce\nblue +2\n\n\nMax florins earned: 5",
-  "game_state_json": {
-    "map": {},
-    "pieces": [],
-    "player_status": {},
-    "notes": "Placeholder for structured game state"
-  },
-  "game_state_url": "https://example.com/game_state_images/test_009.png"
+  "game_state_json": null,
+  "game_state_url": null
 }

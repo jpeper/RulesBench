@@ -5,11 +5,6 @@
   "Optimization Objective": "",
   "Game State Changes": "Add 1 extra defender to Byzantium (now there are too many defenders to win the battle).\nSwap locations of E4 and E3 card. Now, Queen can be purchased for $3 instead of $4 \u2013 player only had $3.",
   "Solution / Actions": "Purchase\nCarlotta Card\n\nCost: $3\n\nRemaining money: $0\n\nPlay\nCaroltta Card\n\nResults in Regime Change via Coronation op",
-  "game_state_json": {
-    "map": {},
-    "pieces": [],
-    "player_status": {},
-    "notes": "Placeholder for structured game state"
-  },
-  "game_state_url": "https://example.com/game_state_images/test_004.png"
+  "game_state_json": null,
+  "game_state_url": null
 }

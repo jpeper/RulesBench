@@ -5,11 +5,6 @@
   "Optimization Objective": "",
   "Game State Changes": "Swap pieces in Byzantium and Hungary.",
   "Solution / Actions": "Eastern Ops\nSiege to remove 1 knight in Hungary\n\nCampaign w/ Ottoman king against Hungary",
-  "game_state_json": {
-    "map": {},
-    "pieces": [],
-    "player_status": {},
-    "notes": "Placeholder for structured game state"
-  },
-  "game_state_url": "https://example.com/game_state_images/test_002.png"
+  "game_state_json": null,
+  "game_state_url": null
 }

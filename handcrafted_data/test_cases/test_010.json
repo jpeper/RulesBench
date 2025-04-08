@@ -1,15 +1,10 @@
 {
-  "ID": "?",
+  "ID": "10",
   "Game": "Pax Ren 2e",
   "Test Scenario": "Adding a King",
   "Optimization Objective": "Given the provided game state, what is the most efficient way for the blue player to gain a kingdom card to their tableau on their turn?",
   "Game State Changes": "Base example",
   "Solution / Actions": "Play\nVlad the Impaler Tableau Card\n\nLaunch Conspiracy One-Shot\n\nTwo knights in Hungary died\n\nPlay\nJanissaries\n\nLaunch Conspiracy One-Shot\n\nPlaced two knights in Hungary\n\nRegime change",
-  "game_state_json": {
-    "map": {},
-    "pieces": [],
-    "player_status": {},
-    "notes": "Placeholder for structured game state"
-  },
-  "game_state_url": "https://example.com/game_state_images/test_unknown_?.png"
+  "game_state_json": null,
+  "game_state_url": null
 }

@@ -2,14 +2,327 @@
   "ID": 1,
   "Game": "Pax Ren 2e",
   "Test Scenario": "Adding a King",
-  "Optimization Objective": "Given the provided game state, what is the most efficient way for the blue player to gain a kingdom card to their tableau on their turn?",
+  "Question": "Given the provided game state, what is the most efficient way for the blue player to gain a kingdom card to their tableau on their turn?",
   "Game State Changes": "Base example",
-  "Solution / Actions": "Eastern Ops\nSiege to remove 1 knight in Byzantium\n\nCampaign w/ Ottoman king against Byznatium\n\nRegime Change",
+  "Solution / Actions": "Action 1: Eastern Ops: First, \nSiege to remove 1 knight in Byzantium\n\nCampaign w/ Ottoman king against Byznatium\n\n. This results in a Regime Change, adding the Byzantium king to the players tableau. Action 2: Can be anything.",
+  "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/gamestate1.pdf",
   "game_state_json": {
-    "map": {},
-    "pieces": [],
-    "player_status": {},
-    "notes": "Placeholder for structured game state"
-  },
-  "game_state_url": "https://example.com/game_state_images/test_001.png"
+    "Serialized Game State": {
+      "WinConditions": {
+        "RenaissanceVictory": {
+          "Condition": "have more republics and 2+ more law prestige than each opponent",
+          "Status": "inactive"
+        },
+        "GlobalizationVictory": {
+          "Condition": "have 2+ more concessions, and more shipping prestige than each opponent",
+          "Status": "inactive"
+        },
+        "ImperialVictory": {
+          "Condition": "have 2+ more king cards (not republics) than each opponent",
+          "Status": "inactive"
+        },
+        "HolyVictory": {
+          "Condition": "have more prestige in the supreme religion than each opponent. Supreme religion: more bishops of its color, AND more Tokens of its color on Theocracies, than both other religions combined",
+          "Status": "inactive"
+        }
+      },
+      "Empires": [
+        {
+          "Name": "England",
+          "Region": "West",
+          "KingUnclaimed": true,
+          "RepressedTokens": [],
+          "PiecesInEmpire": [],
+          "PiecesBorderingEmpire": [
+            "Blue concession (south)"
+          ]
+        },
+        {
+          "Name": "France",
+          "Region": "West",
+          "KingUnclaimed": true,
+          "RepressedTokens": [],
+          "PiecesInEmpire": [],
+          "PiecesBorderingEmpire": []
+        },
+        {
+          "Name": "Holy Roman Empire",
+          "Region": "West",
+          "KingUnclaimed": true,
+          "RepressedTokens": [],
+          "PiecesInEmpire": [
+            "Catholic rook"
+          ],
+          "PiecesBorderingEmpire": []
+        },
+        {
+          "Name": "Hungary",
+          "Region": "East",
+          "KingUnclaimed": true,
+          "RepressedTokens": [],
+          "PiecesInEmpire": [
+            "Catholic rook",
+            "Islamic knight"
+          ],
+          "PiecesBorderingEmpire": []
+        },
+        {
+          "Name": "Byzantium",
+          "Region": "East",
+          "KingUnclaimed": true,
+          "RepressedTokens": [],
+          "PiecesInEmpire": [
+            "Islamic knight"
+          ],
+          "PiecesBorderingEmpire": []
+        },
+        {
+          "Name": "Portugal",
+          "Region": "West",
+          "KingUnclaimed": true,
+          "RepressedTokens": [],
+          "PiecesInEmpire": [
+            "Reformist knight"
+          ],
+          "PiecesBorderingEmpire": [
+            "Blue concession (North)"
+          ]
+        },
+        {
+          "Name": "Aragon",
+          "Region": "West",
+          "KingUnclaimed": true,
+          "RepressedTokens": [],
+          "PiecesInEmpire": [
+            "Catholic knight"
+          ],
+          "PiecesBorderingEmpire": []
+        },
+        {
+          "Name": "Papal States",
+          "Region": "West",
+          "KingUnclaimed": true,
+          "RepressedTokens": [],
+          "PiecesInEmpire": [
+            "Catholic rook"
+          ],
+          "PiecesBorderingEmpire": []
+        },
+        {
+          "Name": "Ottoman",
+          "Region": "East",
+          "KingUnclaimed": false,
+          "RepressedTokens": [],
+          "PiecesInEmpire": [
+            "Islamic knight",
+            "Islamic rook"
+          ],
+          "PiecesBorderingEmpire": []
+        },
+        {
+          "Name": "Mamluk",
+          "Region": "East",
+          "KingUnclaimed": true,
+          "RepressedTokens": [],
+          "PiecesInEmpire": [
+            "Islamic knight",
+            "Islamic rook"
+          ],
+          "PiecesBorderingEmpire": []
+        }
+      ],
+      "Players": {
+        "Yellow": {
+          "FlorinsOwned": 0,
+          "Concessions": [],
+          "WestTableau": [],
+          "EastTableau": []
+        },
+        "Blue": {
+          "FlorinsOwned": 3,
+          "Concessions": [
+            "Border Portugal-England"
+          ],
+          "WestTableau": [],
+          "EastTableau": [
+            {
+              "Type": "Tableau card",
+              "Name": "The Timar System",
+              "Ops": [
+                "Tax",
+                "Siege",
+                "Inquisitor (Islamic)"
+              ],
+              "Location": "The east",
+              "Prestige": null,
+              "OneShot": null,
+              "Agent": "rook (Islamic)",
+              "SpecialConditions": null
+            },
+            {
+              "Type": "King card",
+              "Empire": "Ottoman",
+              "CardSide": "kingdom",
+              "Ops": [
+                "campaign"
+              ],
+              "Location": "ottoman",
+              "Prestige": "islamic"
+            }
+          ]
+        }
+      },
+      "Markets": {
+        "West": {
+          "TradeFairFlorins": 0,
+          "DrawPileSize": 10,
+          "CardsOrderedLeftToRight": [
+            {
+              "Name": "Bank of Strozzi",
+              "Ops": [
+                "Vote",
+                "Commerce"
+              ],
+              "Location": "Papal States",
+              "Prestige": null,
+              "OneShot": "peasant revolt",
+              "Agent": "concession",
+              "SpecialConditions": "Double entry accounting: unlimited hand size",
+              "FlorinsOnCard": 0
+            },
+            {
+              "Name": "Epicurean Swerve",
+              "Ops": [],
+              "Location": "The West",
+              "Prestige": "Patron",
+              "OneShot": null,
+              "Agent": null,
+              "SpecialConditions": "Declaring holy victory costs 2 actions (all players). Counts as republic. Immune to apostasy",
+              "FlorinsOnCard": 0
+            },
+            {
+              "Name": "Council of Trent",
+              "Ops": [
+                "Inquisitor (Catholic)"
+              ],
+              "Location": "The West",
+              "Prestige": "Catholic",
+              "OneShot": "Crusade",
+              "Agent": "Catholic bishop",
+              "SpecialConditions": null,
+              "FlorinsOnCard": 0
+            },
+            {
+              "Name": "Catherine de’ Medici",
+              "Ops": [
+                "Repress (rook)"
+              ],
+              "Suitors": [
+                "France",
+                "Aragon",
+                "Holy Roman Empire"
+              ],
+              "Prestige": null,
+              "OneShot": "Coronation",
+              "Agent": null,
+              "SpecialConditions": null,
+              "FlorinsOnCard": 0
+            },
+            {
+              "Name": "Antipope",
+              "Ops": [
+                "Inquisitor (Reformist)"
+              ],
+              "Location": "France",
+              "Prestige": "Reformist",
+              "OneShot": "Reformation",
+              "Agent": "Reformist bishop",
+              "SpecialConditions": null,
+              "FlorinsOnCard": 0
+            }
+          ]
+        },
+        "East": {
+          "TradeFairFlorins": 0,
+          "DrawPileSize": 10,
+          "CardsOrderedLeftToRight": [
+            {
+              "Name": "Black army",
+              "Ops": [
+                "Tax",
+                "Siege",
+                "Inquisitor (Reformist)"
+              ],
+              "Location": "Hungary",
+              "Prestige": null,
+              "OneShot": "Reformation",
+              "Agent": "2 reformist knights",
+              "SpecialConditions": null,
+              "FlorinsOnCard": 0
+            },
+            {
+              "Name": "Greek Klephts",
+              "Ops": [
+                "Tax",
+                "Siege"
+              ],
+              "Location": "Ottoman",
+              "Prestige": null,
+              "OneShot": "Conspiracy",
+              "Agent": "1 reformist rook",
+              "SpecialConditions": null,
+              "FlorinsOnCard": 0
+            },
+            {
+              "Name": "Zaporozhian Host",
+              "Ops": [
+                "Tax",
+                "Siege"
+              ],
+              "Location": "Ottoman",
+              "Prestige": "Reformist",
+              "OneShot": "Reformation",
+              "Agent": "reformist knight",
+              "SpecialConditions": null,
+              "FlorinsOnCard": 0
+            },
+            {
+              "Name": "Carlotta Lusignan of Cyprus",
+              "Ops": [
+                "Siege",
+                "Commerce"
+              ],
+              "Suitors": [
+                "Byzantium",
+                "Ottoman",
+                "Mamluk"
+              ],
+              "Prestige": null,
+              "OneShot": "Coronation",
+              "Agent": null,
+              "SpecialConditions": null,
+              "FlorinsOnCard": 0
+            },
+            {
+              "Name": "Dervishes",
+              "Ops": [
+                "Tax",
+                "Inquisitor (Islamic)"
+              ],
+              "Location": "The east",
+              "Prestige": "Islamic",
+              "OneShot": "Apostasy (reformist, islamic)",
+              "Agent": "Islamic bishop",
+              "SpecialConditions": null,
+              "FlorinsOnCard": 0
+            }
+          ]
+        }
+      },
+      "TradeFairStart": {
+        "East": "Tana",
+        "West": "Trezibond"
+      }
+    }
+  }
 }

@@ -1,0 +1,10 @@
+{
+    "ID": 9,
+    "Game": "",
+    "Test Scenario": "Trader fair\n\nTest commerce",
+    "Optimization Objective": "Given the provided game state, how can the blue player to earn most florins without selling your cards on their turn? And what is the maximum amount of florins? If there are multiple ways to earn the maximum amount of florins, give the solution that minimizes the florins earned by the opponents.",
+    "Game State Changes": "Add more commerce card\nAdd 1 more florin to eastern market",
+    "Solution / Actions": "West Trade Fair\nblue +3, yellow +1\n\nCommerce\nblue +2\n\n\nMax florins earned: 5",
+    "game_state_json": null,
+    "game_state_url": "https://raw.githubusercontent.com/yunx-z/RulesBench/main/data/img/gamestate8.pdf"
+  }

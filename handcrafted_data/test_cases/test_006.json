@@ -2,14 +2,9 @@
   "ID": 6,
   "Game": "",
   "Test Scenario": "Trade fair\n\nTest pirates",
-  "Optimization Objective": "?",
+  "Optimization Objective": "Given the provided game state, how can the blue player to earn most florins without selling your cards on their turn? And what is the maximum amount of florins? If there are multiple ways to earn the maximum amount of florins, give the solution that minimizes the florins earned by the opponents.",
   "Game State Changes": "Add pirates\n\nMove one concession to avoid congestion on the border",
   "Solution / Actions": "West Trade Fair\nblue +2, yellow +1\n\nEastern Ops\nCommerce, blue+1\n\n(order can be flipped)\n\nMax florins earned: 3",
-  "game_state_json": {
-    "map": {},
-    "pieces": [],
-    "player_status": {},
-    "notes": "Placeholder for structured game state"
-  },
-  "game_state_url": "https://example.com/game_state_images/test_006.png"
+  "game_state_json": null,
+  "game_state_url": null
 }
