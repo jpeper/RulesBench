@@ -1,0 +1,13 @@
+{
+    "ID": 18,
+    "Game": "Kingdomino",
+    "Test Description": "Tests basic comprehension of the full game state / game environment.",
+    "Difficulty Notes": "Model needs to reason over the different sections of the game board.",
+    "Question": "How many upside-down crowns are pictured?",
+    "Answer": "2",
+    "Rationale": "There are two upside-down crowns, both from a domino in the green kingdom.",
+    "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/kingdomino/basic_full_env.png",
+    "Game State Difficulty": 2,
+    "Rules Difficulty": 1,
+    "Strategy Difficulty": 1
+}

@@ -1,0 +1,13 @@
+{
+    "ID": 14,
+    "Game": "Kingdomino",
+    "Test Description": "Tests inverse of a counting question",
+    "Difficulty Notes": "Model has to count the number of tiles *without* crowns on them",
+    "Question": "How many tiles are there that have meeples on them but no crowns?",
+    "Answer": "1",
+    "Rationale": "There are 3 dominoes with meeples on them, and each has 1 crown. There is also one meeple whose domino has no crowns. Therefore 1.",
+    "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/kingdomino/meeples_on_dominoes.png",
+    "Game State Difficulty": 2,
+    "Rules Difficulty": 1,
+    "Strategy Difficulty": 1
+}

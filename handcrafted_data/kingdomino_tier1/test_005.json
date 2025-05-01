@@ -1,0 +1,13 @@
+{
+    "ID": 1,
+    "Game": "Kingdomino",
+    "Test Description": "Testing basic game understanding. Counting the number of dominoes in the player's kingdom.",
+    "Difficulty Notes": "Very easy counting",
+    "Question": "If you had to enclose the displayed tiles with a rectangle, what would be the minimum dimensions of this rectangle? Provide a width and height",
+    "Answer": "Width: 3, Height: 3 ",
+    "Rationale": "Although there are some gaps, the minimum rectangle that can enclose all tiles is 3x3.",
+    "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/kingdomino/1.png",
+    "Game State Difficulty": 1,
+    "Rules Difficulty": 1,
+    "Strategy Difficulty": 1
+}

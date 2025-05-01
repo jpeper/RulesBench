@@ -1,0 +1,13 @@
+{
+    "ID": 11,
+    "Game": "Kingdomino",
+    "Test Description": "Tests identification of overlapping pieces.",
+    "Difficulty Notes": "Model has to identify the existence of meeples that sitting on dominoes",
+    "Question": "How many meeples are pictured?",
+    "Answer": "4",
+    "Rationale": "Two green and two pink meeples are present on the dominoes",
+    "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/kingdomino/meeples_on_dominoes.png",
+    "Game State Difficulty": 2,
+    "Rules Difficulty": 1,
+    "Strategy Difficulty": 1
+}

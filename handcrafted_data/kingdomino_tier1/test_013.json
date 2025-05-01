@@ -1,0 +1,13 @@
+{
+    "ID": 13,
+    "Game": "Kingdomino",
+    "Test Description": "Tests identification of basic text",
+    "Difficulty Notes": "Model simple has to count the number of rounds mentioned in the text",
+    "Question": "How many rounds are mentioned?",
+    "Answer": "2",
+    "Rationale": "Round 1 and Round 2 are mentioned",
+    "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/kingdomino/meeples_on_dominoes.png",
+    "Game State Difficulty": 1,
+    "Rules Difficulty": 1,
+    "Strategy Difficulty": 1
+}

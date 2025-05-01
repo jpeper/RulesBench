@@ -1,0 +1,13 @@
+{
+    "ID": 20,
+    "Game": "Kingdomino",
+    "Test Description": "Tests if model can identify patterns within the dominoes",
+    "Difficulty Notes": "Model needs to differentiate between the different categories of 'biomes' present.",
+    "Question": "How many unique biomes are present in the pictured domino halves? Assume the minor details don't matter, rather the high-level patterns/colors/domains.",
+    "Answer": "6",
+    "Rationale": "There appear to be 6 different biomes present: green fields, yellow fields, blue water, brown rocky, black mines, and dark green forests.",
+    "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/kingdomino/basic_full_env.png",
+    "Game State Difficulty": 2,
+    "Rules Difficulty": 1,
+    "Strategy Difficulty": 1
+}
