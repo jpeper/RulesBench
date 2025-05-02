@@ -1,0 +1,13 @@
+{
+    "ID": 232,
+    "Game": "Kingdomino",
+    "Test Description": "Assessing ability to optimally plan over multiple steps of domino selection and placement",
+    "Difficulty Notes": "This example has some interaction and requires multi-step planning. It does not test any particular rules.",
+    "Question": "What next domino should the yellow player select to maximize the score of their kingdom? Assume the game ends after placement of the pictured dominos. Output the following: Domino letter, 'Previous kingdom score', eventual 'New kingdom score' after placement of all of the shown/selected draftable dominos. If necessary, you must take/simulate other players' actions for them. You should assume that the other players will act cooperatively and will take actions to best-support maximizing your score.",
+    "Answer": "[Domino: H, Previous kingdom score: 2, New kingdom score: 12].",
+    "Rationale": "The yellow player selected tile D on the prior turn. This contains a swamp crown square and a field square. These pair perfectly with the gap above the castle. After choosing this, the best remaining synergy is grasslands, so the yellow player should select H as this has a grasslands square with a crown. In total the scoring areas are now a 3x2 swamp and a 1x6 grasslands for 12 points.",
+    "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/kingdomino/t3_2_step_colorless.png",
+    "Game State Difficulty": 1,
+    "Rules Difficulty": 2,
+    "Strategy Difficulty": 3
+}

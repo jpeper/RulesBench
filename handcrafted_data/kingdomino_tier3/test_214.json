@@ -1,0 +1,13 @@
+{
+    "ID": 214,
+    "Game": "Kingdomino",
+    "Test Description": "Assess one-hop optimization -- selecting the best tile to add to the current game state",
+    "Difficulty Notes": "Focusing on very easy scenarios for now, where there is just one or two hops of reasoning.",
+    "Question": "Which is the second-best domino the player could add to their kingdom to maximize its score? Output the following: Domino letter, Previous kingdom score, new kingdom score.",
+    "Answer": "Domino: D, Previous kingdom score: 7, New kingdom score: 8",
+    "Rationale": "Domino D simple adds a single swamp crown to the board, netting one more point. Options A and B don't add any crowns nor do they contribute to a currently-scoring area. Domino C scores more than D.",
+    "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/kingdomino/t3_single_scoring_4_boundary.png",
+    "Game State Difficulty": 1,
+    "Rules Difficulty": 2,
+    "Strategy Difficulty": 2
+}

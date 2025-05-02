@@ -1,0 +1,13 @@
+{
+    "ID": 123,
+    "Game": "Kingdomino",
+    "Test Description": "Testing turn order perception. This is flipping the orientation to make sure we're not biased by left-to-right positioning.",
+    "Difficulty Notes": "Testing the ability to distinguish turn order for a game round. Note, there are a set of horizontal tests where you need to resolve the ambiguity using intuition about the relative strength of the tiles (this requires some intuition that could be gleaned from the rules). This one in particular doesn't have any crowns pictured.",
+    "Question": "Which player will place first in the next round?",
+    "Answer": "Green",
+    "Rationale": "Green. The grasslands are the lowest-ranked tiled. This is not immediately clear as the dominoes are laid out horizontally. However, we can resolve this by referring to the rulebook demonstrations and some intuition about the game drafting. Namely, the tiles all have a value assigned to them and are ordered by this value when laid out. The person at the top of the tile gets to draft first thererfore, intuitively, the top tile is the weakest (has no crowns / no diversity). The player essentially has to choose between turn order in the future, and immediate payoffs when selecting their next card.",
+    "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/kingdomino/turn_order_inverted_crownless.png",
+    "Game State Difficulty": 1,
+    "Rules Difficulty": 3,
+    "Strategy Difficulty": 0
+}

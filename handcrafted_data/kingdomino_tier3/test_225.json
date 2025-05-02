@@ -1,0 +1,13 @@
+{
+    "ID": 225,
+    "Game": "Kingdomino",
+    "Test Description": "Assessing ability to optimally plan over multiple steps of domino selection and placement",
+    "Difficulty Notes": "This example intentionally has no player interaction as green player is uninterrupted. Other challenging versions may include player interaction. Note: the current player being green is inferred from the text in the game state",
+    "Question": "What next domino should the player select to maximize the score of their kingdom? Assume the game ends after placement of the pictured dominos. Output the following: Domino letter, 'Previous kingdom score', eventual 'New kingdom score' after placement of all of the shown/selected draftable dominos.",
+    "Answer": "Domino: H, Previous kingdom score: 2, New kingdom score: 9",
+    "Rationale": "Green player selected a double grasslands domino in the prior round. We can pair this with the existing grasslands on the left side of their kingdom. By selecting domino H, we can add a crown to this section, improving its scoring from 0x4 to 1x7",
+    "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/kingdomino/t3_2_step_1.png",
+    "Game State Difficulty": 1,
+    "Rules Difficulty": 2,
+    "Strategy Difficulty": 2
+}

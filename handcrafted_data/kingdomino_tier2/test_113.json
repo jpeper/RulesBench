@@ -1,0 +1,13 @@
+{
+    "ID": 113,
+    "Game": "Kingdomino",
+    "Test Description": "Testing turn order functionality",
+    "Difficulty Notes": "Testing the ability to distinguish turn order for a game round",
+    "Question": "Which player will place last in the next round?",
+    "Answer": "Green",
+    "Rationale": "Green will place last, as their meeple is on the bottom-most tile",
+    "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/kingdomino/turn_order_basic.png",
+    "Game State Difficulty": 1,
+    "Rules Difficulty": 1,
+    "Strategy Difficulty": 0
+}

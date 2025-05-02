@@ -1,0 +1,13 @@
+{
+    "ID": 104,
+    "Game": "Kingdomino",
+    "Test Description": "Tests usage of correct keywords from rulebook",
+    "Difficulty Notes": "Asks a question about the terrain types without defining the terrains. It should retrieve these from the rulebook.",
+    "Question": "Which terrain types are present in the game state? Provide a list of the terrains sorted by frequency (highest-first), breaking ties alphabetically (lowest-first)",
+    "Answer": "[wheat fields, swamps, grasslands, mines, forests]",
+    "Rationale": "9 wheat field, 4 swamps, 2 grasslands, 2 mines, 1 forest",
+    "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/kingdomino/invalid_kingdom_1.png",
+    "Game State Difficulty": 1,
+    "Rules Difficulty": 2,
+    "Strategy Difficulty": 0
+}

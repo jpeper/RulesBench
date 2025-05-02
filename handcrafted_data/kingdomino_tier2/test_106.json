@@ -1,0 +1,13 @@
+{
+    "ID": 106,
+    "Game": "Kingdomino",
+    "Test Description": "Testing tile validity",
+    "Difficulty Notes": "Testing basic (positive) validity of tile placement",
+    "Question": "How many different spots can the new domino be validly placed in the kingdom? (assume different, valid, orientations of the new domino into the same 2x1 spot count the same placement)",
+    "Answer": "0 spots",
+    "Rationale": "Blue is not compatible with any other existing tiles other than the castle which is wild. Howeve, the castle is at the bottom boundary of the kingdom, which has already hit its 5 tile height limit. Therefore, you cannot place below.",
+    "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/kingdomino/new_domino_blue_invalid_5x5.png",
+    "Game State Difficulty": 1,
+    "Rules Difficulty": 1,
+    "Strategy Difficulty": 0
+}

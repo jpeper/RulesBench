@@ -8,6 +8,6 @@
     "Rationale": "A green, brown, white, and pink meeple are present",
     "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/kingdomino/four_meeple_colors.png",
     "Game State Difficulty": 1,
-    "Rules Difficulty": 1,
-    "Strategy Difficulty": 1
+    "Rules Difficulty": 0,
+    "Strategy Difficulty": 0
 }

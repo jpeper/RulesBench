@@ -8,6 +8,6 @@
     "Rationale": "Two green and two pink meeples are present on the dominoes",
     "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/kingdomino/meeples_on_dominoes.png",
     "Game State Difficulty": 2,
-    "Rules Difficulty": 1,
-    "Strategy Difficulty": 1
+    "Rules Difficulty": 0,
+    "Strategy Difficulty": 0
 }

@@ -1,0 +1,13 @@
+{
+    "ID": 114,
+    "Game": "Kingdomino",
+    "Test Description": "Testing turn order functionality",
+    "Difficulty Notes": "Testing the ability to distinguish turn order for a game round",
+    "Question": "Which player will place first in the next round?",
+    "Answer": "Pink",
+    "Rationale": "Pink will place first, since their meeple is on the topmost tile.",
+    "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/kingdomino/turn_order_staggered.png",
+    "Game State Difficulty": 1,
+    "Rules Difficulty": 1,
+    "Strategy Difficulty": 0
+}

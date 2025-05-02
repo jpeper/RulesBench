@@ -1,0 +1,13 @@
+{
+    "ID": 228,
+    "Game": "Kingdomino",
+    "Test Description": "Assessing ability to optimally plan over multiple steps of domino selection and placement",
+    "Difficulty Notes": "This example has some interaction and requires multi-step planning. It does not test any particular rules.",
+    "Question": "What next domino should the pink player select to maximize the score of their kingdom? Assume the game ends after placement of the pictured dominos. Output the following: Domino letter, 'Previous kingdom score', eventual 'New kingdom score' after placement of all of the shown/selected draftable dominos. If necessary, you must take/simulate other players' actions for them. You should assume that the other players will act cooperatively and will take actions to best-support maximizing your score.",
+    "Answer": "There are two optimal options: [Domino: H, Previous kingdom score: 2, New kingdom score: 7] or [Domino: E, Previous kingdom score: 2, New kingdom score: 7].",
+    "Rationale": "Pink player selected a double-blue tile (B). Unfortunately, this was not a great fit for their kingdom. They should cut their losses (it is not worth scoring blue) and select domino H or E as these each have a crown that can be used to multiple by a 5-area region.",
+    "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/kingdomino/t3_2_step_colorless.png",
+    "Game State Difficulty": 1,
+    "Rules Difficulty": 2,
+    "Strategy Difficulty": 2
+}

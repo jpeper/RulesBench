@@ -1,0 +1,13 @@
+{
+    "ID": 206,
+    "Game": "Kingdomino",
+    "Test Description": "Assess one-hop optimization -- selecting the best tile to add to the current game state",
+    "Difficulty Notes": "Focusing on very easy scenarios for now, where there is just one or two hops of reasoning.",
+    "Question": "What are the most optimal kingdom scores that each of the four possible dominos could add to the player's kingdom if placed? For each domino, output the following: Domino letter, Previous kingdom score, new kingdom score.",
+    "Answer": "[[Domino: A, Previous kingdom score: 3, New kingdom score: 3], [Domino: B, Previous kingdom score: 3, New kingdom score: 3], [Domino: C, Previous kingdom score: 3, New kingdom score: 7], [Domino: D, Previous kingdom score: 3, New kingdom score: 9]]",
+    "Rationale": "Domino D scores three points simply from having a three-crown mine. Additionally, it can be placed under the one-crown wheat/forest tile, which connects it to the other two wheat fields. Domino C could net 4 new points if placed to connect the same wheat fields with domino D. However, the one-crown lake square on C only nets 1 point, instead of the 3 from the black mine in D. Dominos A and B don't have any crown compatibility therefore they contribute zero points",
+    "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/kingdomino/t3_single_scoring_1.png",
+    "Game State Difficulty": 1,
+    "Rules Difficulty": 2,
+    "Strategy Difficulty": 3
+}

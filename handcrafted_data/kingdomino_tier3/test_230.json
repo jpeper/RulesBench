@@ -1,0 +1,13 @@
+{
+    "ID": 230,
+    "Game": "Kingdomino",
+    "Test Description": "Assessing ability to optimally plan over multiple steps of domino selection and placement",
+    "Difficulty Notes": "This example has some interaction and requires multi-step planning. It does not test any particular rules.",
+    "Question": "What next domino should the blue player select to maximize the score of their kingdom? Assume the game ends after placement of the pictured dominos. Output the following: Domino letter, 'Previous kingdom score', eventual 'New kingdom score' after placement of all of the shown/selected draftable dominos. If necessary, you must take/simulate other players' actions for them. You should assume that the other players will act cooperatively and will take actions to best-support maximizing your score.",
+    "Answer": "[Domino: E, Previous kingdom score: 2, New kingdom score: 11].",
+    "Rationale": "Blue player previously selected a tile (C) with a wheat field crown. This can be used to score a 1x3 wheat field region as-is, netting 3 more points. However, of the new options, while H and E both have a one-crown square that synergize to each make 1x5 scoring scenarios, domino E contains a wheat field. Optimal placement of this tile (in the spot above the castle) can double count this tile for both Forest and wheat scoring. The improved scoring is now 1x4 wheat and 1x5 forest, for 9 more points.",
+    "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/kingdomino/t3_2_step_colorless.png",
+    "Game State Difficulty": 1,
+    "Rules Difficulty": 2,
+    "Strategy Difficulty": 3
+}

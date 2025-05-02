@@ -1,0 +1,13 @@
+{
+    "ID": 108,
+    "Game": "Kingdomino",
+    "Test Description": "Testing board validity",
+    "Difficulty Notes": "Requires model to understand adjacent placement validity",
+    "Question": "Is this a valid kingdom state?",
+    "Answer": "Yes",
+    "Rationale": "Yes, although the timing of placement could affect the validity of the kingdom, in its static state, this is a valid kingdom.",
+    "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/kingdomino/valid_kingdom_1.png",
+    "Game State Difficulty": 1,
+    "Rules Difficulty": 2,
+    "Strategy Difficulty": 0
+}

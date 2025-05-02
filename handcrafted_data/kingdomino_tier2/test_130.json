@@ -1,0 +1,13 @@
+{
+    "ID": 130,
+    "Game": "Kingdomino",
+    "Test Description": "Testing scoring variants",
+    "Difficulty Notes": "Testing the ability to integrate different scoring variants.",
+    "Question": "How many points does this kingdom score? Note: we are using the harmony and middle kingdom variant.",
+    "Answer": "36",
+    "Rationale": "1 + 6 + 8 + 2 + 14 + 5 for the full grid bonus points = 36.",
+    "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/kingdomino/hard_kingdom_variants_full.png",
+    "Game State Difficulty": 1,
+    "Rules Difficulty": 2,
+    "Strategy Difficulty": 0
+}

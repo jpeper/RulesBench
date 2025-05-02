@@ -1,0 +1,13 @@
+{
+    "ID": 202,
+    "Game": "Kingdomino",
+    "Test Description": "Assess basic optimization problems using small set of tiles.",
+    "Difficulty Notes": "Focusing on a subset of the score optimization problems. This time, giving it a score and asking it to derive the solution",
+    "Question": "What sets of two dominoes would combine to yield a score of 2? You may only select one domino per column. Output as Dominoes Combinations: List[Tuple(domino, domino)] e.g. [(A, E), (B,F), (B, H)]",
+    "Answer": "[(C,F), (C, H)]]",
+    "Rationale": "C is crucial as it contains a one-crown lake tile that could then be paired with a blank lake tile. Namely, F and H are lake tiles without crowns, resulting in 1x2 = 2 points. Most other combinations like this yield 1x3, 3x1 or 2x2 points",
+    "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/kingdomino/t3_basic_cols.png",
+    "Game State Difficulty": 1,
+    "Rules Difficulty": 1,
+    "Strategy Difficulty": 1
+}

@@ -8,6 +8,6 @@
     "Rationale": "(in no order) there exist the following combinations: Green-green, blue-yellow, yellow-brown, forest-yellow, forest-blue, blue-green, brown-black, yellow-green, yellow-yellow. ",
     "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/kingdomino/basic_full_env.png",
     "Game State Difficulty": 2,
-    "Rules Difficulty": 1,
-    "Strategy Difficulty": 1
+    "Rules Difficulty": 0,
+    "Strategy Difficulty": 0
 }

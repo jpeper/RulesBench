@@ -1,0 +1,13 @@
+{
+    "ID": 220,
+    "Game": "Kingdomino",
+    "Test Description": "Assess one-hop optimization -- selecting the best tile to add to the current game state",
+    "Difficulty Notes": "Focusing on very easy scenarios for now, where there is just one or two hops of reasoning.",
+    "Question": "Which is the second-best domino the player could add to their kingdom to maximize its score? Output the following: Domino letter, Previous kingdom score, new kingdom score.",
+    "Answer": "Domino: C, Previous kingdom score: 4, New kingdom score: 6",
+    "Rationale": "Domino C could be placed in multiple positions that could, at best, obtain 2 additional points. Going from 0x1 to 1x2 for a wheat field region.",
+    "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/kingdomino/t3_single_scoring_6.png",
+    "Game State Difficulty": 1,
+    "Rules Difficulty": 2,
+    "Strategy Difficulty": 2
+}

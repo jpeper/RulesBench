@@ -1,0 +1,13 @@
+{
+    "ID": 221,
+    "Game": "Kingdomino",
+    "Test Description": "Assess one-hop optimization -- selecting the best tile to add to the current game state",
+    "Difficulty Notes": "Focusing on very easy scenarios for now, where there is just one or two hops of reasoning.",
+    "Question": "What are the most optimal kingdom scores that each of the four possible dominos could add to the player's kingdom if placed? For each domino, output the following: Domino letter, Previous kingdom score, new kingdom score.",
+    "Answer": "[[Domino: A, Previous kingdom score: 4, New kingdom score: 4], [Domino: B, Previous kingdom score: 4, New kingdom score: 4], [Domino: C, Previous kingdom score: 4, New kingdom score: 6], [Domino: D, Previous kingdom score: 4, New kingdom score: 8]]",
+    "Rationale": "Options A and B don't add any crowns nor do they contribute to a currently-scoring area. Domino C can be placed on the top or bottom as there is one remaining row of height that can be utilized. It contains a wheat crown, expanding an existing wheat from 0x1 to 1x2 for an increase of 2 points. Placing Domino D above the existing swamp tile would increase that region from 2x1 points to 3x2 meaning a 4 point gain.",
+    "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/kingdomino/t3_single_scoring_6.png",
+    "Game State Difficulty": 1,
+    "Rules Difficulty": 2,
+    "Strategy Difficulty": 3
+}

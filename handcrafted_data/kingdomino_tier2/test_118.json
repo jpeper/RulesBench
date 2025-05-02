@@ -1,0 +1,13 @@
+{
+    "ID": 118,
+    "Game": "Kingdomino",
+    "Test Description": "Testing turn order perception.",
+    "Difficulty Notes": "Testing the ability to distinguish turn order for a game round. Note, there are a set of horizontal tests where you need to resolve the ambiguity using intuition about the relative strength of the tiles (this requires some intuition that could be gleaned from the rules).",
+    "Question": "Which player will place second in the next round?",
+    "Answer": "Pink",
+    "Rationale": "Pink. This is a trivial / shortcut as both the middle dominoes have pink players on them. The orientation is ambiguous, but we can solve it nonetheless.",
+    "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/kingdomino/turn_order_horizontal_normal_crown_2.png",
+    "Game State Difficulty": 1,
+    "Rules Difficulty": 2,
+    "Strategy Difficulty": 0
+}

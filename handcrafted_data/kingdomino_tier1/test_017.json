@@ -8,6 +8,6 @@
     "Rationale": "There are 14 dominoes total, 4 from the round 1 tiles, 4 from the round 2 tiles, 6 from the green kingdom tiles. Each domino is 2x1, so the area is 14*2 = 28.",
     "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/kingdomino/basic_full_env.png",
     "Game State Difficulty": 2,
-    "Rules Difficulty": 1,
-    "Strategy Difficulty": 1
+    "Rules Difficulty": 0,
+    "Strategy Difficulty": 0
 }

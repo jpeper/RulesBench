@@ -1,0 +1,13 @@
+{
+    "ID": 102,
+    "Game": "Kingdomino",
+    "Test Description": "Testing board validity",
+    "Difficulty Notes": "Requires model to understand adjacent placement validity",
+    "Question": "Is this a valid kingdom state?",
+    "Answer": "No",
+    "Rationale": "No, there are several pieces where neither half of each domino matches the other, nor is there a path through which they are validly placed. For example, the domino two above the castle could not have ever been placed.",
+    "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/kingdomino/invalid_kingdom_1.png",
+    "Game State Difficulty": 1,
+    "Rules Difficulty": 2,
+    "Strategy Difficulty": 0
+}

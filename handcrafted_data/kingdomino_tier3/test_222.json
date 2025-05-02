@@ -1,0 +1,13 @@
+{
+    "ID": 222,
+    "Game": "Kingdomino",
+    "Test Description": "Assess one-hop optimization -- selecting the best tile to add to the current game state",
+    "Difficulty Notes": "Focusing on very easy scenarios for now, where there is just one or two hops of reasoning. Testing placement if we are concerned about boundary violations (5x5 grid). Note: this board state is slightly invalid in the sense that it could not have been arrived at during legal placement of tiles. However, it is still a valid board state for the purposes of this test.",
+    "Question": "Which domino should the player add to their kingdom to maximize its score? Output the following: Domino letter, Previous kingdom score, new kingdom score.",
+    "Answer": "Domino: C, Previous kingdom score: 4, New kingdom score: 6",
+    "Rationale": "Domino C can be place in the bottom right, connecting the wheat field w/ a crown to the empty wheat field, yielding an improvment of 0x1 to 1x2.",
+    "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/kingdomino/t3_single_scoring_7.png",
+    "Game State Difficulty": 1,
+    "Rules Difficulty": 2,
+    "Strategy Difficulty": 2
+}

@@ -1,0 +1,13 @@
+{
+    "ID": 217,
+    "Game": "Kingdomino",
+    "Test Description": "Assess one-hop optimization -- selecting the best tile to add to the current game state",
+    "Difficulty Notes": "Focusing on very easy scenarios for now, where there is just one or two hops of reasoning.",
+    "Question": "Which is the second-best domino the player could add to their kingdom to maximize its score? Output the following: Domino letter, Previous kingdom score, new kingdom score.",
+    "Answer": "Domino: D, Previous kingdom score: 7, New kingdom score: 11",
+    "Rationale": "Placing Domino D above the existing swamp tile would increase that region from 2x1 points to 3x2 meaning a 4 point gain.",
+    "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/kingdomino/t3_single_scoring_5_noboundary.png",
+    "Game State Difficulty": 1,
+    "Rules Difficulty": 2,
+    "Strategy Difficulty": 2
+}
