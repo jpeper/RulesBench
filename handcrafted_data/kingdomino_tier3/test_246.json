@@ -1,0 +1,13 @@
+{
+    "ID": 246,
+    "Game": "Kingdomino",
+    "Test Description": "Assessing ability to optimally plan over sequential reasoning.'",
+    "Difficulty Notes": "This example has some interaction and requires multi-step planning. It tests if the methods try to score *across* the castle without direct adjacency.",
+    "Question": "What next domino should the pink player select to maximize the score of their kingdom? Assume the game ends after placement of the pictured dominos. Output the following: Domino letter, 'Previous kingdom score', eventual 'New kingdom score' after placement of all of the shown/selected draftable dominos. If necessary, you may take/simulate other players' actions for them. You should assume that the other players will act cooperatively and will take actions to best-support maximizing your score.",
+    "Answer": "Domino: H, Previous kingdom score: 11, New kingdom score: 24",
+    "Rationale": "Previous domino (C) contains both crowned forest and lakes synergies. This will go on the right side. We can further add tile H to act as another multiplier. This works out to 1x1 + 1x1 + 3x4 + 2x5",
+    "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/kingdomino/t3_2_step_connectivity1.png",
+    "Game State Difficulty": 1,
+    "Rules Difficulty": 2,
+    "Strategy Difficulty": 2
+}

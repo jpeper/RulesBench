@@ -1,0 +1,12 @@
+{
+    "ID": 235,
+    "Game": "Kingdomino",
+    "Test Description": "Assessing ability to optimally plan over multiple steps of domino selection and placement",
+    "Difficulty Notes": "What next domino should the green player select to maximize the score of their kingdom? Assume the game ends after placement of the pictured dominos. Output the following: Domino letter, 'Previous kingdom score', eventual 'New kingdom score' after placement of all of the shown/selected draftable dominos. If necessary, you may take/simulate other players' actions for them. You should assume that the other players will act adversarially and will seek to minimize your score first and foremost before optimizing theirs. We are playing with the harmony and middle kingdom rules.",
+    "Answer": "Domino: H, Previous kingdom score: 17, New kingdom score: 44",
+    "Rationale": "There are already 17 points. Since we are playing with the harmony and middle kingdom rules we should pay special attention to those modifiers. We only have two tiles left to place, so the harmony variant is not applicable as we can't complete the grid. However, we can get an extra 10 points if we play below the current bottom row in order to center the castle. Any alternative strategy must net +10 points over this strategy. Green selected the double grasslands tile in the prior round. We should place below to get +10, therefore we should find something else that pairs well. This would tile H, which yields another grasslands crown. With this tile, the green player will now get 4x8 for the grasslands + 2x1 for the swamp + 10 for the middle kingdom rule, netting 44 points. It does not matter that the opponents are adversarial, as they take their turns after the green player.",
+    "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/kingdomino/t3_2_step_variant.png",
+    "Game State Difficulty": 1,
+    "Rules Difficulty": 2,
+    "Strategy Difficulty": 3
+}

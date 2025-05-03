@@ -1,0 +1,13 @@
+{
+    "ID": 249,
+    "Game": "Kingdomino",
+    "Test Description": "Assessing ability to optimally plan over sequential reasoning.'",
+    "Difficulty Notes": "This example has some interaction and requires multi-step planning.",
+    "Question": "What next domino should the blue player select to maximize the score of their kingdom? Assume the game ends after placement of the pictured dominos. Output the following: Domino letter, 'Previous kingdom score', eventual 'New kingdom score' after placement of all of the shown/selected draftable dominos. If necessary, you may take/simulate other players' actions for them. You should assume that the other players will act adversarially and will seek to minimize your score first and foremost before optimizing theirs.",
+    "Answer": "There are two equally valid answers: 1: [Domino: E, Previous kingdom score: 11, New kingdom score: 17], 2: [Domino: F, Previous kingdom score: 11, New kingdom score: 17]",
+    "Rationale": "Previous domino (B) contains both lake and wheat field synergies which is interesting. Ideally it should place in the top left to synergize there. Domino H is the best tile to choose from, so we assume green will select this. E and F are both valid alternatives as they can combine with the crowned forest/green tile in the lower-left. This will net 1x3 + 1x2 + 1x3 + 3x3 = 17",
+    "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/kingdomino/t3_2_step_connectivity1.png",
+    "Game State Difficulty": 1,
+    "Rules Difficulty": 2,
+    "Strategy Difficulty": 2
+}

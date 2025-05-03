@@ -1,0 +1,12 @@
+{
+    "ID": 237,
+    "Game": "Kingdomino",
+    "Test Description": "Assessing ability to optimally plan over multiple steps of domino selection and placement",
+    "Difficulty Notes": "What next domino should the pink player select to maximize the score of their kingdom? Assume the game ends after placement of the pictured dominos. Output the following: Domino letter, 'Previous kingdom score', eventual 'New kingdom score' after placement of all of the shown/selected draftable dominos. If necessary, you may take/simulate other players' actions for them. You should assume that the other players will act adversarially and will seek to minimize your score first and foremost before optimizing theirs. We are playing with the harmony and middle kingdom rules.",
+    "Answer": "Domino: G, Previous kingdom score: 17, New kingdom score: 32",
+    "Rationale": "Pink goes second, and we have to assume green will pick the best tile for us. There are already 17 points in our kingdom. Since we are playing with the harmony and middle kingdom rules we should pay special attention to those modifiers. We only have two tiles left to place, so the harmony variant is not applicable as we can't complete the 5x5 grid. However, we can get an extra 10 points if we play below the current bottom row in order to center the castle. Any alternative strategy must net +10 points over this strategy. Pink selected the double lake tile in the prior round, which won't have any scoring effect. Green will adversarially select option H as this synergizes well with the existing scoring. The next best option for us is tile G, as this has a forest crown that we can pair with the rightmost forest tiles. This will net us 3x5 grasslands, 2x1 swamp, 1x5 forest and 10 pts for the centered kingdom, resulting in 32 points",
+    "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/kingdomino/t3_2_step_variant.png",
+    "Game State Difficulty": 1,
+    "Rules Difficulty": 2,
+    "Strategy Difficulty": 3
+}

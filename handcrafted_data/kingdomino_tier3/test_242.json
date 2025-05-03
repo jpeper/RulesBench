@@ -1,0 +1,13 @@
+{
+    "ID": 242,
+    "Game": "Kingdomino",
+    "Test Description": "Assessing ability to optimally plan over sequential reasoning steps that only make sense when placed together. E.g. a 'leap of faith'",
+    "Difficulty Notes": "This example has some interaction and requires multi-step planning. It does not test any particular rules.",
+    "Question": "What next domino should the green player select to maximize the score of their kingdom? Assume the game ends after placement of the pictured dominos. Output the following: Domino letter, 'Previous kingdom score', eventual 'New kingdom score' after placement of all of the shown/selected draftable dominos. If necessary, you may take/simulate other players' actions for them. You should assume that the other players will act cooperatively and will take actions to best-support maximizing your score.",
+    "Answer": "Domino: F, Previous kingdom score: 12, New kingdom score: 34",
+    "Rationale": "There is an opportunity to bridge the two disparate blue regions, netting a large amount of points. Namely, if green selects F, it can synergize with the prior pick (A), allowing one to connect all the blue/lake terrain tiles together. There are already 12 points in the kingdom. 3x3 + 1x1 + 2x2. By connecting the blue tiles we then have 4x8=32 + 2x1 = 34",
+    "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/kingdomino/t3_2_step_dependencies.png",
+    "Game State Difficulty": 1,
+    "Rules Difficulty": 2,
+    "Strategy Difficulty": 2
+}
