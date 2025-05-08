@@ -2,7 +2,7 @@
     "ID": 19,
     "Game": "Kingdomino",
     "Test Description": "Tests random details extraction from the game environment.",
-    "Difficulty Notes": "Model needs to identify the existen of a dragon shadwow on the game board.",
+    "Difficulty Notes": "Model needs to identify the existence of a dragon shadwow on the game board.",
     "Question": "How many dragons are present in this scenario?",
     "Answer": "1",
     "Rationale": "There appears to be a dragon shadow on the top-most domino in the round 1 tiles",
