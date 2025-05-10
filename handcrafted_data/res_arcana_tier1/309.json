@@ -1,0 +1,15 @@
+{
+  "ID": 309,
+  "Game": "Res Arcana",
+  "Tier": 1,
+  "Test Description": "Checks token orientation.",
+  "Difficulty Notes": "Sideways 5× chips included.",
+  "Question": "Are any essence tokens placed on their 5× side?",
+  "Answer": "No",
+  "Rationale": "All essence chips display single‑token faces.",
+  "game_state_url": "",
+  "game_state_description": "Close shot of essence supply tray; no 5× chips used.",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0
+}

@@ -1,0 +1,15 @@
+{
+  "ID": 423,
+  "Game": "Res Arcana",
+  "Tier": 2,
+  "Test Description": "Passing ignores Life loss.",
+  "Difficulty Notes": "State of passed players.",
+  "Question": "A passed player is targeted by Dragon Life‑loss effect. Do they lose Life?",
+  "Answer": "No",
+  "Rationale": "Players who have passed ignore all Life loss.:contentReference[oaicite:50]{index=50}:contentReference[oaicite:51]{index=51}",
+  "game_state_url": "",
+  "game_state_description": "Opponent Dragon attacks after player passed.",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 0
+}

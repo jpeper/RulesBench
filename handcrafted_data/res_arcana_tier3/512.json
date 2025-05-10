@@ -1,0 +1,15 @@
+{
+  "ID": 512,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Cursed Forge flip timing.",
+  "Difficulty Notes": "When to purposely flip.",
+  "Question": "Down 1 VP, Cursed Forge upright but exhausted. Is flipping it worth losing VP to straighten for next round burst?",
+  "Answer": "Yes if next round burst gains ≥2 VP, offsetting loss.",
+  "Rationale": "Trade short‑term VP for higher future gain.",
+  "game_state_url": "",
+  "game_state_description": "Forge turned; VP tracker visible.",
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 2
+}

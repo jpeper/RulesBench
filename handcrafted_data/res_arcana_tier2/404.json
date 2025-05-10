@@ -1,0 +1,15 @@
+{
+  "ID": 404,
+  "Game": "Res Arcana",
+  "Tier": 2,
+  "Test Description": "Crypt placement via discard.",
+  "Difficulty Notes": "Reduces cost to Gold portion.",
+  "Question": "Using Crypt’s power, how much must the player pay to place an artifact from discard that normally costs 1 Gold + 1 Calm?",
+  "Answer": "1 Gold",
+  "Rationale": "Crypt reduces the non‑Gold essences when cost includes exactly 1 Gold.:contentReference[oaicite:18]{index=18}:contentReference[oaicite:19]{index=19}",
+  "game_state_url": "",
+  "game_state_description": "Crypt turned; target card in discard.",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0
+}

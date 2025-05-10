@@ -1,0 +1,15 @@
+{
+  "ID": 528,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Dragon’s Lair scoring swing.",
+  "Difficulty Notes": "Turn requirements and VP math.",
+  "Question": "You have Dragon’s Lair (worth 4 VP) and a straightened Dragon. What action this turn gains you 2 VP and 2 Gold?",
+  "Answer": "Turn both Dragon’s Lair and the Dragon to activate the Lair’s power.",
+  "Rationale": "Power grants 2 Gold and +2 VP when both components are turned.:contentReference[oaicite:66]{index=66}:contentReference[oaicite:67]{index=67}",
+  "game_state_url": "",
+  "game_state_description": "Dragon’s Lair and one Dragon straightened.",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 1
+}

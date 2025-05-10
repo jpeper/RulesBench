@@ -1,0 +1,15 @@
+{
+  "ID": 304,
+  "Game": "Res Arcana",
+  "Tier": 1,
+  "Test Description": "Counts Death essences in pool.",
+  "Difficulty Notes": "Black tokens on dark mat.",
+  "Question": "How many Death essences are in the player’s pool?",
+  "Answer": "4",
+  "Rationale": "Four black skull tokens are grouped near the player mat.",
+  "game_state_url": "",
+  "game_state_description": "Top‑down shot of pools; Death tokens clustered.",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0
+}

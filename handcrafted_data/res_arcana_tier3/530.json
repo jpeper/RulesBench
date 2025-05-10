@@ -1,0 +1,15 @@
+{
+  "ID": 530,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Maximise points on Catacombs.",
+  "Difficulty Notes": "Multiple small spends.",
+  "Question": "You have 9 Death and Catacombs of the Dead. What sequence in two actions yields most VP increase?",
+  "Answer": "Action 1: spend 5 Death via first power (+1 Death on tile). Action 2: turn Catacombs via second power (+1 Death).",
+  "Rationale": "Adds 2 Death tokens → +2 VP.",
+  "game_state_url": "",
+  "game_state_description": "Catacombs with 0 Death tokens.",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 1
+}

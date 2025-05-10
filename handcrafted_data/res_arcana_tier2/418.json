@@ -1,0 +1,15 @@
+{
+  "ID": 418,
+  "Game": "Res Arcana",
+  "Tier": 2,
+  "Test Description": "Temporary points via Golden Statue.",
+  "Difficulty Notes": "React timing during victory check.",
+  "Question": "During victory check, may the owner of Golden Statue spend 3 Gold to gain 3 temporary points even after passing?",
+  "Answer": "Yes",
+  "Rationale": "Golden Statue’s React may always be used when checking victory.:contentReference[oaicite:34]{index=34}:contentReference[oaicite:35]{index=35}",
+  "game_state_url": "",
+  "game_state_description": "Golden Statue face‑up; player pools 3 Gold.",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 0
+}

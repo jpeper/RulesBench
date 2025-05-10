@@ -1,0 +1,15 @@
+{
+  "ID": 422,
+  "Game": "Res Arcana",
+  "Tier": 2,
+  "Test Description": "Life‑loss substitution.",
+  "Difficulty Notes": "Conversion 1 Life → 2 other essences.",
+  "Question": "A rival effect would make the player lose 2 Life, but they have no Life. How many other essences must they lose if possible?",
+  "Answer": "4 other essences",
+  "Rationale": "Each missing Life converts to 2 other essences.:contentReference[oaicite:20]{index=20}:contentReference[oaicite:21]{index=21}",
+  "game_state_url": "",
+  "game_state_description": "Life‑loss Dragon effect triggered.",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 0
+}

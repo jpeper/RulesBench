@@ -1,0 +1,15 @@
+{
+  "ID": 534,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Sea‑Serpent + Bestiary VP math.",
+  "Difficulty Notes": "Additive scoring.",
+  "Question": "Bestiary (3 VP for Sea Serpent) and Serpent card (1 VP) together give how many total points?",
+  "Answer": "4",
+  "Rationale": "Bestiary 3 + printed 1 = 4.",
+  "game_state_url": "",
+  "game_state_description": "Both components visible.",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 1
+}

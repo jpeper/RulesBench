@@ -1,0 +1,15 @@
+{
+  "ID": 427,
+  "Game": "Res Arcana",
+  "Tier": 2,
+  "Test Description": "Cursed Forge upkeep.",
+  "Difficulty Notes": "Must recall optional payment.",
+  "Question": "What must the owner pay during Collect to avoid turning Cursed Forge?",
+  "Answer": "1 Death essence",
+  "Rationale": "If they fail to pay 1 Death, the Place of Power turns.:contentReference[oaicite:10]{index=10}:contentReference[oaicite:11]{index=11}",
+  "game_state_url": "",
+  "game_state_description": "Cursed Forge with no tokens; player pools shown.",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 0
+}

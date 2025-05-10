@@ -1,0 +1,15 @@
+{
+  "ID": 535,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Turn‑economy plan.",
+  "Difficulty Notes": "Choose best action among several.",
+  "Question": "You can either discard for 2 essences or use a power that turns a component for 1 essence more. Which is better to reach 5 Gold faster?",
+  "Answer": "Discarding is better: 2 essences immediately and no component turned.",
+  "Rationale": "Action efficiency plus keeping component straight matters.",
+  "game_state_url": "",
+  "game_state_description": "Player needs Gold; options displayed.",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 1
+}

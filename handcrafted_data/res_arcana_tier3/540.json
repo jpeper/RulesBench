@@ -1,0 +1,15 @@
+{
+  "ID": 540,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Draw‑three filter.",
+  "Difficulty Notes": "Oracle vs Divination choice.",
+  "Question": "Need a Dragon card. Use Divination or draw random?",
+  "Answer": "Use Divination to look at top 3, keep Dragon if found.",
+  "Rationale": "Improves odds and lets reorder.",
+  "game_state_url": "",
+  "game_state_description": "Divination card ready.",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 1
+}

@@ -1,0 +1,15 @@
+{
+  "ID": 522,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Mix‑essence Collect choice.",
+  "Difficulty Notes": "Slash vs plus icons.",
+  "Question": "Your artifact shows Collect ‘2⧫ / Gold’. Which option accelerates buying Sacred Grove?",
+  "Answer": "Take 2 any‑essence choosing Life, to meet Sacred Grove’s Life requirement faster.",
+  "Rationale": "Grove cost needs Life; Gold isn’t required yet.",
+  "game_state_url": "",
+  "game_state_description": "Artifact and Sacred Grove in view.",
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 1
+}

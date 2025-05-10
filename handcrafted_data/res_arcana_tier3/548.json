@@ -1,0 +1,15 @@
+{
+  "ID": 548,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Dragon bridle cost reduction.",
+  "Difficulty Notes": "Applies only to Dragons.",
+  "Question": "You hold Dragon Bridle (–2). What’s cheapest non‑Dragon artifact you can now play?",
+  "Answer": "No reduction; cost remains printed value.",
+  "Rationale": "Bridle discount applies only to Dragons.",
+  "game_state_url": "",
+  "game_state_description": "Bridle in play; non‑Dragon artifact in hand.",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 1
+}

@@ -1,0 +1,15 @@
+{
+  "ID": 501,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Discount stacking puzzle.",
+  "Difficulty Notes": "Compute net cost.",
+  "Question": "You have Dragon Lair (–2 Gold discount on Dragons) and Artificer (–1). What’s the cheapest Dragon you can place this turn if you also use Crypt to place it from discard?",
+  "Answer": "0 essences (free)",
+  "Rationale": "Dragon cost 4 Gold –2 (Lair) –1 (Artificer) –1 (Crypt Gold reduction) = 0.",
+  "game_state_url": "",
+  "game_state_description": "All three discount sources ready; Dragon in discard.",
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 1
+}

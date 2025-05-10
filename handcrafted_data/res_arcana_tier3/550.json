@@ -1,0 +1,15 @@
+{
+  "ID": 550,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Component destruction logistics.",
+  "Difficulty Notes": "Destroyed cards go to discard.",
+  "Question": "After destroying an artifact, where is it placed and can Crypt place it again next round?",
+  "Answer": "It is tucked sideways under the deck as discard; Crypt can place it from there.",
+  "Rationale": "Destroyed artifacts become discards; Crypt targets discard pile.",
+  "game_state_url": "",
+  "game_state_description": "Crypt and destroyed artifact indicated.",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 1
+}

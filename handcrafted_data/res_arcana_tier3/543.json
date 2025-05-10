@@ -1,0 +1,15 @@
+{
+  "ID": 543,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Essence change during action.",
+  "Difficulty Notes": "Make change with 5× chips.",
+  "Question": "You lack 1 Gold but hold a 5× Gold chip. How do you pay exact 4 Gold for Monument?",
+  "Answer": "Make change (split 5× chip into five 1×) then pay 4 tokens.",
+  "Rationale": "Players may make change at any time.:contentReference[oaicite:100]{index=100}:contentReference[oaicite:101]{index=101}",
+  "game_state_url": "",
+  "game_state_description": "5× Gold chip in pool.",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 1
+}

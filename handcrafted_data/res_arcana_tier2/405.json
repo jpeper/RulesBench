@@ -1,0 +1,15 @@
+{
+  "ID": 405,
+  "Game": "Res Arcana",
+  "Tier": 2,
+  "Test Description": "Athanor gold conversion.",
+  "Difficulty Notes": "Must remember cost of 6 Elan.",
+  "Question": "If the player turns in 6 Elan via Athanor’s second power, how many Gold do they receive?",
+  "Answer": "6 Gold",
+  "Rationale": "Effect converts identical essences one‑for‑one into Gold.:contentReference[oaicite:22]{index=22}:contentReference[oaicite:23]{index=23}",
+  "game_state_url": "",
+  "game_state_description": "Athanor with 6 Elan on it.",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 0
+}

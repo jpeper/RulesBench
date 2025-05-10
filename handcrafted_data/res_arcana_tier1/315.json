@@ -1,0 +1,15 @@
+{
+  "ID": 315,
+  "Game": "Res Arcana",
+  "Tier": 1,
+  "Test Description": "Identifies a Place of Power by artwork.",
+  "Difficulty Notes": "Needs card‑image classification.",
+  "Question": "Which Place of Power tile is displayed in the picture?",
+  "Answer": "Dragon’s Lair",
+  "Rationale": "Image shows the lair artwork with dragon silhouette.",
+  "game_state_url": "",
+  "game_state_description": "One Place of Power tile on centre row face‑down; Dragon’s Lair face‑up owned by south player.",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0
+}

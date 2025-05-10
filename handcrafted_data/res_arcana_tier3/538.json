@@ -1,0 +1,15 @@
+{
+  "ID": 538,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Turn order denial.",
+  "Difficulty Notes": "Passing early to starve supply.",
+  "Question": "What advantage does passing early give if supply of Gold tokens is low?",
+  "Answer": "You exchange magic item for Transmutation first, enabling early Gold gain next round before supply empties.",
+  "Rationale": "First Player acts first; Transmutation timing matters.:contentReference[oaicite:96]{index=96}:contentReference[oaicite:97]{index=97}",
+  "game_state_url": "",
+  "game_state_description": "Supply nearly out of Gold.",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 2
+}

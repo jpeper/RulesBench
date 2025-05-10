@@ -1,0 +1,15 @@
+{
+  "ID": 525,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Resource‑choice Collect.",
+  "Difficulty Notes": "Selecting best mix.",
+  "Question": "Your Collect offers ‘3⧫ no Gold’. Which mix accelerates buying Dragon Lair (cost Life/Death)?",
+  "Answer": "Take 2 Life and 1 Death.",
+  "Rationale": "Matches required essences precisely.",
+  "game_state_url": "",
+  "game_state_description": "Collect icons displayed.",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 1
+}

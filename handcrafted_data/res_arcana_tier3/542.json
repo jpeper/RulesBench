@@ -1,0 +1,15 @@
+{
+  "ID": 542,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Essence cap planning.",
+  "Difficulty Notes": "Tray unlimited but tokens finite.",
+  "Question": "Supply is nearly out of Gold. How do you still gain 5 Gold this turn?",
+  "Answer": "Convert other tokens using Athanor or Transmutation; physical tokens can be proxied with 5× chips.",
+  "Rationale": "Rulebook notes essences unlimited; use 5× chips.:contentReference[oaicite:92]{index=92}:contentReference[oaicite:93]{index=93}",
+  "game_state_url": "",
+  "game_state_description": "Supply tray low on Gold tokens.",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 1
+}

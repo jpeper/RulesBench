@@ -1,0 +1,15 @@
+{
+  "ID": 520,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Sacrificial Pit combo.",
+  "Difficulty Notes": "Destroy vs VP gain.",
+  "Question": "You have Sacrificial Pit (destroy artifact → essences). Which artifact should you destroy to gain exactly 3 Gold this turn?",
+  "Answer": "Destroy Fiery Whip (cost 3), yielding 3 essences you can take as Gold.",
+  "Rationale": "Pit grants essences equal to placement cost; Fiery Whip cost totals 3.",
+  "game_state_url": "",
+  "game_state_description": "Pit in play; Fiery Whip straightened.",
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 1
+}

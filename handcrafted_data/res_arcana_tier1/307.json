@@ -1,0 +1,15 @@
+{
+  "ID": 307,
+  "Game": "Res Arcana",
+  "Tier": 1,
+  "Test Description": "Counts total components.",
+  "Difficulty Notes": "Must aggregate different card types.",
+  "Question": "How many total components (cards + tiles) are in this player’s tableau?",
+  "Answer": "9",
+  "Rationale": "Mage (1) + Artifacts (5) + Monument (1) + Place of Power (1) + Magic item (1) = 9.",
+  "game_state_url": "",
+  "game_state_description": "Player mid‑game board with multiple items.",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0
+}

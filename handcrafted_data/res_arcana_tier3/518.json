@@ -1,0 +1,15 @@
+{
+  "ID": 518,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Sequence for Windup Man burst.",
+  "Difficulty Notes": "Interest timing and removal.",
+  "Question": "Describe the shortest sequence of actions that lets you harvest 5 Gold and 3 Elan from Windup Man next Collect step.",
+  "Answer": "(1) Use Windup Man’s power twice this round to add 2 Gold and 1 Elan; (2) Do not remove any tokens; at next Collect it adds +2 Gold +2 Elan, totalling 5 Gold 3 Elan.",
+  "Rationale": "Leaving tokens triggers +2 per Collect; two activations add requisite amounts.:contentReference[oaicite:64]{index=64}:contentReference[oaicite:65]{index=65}",
+  "game_state_url": "",
+  "game_state_description": "Windup Man currently has 1 Gold.",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 1
+}

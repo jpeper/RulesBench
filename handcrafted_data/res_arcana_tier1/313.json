@@ -1,0 +1,15 @@
+{
+  "ID": 313,
+  "Game": "Res Arcana",
+  "Tier": 1,
+  "Test Description": "Identifies Dragons.",
+  "Difficulty Notes": "Must recognise dragon iconography.",
+  "Question": "Are any Dragon artifacts visible?",
+  "Answer": "Yes",
+  "Rationale": "Sea Serpent card shows the red Dragon icon.",
+  "game_state_url": "",
+  "game_state_description": "Sea Serpent and Mermaid visible among other artifacts.",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0
+}

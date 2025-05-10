@@ -1,0 +1,15 @@
+{
+  "ID": 519,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Athanor gold burst.",
+  "Difficulty Notes": "Calculate when to fire conversion.",
+  "Question": "Athanor holds 6 Elan and you need 4 Gold to buy Monument. What is the optimal action sequence this turn?",
+  "Answer": "Use Athanor’s second power now to convert the 6 Elan into 6 Gold, then claim the Monument in a later action.",
+  "Rationale": "Conversion yields enough Gold in one action; Monument claim can follow.",
+  "game_state_url": "",
+  "game_state_description": "Athanor with 6 Elan; Monument available.",
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 1
+}

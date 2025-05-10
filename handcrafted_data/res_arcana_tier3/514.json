@@ -1,0 +1,15 @@
+{
+  "ID": 514,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Life‑loss threat assessment.",
+  "Difficulty Notes": "Decide to ignore or pay.",
+  "Question": "Opponent’s Dragon threatens 3 Life loss. You have 2 Life, 4 Calm. Should you pay React cost (discard card) or absorb loss?",
+  "Answer": "Absorb: lose 2 Life + 2 other essences (4 total) is worse than discarding one card; so pay React.",
+  "Rationale": "Life loss conversion costs more overall.:contentReference[oaicite:82]{index=82}:contentReference[oaicite:83]{index=83}",
+  "game_state_url": "",
+  "game_state_description": "Hand size 4; discard option.",
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 2
+}

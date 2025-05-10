@@ -1,0 +1,15 @@
+{
+  "ID": 419,
+  "Game": "Res Arcana",
+  "Tier": 2,
+  "Test Description": "Card draw when deck empty.",
+  "Difficulty Notes": "Reshuffle rule.",
+  "Question": "If a player must draw a card but their deck is empty, what happens first?",
+  "Answer": "They reshuffle their discard pile to form a new deck, then draw.",
+  "Rationale": "Rulebook specifies reshuffle before draw.:contentReference[oaicite:48]{index=48}:contentReference[oaicite:49]{index=49}",
+  "game_state_url": "",
+  "game_state_description": "Player discard pile larger than deck.",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 0
+}

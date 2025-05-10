@@ -1,0 +1,15 @@
+{
+  "ID": 318,
+  "Game": "Res Arcana",
+  "Tier": 1,
+  "Test Description": "Counts discard pile size.",
+  "Difficulty Notes": "Side‑tucked cards look similar to turned cards.",
+  "Question": "How many cards are in the player’s discard pile?",
+  "Answer": "2",
+  "Rationale": "Two sideways cards are tucked under the deck area.",
+  "game_state_url": "",
+  "game_state_description": "Player deck with two side‑tucked discards visible.",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0
+}

@@ -1,0 +1,15 @@
+{
+  "ID": 541,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Max hand filtering.",
+  "Difficulty Notes": "Draw‑3 look with Hawk + Oracle combo.",
+  "Question": "How can you see up to 6 cards of your deck this turn?",
+  "Answer": "Use Oracle to draw‑3 reorder‑2 return, then play Hawk to do the same; combined views 6 unique cards.",
+  "Rationale": "Each effect reveals 3; overlap managed via reorder.",
+  "game_state_url": "",
+  "game_state_description": "Both cards in hand, straightened actions available.",
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 2
+}

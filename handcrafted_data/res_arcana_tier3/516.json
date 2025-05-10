@@ -1,0 +1,15 @@
+{
+  "ID": 516,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "React power chain.",
+  "Difficulty Notes": "Multiple Reacts to one event.",
+  "Question": "Can multiple rivals each discard a card to ignore the same Dragon Life loss?",
+  "Answer": "Yes, each rival may independently pay the React cost to avoid loss.",
+  "Rationale": "React offered to all rivals individually.:contentReference[oaicite:98]{index=98}:contentReference[oaicite:99]{index=99}",
+  "game_state_url": "",
+  "game_state_description": "Dragon about to attack; two rivals shown.",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 1
+}

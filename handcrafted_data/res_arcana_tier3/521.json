@@ -1,0 +1,15 @@
+{
+  "ID": 521,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Philosopher’s Stone loop.",
+  "Difficulty Notes": "Repeatable power uses.",
+  "Question": "You need 2 Life and 2 Calm. Stone’s cost is turn + pay 2 identical essences → take same number different essence. How many actions to convert 4 Elan into goal?",
+  "Answer": "Two actions: first convert 2 Elan → 2 Life; second convert 2 Elan → 2 Calm.",
+  "Rationale": "Stone must be straightened; requires two separate uses.:contentReference[oaicite:76]{index=76}:contentReference[oaicite:77]{index=77}",
+  "game_state_url": "",
+  "game_state_description": "Philosopher’s Stone straightened; pool 4 Elan.",
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 2
+}

@@ -1,0 +1,15 @@
+{
+  "ID": 529,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Optimise Cursed Forge flip.",
+  "Difficulty Notes": "Choosing whether to pay Death.",
+  "Question": "You have 5 Death and need 2 more VP. Is it better to pay the Cursed Forge curse this turn or let it turn?",
+  "Answer": "Pay 1 Death to keep it upright and preserve its 2 VP.",
+  "Rationale": "Turning Cursed Forge would nullify its VP this round. Paying 1 Death is cheaper than finding 2 new VP elsewhere.:contentReference[oaicite:72]{index=72}:contentReference[oaicite:73]{index=73}",
+  "game_state_url": "",
+  "game_state_description": "Cursed Forge upright with 2 VP.",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 1
+}

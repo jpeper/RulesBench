@@ -1,0 +1,15 @@
+{
+  "ID": 401,
+  "Game": "Res Arcana",
+  "Tier": 2,
+  "Test Description": "Validates Monument cost.",
+  "Difficulty Notes": "Requires rule knowledge that every Monument costs 4 Gold.",
+  "Question": "The player wants to claim the Monument on display but has only 3 Gold. May they do so?",
+  "Answer": "No",
+  "Rationale": "All Monuments cost 4 Gold; 3 Gold is insufficient.:contentReference[oaicite:0]{index=0}:contentReference[oaicite:1]{index=1}",
+  "game_state_url": "",
+  "game_state_description": "Centre row shows one face‑up Monument; player’s pool contains 3 Gold.",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 0
+}

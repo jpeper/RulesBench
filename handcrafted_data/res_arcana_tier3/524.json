@@ -1,0 +1,15 @@
+{
+  "ID": 524,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Crypt recursion.",
+  "Difficulty Notes": "Place from discard to trigger destroy combo.",
+  "Question": "Outline how Crypt + Sacrificial Pit can loop one artifact for essences each round.",
+  "Answer": "Use Crypt to place artifact from discard at discount, then destroy it with Pit for essences, setting up next round repeat.",
+  "Rationale": "Crypt placement and Pit destruction form a cycle.",
+  "game_state_url": "",
+  "game_state_description": "Crypt straightened; Sacrificial Pit straightened; target artifact in discard.",
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 2
+}

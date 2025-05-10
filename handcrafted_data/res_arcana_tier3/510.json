@@ -1,0 +1,15 @@
+{
+  "ID": 510,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Dragon Egg timing.",
+  "Difficulty Notes": "Discount after hatching.",
+  "Question": "You plan to use Dragon Egg to place a Dragon from hand at –2 cost. When should you activate it for least actions?",
+  "Answer": "Activate Dragon Egg’s power immediately before placing the Dragon in the same round.",
+  "Rationale": "Using the power and placement in sequence avoids wasting the discount.",
+  "game_state_url": "",
+  "game_state_description": "Dragon Egg straightened; Dragon card in hand.",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 1
+}

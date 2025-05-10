@@ -1,0 +1,15 @@
+{
+  "ID": 506,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Turn‑economy combo.",
+  "Difficulty Notes": "Re‑straighten to use again.",
+  "Question": "How can you fire Fiery Whip twice in one round?",
+  "Answer": "Use Witch (or Chalice of Fire) to straighten Fiery Whip after first use, then activate again.",
+  "Rationale": "Straightening removes turned state limitation.",
+  "game_state_url": "",
+  "game_state_description": "Fiery Whip turned; Witch straightened.",
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 2
+}

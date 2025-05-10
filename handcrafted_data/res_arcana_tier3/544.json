@@ -1,0 +1,15 @@
+{
+  "ID": 544,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Treant opponent choice.",
+  "Difficulty Notes": "Pick best rival to target.",
+  "Question": "Treant gains essences equal to a rival’s pool. One rival has 4, the other 2 (Calm) and 1 Gold. Whom should you choose to maximise useful essences?",
+  "Answer": "Choose the rival with 4 mixed essences for a bigger gain.",
+  "Rationale": "Treant copies the total; more tokens yield larger reward. Gold isn’t copied.",
+  "game_state_url": "",
+  "game_state_description": "Two opponents’ pools visible.",
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 1
+}

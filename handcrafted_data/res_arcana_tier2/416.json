@@ -1,0 +1,15 @@
+{
+  "ID": 416,
+  "Game": "Res Arcana",
+  "Tier": 2,
+  "Test Description": "Use‑power action count.",
+  "Difficulty Notes": "Each power use is one action.",
+  "Question": "If a power’s cost does not involve turning its component, how many actions does each use consume?",
+  "Answer": "One action per use",
+  "Rationale": "Each use, even of repeatable powers, is a separate action.:contentReference[oaicite:40]{index=40}:contentReference[oaicite:41]{index=41}",
+  "game_state_url": "",
+  "game_state_description": "Philosopher’s Stone straightened, cost icons visible.",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 0
+}

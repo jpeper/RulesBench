@@ -1,0 +1,15 @@
+{
+  "ID": 537,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Passing order influence.",
+  "Difficulty Notes": "Turn order next round.",
+  "Question": "You can still act but are low on resources. Should you pass early to become first next round given opponents can still combo?",
+  "Answer": "Yes, if denying opponents last‑buy Monument is valuable.",
+  "Rationale": "Taking First Player token grants initiative and 1 VP.:contentReference[oaicite:88]{index=88}:contentReference[oaicite:89]{index=89}",
+  "game_state_url": "",
+  "game_state_description": "Opponent has 4 Gold eyeing Monument.",
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 2
+}

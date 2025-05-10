@@ -1,0 +1,15 @@
+{
+  "ID": 527,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Reach 10 VP puzzle.",
+  "Difficulty Notes": "Multi‑step reasoning, but not grandmaster.",
+  "Question": "You have 8 VP (Catacombs = 6, Golden Statue = 2) and 3 Gold in pool. What single action this turn lets you hit 11 VP?",
+  "Answer": "Use Golden Statue’s React to spend 3 Gold for +3 temporary VP.",
+  "Rationale": "Statue grants +3 VP for 3 Gold, bringing total to 11.:contentReference[oaicite:60]{index=60}:contentReference[oaicite:61]{index=61}",
+  "game_state_url": "",
+  "game_state_description": "Catacombs of the Dead with tokens; Golden Statue straightened; player pool 3 Gold.",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 1
+}

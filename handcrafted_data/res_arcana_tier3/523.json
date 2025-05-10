@@ -1,0 +1,15 @@
+{
+  "ID": 523,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Discard vs place decision.",
+  "Difficulty Notes": "Implicit cost of free artifacts.",
+  "Question": "You have Magical Shard (cost 0). Better to place it or discard for 2 essences to buy Athanor?",
+  "Answer": "Discarding is stronger if you need essences; Shard adds no VP or strong power.",
+  "Rationale": "Rulebook notes implicit opportunity cost of placing 0‑cost cards.:contentReference[oaicite:84]{index=84}:contentReference[oaicite:85]{index=85}",
+  "game_state_url": "",
+  "game_state_description": "Magical Shard in hand; Athanor visible.",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 1
+}

@@ -1,0 +1,15 @@
+{
+  "ID": 414,
+  "Game": "Res Arcana",
+  "Tier": 2,
+  "Test Description": "Transmuter minimum essences.",
+  "Difficulty Notes": "Requires at least 2 essences to activate.",
+  "Question": "The Transmuter mage’s power is shown. The player has 1 essence total. Can they use it now?",
+  "Answer": "No",
+  "Rationale": "Transmuter requires turning in at least 2 essences.:contentReference[oaicite:32]{index=32}:contentReference[oaicite:33]{index=33}",
+  "game_state_url": "",
+  "game_state_description": "Transmuter in play; player pool contains 1 Calm.",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 0
+}

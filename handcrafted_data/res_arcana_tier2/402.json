@@ -1,0 +1,15 @@
+{
+  "ID": 402,
+  "Game": "Res Arcana",
+  "Tier": 2,
+  "Test Description": "Applies Artificer discount.",
+  "Difficulty Notes": "Discount applies only to artifacts.",
+  "Question": "With the Artificer mage in play, how many essences must the player pay to place a Dragon that normally costs 4?",
+  "Answer": "3",
+  "Rationale": "Artificer reduces artifact placement costs by 1. Dragons are artifacts, so cost drops from 4 to 3.:contentReference[oaicite:4]{index=4}:contentReference[oaicite:5]{index=5}",
+  "game_state_url": "",
+  "game_state_description": "Artificer mage card, Dragon card in hand, pools show 3 Gold.",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 0
+}

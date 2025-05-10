@@ -1,0 +1,15 @@
+{
+  "ID": 308,
+  "Game": "Res Arcana",
+  "Tier": 1,
+  "Test Description": "Identifies turned components.",
+  "Difficulty Notes": "Model must distinguish portrait versus landscape orientation.",
+  "Question": "How many artifacts are currently turned sideways?",
+  "Answer": "2",
+  "Rationale": "Sea Serpent and Dragon Egg are rotated 90° while all other cards are straight.",
+  "game_state_url": "",
+  "game_state_description": "Player has five artifacts in play; two are turned to indicate prior use.",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0
+}

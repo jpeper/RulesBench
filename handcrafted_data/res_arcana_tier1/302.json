@@ -1,0 +1,15 @@
+{
+  "ID": 302,
+  "Game": "Res Arcana",
+  "Tier": 1,
+  "Test Description": "Counts distinct essence colours.",
+  "Difficulty Notes": "Tokens vary in shade.",
+  "Question": "How many different types of essences are visible?",
+  "Answer": "4",
+  "Rationale": "Gold, Calm, Life and Death tokens are on the table; Elan is absent.",
+  "game_state_url": "",
+  "game_state_description": "Scattered pools of Gold, Calm, Life, Death; no Elan tokens in frame.",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0
+}

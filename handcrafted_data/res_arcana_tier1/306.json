@@ -1,0 +1,15 @@
+{
+  "ID": 306,
+  "Game": "Res Arcana",
+  "Tier": 1,
+  "Test Description": "Counts centre‑row Monuments.",
+  "Difficulty Notes": "Must ignore claimed Monuments.",
+  "Question": "How many face‑up Monuments are still available in the centre?",
+  "Answer": "2",
+  "Rationale": "Two Monument cards lie between the players as per setup.",
+  "game_state_url": "",
+  "game_state_description": "Early game state: centre row shows two Monument cards, draw pile beside them.",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0
+}

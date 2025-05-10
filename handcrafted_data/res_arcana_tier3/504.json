@@ -1,0 +1,15 @@
+{
+  "ID": 504,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Cascading straightens.",
+  "Difficulty Notes": "Stack straightening effects.",
+  "Question": "Describe a two‑card combo that lets you use a key power twice in one round.",
+  "Answer": "Use Witch to straighten the Athanor after its first use, then activate Athanor again.",
+  "Rationale": "Witch straightens any component; Athanor power then available again.:contentReference[oaicite:80]{index=80}:contentReference[oaicite:81]{index=81}",
+  "game_state_url": "",
+  "game_state_description": "Witch straightened; Athanor turned.",
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 2
+}

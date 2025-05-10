@@ -1,0 +1,15 @@
+{
+  "ID": 410,
+  "Game": "Res Arcana",
+  "Tier": 2,
+  "Test Description": "Tests Guard Dog self‑straighten React.",
+  "Difficulty Notes": "Rule edge‑case: power usable while turned.",
+  "Question": "Can the player straighten Guard Dog now even though it is turned?",
+  "Answer": "Yes",
+  "Rationale": "Guard Dog’s first power can be used while the card itself is turned.:contentReference[oaicite:2]{index=2}:contentReference[oaicite:3]{index=3}",
+  "game_state_url": "",
+  "game_state_description": "Turned Guard Dog with 1 Life token visible on it.",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 0
+}

@@ -1,0 +1,15 @@
+{
+  "ID": 508,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "End‑round straighten plan.",
+  "Difficulty Notes": "Decide whether to turn component now.",
+  "Question": "Is it safe to turn Athanor for Gold if you need it straightened next round?",
+  "Answer": "Yes; all turned components straighten at round end if the game continues.",
+  "Rationale": "Straighten phase readies components.:contentReference[oaicite:102]{index=102}:contentReference[oaicite:103]{index=103}",
+  "game_state_url": "",
+  "game_state_description": "End‑of‑round approaching; Athanor straightened.",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 1
+}

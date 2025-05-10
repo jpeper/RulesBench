@@ -1,0 +1,15 @@
+{
+  "ID": 413,
+  "Game": "Res Arcana",
+  "Tier": 2,
+  "Test Description": "Straighten limits.",
+  "Difficulty Notes": "Only Druid can straighten Creatures specifically.",
+  "Question": "May the Druid straighten a Dragon artifact?",
+  "Answer": "No",
+  "Rationale": "Druid can straighten only Creatures; Dragons are not Creatures unless they also have the Creature icon. Sea Serpent qualifies, Dragon does not.:contentReference[oaicite:26]{index=26}:contentReference[oaicite:27]{index=27}",
+  "game_state_url": "",
+  "game_state_description": "Druid card turned; Dragon in play.",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 0
+}

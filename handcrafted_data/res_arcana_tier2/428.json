@@ -1,0 +1,15 @@
+{
+  "ID": 428,
+  "Game": "Res Arcana",
+  "Tier": 2,
+  "Test Description": "Fiery Whip cannot target itself.",
+  "Difficulty Notes": "Card‑specific restriction.",
+  "Question": "May Fiery Whip’s second power destroy itself?",
+  "Answer": "No",
+  "Rationale": "Fiery Whip’s rules text forbids using the power on itself.:contentReference[oaicite:14]{index=14}:contentReference[oaicite:15]{index=15}",
+  "game_state_url": "",
+  "game_state_description": "Fiery Whip in play, power tooltip visible.",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 0
+}

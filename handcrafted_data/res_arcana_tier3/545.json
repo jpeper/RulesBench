@@ -1,0 +1,15 @@
+{
+  "ID": 545,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Temporary VP check timing.",
+  "Difficulty Notes": "Golden Statue + immediate victory.",
+  "Question": "Opponent sits at 10 VP including temporary Statue points. What strategy avoids losing?",
+  "Answer": "Force them to spend Gold earlier (Life loss or steal) so they cannot activate Statue in victory check.",
+  "Rationale": "Without 3 Gold, temporary points unavailable.",
+  "game_state_url": "",
+  "game_state_description": "Opponent pool 3 Gold; your Dragon ability pending.",
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 2
+}

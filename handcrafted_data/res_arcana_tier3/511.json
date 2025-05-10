@@ -1,0 +1,15 @@
+{
+  "ID": 511,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Vault interest timing puzzle.",
+  "Difficulty Notes": "Take vs leave Gold.",
+  "Question": "Vault has 1 Gold. You need 2 Life now. Do you take the Gold or leave it for interest?",
+  "Answer": "Leave it; Collect interest for 2 non‑Gold essences (Life) and use power later for more Gold.",
+  "Rationale": "Interest grants required Life without losing Gold engine.",
+  "game_state_url": "",
+  "game_state_description": "Vault with 1 Gold in Collect step.",
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 2
+}

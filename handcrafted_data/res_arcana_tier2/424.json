@@ -1,0 +1,15 @@
+{
+  "ID": 424,
+  "Game": "Res Arcana",
+  "Tier": 2,
+  "Test Description": "First‑player token points.",
+  "Difficulty Notes": "Victory check knowledge.",
+  "Question": "How many victory points is the First Player token worth during victory check?",
+  "Answer": "1",
+  "Rationale": "Rulebook states the token is worth 1 VP.:contentReference[oaicite:8]{index=8}:contentReference[oaicite:9]{index=9}",
+  "game_state_url": "",
+  "game_state_description": "Token visible near player board.",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 0
+}

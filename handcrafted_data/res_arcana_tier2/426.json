@@ -1,0 +1,15 @@
+{
+  "ID": 426,
+  "Game": "Res Arcana",
+  "Tier": 2,
+  "Test Description": "Sea Serpent scoring in Bestiary.",
+  "Difficulty Notes": "Dual Dragon/Creature icon.",
+  "Question": "How many points does Sorcerer’s Bestiary give for Sea Serpent?",
+  "Answer": "3",
+  "Rationale": "Bestiary scores 3 VP for Sea Serpent.:contentReference[oaicite:38]{index=38}:contentReference[oaicite:39]{index=39}",
+  "game_state_url": "",
+  "game_state_description": "Bestiary tile claimed; Sea Serpent in play.",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 0
+}

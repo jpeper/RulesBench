@@ -1,0 +1,15 @@
+{
+  "ID": 502,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Crypt + discount optimisation.",
+  "Difficulty Notes": "Net essence calculation.",
+  "Question": "Artifact in discard costs 2 Gold+2 Death. With Artificer and Crypt, what is the net cost?",
+  "Answer": "1 Gold + 1 Death",
+  "Rationale": "Artificer –1 overall; Crypt reduces non‑Gold part to Gold portion only.",
+  "game_state_url": "",
+  "game_state_description": "Costs and discounts shown.",
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 2
+}

@@ -1,0 +1,15 @@
+{
+  "ID": 532,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Destroy for +VP trade‑off.",
+  "Difficulty Notes": "Losing power vs gaining points.",
+  "Question": "Does destroying Windup Man now via Cursed Altar for 4 essences net more VP than leaving it for next Collect?",
+  "Answer": "No; keeping Windup Man yields future Gold and VP opportunities exceeding 4 essence immediate gain.",
+  "Rationale": "Long‑term engine value higher.",
+  "game_state_url": "",
+  "game_state_description": "Windup Man with 3 Gold 2 Elan.",
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 2
+}

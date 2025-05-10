@@ -1,0 +1,15 @@
+{
+  "ID": 509,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Edge‑case pass timing.",
+  "Difficulty Notes": "Token point and immediate victory.",
+  "Question": "You are at 9 VP and hold Coral Castle. What trick lets you win before opponents act again?",
+  "Answer": "Activate Coral Castle’s power to immediately check victory mid‑round.",
+  "Rationale": "Coral Castle lets owner check victory immediately, securing the win.:contentReference[oaicite:68]{index=68}:contentReference[oaicite:69]{index=69}",
+  "game_state_url": "",
+  "game_state_description": "Coral Castle tile with enough tokens to reach 10 VP.",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 2
+}

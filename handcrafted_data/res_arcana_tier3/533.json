@@ -1,0 +1,15 @@
+{
+  "ID": 533,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Max VP per essence.",
+  "Difficulty Notes": "Efficiency ranking.",
+  "Question": "You can spend 6 Death either to buy Catacombs token (+1 VP each) or to place another artifact worth 2 VP. Which is more efficient?",
+  "Answer": "Catacombs: 6 Death → +6 VP is better than 2 VP.",
+  "Rationale": "VP per essence ratio higher.",
+  "game_state_url": "",
+  "game_state_description": "Catacombs present; artifact in hand.",
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 2
+}

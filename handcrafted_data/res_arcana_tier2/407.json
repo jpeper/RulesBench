@@ -1,0 +1,15 @@
+{
+  "ID": 407,
+  "Game": "Res Arcana",
+  "Tier": 2,
+  "Test Description": "Discount stacking.",
+  "Difficulty Notes": "Multiple discounts cumulative.",
+  "Question": "Artificer and Dragon Bride discounts both apply. Placing a Dragon costing 4 now costs how much?",
+  "Answer": "2",
+  "Rationale": "Each discount reduces cost by 1; 4 – 2 = 2.:contentReference[oaicite:46]{index=46}:contentReference[oaicite:47]{index=47}",
+  "game_state_url": "",
+  "game_state_description": "Both discount components straightened.",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0
+}

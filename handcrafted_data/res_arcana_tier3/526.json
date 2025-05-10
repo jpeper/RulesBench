@@ -1,0 +1,15 @@
+{
+  "ID": 526,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Elan → Gold transmutation plan.",
+  "Difficulty Notes": "Athanor vs Transmutation trade‑off.",
+  "Question": "Which is more efficient to turn 4 Elan into Gold: Athanor (needs 6) or Transmutation magic item?",
+  "Answer": "Transmutation: trade 3 Elan for 3 Gold immediately, leaving 1 Elan.",
+  "Rationale": "Athanor requires 6 Elan threshold.",
+  "game_state_url": "",
+  "game_state_description": "Pool 4 Elan; both components available.",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 1
+}

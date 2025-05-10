@@ -1,0 +1,15 @@
+{
+  "ID": 547,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Sea Serpent dual eligibility.",
+  "Difficulty Notes": "Counts as Dragon and Creature.",
+  "Question": "Which Place of Power benefits more from Sea Serpent’s presence: Dragon Lair or Sacred Grove?",
+  "Answer": "Both; Sea Serpent can fulfill the Dragon requirement for Lair power and Creature requirement for Grove power.",
+  "Rationale": "Sea Serpent bears both icons.",
+  "game_state_url": "",
+  "game_state_description": "Sea Serpent in play; both Places of Power adjacent.",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 1
+}

@@ -1,0 +1,15 @@
+{
+  "ID": 409,
+  "Game": "Res Arcana",
+  "Tier": 2,
+  "Test Description": "No Gold/Death restriction.",
+  "Difficulty Notes": "Interpretation of / symbol.",
+  "Question": "A Collect icon shows “3⧫ : no Gold or Death”. What does this mean?",
+  "Answer": "Take any 3 essences except Gold or Death.",
+  "Rationale": "Slash value allows mix subject to restriction.:contentReference[oaicite:58]{index=58}:contentReference[oaicite:59]{index=59}",
+  "game_state_url": "",
+  "game_state_description": "Artifact with Collect icon highlighted.",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0
+}

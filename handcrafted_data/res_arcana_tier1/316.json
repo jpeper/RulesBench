@@ -1,0 +1,15 @@
+{
+  "ID": 316,
+  "Game": "Res Arcana",
+  "Tier": 1,
+  "Test Description": "Checks if any card has point icons.",
+  "Difficulty Notes": "Point icons are small stars.",
+  "Question": "Are there any artifacts currently showing victory points?",
+  "Answer": "Yes",
+  "Rationale": "Golden Statue artifact shows a printed 2‑point star.",
+  "game_state_url": "",
+  "game_state_description": "Golden Statue and other artifacts visible.",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0
+}

@@ -1,0 +1,15 @@
+{
+  "ID": 429,
+  "Game": "Res Arcana",
+  "Tier": 2,
+  "Test Description": "Monument indestructibility.",
+  "Difficulty Notes": "Rule that Monuments are not artifacts.",
+  "Question": "Can Fiery Whip destroy a Monument card?",
+  "Answer": "No",
+  "Rationale": "Monuments are not artifacts and cannot be destroyed.:contentReference[oaicite:30]{index=30}:contentReference[oaicite:31]{index=31}",
+  "game_state_url": "",
+  "game_state_description": "Fiery Whip power selected, Monument targeted.",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 0
+}

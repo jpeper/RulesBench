@@ -1,0 +1,15 @@
+{
+  "ID": 536,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Early pass strategy.",
+  "Difficulty Notes": "Swap magic item and draw card.",
+  "Question": "At 3 actions left in hand but limited essences, is passing early beneficial if it grants First Player and lets you swap to Transmutation?",
+  "Answer": "Yes, if the extra card and Transmutation enable a 4 Gold burst next round.",
+  "Rationale": "First to pass gains token (1 VP) and better magic item plus card.:contentReference[oaicite:74]{index=74}:contentReference[oaicite:75]{index=75}",
+  "game_state_url": "",
+  "game_state_description": "Player low on resources; Transmutation available in supply.",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 2
+}

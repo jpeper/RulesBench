@@ -1,0 +1,15 @@
+{
+  "ID": 503,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Guard Dog defense timing.",
+  "Difficulty Notes": "React and straighten.",
+  "Question": "A rival is about to destroy one of your artifacts. What two‑step response preserves it using Guard Dog?",
+  "Answer": "React: straighten Guard Dog with its power; then use its now‑straightened destroy‑prevention React.",
+  "Rationale": "First power can trigger while turned, enabling second React.",
+  "game_state_url": "",
+  "game_state_description": "Guard Dog turned; rival power shown.",
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 1
+}

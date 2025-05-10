@@ -1,0 +1,15 @@
+{
+  "ID": 320,
+  "Game": "Res Arcana",
+  "Tier": 1,
+  "Test Description": "Checks First Player token possession.",
+  "Difficulty Notes": "Small wooden token.",
+  "Question": "Does the First Player token belong to the pictured player?",
+  "Answer": "Yes",
+  "Rationale": "The wooden hourglass token is on that player’s tableau.",
+  "game_state_url": "",
+  "game_state_description": "Two‑player game, token rests left of the player mat.",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0
+}

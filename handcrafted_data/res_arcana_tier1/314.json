@@ -1,0 +1,15 @@
+{
+  "ID": 314,
+  "Game": "Res Arcana",
+  "Tier": 1,
+  "Test Description": "Identifies Magic Item.",
+  "Difficulty Notes": "Icon recognition.",
+  "Question": "Which magic item is the player currently holding?",
+  "Answer": "Transmutation",
+  "Rationale": "The magic‑item tile shows the Transmutation symbol.",
+  "game_state_url": "",
+  "game_state_description": "Player’s magic‑item tile is face‑up near tableau.",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0
+}

@@ -1,0 +1,15 @@
+{
+  "ID": 411,
+  "Game": "Res Arcana",
+  "Tier": 2,
+  "Test Description": "Windup Man Collect when tokens untouched.",
+  "Difficulty Notes": "Needs interpretation of Collect clause.",
+  "Question": "Will the Windup Man give its owner interest this Collect step?",
+  "Answer": "Yes",
+  "Rationale": "Because the owner has not removed any tokens, Windup Man adds +2 essence.:contentReference[oaicite:6]{index=6}:contentReference[oaicite:7]{index=7}",
+  "game_state_url": "",
+  "game_state_description": "Windup Man with 1 Gold on it; Collect phase shown.",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 0
+}

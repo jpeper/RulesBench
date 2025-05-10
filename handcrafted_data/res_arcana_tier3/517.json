@@ -1,0 +1,15 @@
+{
+  "ID": 517,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Essence conversion to buy Monument.",
+  "Difficulty Notes": "Calculate item swap + discard.",
+  "Question": "You have 2 Gold, 3 Calm and the Transmutation magic item. In two actions, how can you claim a Monument (cost 4 Gold)?",
+  "Answer": "Action 1: use Transmutation, trade 3 Calm for 3 Gold (now 5 Gold). Action 2: claim the Monument for 4 Gold, leaving 1 Gold.",
+  "Rationale": "Transmutation converts exactly 3 essences; Monument costs 4 Gold.:contentReference[oaicite:62]{index=62}:contentReference[oaicite:63]{index=63}",
+  "game_state_url": "",
+  "game_state_description": "Magic item face‑up, pool as stated, Monument face‑up in centre.",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 1
+}

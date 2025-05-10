@@ -1,0 +1,15 @@
+{
+  "ID": 505,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Component straightening order.",
+  "Difficulty Notes": "Cost order matters.",
+  "Question": "Which should you straighten first, Place of Power or Athanor, to maximise next round collection?",
+  "Answer": "Straighten Athanor first via Witch so it can be used again; Place of Power will auto‑straighten at round end.",
+  "Rationale": "Round‑end straighten covers Place anyway.",
+  "game_state_url": "",
+  "game_state_description": "Witch straightened; both components turned.",
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 2
+}

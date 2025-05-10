@@ -1,0 +1,15 @@
+{
+  "ID": 546,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Hypnotic Basin target selection.",
+  "Difficulty Notes": "Choose richest opponent.",
+  "Question": "Opponent A has 6 essences, Opponent B has 3 Gold only. Which do you pick for Hypnotic Basin to maximise calm gain?",
+  "Answer": "Opponent A",
+  "Rationale": "Basin gains equal to chosen rival’s pool; 6 > 3.",
+  "game_state_url": "",
+  "game_state_description": "Basin ready; rival pools shown.",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 1
+}

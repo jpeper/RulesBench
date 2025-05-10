@@ -1,0 +1,15 @@
+{
+  "ID": 415,
+  "Game": "Res Arcana",
+  "Tier": 2,
+  "Test Description": "Place of Power double‑turn requirement.",
+  "Difficulty Notes": "Dragon’s Lair must turn both tile and Dragon.",
+  "Question": "To activate Dragon’s Lair’s power, what components must be turned?",
+  "Answer": "Both Dragon’s Lair and one Dragon artifact",
+  "Rationale": "Rule text: “turning both this component and a Dragon”.:contentReference[oaicite:36]{index=36}:contentReference[oaicite:37]{index=37}",
+  "game_state_url": "",
+  "game_state_description": "Dragon’s Lair tile; Dragon artifact straightened.",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 0
+}

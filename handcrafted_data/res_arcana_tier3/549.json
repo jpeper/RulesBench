@@ -1,0 +1,15 @@
+{
+  "ID": 549,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Discard vs destroy distinction.",
+  "Difficulty Notes": "Which powers can target what.",
+  "Question": "Can Sacrificial Dagger’s power be used if you have no cards in hand?",
+  "Answer": "No; it requires discarding a card AND destroying the dagger.",
+  "Rationale": "Both conditions must be met.:contentReference[oaicite:94]{index=94}:contentReference[oaicite:95]{index=95}",
+  "game_state_url": "",
+  "game_state_description": "Hand empty; dagger in play.",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 1
+}

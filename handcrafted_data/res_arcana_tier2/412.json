@@ -1,0 +1,15 @@
+{
+  "ID": 412,
+  "Game": "Res Arcana",
+  "Tier": 2,
+  "Test Description": "React on turned component.",
+  "Difficulty Notes": "Special case for React powers.",
+  "Question": "Can a React power whose cost does NOT involve turning the card be used while the component is turned?",
+  "Answer": "Yes",
+  "Rationale": "React powers are usable on turned components unless turning is part of the cost.:contentReference[oaicite:24]{index=24}:contentReference[oaicite:25]{index=25}",
+  "game_state_url": "",
+  "game_state_description": "Turned Dragon with React ability shown.",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 0
+}

@@ -1,0 +1,15 @@
+{
+  "ID": 311,
+  "Game": "Res Arcana",
+  "Tier": 1,
+  "Test Description": "Detects sideways mage (illegal).",
+  "Difficulty Notes": "Anomaly spotting.",
+  "Question": "Is the mage card incorrectly turned sideways?",
+  "Answer": "No",
+  "Rationale": "Mage is oriented upright as normal.",
+  "game_state_url": "",
+  "game_state_description": "Tableau focus on mage area.",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0
+}

@@ -1,0 +1,15 @@
+{
+  "ID": 539,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Oracle deck dig.",
+  "Difficulty Notes": "Look and reorder.",
+  "Question": "How can Oracle maximise your next draw while also setting Monument row?",
+  "Answer": "Use its power on your deck, keep best card, optionally also use it on Monument deck to cycle unwanted Monument.",
+  "Rationale": "Oracle power allows draw‑3 reorder; Monument deck optional.:contentReference[oaicite:78]{index=78}:contentReference[oaicite:79]{index=79}",
+  "game_state_url": "",
+  "game_state_description": "Oracle straightened; Monument deck visible.",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 2
+}
