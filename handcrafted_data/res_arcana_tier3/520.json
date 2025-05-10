@@ -2,14 +2,14 @@
   "ID": 520,
   "Game": "Res Arcana",
   "Tier": 3,
-  "Test Description": "Sacrificial Pit combo.",
-  "Difficulty Notes": "Destroy vs VP gain.",
-  "Question": "You have Sacrificial Pit (destroy artifact → essences). Which artifact should you destroy to gain exactly 3 Gold this turn?",
-  "Answer": "Destroy Fiery Whip (cost 3), yielding 3 essences you can take as Gold.",
-  "Rationale": "Pit grants essences equal to placement cost; Fiery Whip cost totals 3.",
-  "game_state_url": "",
-  "game_state_description": "Pit in play; Fiery Whip straightened.",
+  "Test Description": "Testing optimization questions",
+  "Difficulty Notes": "Optimizing the number of resources obtained in X number of actions",
+  "Question": "What is the maximum number of on-component essences the player could have after four more actions. Assume all other players have passed. Output the answer as: Previous essence amount: <num>, New essence amount: <num>, Previous VP amount, New VP amount.",
+  "Answer": "Previous essence amount: 2, New essence amount: 3, Previous VP amount: 6, New VP amount: 7",
+  "Rationale": "There are two life essences on Sacred Grove. The only way to add more is to have a creature card that can be turned. Player activate the second sacred grove power and turn both itself and nightingale to add one more life essence to sacred grove. There is no way to unturn the sacred grove *and* nightingale cards with the remaining actions, though.",
+  "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/res_arcana/t3_full_4_creature_harder.png",
+  "game_state_description": "",
   "Game State Difficulty": 3,
   "Rules Difficulty": 2,
-  "Strategy Difficulty": 1
+  "Strategy Difficulty": 3
 }

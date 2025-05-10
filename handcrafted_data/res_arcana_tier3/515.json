@@ -2,14 +2,14 @@
   "ID": 515,
   "Game": "Res Arcana",
   "Tier": 3,
-  "Test Description": "Opponent essence denial.",
-  "Difficulty Notes": "Choosing target for Life loss.",
-  "Question": "Your Dragon can hit any rival. Which rival do you choose if you want to slow Monument purchase?",
-  "Answer": "Target the rival with just enough Life to lose essential Gold substitutes, forcing them to burn Gold.",
-  "Rationale": "Life loss converts to other essences including Gold if short.:contentReference[oaicite:90]{index=90}:contentReference[oaicite:91]{index=91}",
-  "game_state_url": "",
-  "game_state_description": "Two rival pools shown.",
+  "Test Description": "Testing optimization questions",
+  "Difficulty Notes": "Optimizing the number of resources obtained in X number of actions",
+  "Question": "What is the maximum number of on-component essences the player could have after three more actions. Assume all other players have passed. Output the answer as: Previous essence amount: <num>, New essence amount: <num>, Previous VP amount, New VP amount.",
+  "Answer": "Previous essence amount: 2, New essence amount: 3, Previous VP amount: 6, New VP amount: 7",
+  "Rationale": "There are two life essences on Sacred Grove. The only way to add more is to have a creature card that can be turned. Player activates the second sacred grove power and turn both itself and nightingale to add one more life essence to sacred grove. The remaining two actions are insufficient in gaining more essences as two are needed to unturn the sacred grove and nightingale cards.",
+  "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/res_arcana/t3_full_3_creature.png",
+  "game_state_description": "",
   "Game State Difficulty": 3,
   "Rules Difficulty": 2,
-  "Strategy Difficulty": 2
+  "Strategy Difficulty": 3
 }

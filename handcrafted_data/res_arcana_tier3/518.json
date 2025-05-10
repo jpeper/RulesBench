@@ -2,14 +2,14 @@
   "ID": 518,
   "Game": "Res Arcana",
   "Tier": 3,
-  "Test Description": "Sequence for Windup Man burst.",
-  "Difficulty Notes": "Interest timing and removal.",
-  "Question": "Describe the shortest sequence of actions that lets you harvest 5 Gold and 3 Elan from Windup Man next Collect step.",
-  "Answer": "(1) Use Windup Man’s power twice this round to add 2 Gold and 1 Elan; (2) Do not remove any tokens; at next Collect it adds +2 Gold +2 Elan, totalling 5 Gold 3 Elan.",
-  "Rationale": "Leaving tokens triggers +2 per Collect; two activations add requisite amounts.:contentReference[oaicite:64]{index=64}:contentReference[oaicite:65]{index=65}",
-  "game_state_url": "",
-  "game_state_description": "Windup Man currently has 1 Gold.",
-  "Game State Difficulty": 2,
+  "Test Description": "Testing optimization questions",
+  "Difficulty Notes": "Optimizing the number of resources obtained in X number of actions",
+  "Question": "What is the maximum number of on-component essences the player could have after one more action. Assume all other players have passed. Output the answer as: Previous essence amount: <num>, New essence amount: <num>, Previous VP amount, New VP amount.",
+  "Answer": "Previous essence amount: 2, New essence amount: 3, Previous VP amount: 6, New VP amount: 7",
+  "Rationale": "There are two life essences on Sacred Grove. The only way to add more is to have a creature card that can be turned. Player activate the second sacred grove power and turn both itself and nightingale to add one more life essence to sacred grove.",
+  "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/res_arcana/t3_full_4_creature_harder.png",
+  "game_state_description": "",
+  "Game State Difficulty": 3,
   "Rules Difficulty": 2,
-  "Strategy Difficulty": 1
+  "Strategy Difficulty": 3
 }

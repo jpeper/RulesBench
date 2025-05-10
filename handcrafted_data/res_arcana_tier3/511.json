@@ -2,14 +2,14 @@
   "ID": 511,
   "Game": "Res Arcana",
   "Tier": 3,
-  "Test Description": "Vault interest timing puzzle.",
-  "Difficulty Notes": "Take vs leave Gold.",
-  "Question": "Vault has 1 Gold. You need 2 Life now. Do you take the Gold or leave it for interest?",
-  "Answer": "Leave it; Collect interest for 2 non‑Gold essences (Life) and use power later for more Gold.",
-  "Rationale": "Interest grants required Life without losing Gold engine.",
-  "game_state_url": "",
-  "game_state_description": "Vault with 1 Gold in Collect step.",
+  "Test Description": "Testing optimization questions",
+  "Difficulty Notes": "Optimizing the number of resources obtained in X number of actions",
+  "Question": "What is the maximum guaranteed number of victory points the player could have after 3 more actions, and what is the maximum number of essences they could have in their pool after these actions. Assume all other players have passed. Output the answer as: Previous VP amount: <num>, New VP amount: <num>, Previous essence count <num>, New essence count <num>",
+  "Answer": "Previous VP amount: 5, New VP amount: 8, Previous essence count: 14, New essence count: 5",
+  "Rationale": "Player could get two VPs by purchasing a monument card with four gold, however there is nothing they can do with their remaining resources to obtain another VP card. However, they could obtain coral castle to gain 3 VP. They are currently short on several essences. However, they could activate the top Sacred Grove power to generate 5 more life at the cost of one calm. Then, they could discard a card and gain one life and one elan essence, gaining enough for the 5x calm/elan/life cost for the coral castle. For essence count, player nets 2 from card discard, 4 from activating sacred grove, and loses 15 from purchasing coral castle. This nets -9 essences.",
+  "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/res_arcana/t3_full_2_manyessence.png",
+  "game_state_description": "",
   "Game State Difficulty": 3,
   "Rules Difficulty": 2,
-  "Strategy Difficulty": 2
+  "Strategy Difficulty": 3
 }

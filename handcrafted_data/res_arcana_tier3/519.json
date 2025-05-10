@@ -2,14 +2,14 @@
   "ID": 519,
   "Game": "Res Arcana",
   "Tier": 3,
-  "Test Description": "Athanor gold burst.",
-  "Difficulty Notes": "Calculate when to fire conversion.",
-  "Question": "Athanor holds 6 Elan and you need 4 Gold to buy Monument. What is the optimal action sequence this turn?",
-  "Answer": "Use Athanor’s second power now to convert the 6 Elan into 6 Gold, then claim the Monument in a later action.",
-  "Rationale": "Conversion yields enough Gold in one action; Monument claim can follow.",
-  "game_state_url": "",
-  "game_state_description": "Athanor with 6 Elan; Monument available.",
+  "Test Description": "Testing optimization questions",
+  "Difficulty Notes": "Optimizing the number of resources obtained in X number of actions",
+  "Question": "What is the maximum number of on-component essences the player could have after two more actions. Assume all other players have passed. Output the answer as: Previous essence amount: <num>, New essence amount: <num>, Previous VP amount, New VP amount.",
+  "Answer": "Previous essence amount: 2, New essence amount: 3, Previous VP amount: 6, New VP amount: 7",
+  "Rationale": "There are two life essences on Sacred Grove. The only way to add more is to have a creature card that can be turned. Player activate the second sacred grove power and turn both itself and nightingale to add one more life essence to sacred grove. There is no way to unturn the sacred grove *and* nightingale cards with the remaining actions, though.",
+  "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/res_arcana/t3_full_4_creature_harder.png",
+  "game_state_description": "",
   "Game State Difficulty": 3,
-  "Rules Difficulty": 1,
-  "Strategy Difficulty": 1
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 3
 }

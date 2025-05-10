@@ -2,14 +2,14 @@
   "ID": 501,
   "Game": "Res Arcana",
   "Tier": 3,
-  "Test Description": "Discount stacking puzzle.",
-  "Difficulty Notes": "Compute net cost.",
-  "Question": "You have Dragon Lair (–2 Gold discount on Dragons) and Artificer (–1). What’s the cheapest Dragon you can place this turn if you also use Crypt to place it from discard?",
-  "Answer": "0 essences (free)",
-  "Rationale": "Dragon cost 4 Gold –2 (Lair) –1 (Artificer) –1 (Crypt Gold reduction) = 0.",
-  "game_state_url": "",
-  "game_state_description": "All three discount sources ready; Dragon in discard.",
+  "Test Description": "Testing optimization questions",
+  "Difficulty Notes": "Optimizing the number of resources obtained in X number of actions",
+  "Question": "Given the provided game state, what is the most net essences that the player can gain to their supply in one single action. Output the answer as: Previous amount: <num>, New amount: <num>",
+  "Answer": "Previous amount: 10, New amount: 14",
+  "Rationale": "The player currently has 10 essence, and can improve this in one action by activating the top sacred grove ability, losing one calm and gaining five life",
+  "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/res_arcana/t3_full_1.png",
+  "game_state_description": "",
   "Game State Difficulty": 3,
   "Rules Difficulty": 2,
-  "Strategy Difficulty": 1
+  "Strategy Difficulty": 2
 }

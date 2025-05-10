@@ -2,14 +2,14 @@
   "ID": 503,
   "Game": "Res Arcana",
   "Tier": 3,
-  "Test Description": "Guard Dog defense timing.",
-  "Difficulty Notes": "React and straighten.",
-  "Question": "A rival is about to destroy one of your artifacts. What two‑step response preserves it using Guard Dog?",
-  "Answer": "React: straighten Guard Dog with its power; then use its now‑straightened destroy‑prevention React.",
-  "Rationale": "First power can trigger while turned, enabling second React.",
-  "game_state_url": "",
-  "game_state_description": "Guard Dog turned; rival power shown.",
+  "Test Description": "Testing optimization questions",
+  "Difficulty Notes": "Optimizing the number of resources obtained in X number of actions",
+  "Question": "What is the maximum number of calm essences the player could have after 1 action. Output the answer as: Previous amount: <num>, New amount: <num>",
+  "Answer": "Previous amount: 1, New amount: 3",
+  "Rationale": "Current player can discard a card to net two new calm essences",
+  "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/res_arcana/t3_full_1.png",
+  "game_state_description": "",
   "Game State Difficulty": 3,
   "Rules Difficulty": 2,
-  "Strategy Difficulty": 1
+  "Strategy Difficulty": 2
 }

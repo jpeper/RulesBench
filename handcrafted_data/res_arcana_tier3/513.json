@@ -2,14 +2,14 @@
   "ID": 513,
   "Game": "Res Arcana",
   "Tier": 3,
-  "Test Description": "Life‑loss avoidance planning.",
-  "Difficulty Notes": "Use React cost versus essences pool.",
-  "Question": "A Dragon will inflict 2 Life loss next turn. You have 1 Life and 4 Calm. Which is the resource‑efficient plan to avoid losing Gold?",
-  "Answer": "Pay the React cost (discard a card) to ignore Life loss, keeping Gold safe.",
-  "Rationale": "Without enough Life you’d lose 2 × missing Life = 2 other essences per Life. Paying the React is cheaper.:contentReference[oaicite:70]{index=70}:contentReference[oaicite:71]{index=71}",
-  "game_state_url": "",
-  "game_state_description": "Dragon attack pending; React option shown.",
+  "Test Description": "Testing optimization questions",
+  "Difficulty Notes": "Optimizing the number of resources obtained in X number of actions",
+  "Question": "What is the maximum number of on-component essences the player could have after one more action. Assume all other players have passed. Output the answer as: Previous amount: <num>, New amount: <num>",
+  "Answer": "Previous amount: 2, New amount: 3",
+  "Rationale": "There are two life essences on Sacred Grove. The only way to add more is to have a creature card that can be turned. Player activate the second sacred grove power and turn both itself and nightingale to add one more life essence to sacred grove.",
+  "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/res_arcana/t3_full_3_creature.png",
+  "game_state_description": "",
   "Game State Difficulty": 3,
   "Rules Difficulty": 2,
-  "Strategy Difficulty": 1
+  "Strategy Difficulty": 2
 }
