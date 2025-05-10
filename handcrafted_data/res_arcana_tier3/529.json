@@ -2,14 +2,14 @@
   "ID": 529,
   "Game": "Res Arcana",
   "Tier": 3,
-  "Test Description": "Optimise Cursed Forge flip.",
-  "Difficulty Notes": "Choosing whether to pay Death.",
-  "Question": "You have 5 Death and need 2 more VP. Is it better to pay the Cursed Forge curse this turn or let it turn?",
-  "Answer": "Pay 1 Death to keep it upright and preserve its 2 VP.",
-  "Rationale": "Turning Cursed Forge would nullify its VP this round. Paying 1 Death is cheaper than finding 2 new VP elsewhere.:contentReference[oaicite:72]{index=72}:contentReference[oaicite:73]{index=73}",
-  "game_state_url": "",
-  "game_state_description": "Cursed Forge upright with 2 VP.",
+  "Test Description": "Testing optimization questions",
+  "Difficulty Notes": "Focusing this new game state on card tapping combinations.",
+  "Question": "Assume all other players have already passed. Given this game state, what is the maximum net number of essences the player can gain to their pool in one action? Output the answer as: Previous essence amount: <num>, New essence amount: <num>",
+  "Answer": "Previous essence count: 9, New essence count: 11",
+  "Rationale": "Player can simply discard a card from their hand to net two new essences.",
+  "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/res_arcana/t3_tapping_1.png",
+  "game_state_description": "",
   "Game State Difficulty": 2,
-  "Rules Difficulty": 1,
-  "Strategy Difficulty": 1
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 2
 }

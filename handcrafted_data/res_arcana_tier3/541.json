@@ -2,14 +2,14 @@
   "ID": 541,
   "Game": "Res Arcana",
   "Tier": 3,
-  "Test Description": "Max hand filtering.",
-  "Difficulty Notes": "Draw‑3 look with Hawk + Oracle combo.",
-  "Question": "How can you see up to 6 cards of your deck this turn?",
-  "Answer": "Use Oracle to draw‑3 reorder‑2 return, then play Hawk to do the same; combined views 6 unique cards.",
-  "Rationale": "Each effect reveals 3; overlap managed via reorder.",
-  "game_state_url": "",
-  "game_state_description": "Both cards in hand, straightened actions available.",
-  "Game State Difficulty": 3,
+  "Test Description": "Testing optimization questions",
+  "Difficulty Notes": "Focusing this new game state on card-tapping combinations.",
+  "Question": "Assume all other players have already passed. Given this game state, what is the maximum guaranteed net number of VP the player can gain by the end of the round? Output the answer as: Previous amount: <num>, New amount: <num>",
+  "Answer": "Previous amount: 3, New amount: 6",
+  "Rationale": "Action 1: Player discards card to gain a death essence and one life essence. Action 2: Player activates power two on sacrificial pit to gain 7 gold for 8 total. Action 3: Player purchases a face-up monument to gain 1 vp.Action 4: Player purchases face-up library monument to gain 1 vp. Notably, player has one green life, and can obtain two more by discarding a card. (They still have one card left to discard, and also could use the library card to gain another card to discard. Therefore, they can spend re-animate to unturn sacrificial pit, and then activate the sacrificial pit first power to discard three life essence and gain 1 vp onto that place of pwoer. There is a chance that, after purchasing the first monument, a 2vp card becomes available, however the question asks for *guaranteed* VPs.",
+  "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/res_arcana/t3_tapping_1.png",
+  "game_state_description": "",
+  "Game State Difficulty": 2,
   "Rules Difficulty": 2,
-  "Strategy Difficulty": 2
+  "Strategy Difficulty": 3
 }

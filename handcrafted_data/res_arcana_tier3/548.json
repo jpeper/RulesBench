@@ -2,14 +2,14 @@
   "ID": 548,
   "Game": "Res Arcana",
   "Tier": 3,
-  "Test Description": "Dragon bridle cost reduction.",
-  "Difficulty Notes": "Applies only to Dragons.",
-  "Question": "You hold Dragon Bridle (–2). What’s cheapest non‑Dragon artifact you can now play?",
-  "Answer": "No reduction; cost remains printed value.",
-  "Rationale": "Bridle discount applies only to Dragons.",
-  "game_state_url": "",
-  "game_state_description": "Bridle in play; non‑Dragon artifact in hand.",
+  "Test Description": "Testing optimization questions",
+  "Difficulty Notes": "Testing the edge-cases of the mermaid card. This tests a case where there may be adversarial paths.",
+  "Question": "Assume all other players have already passed. Given this game state, what is the maximum guaranteed net number of VP the player can gain in one action? Output the answer as: Previous amount: <num>, New amount: <num>",
+  "Answer": "Previous amount: 4, New amount: 5",
+  "Rationale": "Action 1: Activate mermaid, discarding calm token to place one on sunken reef. This nets three total on sunken reef.",
+  "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/res_arcana/t3_mermaid_synergy3.png",
+  "game_state_description": "",
   "Game State Difficulty": 2,
-  "Rules Difficulty": 1,
-  "Strategy Difficulty": 1
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 3
 }

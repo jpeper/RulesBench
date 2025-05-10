@@ -2,14 +2,14 @@
   "ID": 530,
   "Game": "Res Arcana",
   "Tier": 3,
-  "Test Description": "Maximise points on Catacombs.",
-  "Difficulty Notes": "Multiple small spends.",
-  "Question": "You have 9 Death and Catacombs of the Dead. What sequence in two actions yields most VP increase?",
-  "Answer": "Action 1: spend 5 Death via first power (+1 Death on tile). Action 2: turn Catacombs via second power (+1 Death).",
-  "Rationale": "Adds 2 Death tokens → +2 VP.",
-  "game_state_url": "",
-  "game_state_description": "Catacombs with 0 Death tokens.",
+  "Test Description": "Testing optimization questions",
+  "Difficulty Notes": "Focusing this new game state on card-tapping combinations.",
+  "Question": "Assume all other players have already passed. Given this game state, what is the maximum net number of essences the player can gain to their pool in two actions? Output the answer as: Previous essence amount: <num>, New essence amount: <num>",
+  "Answer": "Previous essence count: 9, New essence count: 17",
+  "Rationale": "It's ideal to use the second sacrificial pit power to destroy earth dragon to get 7 essences. To do this, they need to spend a death, which requires discarding a card for two essences. So, +7, +2, -1 = +8",
+  "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/res_arcana/t3_tapping_1.png",
+  "game_state_description": "",
   "Game State Difficulty": 2,
-  "Rules Difficulty": 1,
-  "Strategy Difficulty": 1
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 2
 }

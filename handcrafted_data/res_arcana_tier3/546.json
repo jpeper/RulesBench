@@ -2,14 +2,14 @@
   "ID": 546,
   "Game": "Res Arcana",
   "Tier": 3,
-  "Test Description": "Hypnotic Basin target selection.",
-  "Difficulty Notes": "Choose richest opponent.",
-  "Question": "Opponent A has 6 essences, Opponent B has 3 Gold only. Which do you pick for Hypnotic Basin to maximise calm gain?",
-  "Answer": "Opponent A",
-  "Rationale": "Basin gains equal to chosen rival’s pool; 6 > 3.",
-  "game_state_url": "",
-  "game_state_description": "Basin ready; rival pools shown.",
+  "Test Description": "Testing optimization questions",
+  "Difficulty Notes": "Testing the edge-cases of the mermaid card. In this setting note that the mermaid cannot place onto the sacrificial pit in a meaningful way.",
+  "Question": "Assume all other players have already passed. Given this game state, what is the maximum guaranteed net number of VP the player can gain in two actions? Output the answer as: Previous amount: <num>, New amount: <num>",
+  "Answer": "Previous amount: 1, New amount: 2",
+  "Rationale": "Action 1: discard a card to gain a calm (and one other) essence. Action 2: activate mermaid, placing a calm essence on sunken reef.",
+  "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/res_arcana/t3_mermaid_synergy2.png",
+  "game_state_description": "",
   "Game State Difficulty": 2,
-  "Rules Difficulty": 1,
-  "Strategy Difficulty": 1
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 2
 }

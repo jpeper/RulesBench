@@ -2,14 +2,14 @@
   "ID": 550,
   "Game": "Res Arcana",
   "Tier": 3,
-  "Test Description": "Component destruction logistics.",
-  "Difficulty Notes": "Destroyed cards go to discard.",
-  "Question": "After destroying an artifact, where is it placed and can Crypt place it again next round?",
-  "Answer": "It is tucked sideways under the deck as discard; Crypt can place it from there.",
-  "Rationale": "Destroyed artifacts become discards; Crypt targets discard pile.",
-  "game_state_url": "",
-  "game_state_description": "Crypt and destroyed artifact indicated.",
+  "Test Description": "Testing optimization questions",
+  "Difficulty Notes": "Testing the edge-cases of the mermaid card. This tests a case where there may be adversarial paths.",
+  "Question": "Assume all other players have already passed. Given this game state, what is the maximum guaranteed net number of VP the player can gain by the end of the round? Output the answer as: Previous amount: <num>, New amount: <num>",
+  "Answer": "Previous amount: 4, New amount: 9",
+  "Rationale": "Player can largely obtain points either through monument purchase or place of power on-component scoring. Both are valid directions over the full round. The sequencing can matter a bit, however, there are two things that need to be accomplished: obtain four godl to purchase temple. Use mermaid to place three calm onto sunken roof. Calm can be placed by activating mermaid. Note: mermaid can be unturned with both the druid and the reanimate components, allowing for three uses. Mermaid will need three calm and player only has one, so player *will* need to discard one of their cards on this turn to gain two more calm. After using mermaid three times, we can then activate sacrificial pit to destroy mermaid, gain four gold, and then take an action to claim the temple.",
+  "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/res_arcana/t3_mermaid_synergy3.png",
+  "game_state_description": "",
   "Game State Difficulty": 2,
-  "Rules Difficulty": 1,
-  "Strategy Difficulty": 1
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 2
 }

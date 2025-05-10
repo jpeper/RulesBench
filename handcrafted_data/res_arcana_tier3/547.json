@@ -2,14 +2,14 @@
   "ID": 547,
   "Game": "Res Arcana",
   "Tier": 3,
-  "Test Description": "Sea Serpent dual eligibility.",
-  "Difficulty Notes": "Counts as Dragon and Creature.",
-  "Question": "Which Place of Power benefits more from Sea Serpent’s presence: Dragon Lair or Sacred Grove?",
-  "Answer": "Both; Sea Serpent can fulfill the Dragon requirement for Lair power and Creature requirement for Grove power.",
-  "Rationale": "Sea Serpent bears both icons.",
-  "game_state_url": "",
-  "game_state_description": "Sea Serpent in play; both Places of Power adjacent.",
+  "Test Description": "Testing optimization questions",
+  "Difficulty Notes": "Testing the edge-cases of the mermaid card. In this setting note that the mermaid cannot place onto the sacrificial pit in a meaningful way.",
+  "Question": "Assume all other players have already passed. Given this game state, what is the maximum guaranteed net number of VP the player can gain in this round? Output the answer as: Previous amount: <num>, New amount: <num>",
+  "Answer": "Previous amount: 1, New amount: 4",
+  "Rationale": "In the course of the round there are fairly limited options. Player doesn't have any draw ability, nor is the available place of power affordable to them (they need 12 total essence and currently only have 5). The player can really only gain 4 essences max this round, through discarding the two cards in their hand. A reasonable action sequene is 1) discard card one for two calm, 2) discard card two for two calm, 3) use mermaid to place one calm on sunken reef, 44), unturn mermaid using druid, 5) use mermaid to place another calm on sunken reef, 6) use reanimate and an essence to unturn mermaid again, 7) activate mermaid to again place a clam on sunken reef.",
+  "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/res_arcana/t3_mermaid_synergy2.png",
+  "game_state_description": "",
   "Game State Difficulty": 2,
-  "Rules Difficulty": 1,
-  "Strategy Difficulty": 1
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 2
 }

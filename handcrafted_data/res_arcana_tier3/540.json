@@ -2,14 +2,14 @@
   "ID": 540,
   "Game": "Res Arcana",
   "Tier": 3,
-  "Test Description": "Draw‑three filter.",
-  "Difficulty Notes": "Oracle vs Divination choice.",
-  "Question": "Need a Dragon card. Use Divination or draw random?",
-  "Answer": "Use Divination to look at top 3, keep Dragon if found.",
-  "Rationale": "Improves odds and lets reorder.",
-  "game_state_url": "",
-  "game_state_description": "Divination card ready.",
+  "Test Description": "Testing optimization questions",
+  "Difficulty Notes": "Focusing this new game state on card-tapping combinations.",
+  "Question": "Assume all other players have already passed. Given this game state, what is the maximum guaranteed net number of VP the player can gain with three more actions? Output the answer as: Previous amount: <num>, New amount: <num>",
+  "Answer": "Previous amount: 3, New amount: 4",
+  "Rationale": "Action 1: Player discards card to gain a death essence and one other. Action 2: Player activates power two on sacrificial pit to gain 7 gold for 8 total. Action 3: Player purchases a face-up monument to gain 1 vp.",
+  "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/res_arcana/t3_tapping_1.png",
+  "game_state_description": "",
   "Game State Difficulty": 2,
-  "Rules Difficulty": 1,
-  "Strategy Difficulty": 1
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 3
 }

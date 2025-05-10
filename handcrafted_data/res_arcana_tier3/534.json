@@ -2,14 +2,14 @@
   "ID": 534,
   "Game": "Res Arcana",
   "Tier": 3,
-  "Test Description": "Sea‑Serpent + Bestiary VP math.",
-  "Difficulty Notes": "Additive scoring.",
-  "Question": "Bestiary (3 VP for Sea Serpent) and Serpent card (1 VP) together give how many total points?",
-  "Answer": "4",
-  "Rationale": "Bestiary 3 + printed 1 = 4.",
-  "game_state_url": "",
-  "game_state_description": "Both components visible.",
+  "Test Description": "Testing optimization questions",
+  "Difficulty Notes": "Focusing this new game state on card-tapping combinations.",
+  "Question": "Assume all other players have already passed. Given this game state, what is the maximum net number of elan essences that can be gained to their pool in one action? Output the answer as: Previous amount: <num>, New amount: <num>",
+  "Answer": "Previous amount: 5, New amount: 7",
+  "Rationale": "Player discards a card to gain two elan essences.",
+  "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/res_arcana/t3_tapping_1.png",
+  "game_state_description": "",
   "Game State Difficulty": 2,
-  "Rules Difficulty": 1,
-  "Strategy Difficulty": 1
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 2
 }

@@ -2,14 +2,14 @@
   "ID": 549,
   "Game": "Res Arcana",
   "Tier": 3,
-  "Test Description": "Discard vs destroy distinction.",
-  "Difficulty Notes": "Which powers can target what.",
-  "Question": "Can Sacrificial Dagger’s power be used if you have no cards in hand?",
-  "Answer": "No; it requires discarding a card AND destroying the dagger.",
-  "Rationale": "Both conditions must be met.:contentReference[oaicite:94]{index=94}:contentReference[oaicite:95]{index=95}",
-  "game_state_url": "",
-  "game_state_description": "Hand empty; dagger in play.",
+  "Test Description": "Testing optimization questions",
+  "Difficulty Notes": "Testing the edge-cases of the mermaid card. This tests a case where there may be adversarial paths.",
+  "Question": "Assume all other players have already passed. Given this game state, what is the maximum guaranteed net number of VP the player can gain in two actions? Output the answer as: Previous amount: <num>, New amount: <num>",
+  "Answer": "Previous amount: 4, New amount: 6",
+  "Rationale": "Action 1: use sacrificial pit second power to destroy mermaid card, netting four gold. Action 2: Use four gold to purchase temple card.",
+  "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/res_arcana/t3_mermaid_synergy3.png",
+  "game_state_description": "",
   "Game State Difficulty": 2,
-  "Rules Difficulty": 1,
-  "Strategy Difficulty": 1
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 2
 }

@@ -2,14 +2,14 @@
   "ID": 542,
   "Game": "Res Arcana",
   "Tier": 3,
-  "Test Description": "Essence cap planning.",
-  "Difficulty Notes": "Tray unlimited but tokens finite.",
-  "Question": "Supply is nearly out of Gold. How do you still gain 5 Gold this turn?",
-  "Answer": "Convert other tokens using Athanor or Transmutation; physical tokens can be proxied with 5× chips.",
-  "Rationale": "Rulebook notes essences unlimited; use 5× chips.:contentReference[oaicite:92]{index=92}:contentReference[oaicite:93]{index=93}",
-  "game_state_url": "",
-  "game_state_description": "Supply tray low on Gold tokens.",
+  "Test Description": "Testing optimization questions",
+  "Difficulty Notes": "Testing the edge-cases of the mermaid card. In this setting note that the mermaid cannot place onto the sacrificial pit in a meaningful way.",
+  "Question": "Assume all other players have already passed. Given this game state, what is the maximum guaranteed net number of VP the player can gain in one action? Output the answer as: Previous amount: <num>, New amount: <num>",
+  "Answer": "Previous amount: 3, New amount: 3",
+  "Rationale": "The routes to gaining more points are to obtain a PoP or monument, or to activate sacrificial pit. However player does not have enough resources for these options. Therefore they can't get any VP in one turn.",
+  "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/res_arcana/t3_mermaid.png",
+  "game_state_description": "",
   "Game State Difficulty": 2,
-  "Rules Difficulty": 1,
-  "Strategy Difficulty": 1
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 3
 }
